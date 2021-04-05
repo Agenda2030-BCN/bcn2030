@@ -5,7 +5,7 @@
 # Replace the baseurl with the name of this repository. For example, if the repository is named
 # "my-site-repository", then update the baseurl like so:
 # baseurl: "/my-site-repository"
-baseurl: "/bcn2030"
+baseurl: ""
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
@@ -20,6 +20,7 @@ metadata_edit_url: http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/[id]
 # The list of languages that are translated. The first one is the default.
 languages:
   - es
+  - ca
   - en
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
@@ -67,8 +68,8 @@ email_contacts:
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Australia
-  adjective: Australian
+  name: Barcelona
+  adjective: Barcelona
 
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
