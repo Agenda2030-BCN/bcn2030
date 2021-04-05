@@ -71,12 +71,6 @@ country:
   name: Barcelona
   adjective: Barcelona
 
-# Optionally set a title/body for the frontpage banner. The defaults below point to a standard
-# translation, but feel free to change it as needed.
-frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
-
 frontpage_goals_grid:
   title: custom-translations.my-goals-grid-title
   description: Click on each goal for our Sustainable Development Goal global indicator data.
