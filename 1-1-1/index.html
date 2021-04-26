@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 1.1.1 -
         
-        Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural) - Indicadores para los Objetivos de Desarrollo Sostenible
+        Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural) - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/bcn2030/assets/css/style.css?v=20210426013448">
+        <link rel="stylesheet" href="/bcn2030/assets/css/style.css?v=20210426193825">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -418,7 +418,7 @@ var translations = {
             
             Indicador 1.1.1
             
-            <span class="lead-copy">Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)</span>
+            <span class="lead-copy">Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)</span>
           </h1>
         </div>
       </div>
@@ -441,14 +441,14 @@ var translations = {
   id="indicatorData"
   data-indicatorid='indicator_1-1-1'
   data-id="1-1-1"
-  data-country="Barcelona"
-  data-charttitle="Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)"
+  data-country="City of Los Angeles"
+  data-charttitle="Proportion of population earning less than 50 percent of the poverty level"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Percentage"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -487,7 +487,7 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)</caption>
+      <caption>Proportion of population earning less than 50 percent of the poverty level</caption>
       <thead>
         
         
@@ -531,7 +531,13 @@ var translations = {
 
   <div id="datatableFooter">
     
+    <p>Fuente: United States Census Bureau</p>
     
+    
+    <p>Área geográfica: City of Los Angeles</p>
+    
+    
+    <p>Unidad de medida: Percentage</p>
     
     
   </div>
@@ -578,7 +584,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)</h4>
+          <h4 id="chart-heading" class="chart-title">Proportion of population earning less than 50 percent of the poverty level</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -767,40 +773,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -814,9 +812,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>Fuente:</dt>
+        <dd>United States Census Bureau</dd>
         
 
+        
+        <dt>Área geográfica:</dt>
+        <dd>City of Los Angeles</dd>
+        
+
+        
+        <dt>Unidad de medida:</dt>
+        <dd>Percentage</dd>
         
 
         
@@ -850,9 +857,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-
+        <dt>Fuente:</dt>
+        <dd>United States Census Bureau</dd>
         
 
+        
+        <dt>Área geográfica:</dt>
+        <dd>City of Los Angeles</dd>
+        
+
+        
+        <dt>Unidad de medida:</dt>
+        <dd>Percentage</dd>
         
 
         
@@ -938,7 +954,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicador disponible </th>
         <td>
           
-            
+            <p>Proportion of population earning less than 50 percent of the poverty level</p>
 
           
         </td>
@@ -952,7 +968,21 @@ data-event-label="Change to Sources tab"
         <th scope="row">Descripción del indicador </th>
         <td>
           
-            
+            <p>In the United States, the U.S. Census Bureau defines “deep poverty” as living in a household with a total cash income below 50 percent of its poverty threshold.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Barcelona Target </th>
+        <td>
+          
+            <p>In 2030, every Barcelona resident who becomes homeless will have a bed to sleep in and food on the table, and the number of homeless people will be significantly reduced</p>
 
           
         </td>
@@ -980,7 +1010,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Cobertura geográfica </th>
         <td>
           
-            
+            <p>City of Los Angeles</p>
 
           
         </td>
@@ -994,7 +1024,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unidad de medida </th>
         <td>
           
-            
+            <p>Percentage</p>
 
           
         </td>
@@ -1139,8 +1169,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/2839e49d1e6045d7eebc480428a05cd95a035588" target="_blank">
-                2021-04-18: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/e3722ff0aefcb8565d7d063b3304f3ec42dad4a0" target="_blank">
+                2021-04-26: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1258,7 +1288,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Nombre del indicador </th>
         <td>
           
-            <p>Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)</p>
+            <p>Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)</p>
 
           
         </td>
@@ -1272,7 +1302,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Número del indicador </th>
         <td>
           
-            <p>1.1.1</p>
+            
 
           
         </td>
@@ -1286,7 +1316,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Nombre de destino </th>
         <td>
           
-            <p>De aquí a 2030, erradicar para todas las personas y en todo el mundo la pobreza extrema (actualmente se considera que sufren pobreza extrema las personas que viven con menos de 1,25 dólares de los Estados Unidos al día)</p>
+            
 
           
         </td>
@@ -1328,7 +1358,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Nivel designado por la ONU </th>
         <td>
           
-            <p>1</p>
+            
 
           
         </td>
@@ -1342,7 +1372,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Agencia de custodia de la ONU </th>
         <td>
           
-            <p>World Bank</p>
+            
 
           
         </td>
@@ -1475,6 +1505,7 @@ data-event-label="Change to Sources tab"
   
   
   
+  
 </table>
 
     </article>
@@ -1485,6 +1516,274 @@ data-event-label="Change to Sources tab"
 
 
 
+
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>United States Census Bureau</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            <p>City of Los Angeles</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://factfinder.census.gov" target="_blank">
+                American Community Survey 1-Year Estimates: Selected Characteristics of People at Specified Levels of Poverty in the Past 12 Months (S1703) <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Otra información </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
 
 
 </div>
@@ -1581,12 +1880,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/bcn2030/assets/js/sdg.js?v=20210426013448'></script>
+<script src='/bcn2030/assets/js/sdg.js?v=20210426193825'></script>
 
 
     
     
-    <script src="/bcn2030/assets/js/custom.js?v=20210426013448"></script><script>
+    <script src="/bcn2030/assets/js/custom.js?v=20210426193825"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
