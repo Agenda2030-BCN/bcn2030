@@ -7,7 +7,7 @@
         
         {
           "id": "1-1-1",
-          "title": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
+          "title": "Percentage of homeless people assisted (access to a public residential resource, temporary resource or with sustained support)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/1-1-1",
@@ -15,7 +15,7 @@
         },
         {
           "id": "1-1-2",
-          "title": "Nombre de persones residents a Barcelona (empadronades amb un mínim de dos anys d’antiguitat) sense llar segons tipus d'habitatge",
+          "title": "Number of homeless Barcelona residents (registered in the city for at least two years)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/1-1-2",
@@ -23,11 +23,11 @@
         },
         {
           "id": "1-2-1",
-          "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad",
+          "title": "Rate of severe material deprivation",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -55,11 +55,11 @@
         },
         {
           "id": "1-4-1",
-          "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos",
+          "title": "The average number of days wait between the date of the visit to the Social Services Centre and the date when the visit was scheduled",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/1-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-4-2",
@@ -71,11 +71,11 @@
         },
         {
           "id": "1-5-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes",
+          "title": "The number of people assisted by the Social Emergencies Centre (CUESB)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
@@ -103,11 +103,11 @@
         },
         {
           "id": "1-a-1",
-          "title": "Proporción de los recursos generados a nivel interno que el gobierno asigna directamente a programas de reducción de la pobreza",
+          "title": "Resources of the municipal Global Justice programme, allocated to the goal of reducing poverty",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/1-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-2",
@@ -143,11 +143,11 @@
         
         {
           "id": "2-1-1",
-          "title": "Prevalencia de la subalimentación",
+          "title": "Prevalence rate for food deprivation (Population that cannot afford a meal containing animal protein once every two days or the nutritional equivalent in vegetable protein)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
@@ -198,6 +198,14 @@
           "status": "notstarted"
         },
         {
+          "id": "2-4-4",
+          "title": "Consumption of meat in the adult population (Kg/year)",
+          "description": "",
+          "keywords": "",
+          "href": "/bcn2030/2-4-4",
+          "status": "complete"
+        },
+        {
           "id": "2-5-1",
           "title": "Número de recursos genéticos vegetales y animales para la alimentación y la agricultura preservados en instalaciones de conservación a medio y largo plazo",
           "description": "",
@@ -215,11 +223,11 @@
         },
         {
           "id": "2-a-1",
-          "title": "Índice de orientación agrícola para el gasto público",
+          "title": "Resources of the municipal Global Justice programme, allocated to the objective of improving nutrition and agricultural production",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
@@ -271,19 +279,19 @@
         },
         {
           "id": "3-2-1",
-          "title": "Tasa de mortalidad de niños menores de 5 años",
+          "title": "Premature mortality rate for children under the age of five",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
-          "title": "Tasa de mortalidad neonatal",
+          "title": "Mortality rate for newborn children (babies less than 28 days old), for every 1,000 children born alive",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
@@ -295,27 +303,27 @@
         },
         {
           "id": "3-3-2",
-          "title": "Incidencia de la tuberculosis por cada 100.000 habitantes",
+          "title": "HIV incidence rate (per 100,000 inhabitants)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
-          "title": "Incidencia de la malaria por cada 1.000 habitantes",
+          "title": "Tuberculosis incidence rate (per 100,000 inhabitants)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
-          "title": "Incidencia de la hepatitis B por cada 100.000 habitantes",
+          "title": "Sexually transmitted diseases (STD) registry. Barcelona Public Health Agency",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-5",
@@ -327,35 +335,59 @@
         },
         {
           "id": "3-4-1",
-          "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
+          "title": "Premature mortality rate",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
-          "title": "Tasa de mortalidad por suicidio",
+          "title": "Prevalence of poor mental health or risk of psychological suffering (above three points on the General Health Questionnaire, GHQ-12)",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-4-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "3-4-3",
+          "title": "Percentage of adult population doing sport",
+          "description": "",
+          "keywords": "",
+          "href": "/bcn2030/3-4-3",
+          "status": "complete"
         },
         {
           "id": "3-5-1",
-          "title": "Cobertura de los tratamientos(farmacológicos y psicosociales y servicios de rehabilitación y postratamiento) de trastornos por abuso de sustancias adictivas",
+          "title": "Prevalence of harmful alcohol consumption among adults",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-2",
-          "title": "Consumo nocivo de alcohol, definido según el contexto nacional como el consumo de alcohol per cápita (a partir de los 15 años de edad) durante un año civil en litros de alcohol puro",
+          "title": "Prevalence of harmful cannabis consumption among adults",
           "description": "",
           "keywords": "",
           "href": "/bcn2030/3-5-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "3-5-3",
+          "title": "Prevalence of harmful alcohol consumption among people aged 15 to 24",
+          "description": "",
+          "keywords": "",
+          "href": "/bcn2030/3-5-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-4",
+          "title": "Prevalence of harmful cannabis consumption among adolescents",
+          "description": "",
+          "keywords": "",
+          "href": "/bcn2030/3-5-4",
+          "status": "complete"
         },
         {
           "id": "3-6-1",
@@ -364,6 +396,14 @@
           "keywords": "",
           "href": "/bcn2030/3-6-1",
           "status": "notstarted"
+        },
+        {
+          "id": "3-6-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/bcn2030/3-6-2",
+          "status": "complete"
         },
         {
           "id": "3-7-1",

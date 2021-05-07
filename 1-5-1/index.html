@@ -107,7 +107,7 @@ var translations = {
         
         Indicador 1.5.1 -
         
-        Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes - Indicadores para los Objetivos de Desarrollo Sostenible
+        The number of people assisted by the Social Emergencies Centre (CUESB) - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/bcn2030/assets/css/style.css?v=20210507012429">
+        <link rel="stylesheet" href="/bcn2030/assets/css/style.css?v=20210507202348">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -418,7 +418,7 @@ var translations = {
             
             Indicador 1.5.1
             
-            <span class="lead-copy">Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes</span>
+            <span class="lead-copy">The number of people assisted by the Social Emergencies Centre (CUESB)</span>
           </h1>
         </div>
       </div>
@@ -441,14 +441,14 @@ var translations = {
   id="indicatorData"
   data-indicatorid='indicator_1-5-1'
   data-id="1-5-1"
-  data-country="Barcelona"
-  data-charttitle="Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes"
+  data-country="Barcelona City"
+  data-charttitle="The number of people assisted by the Social Emergencies Centre (CUESB)"
   data-charttitles="null"
-  data-measurementunit=""
-  data-showdata="false"
-  data-graphtype="line"
+  data-measurementunit="Person"
+  data-showdata="true"
+  data-graphtype="binary"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -458,7 +458,497 @@ var translations = {
   data-precision="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/bcn2030/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://agenda2030-bcn.github.io/bcn2030-data/es/headline/1-5-1.csv" class="btn btn-primary btn-download" download="indicator_1-5-1.csv" tabindex="0" role="button">Descargar CSV global</a>
+
+    <a href="https://agenda2030-bcn.github.io/bcn2030-data/es/data/1-5-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_1-5-1.csv' tabindex='0' role='button'>Descargar CSV fuente</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>The number of people assisted by the Social Emergencies Centre (CUESB)</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">Units</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>22185</td>
+          
+          
+          
+          <td class="table-value">Person</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>23420</td>
+          
+          
+          
+          <td class="table-value">Person</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>28148</td>
+          
+          
+          
+          <td class="table-value">Person</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>21082</td>
+          
+          
+          
+          <td class="table-value">Person</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    <p>Fuente: Barcelona City Council</p>
+    
+    
+    <p>Área geográfica: Barcelona City</p>
+    
+    
+    <p>Unidad de medida: Person</p>
+    
+    
+  </div>
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/bcn2030/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded spacer medium" style="display:none;">
+
+    <div style="display: none;">
+  <span id="table-alternative">Para la alternativa de datos tabulares, véase la pestaña Tabla.</span>
+</div>
+<ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+ aria-describedby="table-alternative">Gráfico</a>
+  </li>
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Tabla</a>
+  </li></ul>
+
+    <div class="tab-content data-view">
+  <div role="tabpanel" class="tab-pane active" id="chartview">
+    
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Aviso:</span></i>
+      Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.
+    </div>
+
+    
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">The number of people assisted by the Social Emergencies Centre (CUESB)</h4>
+          <div id="chart" class="plot-container">
+            
+<canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+<span style="display: none;" id="chart-annotations" role="status"></span>
+<script>
+opensdg.annotationPresets = {
+    common: {
+        // This "common" preset is applied to all annotations automatically.
+        borderColor: '#505a5f',
+        type: 'line',
+        label: {
+            backgroundColor: 'black',
+            fontColor: 'white',
+        },
+        // This "highContrast" overrides colors when in high-contrast mode.
+        highContrast: {
+            label: {
+                backgroundColor: 'white',
+                fontColor: 'black'
+            }
+        },
+        // This callback is used to generate a generic description for screenreaders.
+        // This can be overridden to be a more specific string, eg:
+        //
+        //     description: 'Chart annotation showing a 2030 target of 15%'
+        //
+        description: function() {
+            var descriptionParts = [translations.indicator.chart_annotation];
+            if (this.label && this.label.content) {
+                descriptionParts.push(translations.t(this.label.content));
+            }
+            else {
+                // If there is no label, just specify whether it is a box or line.
+                if (this.type == 'line') {
+                    descriptionParts.push(this.mode + ' line');
+                }
+                if (this.type == 'box') {
+                    descriptionParts.push('box');
+                }
+            }
+            if (typeof this.value !== 'undefined') {
+                descriptionParts.push(this.value);
+            }
+            return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderDash: [5, 5],
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+};
+
+// Add a chart alteration to support the chart_annotations metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+    if (info.graphAnnotations && info.graphAnnotations.length > 0) {
+        // Apply some helpers/fixes to the annotations.
+        var annotations = info.graphAnnotations.map(function(annotation) {
+            // Apply the "common" preset.
+            if (opensdg.annotationPresets.common) {
+                annotation = $.extend(true, {}, opensdg.annotationPresets.common, annotation);
+            }
+            // Apply any specified presets.
+            if (annotation.preset) {
+                var preset = annotation.preset;
+                if (opensdg.annotationPresets[preset]) {
+                    annotation = $.extend(true, {}, opensdg.annotationPresets[preset], annotation);
+                }
+            }
+            // Default to horizontal lines.
+            if (!annotation.mode && annotation.type === 'line') {
+                annotation.mode = 'horizontal';
+            }
+            // Provide the obscure scaleID properties on user's behalf.
+            if (!annotation.scaleID && annotation.type === 'line') {
+                if (annotation.mode === 'horizontal') {
+                    annotation.scaleID = 'y-axis-0';
+                }
+                if (annotation.mode === 'vertical') {
+                    annotation.scaleID = 'x-axis-0';
+                }
+            }
+            if (!annotation.xScaleID && annotation.type === 'box') {
+                annotation.xScaleID = 'x-axis-0';
+            }
+            if (!annotation.yScaleID && annotation.type === 'box') {
+                annotation.yScaleID = 'y-axis-0';
+            }
+            // Provide the "enabled" label property on the user's behalf.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.enabled = true;
+            }
+            // Translate any label content.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.content = translations.t(annotation.label.content);
+            }
+            // Save some original values for later used when contrast mode is switched.
+            if (typeof annotation.defaultContrast === 'undefined') {
+                annotation.defaultContrast = {};
+                if (annotation.borderColor) {
+                    annotation.defaultContrast.borderColor = annotation.borderColor;
+                }
+                if (annotation.backgroundColor) {
+                    annotation.defaultContrast.backgroundColor = annotation.backgroundColor;
+                }
+                if (annotation.label) {
+                    annotation.defaultContrast.label = {};
+                    if (annotation.label.fontColor) {
+                        annotation.defaultContrast.label.fontColor = annotation.label.fontColor;
+                    }
+                    if (annotation.label.backgroundColor) {
+                        annotation.defaultContrast.label.backgroundColor = annotation.label.backgroundColor;
+                    }
+                }
+            }
+            return annotation;
+        });
+        if (annotations.length > 0) {
+            var overrides = {
+                options: {
+                    annotation: {
+                        drawTime: 'afterDatasetsDraw',
+                        annotations: annotations
+                    }
+                }
+            };
+            // Add these overrides onto the normal config.
+            $.extend(true, config, overrides);
+
+            // Update the chart annotations element.
+            var descriptions = annotations.map(function(annotation) {
+                var description = '';
+                if (annotation.description) {
+                    if (typeof annotation.description === 'function') {
+                        description = annotation.description.call(annotation);
+                    }
+                    else {
+                        description = translations.t(annotation.description);
+                    }
+                }
+                return description;
+            }).filter(function(description) { return description != ''; });
+
+            var currentDescription = $('#chart-annotations').text();
+            var newDescription = descriptions.join('. ');
+            if (currentDescription != newDescription) {
+                $('#chart-annotations').text(newDescription);
+            }
+        }
+    }
+    else if (config.options && config.options.annotation) {
+        delete config.options.annotation;
+    }
+});
+</script>
+
+<script>
+
+opensdg.convertBinaryValue = function(value) {
+  if (typeof value === 'string') {
+    value = parseInt(value, 10);
+  }
+  if (value === 1) {
+    return 'Yes';
+  }
+  else if (value === -1) {
+    return 'No';
+  }
+  return '';
+}
+
+opensdg.chartConfigAlter(function(config) {
+  var overrides = {
+    // Force the "bar" type instead of the "binary" type which Chart.js
+    // does not recognize.
+    type: 'bar',
+    // Assign some callbacks to convert 1/-1 to Yes/No.
+    options: {
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, data) {
+            var label = data.datasets[tooltipItem.datasetIndex].label || '';
+            label += ': ' + opensdg.convertBinaryValue(tooltipItem.yLabel);
+            return label;
+          }
+        }
+      },
+      scales: {
+        yAxes: [{
+          ticks: {
+            // Set the min/max to -1/1 so that the bars will start from the
+            // middle and either go up (for 1) or down (for -1).
+            min: -1,
+            max: 1,
+            callback: opensdg.convertBinaryValue,
+          },
+        }]
+      },
+    }
+  }
+
+  // Add these overrides onto the normal config.
+  $.extend(true, config, overrides);
+});
+
+opensdg.tableConfigAlter(function(config, info) {
+  var targetColumns = [];
+  for (var i = 1; i < info.table.headings.length; i++) {
+    targetColumns.push(i);
+  }
+  var overrides = {
+    columnDefs: [
+      {
+        targets: targetColumns,
+        createdCell: function(td, cellData, rowData, row, col) {
+          $(td).text(opensdg.convertBinaryValue(cellData));
+        },
+      }
+    ]
+  };
+
+  $.extend(true, config, overrides);
+});
+
+</script>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Barcelona City Council</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Barcelona City</dd>
+        
+
+        
+        <dt>Unidad de medida:</dt>
+        <dd>Person</dd>
+        
+
+        
+
+        
+    <dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button id="btnSave" title="Descargar gráfico como imagen" class='btn btn-primary btn-download'>
+          Descargar imagen del gráfico
+        </button>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tableview">
+    <div style="display: none;">
+      <span id="column-sort-info">Haga clic para ordenar por esta columna</span>
+    </div>
+    <div id="selectionsTable"></div>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Fuente:</dt>
+        <dd>Barcelona City Council</dd>
+        
+
+        
+        <dt>Área geográfica:</dt>
+        <dd>Barcelona City</dd>
+        
+
+        
+        <dt>Unidad de medida:</dt>
+        <dd>Person</dd>
+        
+
+        
+
+        
+    <dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div>
+</div>
+
+
+  </div>
+
+</section>
+
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
@@ -554,7 +1044,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Barcelona Target </th>
         <td>
           
-            
+            <p>By 2030, reducing the exposure of the most vulnerable people to crisis and disaster situations, as well as increasing their resilience for dealing with them</p>
 
           
         </td>
@@ -568,7 +1058,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Operational Target </th>
         <td>
           
-            
+            <p>Get the annual number of people who need assistance due to social emergencies to below 10,000, and to increase the community support networks for people in a vulnerable situation</p>
 
           
         </td>
@@ -582,7 +1072,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target line (2030) </th>
         <td>
           
-            
+            <p>below 10,000</p>
 
           
         </td>
@@ -610,7 +1100,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Cobertura geográfica </th>
         <td>
           
-            
+            <p>Barcelona City</p>
 
           
         </td>
@@ -624,7 +1114,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unidad de medida </th>
         <td>
           
-            
+            <p>Person</p>
 
           
         </td>
@@ -742,8 +1232,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/9fcadae71095f1c1f814970bd9e58b9f848551c8" target="_blank">
-                2021-04-05: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/3f6b3876eb0f687033ac5681782d7568ce055adf" target="_blank">
+                2021-05-07: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -769,8 +1259,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/9fcadae71095f1c1f814970bd9e58b9f848551c8" target="_blank">
-                2021-04-05: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/eb3931b2590cbb7f255d2da220468c4f059b5956" target="_blank">
+                2021-05-07: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -888,7 +1378,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Nombre del indicador </th>
         <td>
           
-            <p>Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes</p>
+            <p>The number of people assisted by the Social Emergencies Centre (CUESB)</p>
 
           
         </td>
@@ -916,7 +1406,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Nombre de destino </th>
         <td>
           
-            <p>De aquí a 2030, fomentar la resiliencia de los pobres y las personas que se encuentran en situaciones de vulnerabilidad y reducir su exposición y vulnerabilidad a los fenómenos extremos relacionados con el clima y otras perturbaciones y desastres económicos, sociales y ambientales</p>
+            
 
           
         </td>
@@ -944,7 +1434,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Descripción del indicador global </th>
         <td>
           
-            
+            <p>Global indicator description</p>
 
           
         </td>
@@ -958,7 +1448,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Nivel designado por la ONU </th>
         <td>
           
-            <p>2</p>
+            <p>1</p>
 
           
         </td>
@@ -972,7 +1462,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Agencia de custodia de la ONU </th>
         <td>
           
-            <p>United Nations Office for Disaster Reduction (UNISDR)</p>
+            <p>World Bank (WB)</p>
 
           
         </td>
@@ -992,8 +1482,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf " target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 224 KB) <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata (pdf 894kB) <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1119,6 +1609,272 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Organización </th>
+        <td>
+          
+            <p>Barcelona City Council</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Periodicidad </th>
+        <td>
+          
+            <p>Data updated annually</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Los datos disponibles más antiguos </th>
+        <td>
+          
+            <p>2015</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Cobertura geográfica </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Enlace a la fuente de datos </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Fecha de lanzamiento </th>
+        <td>
+          
+            <p>1619654400000</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Siguiente lanzamiento </th>
+        <td>
+          
+            <p>1651190400000</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Clasificación estadística </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Detalles de contacto </th>
+        <td>
+          
+            <p>comissionat2030@bcn.cat</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Otra información </th>
+        <td>
+          
+            <p>Area of Social Rights</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -1214,12 +1970,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/bcn2030/assets/js/sdg.js?v=20210507012429'></script>
+<script src='/bcn2030/assets/js/sdg.js?v=20210507202348'></script>
 
 
     
     
-    <script src="/bcn2030/assets/js/custom.js?v=20210507012429"></script><script>
+    <script src="/bcn2030/assets/js/custom.js?v=20210507202348"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
