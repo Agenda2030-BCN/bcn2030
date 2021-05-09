@@ -37,8 +37,10 @@ environment: staging
 # and some other required pages.
 create_indicators:
   layout: indicator
+  previous_next_links: true
 create_goals:
   layout: goal-by-target-vertical
+  previous_next_links: true
 create_pages:
   pages:
     - folder: /
@@ -215,6 +217,9 @@ header:
 # Use an accessible color-set for charts.
 graph_color_set: accessible
 
+accessible_tabs: true
+accessible_charts: true
+series_toggle: true
 # Date format
 date_formats:
   - type: standard
