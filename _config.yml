@@ -214,12 +214,3 @@ header:
 
 # Use an accessible color-set for charts.
 graph_color_set: accessible
-
-# Date format
-date_formats:
-  - type: standard
-    language: en
-    format: "%b %d, %Y"
-  - type: standard
-    language: es
-    format: "%d de %b de %Y"
