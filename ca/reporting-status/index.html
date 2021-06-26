@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>general.site_title</title>
+    <title>Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210626135741">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210626142617">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -148,15 +148,15 @@ var translations = {
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/ca/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt=" - " />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,15 +175,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/reporting-status/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/reporting-status/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -195,9 +195,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -213,15 +213,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/reporting-status/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/reporting-status/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -236,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label=""
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false"></button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,15 +262,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/reporting-status/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/reporting-status/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -283,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label=""
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false"></button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -331,7 +331,7 @@ var translations = {
 
   <h1>
   
-    
+    Estat dels indicadors
   
 </h1>
 
@@ -344,697 +344,697 @@ var translations = {
   <div class="goal goal-overall">
     <div class="details">
         <h2 class="status-goal">
-            
+            Estat general dels indicadors
         </h2>
-        <span class="total"><span>250</span> </span>
+        <span class="total"><span>250</span> indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete"><span class="status-inner">22</span></span><strong>status.reported_online</strong><span class="value">9%</span>
+                <span class="status complete"><span class="status-inner">22</span></span><strong>Reportat en línia</strong><span class="value">9%</span>
             </div><div>
-                <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
             </div><div>
-                <span class="status notstarted"><span class="status-inner">228</span></span><strong>status.exploring_data_sources</strong><span class="value">91%</span>
+                <span class="status notstarted"><span class="status-inner">228</span></span><strong>Explorant fonts de dades</strong><span class="value">91%</span>
             </div><div>
-                <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
             </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
             
             
-            <span class="complete" style="width:8.8%" title="status.reported_online: 9%"></span>
+            <span class="complete" style="width:8.8%" title="Reportat en línia: 9%"></span>
             
             
-            <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+            <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
             
             
-            <span class="notstarted" style="width:91.2%" title="status.exploring_data_sources: 91%"></span>
+            <span class="notstarted" style="width:91.2%" title="Explorant fonts de dades: 91%"></span>
             
             
-            <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+            <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
     </div>
     <br style="clear:both;">
 </div>
-  <h2></h2><div class="goal reporting-status-item">
+  <h2>Estat per objectius</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/1">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" alt="global_goals.1-short -  1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" alt="Fi de la Pobresa - Objectiu 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/1">global_goals.1-short</a>
+            <a href="/ca/1">Fi de la Pobresa</a>
         </h3>
-        <span class="total">15 </span>
+        <span class="total">15 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">6</span></span><strong>status.reported_online</strong><span class="value">40%</span>
+                    <span class="status complete"><span class="status-inner">6</span></span><strong>Reportat en línia</strong><span class="value">40%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">9</span></span><strong>status.exploring_data_sources</strong><span class="value">60%</span>
+                    <span class="status notstarted"><span class="status-inner">9</span></span><strong>Explorant fonts de dades</strong><span class="value">60%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:40.0%" title="status.reported_online: 40%"></span>
+                <span class="complete" style="width:40.0%" title="Reportat en línia: 40%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:60.0%" title="status.exploring_data_sources: 60%"></span>
+                <span class="notstarted" style="width:60.0%" title="Explorant fonts de dades: 60%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/2">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" alt="global_goals.2-short -  2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" alt="Fam Zero - Objectiu 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/2">global_goals.2-short</a>
+            <a href="/ca/2">Fam Zero</a>
         </h3>
-        <span class="total">14 </span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">3</span></span><strong>status.reported_online</strong><span class="value">21%</span>
+                    <span class="status complete"><span class="status-inner">3</span></span><strong>Reportat en línia</strong><span class="value">21%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>status.exploring_data_sources</strong><span class="value">79%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Explorant fonts de dades</strong><span class="value">79%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:21.428571428571427%" title="status.reported_online: 21%"></span>
+                <span class="complete" style="width:21.428571428571427%" title="Reportat en línia: 21%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:78.57142857142857%" title="status.exploring_data_sources: 79%"></span>
+                <span class="notstarted" style="width:78.57142857142857%" title="Explorant fonts de dades: 79%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/3">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" alt="global_goals.3-short -  3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" alt="Salut i Benestar - Objectiu 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/3">global_goals.3-short</a>
+            <a href="/ca/3">Salut i Benestar</a>
         </h3>
-        <span class="total">31 </span>
+        <span class="total">31 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">13</span></span><strong>status.reported_online</strong><span class="value">42%</span>
+                    <span class="status complete"><span class="status-inner">13</span></span><strong>Reportat en línia</strong><span class="value">42%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">18</span></span><strong>status.exploring_data_sources</strong><span class="value">58%</span>
+                    <span class="status notstarted"><span class="status-inner">18</span></span><strong>Explorant fonts de dades</strong><span class="value">58%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:41.935483870967744%" title="status.reported_online: 42%"></span>
+                <span class="complete" style="width:41.935483870967744%" title="Reportat en línia: 42%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:58.06451612903226%" title="status.exploring_data_sources: 58%"></span>
+                <span class="notstarted" style="width:58.06451612903226%" title="Explorant fonts de dades: 58%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/4">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" alt="global_goals.4-short -  4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" alt="Educació de Qualitat - Objectiu 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/4">global_goals.4-short</a>
+            <a href="/ca/4">Educació de Qualitat</a>
         </h3>
-        <span class="total">11 </span>
+        <span class="total">11 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/5">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" alt="global_goals.5-short -  5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" alt="Igualtat de Gènere - Objectiu 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/5">global_goals.5-short</a>
+            <a href="/ca/5">Igualtat de Gènere</a>
         </h3>
-        <span class="total">14 </span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/6">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" alt="global_goals.6-short -  6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" alt="Aigua Neta i Sanejament - Objectiu 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/6">global_goals.6-short</a>
+            <a href="/ca/6">Aigua Neta i Sanejament</a>
         </h3>
-        <span class="total">11 </span>
+        <span class="total">11 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/7">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" alt="global_goals.7-short -  7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" alt="Energia neta i assequible - Objectiu 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/7">global_goals.7-short</a>
+            <a href="/ca/7">Energia neta i assequible</a>
         </h3>
-        <span class="total">6 </span>
+        <span class="total">6 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/8">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" alt="global_goals.8-short -  8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" alt="Treball Decent i Creixement Econòmic - Objectiu 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/8">global_goals.8-short</a>
+            <a href="/ca/8">Treball Decent i Creixement Econòmic</a>
         </h3>
-        <span class="total">17 </span>
+        <span class="total">17 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">17</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">17</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/9">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" alt="global_goals.9-short -  9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" alt="Indústria, Innovació i Infraestructures - Objectiu 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/9">global_goals.9-short</a>
+            <a href="/ca/9">Indústria, Innovació i Infraestructures</a>
         </h3>
-        <span class="total">12 </span>
+        <span class="total">12 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/10">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" alt="global_goals.10-short -  10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" alt="Reducció de les Desigualtats - Objectiu 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/10">global_goals.10-short</a>
+            <a href="/ca/10">Reducció de les Desigualtats</a>
         </h3>
-        <span class="total">11 </span>
+        <span class="total">11 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/11">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" alt="global_goals.11-short -  11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" alt="Ciutats i Comunitats Sostenibles - Objectiu 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/11">global_goals.11-short</a>
+            <a href="/ca/11">Ciutats i Comunitats Sostenibles</a>
         </h3>
-        <span class="total">15 </span>
+        <span class="total">15 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/12">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" alt="global_goals.12-short -  12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" alt="Producció i Consum Responsables - Objectiu 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/12">global_goals.12-short</a>
+            <a href="/ca/12">Producció i Consum Responsables</a>
         </h3>
-        <span class="total">13 </span>
+        <span class="total">13 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/13">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" alt="global_goals.13-short -  13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" alt="Acció Climàtica - Objectiu 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/13">global_goals.13-short</a>
+            <a href="/ca/13">Acció Climàtica</a>
         </h3>
-        <span class="total">8 </span>
+        <span class="total">8 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/14">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" alt="global_goals.14-short -  14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" alt="Vida Submarina - Objectiu 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/14">global_goals.14-short</a>
+            <a href="/ca/14">Vida Submarina</a>
         </h3>
-        <span class="total">10 </span>
+        <span class="total">10 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/15">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" alt="global_goals.15-short -  15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" alt="Vida d&#39;Ecosistemes Terrestres - Objectiu 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/15">global_goals.15-short</a>
+            <a href="/ca/15">Vida d'Ecosistemes Terrestres</a>
         </h3>
-        <span class="total">14 </span>
+        <span class="total">14 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/16">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" alt="global_goals.16-short -  16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" alt="Pau, Justícia i Institucions sòlides - Objectiu 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/16">global_goals.16-short</a>
+            <a href="/ca/16">Pau, Justícia i Institucions sòlides</a>
         </h3>
-        <span class="total">23 </span>
+        <span class="total">23 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">23</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">23</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/ca/17">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" alt="global_goals.17-short -  17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" alt="Aliança per a Assolir els Objectius - Objectiu 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/ca/17">global_goals.17-short</a>
+            <a href="/ca/17">Aliança per a Assolir els Objectius</a>
         </h3>
-        <span class="total">25 </span>
+        <span class="total">25 indicadors</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>status.reported_online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reportat en línia</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>status.statistics_in_progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Estadístiques en progrés</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">25</span></span><strong>status.exploring_data_sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">25</span></span><strong>Explorant fonts de dades</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>status.not_applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>No aplicable</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="status.reported_online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Reportat en línia: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="status.statistics_in_progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="Estadístiques en progrés: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="status.exploring_data_sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Explorant fonts de dades: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="status.not_applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="No aplicable: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
@@ -1056,16 +1056,16 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">menu.contact_us</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">general.twitter</a>
+                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">Twitter</a>
                 
                 </li>
               <li>
@@ -1074,7 +1074,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/ca/about/cookies-and-privacy/">menu.cookies</a>
+                <a href="/ca/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1106,17 +1106,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210626135741'></script>
+<script src='/assets/js/sdg.js?v=20210626142617'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210626135741"></script><script>
+    <script src="/assets/js/custom.js?v=20210626142617"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

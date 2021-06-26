@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-         3.5.2 -
+        Indicador 3.5.2 -
         
-        Prevalence of harmful cannabis consumption among adults - general.site_title
+        Prevalence of harmful cannabis consumption among adults - Indicadors per als Objectius de Desenvolupament Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210626135741">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210626142617">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -153,15 +153,15 @@ var translations = {
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -172,7 +172,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/ca/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt=" - " />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -180,15 +180,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/3-5-2/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/3-5-2/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -200,9 +200,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -218,15 +218,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/3-5-2/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/3-5-2/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -241,21 +241,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label=""
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false"></button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -267,15 +267,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/3-5-2/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/3-5-2/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -288,31 +288,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label=""
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false"></button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -335,7 +335,7 @@ var translations = {
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only"> <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Mostra subcategories: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="bar">
@@ -343,10 +343,10 @@ var translations = {
       </div>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Subcategoríes - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select"></button>
-            <button data-type="clear"></button>
+            <button data-type="select">Seleccionar-ho tot</button>
+            <button data-type="clear">Netegeu-ho tot</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -357,10 +357,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Disponible quan es selecciona «<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>»
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          
+          No hi ha opcions disponibles a causa dels filtres anteriors
         </div>
       <% }%>
 
@@ -370,9 +370,9 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4></h4>
+    <h4>Unitat de mesura</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Unitat de mesura</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -383,9 +383,9 @@ var translations = {
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4></h4>
+    <h4>Sèrie</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Sèrie</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -394,7 +394,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = null;</script>
+<script>translations['indicator'] = {"annotation_2030_target":"Fita 2030","announce_data_added":"Gràfic i taula actualitzats per incloure les dades.","announce_data_not_available":"El gràfic i la taula no mostren dades.","announce_data_removed":"Gràfic i taula actualitzats per excloure les dades.","chart":"Gràfic","chart_annotation":"Anotació en el gràfic","clear_all":"Netegeu-ho tot","clear_selections":"Elimineu seleccions","data_keyboard_navigation":"Premeu Intro per navegar pels punts de dades amb les tecles de fletxa esquerra i dreta.","data_not_available":"Aquesta informació no està disponible. Trieu dades alternatives a mostrar.","data_tabular_alternative":"Per l'alternativa de dades tabulars, vegeu la pestanya Taula.","dataset_size_warning":"Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.","download_chart":"Descarregar CSV del gràfic","download_chart_image":"Descarregar imatge del gràfic","download_chart_image_title":"Descarregar gràfic com imatge","download_csv":"Descarregar CSV","download_csv_title":"Descarregar com CSV","download_geojson":"Descarregar GeoJSON","download_geojson_title":"Descarregar com a GeoJSON","download_headline":"Descarregar CSV global","download_headline_title":"Descarregar dades globals com CSV","download_source":"Descarregar CSV font","download_source_sdmx":"Descarregar SDMX font","download_source_sdmx_title":"Descarregar les dades font com SDMX","download_source_title":"Descarregar les dades font com CSV","download_table":"Descarregueu la taula CSV","edit":"Editar","edit_configuration":"Editar la configuració","edit_data":"Editar dades","edit_metadata":"Editar metadades","footnote":"Nota","geographical_area":"Àrea geogràfica","global_metadata":"Metadades globals","global_metadata_blurb":"Aquesta taula proporciona informació sobre les metadades dels indicadors ODS tal com els defineix la Comissió d'Estadística de la ONU. La <a href=\"https://unstats.un.org/sdgs/metadata/\">Divisió d'Estadística de les Nacions Unides proporciona</a> les metadades globals completes.","legend_help":"Feu clic a la llegenda per a eliminar línies individuals del gràfic.","loading":"Carregant","loading_map":"Carregant mapa","map":"Mapa","map_search":"Cercar","map_search_hide":"Ocultar cerca","map_search_show":"Mostrar cerca","map_year_slider":"Control lliscant de l'any","national_metadata":"Metadades nacionals","national_metadata_blurb":"Aquesta taula proporciona metadades de l'indicador real disponible a partir de les estadístiques de %country_name més properes al corresponent indicador global SDG. Recordeu que fins i tot quan l'indicador global d'ODS estigui totalment disponible a partir de les estadístiques de %country_adjective, s'ha de consultar aquesta taula per obtenir informació sobre la metodologia nacional i una altra informació de metadades específics de %country_adjective.","next":"Següent indicador","no_data_hint":"No hi ha opcions disponibles a causa dels filtres anteriors","plot_legend_description":"Llegenda del gràfic: llista de línies incloses en el gràfic","previous":"Indicador anterior","select_all":"Seleccionar-ho tot","series":"Sèrie","series_help":"Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.","source":"Font","sources":"Fonts","status":"Estat de l'indicador","sub_categories":"Subcategoríes","sub_categories_show":"Mostra subcategories:","table":"Taula","table_column_sort":"Feu clic per a ordenar per aquesta columna","tags":"Etiquetes","unit":"Unitat","unit_of_measurement":"Unitat de mesura","units_type":"Tipus d'unitats","variable_hint":"Disponible quan es selecciona «%field»","view_indicator_list":"Veure la llista d'indicadors d'aquest objectiu"};</script>
 
 <script>translations['data'] = {"Entity":"Entitat","Month":"Mes","Percentage":"Percentatge","Type":"Tipus","Value":"Valor","Year":"Any","new":"Nou","non_statistical":"No estadístic","proxy":"Proxy","revised":"Revisat","total":"Total"};</script>
 
@@ -403,10 +403,10 @@ var translations = {
   
 <ol class="breadcrumb">
   
-  <li><a href="/ca/">general.home</a></li>
-  <li><a href="/ca/goals">general.goals</a></li>
+  <li><a href="/ca/">Inici</a></li>
+  <li><a href="/ca/goals">Objectius</a></li>
   
-  <li><a href="/ca/3" title="global_goals.3-title"> 3</a></li>
+  <li><a href="/ca/3" title="Garantir una vida sana i promoure el benestar per a totes les persones a totes les edats">Objectiu 3</a></li>
   
 </ol>
 
@@ -417,13 +417,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/ca/3-5-1" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs"></span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Indicador anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/ca/3-5-3" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs"></span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent indicador</span>
         </a>
     </div>
 </div>
@@ -436,8 +436,8 @@ var translations = {
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/ca/3" title="">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" alt="global_goals.3-short -  3" id="goal-3" class="goal-icon-image goal-icon-image-"/>
+        <a href="/ca/3" title="Veure la llista d'indicadors d'aquest objectiu">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" alt="Salut i Benestar - Objectiu 3" id="goal-3" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -445,7 +445,7 @@ var translations = {
         <div>
           <h1>
             
-             3.5.2
+            Indicador 3.5.2
             
             <span class="lead-copy">Prevalence of harmful cannabis consumption among adults</span>
           </h1>
@@ -493,8 +493,8 @@ var translations = {
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4></h4>
-    <p></p>
+    <h4>Subcategoríes</h4>
+    <p>Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.</p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -510,9 +510,9 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/headline/3-5-2.csv" class="btn btn-primary btn-download" download="indicator_3-5-2.csv" tabindex="0" role="button"></a>
+    <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/headline/3-5-2.csv" class="btn btn-primary btn-download" download="indicator_3-5-2.csv" tabindex="0" role="button">Descarregar CSV global</a>
 
-    <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/data/3-5-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-5-2.csv' tabindex='0' role='button'></a>
+    <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/data/3-5-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-5-2.csv' tabindex='0' role='button'>Descarregar CSV font</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -556,13 +556,13 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>: The Barcelona Public Health Agency’s </p>
+    <p>Font: The Barcelona Public Health Agency’s </p>
     
     
-    <p>: Barcelona City</p>
+    <p>Àrea geogràfica: Barcelona City</p>
     
     
-    <p>: Percentatge</p>
+    <p>Unitat de mesura: Percentatge</p>
     
     
   </div>
@@ -577,7 +577,7 @@ var translations = {
   <div class="async-loaded spacer medium" style="display:none;">
 
     <div style="display: none;">
-  <span id="table-alternative"></span>
+  <span id="table-alternative">Per l'alternativa de dades tabulars, vegeu la pestanya Taula.</span>
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   <li role="presentation" class="nav-item active">
@@ -585,14 +585,14 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative"></a>
+ aria-describedby="table-alternative">Gràfic</a>
   </li>
   <li role="presentation" class="nav-item">
     <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
-></a>
+>Taula</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -600,8 +600,8 @@ data-event-label="Change to Table tab"
     
 
     <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only"></span></i>
-      
+      <i class="fa fa-bolt"><span class="sr-only">Avís:</span></i>
+      Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.
     </div>
 
     
@@ -845,17 +845,17 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>:</dt>
+        <dt>Font:</dt>
         <dd>The Barcelona Public Health Agency’s </dd>
         
 
         
-        <dt>:</dt>
+        <dt>Àrea geogràfica:</dt>
         <dd>Barcelona City</dd>
         
 
         
-        <dt>:</dt>
+        <dt>Unitat de mesura:</dt>
         <dd>Percentatge</dd>
         
 
@@ -868,8 +868,8 @@ opensdg.chartConfigAlter(function(config, info) {
         </div>
       </figure>
       <div id="chartSelectionDownload" class="clearfix">
-        <button id="btnSave" title="" class='btn btn-primary btn-download'>
-          
+        <button id="btnSave" title="Descarregar gràfic com imatge" class='btn btn-primary btn-download'>
+          Descarregar imatge del gràfic
         </button>
       </div>
     </div>
@@ -879,7 +879,7 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
   <div role="tabpanel" class="tab-pane" id="tableview">
     <div style="display: none;">
-      <span id="column-sort-info"></span>
+      <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
     </div>
     <div id="selectionsTable"></div>
 
@@ -890,17 +890,17 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>:</dt>
+        <dt>Font:</dt>
         <dd>The Barcelona Public Health Agency’s </dd>
         
 
         
-        <dt>:</dt>
+        <dt>Àrea geogràfica:</dt>
         <dd>Barcelona City</dd>
         
 
         
-        <dt>:</dt>
+        <dt>Unitat de mesura:</dt>
         <dd>Percentatge</dd>
         
 
@@ -953,7 +953,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
->indicator.global_metadata</a>
+>Metadades globals</a>
   </li>
 
   
@@ -969,13 +969,13 @@ data-event-label="Change to indicator.global_metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
->indicator.sources</a>
+>Fonts</a>
   </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab"></a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Editar</a>
   </li>
   
 </ul>
@@ -1013,7 +1013,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_indicator_available </th>
+        <th scope="row">Indicador disponible </th>
         <td>
           
             <p>Prevalence of harmful cannabis consumption among adults</p>
@@ -1055,7 +1055,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_geographical_coverage </th>
+        <th scope="row">Cobertura geogràfica </th>
         <td>
           
             <p>Barcelona City</p>
@@ -1069,7 +1069,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.computation_units </th>
+        <th scope="row">Unitat de mesura </th>
         <td>
           
             <p>Percentatge</p>
@@ -1083,7 +1083,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_data_update_url </th>
+        <th scope="row">Dades actualitzades per última vegada </th>
         <td>
           
             
@@ -1093,7 +1093,7 @@ data-event-label="Change to indicator.sources tab"
 
             
               <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/3f6b3876eb0f687033ac5681782d7568ce055adf" target="_blank">
-                2021-05-07: see changes on GitHub <span class="visuallyhidden"></span>
+                2021-05-07: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1110,7 +1110,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.national_metadata_update_url </th>
+        <th scope="row">Metadades actualitzades per última vegada </th>
         <td>
           
             
@@ -1120,7 +1120,7 @@ data-event-label="Change to indicator.sources tab"
 
             
               <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/126c909bd492f2c571690c996308b3ccc4865de6" target="_blank">
-                2021-05-09: see changes on GitHub <span class="visuallyhidden"></span>
+                2021-05-09: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1243,7 +1243,7 @@ data-event-label="Change to indicator.sources tab"
     
     <div role="tabpanel" class="tab-pane " id="global">
       <article>
-        <p>indicator.global_metadata_blurb</p>
+        <p>Aquesta taula proporciona informació sobre les metadades dels indicadors ODS tal com els defineix la Comissió d’Estadística de la ONU. La <a href="https://unstats.un.org/sdgs/metadata/">Divisió d’Estadística de les Nacions Unides proporciona</a> les metadades globals completes.</p>
 
         <table class="table">
   
@@ -1254,7 +1254,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.indicator_name </th>
+        <th scope="row">Nom de l'indicador </th>
         <td>
           
             <p>Prevalence of harmful cannabis consumption among adults</p>
@@ -1268,7 +1268,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.indicator </th>
+        <th scope="row">Número de l'indicador </th>
         <td>
           
             <p>3.5.2</p>
@@ -1282,7 +1282,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.target </th>
+        <th scope="row">Nom de Fita </th>
         <td>
           
             <p>Strengthen the prevention and treatment of addictive-substance abuse, including the improper use of narcotics and the harmful consumption of alcohol</p>
@@ -1296,7 +1296,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.target_id </th>
+        <th scope="row">Número fita </th>
         <td>
           
             <p>3.5</p>
@@ -1310,7 +1310,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.indicator_definition </th>
+        <th scope="row">Descripció de l'indicador global </th>
         <td>
           
             <p>Global indicator description</p>
@@ -1324,7 +1324,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.un_designated_tier </th>
+        <th scope="row">Nivell designat per l'ONU </th>
         <td>
           
             <p>1</p>
@@ -1338,7 +1338,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.un_custodian_agency </th>
+        <th scope="row">Agència de custòdia de l'ONU </th>
         <td>
           
             <p>World Bank (WB)</p>
@@ -1352,7 +1352,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.goal_meta_link </th>
+        <th scope="row">Enllaç a les metadades de l'ONU </th>
         <td>
           
             
@@ -1362,7 +1362,7 @@ data-event-label="Change to indicator.sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 894kB) <span class="visuallyhidden"></span>
+                United Nations Sustainable Development Goals Metadata (pdf 894kB) <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1533,7 +1533,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_organisation_1 </th>
+        <th scope="row">Organització </th>
         <td>
           
             <p>The Barcelona Public Health Agency’s</p>
@@ -1547,7 +1547,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_periodicity_1 </th>
+        <th scope="row">Periodicitat </th>
         <td>
           
             <p>Data available annually</p>
@@ -1561,7 +1561,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_earliest_available_1 </th>
+        <th scope="row">Les dades disponibles més antigues </th>
         <td>
           
             <p>2016-2017</p>
@@ -1575,7 +1575,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_url_1 </th>
+        <th scope="row">Enllaç a la font de dades </th>
         <td>
           
             
@@ -1585,7 +1585,7 @@ data-event-label="Change to indicator.sources tab"
 
             
               <a href="https://www.aspb.cat/arees/la-salut-en-xifres/enquestes-de-salut/" target="_blank">
-                Barcelona Health Survey  <span class="visuallyhidden"></span>
+                Barcelona Health Survey  <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1602,7 +1602,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_release_date_1 </th>
+        <th scope="row">Data de llançament </th>
         <td>
           
             <p>1619481600000</p>
@@ -1616,7 +1616,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_next_release_1 </th>
+        <th scope="row">Següent llançament </th>
         <td>
           
             <p>1651017600000</p>
@@ -1630,7 +1630,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_statistical_classification_1 </th>
+        <th scope="row">Classificació estadística </th>
         <td>
           
             
@@ -1644,7 +1644,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_contact_1 </th>
+        <th scope="row">Detalls de contacte </th>
         <td>
           
             <p>comissionat2030@bcn.cat</p>
@@ -1658,7 +1658,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">metadata_fields.source_other_info_1 </th>
+        <th scope="row">Altra informació </th>
         <td>
           
             <p>The Barcelona Public Health Agency’s</p>
@@ -1750,11 +1750,11 @@ data-event-label="Change to indicator.sources tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/data/indicator_3-5-2.csv"></a>
+  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/data/indicator_3-5-2.csv">Editar dades</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/3-5-2.md"></a>
+  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/3-5-2.md">Editar metadades</a>
   
 
   
@@ -1776,16 +1776,16 @@ data-event-label="Change to indicator.sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">menu.contact_us</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">general.twitter</a>
+                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">Twitter</a>
                 
                 </li>
               <li>
@@ -1794,7 +1794,7 @@ data-event-label="Change to indicator.sources tab"
                 
                 </li>
               <li>
-                <a href="/ca/about/cookies-and-privacy/">menu.cookies</a>
+                <a href="/ca/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1826,17 +1826,17 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210626135741'></script>
+<script src='/assets/js/sdg.js?v=20210626142617'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210626135741"></script><script>
+    <script src="/assets/js/custom.js?v=20210626142617"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

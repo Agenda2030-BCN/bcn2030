@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>general.site_title</title>
+    <title>Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210626135741">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210626142617">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -148,15 +148,15 @@ var translations = {
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/ca/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt=" - " />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,15 +175,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -195,9 +195,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -213,15 +213,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -236,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label=""
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false"></button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,15 +262,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -283,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label=""
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false"></button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -325,17 +325,17 @@ var translations = {
 
     
     
-    <h2 class="spacer medium"></h2>
+    <h2 class="spacer medium">Dades de Barcelona per als indicadors dels Objectius de Desenvolupament Sostenible</h2>
 
     
-    <p class="spacer medium"></p>
+    <p class="spacer medium">Feu clic a un objectiu o utilitzeu la <span id="jump-to-search"><a> cerca </a></span> per accedir als indicadors globals de Barcelona dels Objectius de Desenvolupament Sostenible.</p>
 
     <div class="goal-tiles">
     
         <div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/1">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" id="goal-1" alt="global_goals.1-short -  1" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" id="goal-1" alt="Fi de la Pobresa - Objectiu 1" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -343,7 +343,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/2">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" id="goal-2" alt="global_goals.2-short -  2" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/2.png" id="goal-2" alt="Fam Zero - Objectiu 2" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -351,7 +351,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/3">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" id="goal-3" alt="global_goals.3-short -  3" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" id="goal-3" alt="Salut i Benestar - Objectiu 3" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -359,7 +359,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/4">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" id="goal-4" alt="global_goals.4-short -  4" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/4.png" id="goal-4" alt="Educació de Qualitat - Objectiu 4" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -367,7 +367,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/5">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" id="goal-5" alt="global_goals.5-short -  5" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/5.png" id="goal-5" alt="Igualtat de Gènere - Objectiu 5" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -375,7 +375,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/6">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" id="goal-6" alt="global_goals.6-short -  6" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/6.png" id="goal-6" alt="Aigua Neta i Sanejament - Objectiu 6" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         </div>
@@ -383,7 +383,7 @@ var translations = {
         <div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/7">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" id="goal-7" alt="global_goals.7-short -  7" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/7.png" id="goal-7" alt="Energia neta i assequible - Objectiu 7" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -391,7 +391,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/8">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" id="goal-8" alt="global_goals.8-short -  8" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/8.png" id="goal-8" alt="Treball Decent i Creixement Econòmic - Objectiu 8" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -399,7 +399,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/9">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" id="goal-9" alt="global_goals.9-short -  9" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/9.png" id="goal-9" alt="Indústria, Innovació i Infraestructures - Objectiu 9" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -407,7 +407,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/10">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" id="goal-10" alt="global_goals.10-short -  10" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" id="goal-10" alt="Reducció de les Desigualtats - Objectiu 10" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -415,7 +415,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/11">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" id="goal-11" alt="global_goals.11-short -  11" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" id="goal-11" alt="Ciutats i Comunitats Sostenibles - Objectiu 11" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -423,7 +423,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/12">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" id="goal-12" alt="global_goals.12-short -  12" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/12.png" id="goal-12" alt="Producció i Consum Responsables - Objectiu 12" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         </div>
@@ -431,7 +431,7 @@ var translations = {
         <div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/13">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" id="goal-13" alt="global_goals.13-short -  13" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/13.png" id="goal-13" alt="Acció Climàtica - Objectiu 13" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -439,7 +439,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/14">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" id="goal-14" alt="global_goals.14-short -  14" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" id="goal-14" alt="Vida Submarina - Objectiu 14" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -447,7 +447,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/15">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" id="goal-15" alt="global_goals.15-short -  15" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/15.png" id="goal-15" alt="Vida d&#39;Ecosistemes Terrestres - Objectiu 15" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -455,7 +455,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/16">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" id="goal-16" alt="global_goals.16-short -  16" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/16.png" id="goal-16" alt="Pau, Justícia i Institucions sòlides - Objectiu 16" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -463,7 +463,7 @@ var translations = {
         
             <div class="col-xs-4 col-md-2">
                 <a href="/ca/17">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" id="goal-17" alt="global_goals.17-short -  17" class="goal-icon-image goal-icon-image-" />
+                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/17.png" id="goal-17" alt="Aliança per a Assolir els Objectius - Objectiu 17" class="goal-icon-image goal-icon-image-" />
               </a>
             </div>
         
@@ -479,13 +479,13 @@ var translations = {
     <div class="zip-download-container">
     <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/zip/all_indicators.zip"
        class="btn btn-primary btn-download" aria-describedby="zip-download-info">
-        
+        Descarregar totes les dades
     </a>
     <div id="zip-download-info">
-         - 5.2 kB
+        Arxiu zip - 5.2 kB
         
             <br>
-             - Jun 26, 2021
+            Dades actualitzades per última vegada - Jun 26, 2021
         
     </div>
 </div>
@@ -497,16 +497,16 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">menu.contact_us</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">general.twitter</a>
+                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">Twitter</a>
                 
                 </li>
               <li>
@@ -515,7 +515,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/ca/about/cookies-and-privacy/">menu.cookies</a>
+                <a href="/ca/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -547,17 +547,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210626135741'></script>
+<script src='/assets/js/sdg.js?v=20210626142617'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210626135741"></script><script>
+    <script src="/assets/js/custom.js?v=20210626142617"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

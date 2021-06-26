@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title> 10 - global_goals.10-short - general.site_title</title>
+    <title>Objectiu 10 - Reducció de les Desigualtats - Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210626135741">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210626142617">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -148,15 +148,15 @@ var translations = {
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/ca/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt=" - " />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,15 +175,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/10/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/10/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -195,9 +195,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -213,15 +213,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/10/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/10/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -236,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label=""
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false"></button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,15 +262,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/10/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/10/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -283,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label=""
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false"></button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -323,8 +323,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/ca/">general.home</a></li>
-  <li><a href="/ca/goals">general.goals</a></li>
+  <li><a href="/ca/">Inici</a></li>
+  <li><a href="/ca/goals">Objectius</a></li>
   
   
 </ol>
@@ -335,13 +335,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/ca/9" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs"></span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Objectiu anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/ca/11" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs"></span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent objectiu</span>
         </a>
     </div>
 </div>
@@ -354,11 +354,11 @@ var translations = {
     <div class="container">
       <div class="row">
         <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" alt="global_goals.10-short -  10" id="goal-10" class="goal-icon-image goal-icon-image-" />
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/10.png" alt="Reducció de les Desigualtats - Objectiu 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
         </div>
         <div class="col-xs-8 col-md-9 col-lg-10">
           <h1>
-            <span class="hidden-sm hidden-md hidden-lg"> 10: </span>global_goals.10-title
+            <span class="hidden-sm hidden-md hidden-lg">Objectiu 10: </span>Reduir la desigualtat en i entre els països
           </h1>
         </div>
       </div>
@@ -373,7 +373,7 @@ var translations = {
 
 
   <div class="container">
-    <h2></h2>
+    <h2>Fites i indicadors</h2>
 
     
     
@@ -385,9 +385,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.1</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.1</span>
         </h3>
-        <span class="target-name"> Per a 2030, aconseguir progressivament i mantenir el creixement dels ingressos del 40% més pobre de la població a una taxa superior a la mitjana nacional.</span>
+        <span class="target-name"> Per a 2030, aconseguir progressivament i mantenir el creixement dels ingressos del 40% més pobre de la població a una taxa superior a la mitjana local.</span>
         
 
           
@@ -396,15 +396,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-1-1">global_indicators.10-1-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-1-1">Taxes de creixement per càpita de les despeses o ingressos de les llars del 40% més pobre de la població i la població total</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -421,7 +421,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.2</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.2</span>
         </h3>
         <span class="target-name"> Per a 2030, potenciar i promoure la inclusió social, econòmica i política de totes les persones, independentment de l’edat, sexe, discapacitat, raça, ètnia, origen, religió, situació econòmica o altra condició.</span>
         
@@ -432,15 +432,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-2-1">global_indicators.10-2-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-2-1">Proporció de persones que viuen per sota del 50% de la mitjana dels ingressos, desglossada per sexe, edat i persones amb discapacitat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -457,7 +457,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.3</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.3</span>
         </h3>
         <span class="target-name"> Garantir la igualtat d’oportunitats i reduir la desigualtat dels resultats, també eli­minant les lleis, polítiques i pràctiques discriminatòries i promovent legislació, polítiques i mesures adequades a aquest efecte.</span>
         
@@ -468,15 +468,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-3-1">global_indicators.10-3-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-3-1">Proporció de la població que declara haver-se sentit personalment discriminada o assetjada en els últims 12 mesos per motius de discriminació prohibits pel dret internacional dels drets humans</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -493,7 +493,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.4</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.4</span>
         </h3>
         <span class="target-name"> Adoptar polítiques, en especial fiscals, salarials i de protecció social, i aconseguir progressivament més igualtat.</span>
         
@@ -504,15 +504,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-4-1">global_indicators.10-4-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-4-1">Proporció del PIB generada pel treball, que comprèn els salaris i les transferències de protecció social</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -529,7 +529,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.5</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.5</span>
         </h3>
         <span class="target-name"> Millorar la reglamentació i la vigilància de les institucions i dels mercats financers mundials i enfortir l’aplicació d’aquesta reglamentació.</span>
         
@@ -540,15 +540,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.5.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-5-1">global_indicators.10-5-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-5-1">Indicadors de solidesa financera</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -565,7 +565,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.6</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.6</span>
         </h3>
         <span class="target-name"> Assegurar més representació i intervenció dels països en desenvolupament en les decisions adoptades per les institucions econòmiques i financeres internacionals per tal d’augmentar l’eficàcia, la fiabilitat, la rendició de comptes i la legitimitat d’aquestes institucions.</span>
         
@@ -576,15 +576,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.6.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-6-1">global_indicators.10-6-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-6-1">Proporció de membres i drets de vot dels països en desenvolupament en organitzacions internacionals</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -601,7 +601,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.7</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.7</span>
         </h3>
         <span class="target-name"> Facilitar una migració i mobilitat ordenades, segures, regulars i responsables de les persones, també mit­jançant l’aplicació de polítiques migratòries planificades i ben gestionades.</span>
         
@@ -612,15 +612,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.7.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-7-1">global_indicators.10-7-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-7-1">Cost de la contractació sufragat per l'empleat en proporció als ingressos anuals percebuts al país de destinació</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -634,15 +634,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.7.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-7-2">global_indicators.10-7-2-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-7-2">Nombre de països que han aplicat polítiques migratòries ben gestionades</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -659,7 +659,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.a</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.a</span>
         </h3>
         <span class="target-name"> Aplicar el principi del tracte especial i diferenciat per als països en desenvolupament, en particular per als països menys avançats, de conformitat amb els acords de l’Organització Mundial del Comerç.</span>
         
@@ -670,15 +670,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.a.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-a-1">global_indicators.10-a-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-a-1">Proporció de línies aranzelàries que s'apliquen a les importacions dels països menys avançats i els països en desenvolupament amb aranzel zero</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -695,9 +695,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.b</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.b</span>
         </h3>
-        <span class="target-name"> Fomentar l’ajut oficial al desenvolupament i els fluxos financers, inclosa la inversió estrangera directa, per als estats amb majors necessitats, en particular els països menys avançats, països africans, petits estats insulars en desenvolupament i països en desenvolupament sense litoral, d’acord amb els respectius plans i programes nacionals.</span>
+        <span class="target-name"> Fomentar l’ajut oficial al desenvolupament i els fluxos financers, inclosa la inversió estrangera directa, per als estats amb majors necessitats, en particular els països menys avançats, països africans, petits estats insulars en desenvolupament i països en desenvolupament sense litoral, d’acord amb els respectius plans i programes locals.</span>
         
 
           
@@ -706,15 +706,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-b-1">global_indicators.10-b-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-b-1">Corrents totals de recursos per al desenvolupament, desglossades per país receptor i país donant i per tipus de corrent (per exemple, assistència oficial per al desenvolupament, inversió estrangera directa i altres corrents)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -731,7 +731,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 10.c</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 10.c</span>
         </h3>
         <span class="target-name"> Per a 2030, reduir els costos de transacció de les remeses de migrants per sota del 3% i eliminar els canals de tramesa de remeses amb un cost superior al 5%.</span>
         
@@ -742,15 +742,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 10.c.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 10.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/10-c-1">global_indicators.10-c-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/10-c-1">Cost de les remeses en proporció a les sumes remeses</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -768,16 +768,16 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">menu.contact_us</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">general.twitter</a>
+                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">Twitter</a>
                 
                 </li>
               <li>
@@ -786,7 +786,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/ca/about/cookies-and-privacy/">menu.cookies</a>
+                <a href="/ca/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -818,17 +818,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210626135741'></script>
+<script src='/assets/js/sdg.js?v=20210626142617'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210626135741"></script><script>
+    <script src="/assets/js/custom.js?v=20210626142617"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

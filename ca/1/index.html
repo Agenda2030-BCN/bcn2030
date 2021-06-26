@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title> 1 - global_goals.1-short - general.site_title</title>
+    <title>Objectiu 1 - Fi de la Pobresa - Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210626135741">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210626142617">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -148,15 +148,15 @@ var translations = {
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/ca/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt=" - " />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,15 +175,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/1/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/1/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -195,9 +195,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search"></label>
-    <input type="text" name="q" id="indicator_search" title="" /><!--
-    --><button aria-label="" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -213,15 +213,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/1/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/1/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -236,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label=""
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false"></button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,15 +262,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name"></span>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
       <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/1/">
-              
+              Español
             </a>
           </li><li>
             <a href="/en/1/">
-              
+              English
             </a>
           </li></ul>
   </div>
@@ -283,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label=""
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false"></button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/ca/search">
-    <label class="sr-only" for="indicator_search-mobile"></label>
-    <input type="text" name="q" id="indicator_search-mobile" title="" /><!--
-    --><button aria-label="" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/ca/goals">general.goals</a>
+    <a href="/ca/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/ca/reporting-status">menu.reporting_status</a>
+    <a href="/ca/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/ca/about">menu.about</a>
+    <a href="/ca/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/ca/guidance">menu.guidance</a>
+    <a href="/ca/guidance">Direcció</a>
 </li><li class="nav-link ">
-    <a href="/ca/faq">menu.faq</a>
+    <a href="/ca/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/ca/news">menu.updates</a>
+    <a href="/ca/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -323,8 +323,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/ca/">general.home</a></li>
-  <li><a href="/ca/goals">general.goals</a></li>
+  <li><a href="/ca/">Inici</a></li>
+  <li><a href="/ca/goals">Objectius</a></li>
   
   
 </ol>
@@ -335,13 +335,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/ca/17" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs"></span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Objectiu anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/ca/2" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs"></span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent objectiu</span>
         </a>
     </div>
 </div>
@@ -354,11 +354,11 @@ var translations = {
     <div class="container">
       <div class="row">
         <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" alt="global_goals.1-short -  1" id="goal-1" class="goal-icon-image goal-icon-image-" />
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/1.png" alt="Fi de la Pobresa - Objectiu 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
         </div>
         <div class="col-xs-8 col-md-9 col-lg-10">
           <h1>
-            <span class="hidden-sm hidden-md hidden-lg"> 1: </span>global_goals.1-title
+            <span class="hidden-sm hidden-md hidden-lg">Objectiu 1: </span>Posar fi a la pobresa en totes les seves formes i a tot arreu
           </h1>
         </div>
       </div>
@@ -373,7 +373,7 @@ var translations = {
 
 
   <div class="container">
-    <h2></h2>
+    <h2>Fites i indicadors</h2>
 
     
     
@@ -385,7 +385,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.1</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.1</span>
         </h3>
         <span class="target-name"> Eradicar per a totes les persones del món la pobresa extrema, actualment mesurada per un ingrés per persona inferior a 1,25 $ EUA al dia.</span>
         
@@ -396,19 +396,19 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.1.1</span>
             </h4>
             <span class="indicator-name"><a href="/ca/1-1-1">Percentatge de persones sense llar ateses (accedeixen a un recurs residencial públic, temporal o amb recolzament sostingut)</a></span>
-            <span class="sr-only"></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    
+    Reportat en línia
 </span>
 
             
-    <span class="sr-only"></span>
+    <span class="sr-only">Etiquetes</span>
     <span class="tags">
     
         
@@ -435,15 +435,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.1.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.1.2</span>
             </h4>
             <span class="indicator-name"><a href="/ca/1-1-2">Number of homeless Barcelona residents (registered in the city for at least two years)</a></span>
-            <span class="sr-only"></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    
+    Reportat en línia
 </span>
 
             
@@ -460,7 +460,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.2</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.2</span>
         </h3>
         <span class="target-name"> Reduir com a mínim a la meitat la proporció d’homes, dones, nens i nenes de totes les edats que viuen en la pobresa en totes les seves dimensions d’acord amb les definicions de cada estat.</span>
         
@@ -471,15 +471,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.2.1</span>
             </h4>
             <span class="indicator-name"><a href="/ca/1-2-1">Rate of severe material deprivation</a></span>
-            <span class="sr-only"></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    
+    Reportat en línia
 </span>
 
             
@@ -493,15 +493,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.2.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.2.2</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-2-2">global_indicators.1-2-2-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-2-2">Proporció d'homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -518,9 +518,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.3</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.3</span>
         </h3>
-        <span class="target-name"> Posar en pràctica en l’àmbit nacional sistemes i mesures apropiades de protecció social per a totes les persones, nivells mínims inclosos i, per a 2030, aconseguir una àmplia cobertura de les persones que pateixen situacions de pobresa i vulnerabilitat.</span>
+        <span class="target-name"> Posar en pràctica en l’àmbit local sistemes i mesures apropiades de protecció social per a totes les persones, nivells mínims inclosos i, per a 2030, aconseguir una àmplia cobertura de les persones que pateixen situacions de pobresa i vulnerabilitat.</span>
         
 
           
@@ -529,15 +529,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-3-1">global_indicators.1-3-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-3-1">Proporció de la població coberta per sistemes o nivells mínims de protecció social, desglossada per sexe, distingint entre els nens, els aturats, els ancians, les persones amb discapacitat, les dones embarassades, els nounats, les víctimes d'accidents de treball, els pobres i els vulnerables</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -554,7 +554,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.4</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.4</span>
         </h3>
         <span class="target-name"> Garantir que tots els homes i les dones, en particular les persones pobres i vulnerables, tinguin els mateixos drets als recursos econòmics, així com accés als serveis bàsics, la propietat i el control de les terres i altres béns, l’herència, els recursos naturals, les noves tecnologies apropiades i els serveis financers, incloses les micro-finances.</span>
         
@@ -565,15 +565,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.4.1</span>
             </h4>
             <span class="indicator-name"><a href="/ca/1-4-1">The average number of days wait between the date of the visit to the Social Services Centre and the date when the visit was scheduled</a></span>
-            <span class="sr-only"></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    
+    Reportat en línia
 </span>
 
             
@@ -587,15 +587,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.4.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-4-2">global_indicators.1-4-2-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-4-2">Proporció del total de la població adulta amb drets segurs de tinença de la terra: a) que posseeix documentació reconeguda legalment sobre aquest tema i b) considera segurs els seus drets, desglossada per sexe i tipus de tinença</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -612,7 +612,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.5</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.5</span>
         </h3>
         <span class="target-name"> Fomentar la resiliència de les persones pobres i aquelles que es troben en situacions vulnerables, i reduir la seva exposició i vulnerabilitat als fenòmens extrems relacionats amb el clima i altres crisis i desastres econòmics, socials i ambientals.</span>
         
@@ -623,15 +623,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.5.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.5.1</span>
             </h4>
             <span class="indicator-name"><a href="/ca/1-5-1">The number of people assisted by the Social Emergencies Centre (CUESB)</a></span>
-            <span class="sr-only"></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    
+    Reportat en línia
 </span>
 
             
@@ -645,15 +645,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.5.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-5-2">global_indicators.1-5-2-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-5-2">Pèrdues econòmiques directes atribuïdes als desastres en relació amb el producte interor brut (PIB) mundial</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -667,15 +667,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.5.3</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.5.3</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-5-3">global_indicators.1-5-3-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-5-3">Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -689,15 +689,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.5.4</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.5.4</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-5-4">global_indicators.1-5-4-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-5-4">Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -714,7 +714,7 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.a</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.a</span>
         </h3>
         <span class="target-name"> Garantir una mobilització significativa de recursos procedents de diverses fonts, fins i tot mitjançant la millora de la cooperació per al desenvolupament, per tal de proporcionar mitjans suficients i previsibles als països en desenvolupament, en particular els països menys avançats, perquè implementin programes i polítiques encaminats a posar fi a la pobresa en totes les seves dimensions.</span>
         
@@ -725,15 +725,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.a.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.a.1</span>
             </h4>
             <span class="indicator-name"><a href="/ca/1-a-1">Resources of the municipal Global Justice programme, allocated to the goal of reducing poverty</a></span>
-            <span class="sr-only"></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    
+    Reportat en línia
 </span>
 
             
@@ -747,15 +747,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.a.2</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.a.2</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-a-2">global_indicators.1-a-2-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-a-2">Proporció de la despesa pública total que es dedica a serveis essencials (educació, salut i protecció social)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -769,15 +769,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.a.3</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.a.3</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-a-3">global_indicators.1-a-3-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-a-3">Suma del total de les subvencions i assignacions no generadores de deute dedicades directament a programes de reducció de la pobresa en proporció al PIB</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -794,9 +794,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only"></span> 1.b</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 1.b</span>
         </h3>
-        <span class="target-name"> Crear marcs normatius sòlids en els àmbits nacional, regional i internacional, sobre la base d'estratègies de desenvolupament en favor dels pobres que tinguin en compte les qüestions de gènere, per tal de donar suport a la inversió accelerada en mesures per eradicar la pobresa.</span>
+        <span class="target-name"> Crear marcs normatius sòlids en els àmbits local, nacional, regional i internacional, sobre la base d'estratègies de desenvolupament en favor dels pobres que tinguin en compte les qüestions de gènere, per tal de donar suport a la inversió accelerada en mesures per eradicar la pobresa.</span>
         
 
           
@@ -805,15 +805,15 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only"></span> 1.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indicador</span> 1.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/ca/1-b-1">global_indicators.1-b-1-title</a></span>
-            <span class="sr-only"></span>
+            <span class="indicator-name"><a href="/ca/1-b-1">Proporció de les despeses públiques periòdiques i de capital que es dedica a sectors que beneficien de manera desproporcionada a les dones, els pobres i els grups vulnerables</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    
+    Explorant fonts de dades
 </span>
 
             
@@ -831,16 +831,16 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org"></a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">menu.contact_us</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
                 
-                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">general.twitter</a>
+                  <a href="https://twitter.com/bcn_agenda2030" target="_blank">Twitter</a>
                 
                 </li>
               <li>
@@ -849,7 +849,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/ca/about/cookies-and-privacy/">menu.cookies</a>
+                <a href="/ca/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -881,17 +881,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = '';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210626135741'></script>
+<script src='/assets/js/sdg.js?v=20210626142617'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210626135741"></script><script>
+    <script src="/assets/js/custom.js?v=20210626142617"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
