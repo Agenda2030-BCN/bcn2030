@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /ca/contact/
+permalink: /contact/
 language: ca
 ---
 

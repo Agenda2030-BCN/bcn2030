@@ -1,6 +1,6 @@
 ---
 title: Guidance
-permalink: /ca/guidance/
+permalink: /guidance/
 layout: page
 language: ca
 ---
