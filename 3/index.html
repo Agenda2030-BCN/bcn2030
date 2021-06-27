@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://agenda2030-bcn.github.io/bcn2030-data/es',
+  remoteDataBaseUrl: 'https://agenda2030-bcn.github.io/bcn2030-data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'es',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Objetivo 3 - Salud y Bienestar - Indicadores para los Objetivos de Desarrollo Sostenible</title>
+    <title>Objectiu 3 - Salut i Benestar - Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210627012954">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210627102907">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-es layout-goal-by-target-vertical">
+<body class="language-ca layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_address\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","high_contrast":"Alto contraste","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Menú de alternancia. Haga clic para ampliar o reducir el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    Este es un sitio web de desarrollo. Agradecemos sus <a href="mailto:comissionat2030@bcn.cat">comentarios</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/ca/3/">
-              Català
+            <a href="/es/3/">
+              Español
             </a>
           </li><li>
             <a href="/en/3/">
@@ -195,9 +195,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Buscar</label>
-    <input type="text" name="q" id="indicator_search" title="Buscar" /><!--
-    --><button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -213,11 +213,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/ca/3/">
-              Català
+            <a href="/es/3/">
+              Español
             </a>
           </li><li>
             <a href="/en/3/">
@@ -236,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menú de alternancia. Haga clic para ampliar o reducir el menú."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Objetivos</a>
+    <a href="/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Estado de informes</a>
+    <a href="/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/about">Acerca de</a>
+    <a href="/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/guidance">Dirección</a>
+    <a href="/guidance">Direcció</a>
 </li><li class="nav-link ">
     <a href="/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/news">Actualizaciones</a>
+    <a href="/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,11 +262,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/ca/3/">
-              Català
+            <a href="/es/3/">
+              Español
             </a>
           </li><li>
             <a href="/en/3/">
@@ -283,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Buscar</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Buscar</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Buscar" /><!--
-    --><button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/goals">Objetivos</a>
+    <a href="/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Estado de informes</a>
+    <a href="/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/about">Acerca de</a>
+    <a href="/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/guidance">Dirección</a>
+    <a href="/guidance">Direcció</a>
 </li><li class="nav-link ">
     <a href="/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/news">Actualizaciones</a>
+    <a href="/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -323,8 +323,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Inicio</a></li>
-  <li><a href="/goals">Objetivos</a></li>
+  <li><a href="/">Inici</a></li>
+  <li><a href="/goals">Objectius</a></li>
   
   
 </ol>
@@ -335,13 +335,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/2" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Objetivo anterior</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Objectiu anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/4" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Próximo objetivo</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent objectiu</span>
         </a>
     </div>
 </div>
@@ -354,11 +354,11 @@ var translations = {
     <div class="container">
       <div class="row">
         <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/3.png" alt="Salud y Bienestar - Objetivo 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/3.png" alt="Salut i Benestar - Objectiu 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
         </div>
         <div class="col-xs-8 col-md-9 col-lg-10">
           <h1>
-            <span class="hidden-sm hidden-md hidden-lg">Objetivo 3: </span>Garantizar una vida sana y promover el bienestar de todos a todas las edades
+            <span class="hidden-sm hidden-md hidden-lg">Objectiu 3: </span>Garantir una vida sana i promoure el benestar per a totes les persones a totes les edats
           </h1>
         </div>
       </div>
@@ -373,7 +373,7 @@ var translations = {
 
 
   <div class="container">
-    <h2>Metas e indicadores</h2>
+    <h2>Fites i indicadors</h2>
 
     
     
@@ -385,9 +385,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.1</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.1</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, reducir la tasa mundial de mortalidad materna a menos de 70 por cada 100.000 nacidos vivos</span>
+        <span class="target-name"> Per a 2030, reduir la taxa mundial de mortalitat materna a menys de 70 per cada 100.000 nascuts vius.</span>
         
 
           
@@ -398,13 +398,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-1-1">Tasa de mortalidad materna</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-1-1">Taxa de mortalitat materna</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -420,13 +420,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/3-1-2">Proporción de partos atendidos por personal sanitario especializado</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-1-2">Proporció de parts atesos per personal sanitari especialitzat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -443,9 +443,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.2</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.2</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, poner fin a las muertes evitables de recién nacidos y de niños menores de 5 años, logrando que todos los países intenten reducir la mortalidad neonatal al menos a 12 por cada 1.000 nacidos vivos y la mortalidad de los niños menores de 5 años al menos a 25 por cada 1.000 nacidos vivos</span>
+        <span class="target-name"> Per a 2030, posar fi a les morts evitables de nounats i dels menors de 5 anys, aconse­guint que tots els països intentin reduir la mortalitat neonatal almenys fins a 12 per cada 1.000 nascuts vius, i la mortalitat dels menors de 5 anys almenys fins a 25 per cada 1.000 nascuts vius.</span>
         
 
           
@@ -457,12 +457,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.2.1</span>
             </h4>
             <span class="indicator-name"><a href="/3-2-1">Premature mortality rate for children under the age of five</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -479,12 +479,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.2.2</span>
             </h4>
             <span class="indicator-name"><a href="/3-2-2">Mortality rate for newborn children (babies less than 28 days old), for every 1,000 children born alive</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -501,9 +501,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.3</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.3</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, poner fin a las epidemias del SIDA, la tuberculosis, la malaria y las enfermedades tropicales desatendidas y combatir la hepatitis, las enfermedades transmitidas por el agua y otras enfermedades transmisibles</span>
+        <span class="target-name"> Per a 2030, posar fi a les epidèmies de la sida, tuberculosi, malària i les malalties tropicals desateses, i com­batre l’hepatitis, les malalties transmeses per l’aigua i altres malalties transmissibles.</span>
         
 
           
@@ -514,13 +514,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-3-1">Número de nuevas infecciones por el VIH por cada 1.000 habitantes no infectados, desglosado por sexo, edad y poblaciones clave</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-3-1">Nombre de noves infeccions pel VIH per cada 1.000 habitants no infectats, desglossat per sexe, edat i poblacions clau</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -537,12 +537,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.3.2</span>
             </h4>
             <span class="indicator-name"><a href="/3-3-2">HIV incidence rate (per 100,000 inhabitants)</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -559,12 +559,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.3.3</span>
             </h4>
             <span class="indicator-name"><a href="/3-3-3">Tuberculosis incidence rate (per 100,000 inhabitants)</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -581,12 +581,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.3.4</span>
             </h4>
             <span class="indicator-name"><a href="/3-3-4">Sexually transmitted diseases (STD) registry. Barcelona Public Health Agency</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -602,13 +602,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.3.5</span>
             </h4>
-            <span class="indicator-name"><a href="/3-3-5">Número de personas que requieren intervenciones contra enfermedades tropicales desatendidas</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-3-5">Nombre de persones que requereixen intervencions contra malalties tropicals desateses</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -625,9 +625,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.4</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.4</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, reducir en un tercio la mortalidad prematura por enfermedades no transmisibles mediante su prevención y tratamiento, y promover la salud mental y el bienestar</span>
+        <span class="target-name"> Per a 2030, reduir en un terç la mortalitat prematura per malalties no transmissibles, mitjançant la prevenció i el tractament, i promoure la salut mental i el benestar.</span>
         
 
           
@@ -639,12 +639,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.4.1</span>
             </h4>
             <span class="indicator-name"><a href="/3-4-1">Premature mortality rate</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -661,12 +661,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.4.2</span>
             </h4>
             <span class="indicator-name"><a href="/3-4-2">Prevalence of poor mental health or risk of psychological suffering (above three points on the General Health Questionnaire, GHQ-12)</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -683,12 +683,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.4.3</span>
             </h4>
             <span class="indicator-name"><a href="/3-4-3">Percentage of adult population doing sport</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -705,9 +705,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.5</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.5</span>
         </h3>
-        <span class="target-name"> Fortalecer la prevención y el tratamiento del abuso de sustancias adictivas, incluido el uso indebido de estupefacientes y el consumo nocivo de alcohol</span>
+        <span class="target-name"> Enfortir la prevenció i el tractament de l’abús de substàncies addictives, inclosos l’ús indegut d’estupefaents i el consum nociu d’alcohol.</span>
         
 
           
@@ -719,12 +719,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.5.1</span>
             </h4>
             <span class="indicator-name"><a href="/3-5-1">Prevalence of harmful alcohol consumption among adults</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -741,12 +741,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.5.2</span>
             </h4>
             <span class="indicator-name"><a href="/3-5-2">Prevalence of harmful cannabis consumption among adults</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -763,12 +763,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.5.3</span>
             </h4>
             <span class="indicator-name"><a href="/3-5-3">Prevalence of harmful alcohol consumption among people aged 15 to 24</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -785,12 +785,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.5.4</span>
             </h4>
             <span class="indicator-name"><a href="/3-5-4">Prevalence of harmful cannabis consumption among adolescents</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -807,9 +807,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.6</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.6</span>
         </h3>
-        <span class="target-name"> De aquí a 2020, reducir a la mitad el número de muertes y lesiones causadas por accidentes de tráfico en el mundo</span>
+        <span class="target-name"> Per a 2020, reduir a la meitat el nombre mundial de morts i lesions causats per accidents de trànsit.</span>
         
 
           
@@ -820,13 +820,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-6-1">Tasa de mortalidad por lesiones debidas a accidentes de tráfico</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-6-1">Taxa de mortalitat per lesions degudes a accidents de trànsit</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -843,12 +843,12 @@ var translations = {
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.6.2</span>
             </h4>
             <span class="indicator-name"><a href="/3-6-2"></a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status complete">
-    Reportado en línea
+    Reportat en línia
 </span>
 
             
@@ -865,9 +865,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.7</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.7</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, garantizar el acceso universal a los servicios de salud sexual y reproductiva, incluidos los de planificación familiar, información y educación, y la integración de la salud reproductiva en las estrategias y los programas locales</span>
+        <span class="target-name"> Per a 2030, garantir l’accés universal als serveis de salut sexual i reproductiva, inclosos els de planificació familiar, informació i educació, així com la integració de la salut reproductiva a les estratègies i els programes locals.</span>
         
 
           
@@ -878,13 +878,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-7-1">Proporción de mujeres en edad de procrear (entre 15 y 49 años) que cubren sus necesidades de planificación familiar con métodos modernos</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-7-1">Proporció de dones en edat de procrear (entre 15 i 49 anys) que cobreixen les seves necessitats de planificació familiar amb mètodes moderns</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -900,13 +900,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/3-7-2">Tasa de fecundidad de las adolescentes (entre 10 y 14 años y entre 15 y 19 años) por cada 1.000 mujeres de ese grupo de edad</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-7-2">Taxa de fecunditat de les adolescents (entre 10 i 14 anys i entre 15 i 19 anys) per cada 1.000 dones d'aquest grup d'edat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -923,9 +923,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.8</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.8</span>
         </h3>
-        <span class="target-name"> Lograr la cobertura sanitaria universal, incluida la protección contra los riesgos financieros, el acceso a servicios de salud esenciales de calidad y el acceso a medicamentos y vacunas inocuos, eficaces, asequibles y de calidad para todos</span>
+        <span class="target-name"> Assolir la cobertura sanitària universal, en particular la protecció contra els riscos financers, l’accés a serveis de salut essencials de qualitat i l’accés a medicaments i vacunes segurs, eficaços, assequibles i de qualitat per a totes les persones.</span>
         
 
           
@@ -936,13 +936,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-8-1">Cobertura de los servicios de salud esenciales</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-8-1">Cobertura dels serveis de salut essencials (definida com la cobertura mitjana dels serveis essencials entre la població general i els més desfavorits, calculada a partir d'intervencions traçadores com les relacionades amb la salut reproductiva, materna, neonatal i infantil, les malalties infeccioses, les malalties no transmissibles i la capacitat dels serveis i l'accés a ells)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -958,13 +958,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.8.2</span>
             </h4>
-            <span class="indicator-name"><a href="/3-8-2">Proporción de la población con grandes gastos sanitarios por hogar como porcentaje del total de gastos o ingresos de los hogares</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-8-2">Proporció de la població amb grans despeses sanitàries per llar com a percentatge del total de despeses o ingressos de les llars</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -981,9 +981,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.9</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.9</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, reducir considerablemente el número de muertes y enfermedades causadas por productos químicos peligrosos y por la polución y contaminación del aire, el agua y el suelo</span>
+        <span class="target-name"> Per a 2030, reduir substancialment el nombre de morts i malalties causats per productes químics perillosos i la pol·lució de l’aire, l’aigua i el sòl.</span>
         
 
           
@@ -994,13 +994,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.9.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-9-1">Tasa de mortalidad atribuida a la contaminación de los hogares y del aire ambiente</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-9-1">Taxa de mortalitat atribuïda a la contaminació de les llars i de l'aire ambient</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1016,13 +1016,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.9.2</span>
             </h4>
-            <span class="indicator-name"><a href="/3-9-2">Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-9-2">Taxa de mortalitat atribuïda a l'aigua insalubre, el sanejament deficient i la falta d'higiene (exposició a serveis insalubres d'aigua, sanejament i higiene per a tots (WASH))</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1038,13 +1038,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.9.3</span>
             </h4>
-            <span class="indicator-name"><a href="/3-9-3">Tasa de mortalidad atribuida a intoxicaciones involuntarias</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-9-3">Taxa de mortalitat atribuïda a intoxicacions involuntàries</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1061,9 +1061,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.a</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.a</span>
         </h3>
-        <span class="target-name"> Fortalecer la aplicación del Convenio Marco de la Organización Mundial de la Salud para el Control del Tabaco en todos los países, según proceda</span>
+        <span class="target-name"> Enfortir a tots els països, segons escaigui, l’aplicació del Conveni marc de l’Organització Mundial de la Salut per al control del tabac.</span>
         
 
           
@@ -1074,13 +1074,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-a-1">Prevalencia del consumo actual de tabaco a partir de los 15 años de edad (edades ajustadas)</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-a-1">Prevalença del consum actual de tabac a partir dels 15 anys d'edat (edats ajustades)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1097,9 +1097,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.b</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.b</span>
         </h3>
-        <span class="target-name"> Apoyar las actividades de investigación y desarrollo de vacunas y medicamentos contra las enfermedades transmisibles y no transmisibles que afectan primordialmente a los países en desarrollo y facilitar el acceso a medicamentos y vacunas esenciales asequibles de conformidad con la Declaración relativa al Acuerdo sobre los Aspectos de los Derechos de Propiedad Intelectual Relacionados con el Comercio y la Salud Pública, en la que se afirma el derecho de los países en desarrollo a utilizar al máximo las disposiciones del Acuerdo sobre los Aspectos de los Derechos de Propiedad Intelectual Relacionados con el Comercio respecto a la flexibilidad para proteger la salud pública y, en particular, proporcionar acceso a los medicamentos para todos</span>
+        <span class="target-name"> Donar suport a les activitats d’investigació i desenvolupament de vacunes i medicaments per a les malalties transmissibles i no transmissibles que afecten primordialment països en desenvolupament, i facilitar l’accés a medicaments i a vacunes essencials assequibles de conformitat amb la Declaració de Doha relativa a l’Acord sobre els aspectes dels drets de propietat intel•lectual relacionats amb el comerç (ADPIC) i la salut pública, en la qual s’afirma el dret dels països en desenvolupament a utilitzar al màxim les disposicions de l’ADPIC pel que fa a la flexibilitat per a protegir la salut pública, i en particular, proporcionar accés a medicaments per a totes les persones.</span>
         
 
           
@@ -1110,13 +1110,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-b-1">Proporción de la población inmunizada con todas las vacunas incluidas en cada programa nacional</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-b-1">Proporció de la població immunitzada amb totes les vacunes incloses en cada programa nacional</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1132,13 +1132,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.b.2</span>
             </h4>
-            <span class="indicator-name"><a href="/3-b-2">Total neto de asistencia oficial para el desarrollo destinado a los sectores de la investigación médica y la atención sanitaria básica</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-b-2">Total net d'assistència oficial per al desenvolupament destinat als sectors de la recerca mèdica i l'atenció sanitària bàsica</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1154,13 +1154,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.b.3</span>
             </h4>
-            <span class="indicator-name"><a href="/3-b-3">Proporción de centros de salud que disponen de un conjunto básico de medicamentos esenciales asequibles de manera sostenible</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-b-3">Proporció de centres de salut que disposen d'un conjunt bàsic de medicaments essencials assequibles de manera sostenible</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1177,9 +1177,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.c</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.c</span>
         </h3>
-        <span class="target-name"> Aumentar considerablemente la financiación de la salud y la contratación, el perfeccionamiento, la capacitación y la retención del personal sanitario en los países en desarrollo, especialmente en los países menos adelantados y los pequeños Estados insulares en desarrollo</span>
+        <span class="target-name"> Incrementar substancialment el finançament de la salut i la contractació, el desenvolupament, la capacitació i la retenció del personal sanitari als països en desenvolupament, especialment als països menys avançats i als petits estats insulars en desenvolupament.</span>
         
 
           
@@ -1190,13 +1190,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-c-1">Densidad y distribución del personal sanitario</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-c-1">Densitat i distribució del personal sanitari</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1213,9 +1213,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 3.d</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 3.d</span>
         </h3>
-        <span class="target-name"> Reforzar la capacidad de todos los países, en particular los países en desarrollo, en materia de alerta temprana, reducción de riesgos y gestión de los riesgos para la salud local y mundial</span>
+        <span class="target-name"> Reforçar la capacitat de tots els països, en particular els països en desenvolupament, en matèria d’alerta primerenca, reducció de riscos i gestió dels riscos per a la salut local i mundial.</span>
         
 
           
@@ -1226,13 +1226,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 3.d.1</span>
             </h4>
-            <span class="indicator-name"><a href="/3-d-1">Capacidad prevista en el Reglamento Sanitario Internacional (RSI) y preparación para emergencias de salud</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/3-d-1">Capacitat prevista en el Reglament Sanitari Internacional (RSI) i preparació per a emergències de salut</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -1250,11 +1250,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Construido usando Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contáctenos</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
@@ -1268,7 +1268,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Galletas</a>
+                <a href="/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1303,14 +1303,14 @@ var translations = {
     translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Buscar';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210627012954'></script>
+<script src='/assets/js/sdg.js?v=20210627102907'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210627012954"></script><script>
+    <script src="/assets/js/custom.js?v=20210627102907"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

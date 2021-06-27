@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://agenda2030-bcn.github.io/bcn2030-data/es',
+  remoteDataBaseUrl: 'https://agenda2030-bcn.github.io/bcn2030-data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'es',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Objetivo 11 - Cuidades y Comunidades Sostenibles - Indicadores para los Objetivos de Desarrollo Sostenible</title>
+    <title>Objectiu 11 - Ciutats i Comunitats Sostenibles - Indicadors per als Objectius de Desenvolupament Sostenible</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210627012954">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210627102907">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-es layout-goal-by-target-vertical">
+<body class="language-ca layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_address\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","high_contrast":"Alto contraste","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Menú de alternancia. Haga clic para ampliar o reducir el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    Este es un sitio web de desarrollo. Agradecemos sus <a href="mailto:comissionat2030@bcn.cat">comentarios</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/ca/11/">
-              Català
+            <a href="/es/11/">
+              Español
             </a>
           </li><li>
             <a href="/en/11/">
@@ -195,9 +195,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Buscar</label>
-    <input type="text" name="q" id="indicator_search" title="Buscar" /><!--
-    --><button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -213,11 +213,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/ca/11/">
-              Català
+            <a href="/es/11/">
+              Español
             </a>
           </li><li>
             <a href="/en/11/">
@@ -236,21 +236,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menú de alternancia. Haga clic para ampliar o reducir el menú."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Objetivos</a>
+    <a href="/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Estado de informes</a>
+    <a href="/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/about">Acerca de</a>
+    <a href="/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/guidance">Dirección</a>
+    <a href="/guidance">Direcció</a>
 </li><li class="nav-link ">
     <a href="/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/news">Actualizaciones</a>
+    <a href="/news">Actualitzacions</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,11 +262,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/ca/11/">
-              Català
+            <a href="/es/11/">
+              Español
             </a>
           </li><li>
             <a href="/en/11/">
@@ -283,31 +283,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Buscar</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Buscar</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Buscar" /><!--
-    --><button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/goals">Objetivos</a>
+    <a href="/goals">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Estado de informes</a>
+    <a href="/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/about">Acerca de</a>
+    <a href="/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/guidance">Dirección</a>
+    <a href="/guidance">Direcció</a>
 </li><li class="nav-link ">
     <a href="/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/news">Actualizaciones</a>
+    <a href="/news">Actualitzacions</a>
 </li>
 </ul>
 
@@ -323,8 +323,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Inicio</a></li>
-  <li><a href="/goals">Objetivos</a></li>
+  <li><a href="/">Inici</a></li>
+  <li><a href="/goals">Objectius</a></li>
   
   
 </ol>
@@ -335,13 +335,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/10" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Objetivo anterior</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Objectiu anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/12" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Próximo objetivo</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent objectiu</span>
         </a>
     </div>
 </div>
@@ -354,11 +354,11 @@ var translations = {
     <div class="container">
       <div class="row">
         <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/11.png" alt="Cuidades y Comunidades Sostenibles - Objetivo 11" id="goal-11" class="goal-icon-image goal-icon-image-" />
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/11.png" alt="Ciutats i Comunitats Sostenibles - Objectiu 11" id="goal-11" class="goal-icon-image goal-icon-image-" />
         </div>
         <div class="col-xs-8 col-md-9 col-lg-10">
           <h1>
-            <span class="hidden-sm hidden-md hidden-lg">Objetivo 11: </span>Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles
+            <span class="hidden-sm hidden-md hidden-lg">Objectiu 11: </span>Aconseguir que les ciutats i els assentaments humans siguin inclusius, segurs, resilients i sostenibles
           </h1>
         </div>
       </div>
@@ -373,7 +373,7 @@ var translations = {
 
 
   <div class="container">
-    <h2>Metas e indicadores</h2>
+    <h2>Fites i indicadors</h2>
 
     
     
@@ -385,9 +385,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.1</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.1</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, asegurar el acceso de todas las personas a viviendas y servicios básicos adecuados, seguros y asequibles y mejorar los barrios marginales</span>
+        <span class="target-name"> Per a 2030, assegurar l’accés de totes les persones a habitatges i a serveis bàsics adequats, segurs i assequibles, i millorar els barris marginals.</span>
         
 
           
@@ -398,13 +398,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-1-1">Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-1-1">Proporció de la població urbana que viu en barris marginals, assentaments informals o habitatges inadequats</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -421,9 +421,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.2</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.2</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, proporcionar acceso a sistemas de transporte seguros, asequibles, accesibles y sostenibles para todos y mejorar la seguridad vial, en particular mediante la ampliación del transporte público, prestando especial atención a las necesidades de las personas en situación de vulnerabilidad, las mujeres, los niños, las personas con discapacidad y las personas de edad</span>
+        <span class="target-name"> Per a 2030, proporcionar accés a sistemes de transport segurs, assequibles, accessi­bles i sostenibles per a totes les persones, i millorar la seguretat viària, en particular mitjan­çant l’ampliació del transport públic, amb especial atenció a les necessitats de les persones en situació vulnerable, dones, nenes, nens, persones amb discapacitat i persones grans.</span>
         
 
           
@@ -434,13 +434,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-2-1">Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-2-1">Proporció de la població que té fàcil accés al transport públic, desglossada per sexe, edat i persones amb discapacitat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -457,9 +457,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.3</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.3</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, aumentar la urbanización inclusiva y sostenible y la capacidad para la planificación y la gestión participativas, integradas y sostenibles de los asentamientos humanos en todos los países</span>
+        <span class="target-name"> Per a 2030, augmentar la urbanització inclusiva i sostenible, així com la capacitat de planificar i gestionar de manera participativa, integrada i sostenible els assentaments humans a tots els països.</span>
         
 
           
@@ -470,13 +470,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-3-1">Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-3-1">Relació entre la taxa de consum de terres i la taxa de creixement de la població</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -492,13 +492,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.3.2</span>
             </h4>
-            <span class="indicator-name"><a href="/11-3-2">Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas y funcionan con regularidad y democráticamente</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-3-2">Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes i funcionen amb regularitat i democràticament</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -515,9 +515,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.4</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.4</span>
         </h3>
-        <span class="target-name"> Redoblar los esfuerzos para proteger y salvaguardar el patrimonio cultural y natural del mundo</span>
+        <span class="target-name"> Redoblar els esforços per a protegir i salvaguardar el patrimoni cultural i natural del món.</span>
         
 
           
@@ -528,13 +528,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-4-1">Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural y natural, desglosado por fuente de financiación (pública y privada), tipo de patrimonio (cultural y natural) y nivel de gobierno (nacional, regional y local/municipal)</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-4-1">Total de despeses (públiques i privades) per càpita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per tipus de patrimoni (cultural, natural, mixt i reconegut pel Centre del Patrimoni Mundial), nivell de govern (nacional, regional i local o municipal), tipus de despeses (despeses de funcionament o inversions) i tipus de finançament privat (donacions en espècie, finançament procedent del sector privat sense fins de lucre i patrocini)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -551,9 +551,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.5</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.5</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, reducir significativamente el número de muertes causadas por los desastres, incluidos los relacionados con el agua, y de personas afectadas por ellos, y reducir considerablemente las pérdidas económicas directas provocadas por los desastres en comparación con el producto interno bruto mundial, haciendo especial hincapié en la protección de los pobres y las personas en situaciones de vulnerabilidad</span>
+        <span class="target-name"> Per a 2030, reduir de forma significativa el nombre de morts causades per desastres, inclosos els relacio­nats amb l’aigua, i de persones afectades per aquests, i reduir substancialment les pèrdues econòmiques directes causades per desastres, fent un èmfasi especial en la protecció de les persones pobres i de les persones en situacions de vulnerabilitat.</span>
         
 
           
@@ -564,13 +564,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-5-1">Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-5-1">Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -586,13 +586,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/11-5-2">Pérdidas económicas directas en relación con el PIB mundial, daños en la infraestructura esencial y número de interrupciones de los servicios básicos atribuidos a desastres</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-5-2">Pèrdues econòmiques directes en relació amb el PIB mundial, danys en la infraestructura essencial i nombre d'interrupcions dels serveis bàsics atribuïts a desastres</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -609,9 +609,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.6</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.6</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, reducir el impacto ambiental negativo per cápita de las ciudades, incluso prestando especial atención a la calidad del aire y la gestión de los desechos municipales y de otro tipo</span>
+        <span class="target-name"> Per a 2030, reduir l’impacte ambiental negatiu per càpita de les ciutats, amb especial atenció a la qualitat de l’aire, així com a la gestió dels residus municipals i d’altre tipus.</span>
         
 
           
@@ -622,13 +622,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-6-1">Proporción de residuos sólidos municipales recogidos y administrados en instalaciones controladas con respecto al total de residuos municipales generados, desglosada por ciudad</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-6-1">Proporció de deixalles sòlides urbanes recollides periòdicament i amb una descàrrega final adequada respecte del total de deixalles sòlides urbanes generades, desglossada per ciutat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -644,13 +644,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.6.2</span>
             </h4>
-            <span class="indicator-name"><a href="/11-6-2">Niveles medios anuales de partículas finas en suspensión (por ejemplo, PM2.5 y PM10) en las ciudades (ponderados según la población)</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-6-2">Nivells mitjans anuals de partícules fines en suspensió (per exemple, PM2.5 i PM10) a les ciutats (ponderats segons la població)</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -667,9 +667,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.7</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.7</span>
         </h3>
-        <span class="target-name"> De aquí a 2030, proporcionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y los niños, las personas de edad y las personas con discapacidad</span>
+        <span class="target-name"> Per a 2030, proporcionar accés universal a zones verdes i espais públics segurs, inclusius i accessibles, en particular per a les dones i els infants, les persones grans i les persones amb discapacitat.</span>
         
 
           
@@ -680,13 +680,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-7-1">Proporción media de la superficie edificada de las ciudades que se dedica a espacios abiertos para uso público de todos, desglosada por sexo, edad y personas con discapacidad</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-7-1">Proporció mitjana de la superfície edificada de les ciutats que es dedica a espais oberts per a ús públic de tots, desglossada per sexe, edat i persones amb discapacitat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -702,13 +702,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/11-7-2">Proporción de personas que han sido víctimas de acoso físico o sexual en los últimos 12 meses, desglosada por sexo, edad, grado de discapacidad y lugar del hecho</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-7-2">Proporció de persones que han estat víctimes d'assetjament físic o sexual en els últims 12 mesos, desglossada per sexe, edat, grau de discapacitat i lloc del fet</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -725,9 +725,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.a</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.a</span>
         </h3>
-        <span class="target-name"> Apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periurbanas y rurales fortaleciendo la planificación del desarrollo local y regional</span>
+        <span class="target-name"> Donar suport als vincles econòmics, socials i ambientals positius entre les zones urbanes, periurbanes i rurals enfortint la planificació del desenvolupament local, nacional i regional.</span>
         
 
           
@@ -738,13 +738,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-a-1">Número de países que cuentan con políticas urbanas nacionales o planes de desarrollo regionales que a) responden a la dinámica de la población, b) garantizan un desarrollo territorial equilibrado y c) aumentan el margen fiscal local</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-a-1">Proporció de la població resident en ciutats que apliquen plans de desenvolupament urbà i regional que tenen en compte les previsions demogràfiques i les necessitats de recursos, desglossada per grandària de ciutat</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -761,9 +761,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.b</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.b</span>
         </h3>
-        <span class="target-name"> De aquí a 2020, aumentar considerablemente el número de ciudades y asentamientos humanos que adoptan e implementan políticas y planes integrados para promover la inclusión, el uso eficiente de los recursos, la mitigación del cambio climático y la adaptación a él y la resiliencia ante los desastres, y desarrollar y poner en práctica, en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030, la gestión integral de los riesgos de desastre a todos los niveles</span>
+        <span class="target-name"> Per a 2020, augmentar substancialment el nombre de ciutats i assentaments humans que adopten i posen en marxa polítiques i plans integrats per promoure la inclusió, l’ús eficient dels recursos, la mitigació del canvi climàtic i l’adaptació a aquest, així com la resiliència davant dels desastres, i desenvolupar i posar en pràctica una gestió integral dels riscos de desastre a tots els nivells, d’acord amb el Marc de Sendai per a la reducció del risc de desastres 2015-2030.</span>
         
 
           
@@ -774,13 +774,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-b-1">Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-b-1">Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -796,13 +796,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.b.2</span>
             </h4>
-            <span class="indicator-name"><a href="/11-b-2">Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-b-2">Proporció de governs locals que adopten i apliquen estratègies locals de reducció del risc de desastres d'acord amb les estratègies nacionals de reducció del risc de desastres</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -819,9 +819,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Meta</span> 11.c</span>
+          <span class="target-number"><span class="sr-only">Fita</span> 11.c</span>
         </h3>
-        <span class="target-name"> Proporcionar apoyo a los países menos adelantados, incluso mediante asistencia financiera y técnica, para que puedan construir edificios sostenibles y resilientes utilizando materiales locales</span>
+        <span class="target-name"> Proporcionar suport als països menys avançats, incloent una assistència financera i tècnica, perquè puguin construir edificis sostenibles i resilients utilitzant materials locals.</span>
         
 
           
@@ -832,13 +832,13 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicador</span> 11.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/11-c-1">Proporción del apoyo financiero a los países menos adelantados que se asigna a la construcción y el reacondicionamiento con materiales locales de edificios sostenibles, resilientes y eficientes en el uso de recursos</a></span>
-            <span class="sr-only">Estado del indicador</span>
+            <span class="indicator-name"><a href="/11-c-1">Proporció del suport financer als països menys avançats que s'assigna a la construcció i el recondicionament amb materials locals d'edificis sostenibles, resilients i eficients en l'ús de recursos</a></span>
+            <span class="sr-only">Estat de l'indicador</span>
             
 
 
 <span class="status notstarted">
-    Explorando fuentes de datos
+    Explorant fonts de dades
 </span>
 
             
@@ -856,11 +856,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Construido usando Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contáctenos</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
@@ -874,7 +874,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Galletas</a>
+                <a href="/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -909,14 +909,14 @@ var translations = {
     translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Buscar';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210627012954'></script>
+<script src='/assets/js/sdg.js?v=20210627102907'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210627012954"></script><script>
+    <script src="/assets/js/custom.js?v=20210627102907"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
