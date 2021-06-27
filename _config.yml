@@ -20,8 +20,8 @@ metadata_edit_url: http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/[id]
 #
 # The list of languages that are translated. The first one is the default.
 languages:
-  - es
   - ca
+  - es
   - en
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
