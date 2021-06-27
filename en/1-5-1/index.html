@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210627122913">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210627162133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -396,7 +396,7 @@ var translations = {
 
 <script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
-<script>translations['data'] = {"Entity":"Entity","Month":"Month","Percentage":"Percentage","Type":"Type","Value":"Value","Year":"Year","total":"Total"};</script>
+<script>translations['data'] = {"Entity":"Entity","Month":"Month","Percentage":"Percentage","Social emergencies":"Socialsdsd emergencies","Total Number":"Total Number","Type":"Type","Type_assistance":"Type Assistance","Value":"Value","Year":"Year","total":"Total"};</script>
 
 
 <div class="container">
@@ -473,7 +473,7 @@ var translations = {
   data-country="Barcelona City"
   data-charttitle="The number of people assisted by the Social Emergencies Centre (CUESB)"
   data-charttitles="null"
-  data-measurementunit="Person"
+  data-measurementunit="Total Number"
   data-showdata="true"
   data-graphtype="binary"
   data-geocoderegex=""
@@ -545,7 +545,7 @@ var translations = {
           
           
           
-          <td class="table-value">Person</td>
+          <td class="table-value">Total Number</td>
           
           
         </tr>
@@ -561,7 +561,7 @@ var translations = {
           
           
           
-          <td class="table-value">Person</td>
+          <td class="table-value">Total Number</td>
           
           
         </tr>
@@ -577,7 +577,7 @@ var translations = {
           
           
           
-          <td class="table-value">Person</td>
+          <td class="table-value">Total Number</td>
           
           
         </tr>
@@ -593,7 +593,7 @@ var translations = {
           
           
           
-          <td class="table-value">Person</td>
+          <td class="table-value">Total Number</td>
           
           
         </tr>
@@ -610,7 +610,7 @@ var translations = {
     <p>Geographical Area: Barcelona City</p>
     
     
-    <p>Unit of Measurement: Person</p>
+    <p>Unit of Measurement: Total Number</p>
     
     
   </div>
@@ -914,7 +914,7 @@ opensdg.tableConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Person</dd>
+        <dd>Total Number</dd>
         
 
         
@@ -959,7 +959,7 @@ opensdg.tableConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Person</dd>
+        <dd>Total Number</dd>
         
 
         
@@ -1088,7 +1088,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Barcelona Target </th>
         <td>
           
-            
+            <p>By 2030, reducing the exposure of the most vulnerable people to crisis and disaster situations, as well as increasing their resilience for dealing with them</p>
 
           
         </td>
@@ -1102,7 +1102,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Target line (2030) </th>
         <td>
           
-            <p>below 10,000</p>
+            <p>Get the annual number of people who need assistance due to social emergencies to below 10,000</p>
 
           
         </td>
@@ -1130,7 +1130,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Person</p>
+            <p>Total Number</p>
 
           
         </td>
@@ -1150,8 +1150,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/3f6b3876eb0f687033ac5681782d7568ce055adf" target="_blank">
-                2021-05-07: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/769d142c385f5105f9dfc671591efeb17212a2dc" target="_blank">
+                2021-06-27: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1177,8 +1177,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/126c909bd492f2c571690c996308b3ccc4865de6" target="_blank">
-                2021-05-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/6c2b065f54d876527991cdaf53a939d265fd2818" target="_blank">
+                2021-06-27: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1343,7 +1343,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>Foster the resilience of poor people and those in vulnerable situations, and reduce their exposure to extreme climate-related events and other economic, social and environmental crises and disasters.</p>
+            <p>Foster the resilience of poor people and those in vulnerable situations, and reduce their exposure to extreme climate-related events and other economic, social and environmental crises and disasters</p>
 
           
         </td>
@@ -1371,7 +1371,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Global indicator description </th>
         <td>
           
-            <p>Global indicator description</p>
+            
 
           
         </td>
@@ -1608,7 +1608,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Periodicity </th>
         <td>
           
-            <p>Data updated annually</p>
+            <p>Data available annually</p>
 
           
         </td>
@@ -1642,6 +1642,10 @@ data-event-label="Change to indicator.sources tab"
             
 
             
+              <a href="https://ajuntament.barcelona.cat/dretssocials/sites/default/files/arxius-documents/memoria-area-drets-socials-2019.pdf" target="_blank">
+                Area of Social Rights  <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
 
           
         </td>
@@ -1659,7 +1663,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Release date </th>
         <td>
           
-            <p>1619654400000</p>
+            <p>1619481600000</p>
 
           
         </td>
@@ -1673,7 +1677,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Next release </th>
         <td>
           
-            <p>1651190400000</p>
+            <p>1651017600000</p>
 
           
         </td>
@@ -1885,12 +1889,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20210627122913'></script>
+<script src='/assets/js/sdg.js?v=20210627162133'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210627122913"></script><script>
+    <script src="/assets/js/custom.js?v=20210627162133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

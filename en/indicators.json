@@ -39,7 +39,7 @@
         },
         {
           "id": "1-3-1",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "title": "Ensure that by 2021, the MLI’s rate of coverage according to objective need is above 95%",
           "description": "",
           "keywords": "",
           "href": "/en/1-3-1",
@@ -151,11 +151,11 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "Prevalence rate for obesity",
           "description": "",
           "keywords": "",
           "href": "/en/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
@@ -167,7 +167,7 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/en/2-3-1",
@@ -183,10 +183,26 @@
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "Proportion of municipal market stalls classified as ‘green stallholders’",
           "description": "",
           "keywords": "",
           "href": "/en/2-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-2",
+          "title": "The amount of agroecological produce sold as a proportion of the total sales of fresh produce in municipal markets",
+          "description": "",
+          "keywords": "",
+          "href": "/en/2-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-3",
+          "title": "Volume of produce commercialised at Mercabarna’s Biomarket",
+          "description": "",
+          "keywords": "",
+          "href": "/en/2-4-3",
           "status": "notstarted"
         },
         {
