@@ -271,15 +271,15 @@
         
         {
           "id": "3-1-1",
-          "title": "Taxa de mortalitat materna",
+          "title": "Taxa mortalitat materna Barcelona per 1.000 naixements",
           "description": "",
           "keywords": "",
           "href": "/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
-          "title": "Proporció de parts atesos per personal sanitari especialitzat",
+          "title": "Taxa de morbiditat materna",
           "description": "",
           "keywords": "",
           "href": "/3-1-2",
@@ -287,7 +287,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "Premature mortality rate for children under the age of five",
+          "title": "Taxa de mortalitat prematura en infants menors de 5 anys",
           "description": "",
           "keywords": "",
           "href": "/3-2-1",
@@ -295,7 +295,7 @@
         },
         {
           "id": "3-2-2",
-          "title": "Mortality rate for newborn children (babies less than 28 days old), for every 1,000 children born alive",
+          "title": "Taxa de mortalitat neonatal (infants menors de 28 dies), per cada 1.000 infants nascuts vius",
           "description": "",
           "keywords": "",
           "href": "/3-2-2",
@@ -311,7 +311,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "HIV incidence rate (per 100,000 inhabitants)",
+          "title": "Taxa d’incidència de HIV (per 100.000 habitants)",
           "description": "",
           "keywords": "",
           "href": "/3-3-2",
@@ -319,7 +319,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "Tuberculosis incidence rate (per 100,000 inhabitants)",
+          "title": "Taxa d’incidència de tuberculosi (per 100.000 habitants)",
           "description": "",
           "keywords": "",
           "href": "/3-3-3",
@@ -327,7 +327,7 @@
         },
         {
           "id": "3-3-4",
-          "title": "Sexually transmitted diseases (STD) registry. Barcelona Public Health Agency",
+          "title": "Taxa d’incidència de gonocòccia (per 100.000 habitants)",
           "description": "",
           "keywords": "",
           "href": "/3-3-4",
@@ -343,7 +343,7 @@
         },
         {
           "id": "3-4-1",
-          "title": "Premature mortality rate",
+          "title": "Taxa de mortalitat prematura",
           "description": "",
           "keywords": "",
           "href": "/3-4-1",
@@ -351,7 +351,7 @@
         },
         {
           "id": "3-4-2",
-          "title": "Prevalence of poor mental health or risk of psychological suffering (above three points on the General Health Questionnaire, GHQ-12)",
+          "title": "Prevalença de mala salut mental o risc de patiment psicològic (per sobre de tres punts al General Health Questionnaire, GHQ-12)",
           "description": "",
           "keywords": "",
           "href": "/3-4-2",
@@ -359,7 +359,7 @@
         },
         {
           "id": "3-4-3",
-          "title": "Percentage of adult population doing sport",
+          "title": "Percentatge de pràctica esportiva en la població adulta",
           "description": "",
           "keywords": "",
           "href": "/3-4-3",
@@ -367,7 +367,7 @@
         },
         {
           "id": "3-5-1",
-          "title": "Prevalence of harmful alcohol consumption among adults",
+          "title": "Prevalença del consum de risc d’alcohol entre les persones adultes",
           "description": "",
           "keywords": "",
           "href": "/3-5-1",
@@ -375,7 +375,7 @@
         },
         {
           "id": "3-5-2",
-          "title": "Prevalence of harmful cannabis consumption among adults",
+          "title": "Prevalença del consum de risc de cànnabis entre les persones adultes",
           "description": "",
           "keywords": "",
           "href": "/3-5-2",
@@ -383,7 +383,7 @@
         },
         {
           "id": "3-5-3",
-          "title": "Prevalence of harmful alcohol consumption among people aged 15 to 24",
+          "title": "Prevalença del consum de risc d’alcohol en les persones entre 15 i 24 anys",
           "description": "",
           "keywords": "",
           "href": "/3-5-3",
@@ -391,7 +391,7 @@
         },
         {
           "id": "3-5-4",
-          "title": "Prevalence of harmful cannabis consumption among adolescents",
+          "title": "Prevalença del consum de risc de cànnabis la població adolescent",
           "description": "",
           "keywords": "",
           "href": "/3-5-4",
@@ -399,15 +399,15 @@
         },
         {
           "id": "3-6-1",
-          "title": "Taxa de mortalitat per lesions degudes a accidents de trànsit",
+          "title": "Nombre anual de persones mortes per col·lisió de trànsit",
           "description": "",
           "keywords": "",
           "href": "/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-6-2",
-          "title": "",
+          "title": "Nombre anual de persones ferides greument per col·lisió de trànsit",
           "description": "",
           "keywords": "",
           "href": "/3-6-2",
@@ -415,27 +415,27 @@
         },
         {
           "id": "3-7-1",
-          "title": "Proporció de dones en edat de procrear (entre 15 i 49 anys) que cobreixen les seves necessitats de planificació familiar amb mètodes moderns",
+          "title": "Taxa d’embarassos de dones de 15 a 19 anys",
           "description": "",
           "keywords": "",
           "href": "/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
-          "title": "Taxa de fecunditat de les adolescents (entre 10 i 14 anys i entre 15 i 19 anys) per cada 1.000 dones d'aquest grup d'edat",
+          "title": "Diferencial en la taxa d’embarassos de dones de 15 a 19 anys entre el districte amb la taxa més elevada i aquell amb la taxa més reduïda",
           "description": "",
           "keywords": "",
           "href": "/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
-          "title": "Cobertura dels serveis de salut essencials (definida com la cobertura mitjana dels serveis essencials entre la població general i els més desfavorits, calculada a partir d'intervencions traçadores com les relacionades amb la salut reproductiva, materna, neonatal i infantil, les malalties infeccioses, les malalties no transmissibles i la capacitat dels serveis i l'accés a ells)",
+          "title": "Indicador sintètic del percentatge de població major de 15 anys que, tot i necessitar-ho, no ha accedit als següents tractaments sanitaris per motius econòmics: atenció dental, salut mental i/o medicació amb prescripció mèdica",
           "description": "",
           "keywords": "",
           "href": "/3-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-2",
@@ -447,11 +447,11 @@
         },
         {
           "id": "3-9-1",
-          "title": "Taxa de mortalitat atribuïda a la contaminació de les llars i de l'aire ambient",
+          "title": "Nombre de morts atribuïbles anualment a l’excés de contaminació atmosfèrica (superació del llindar OMS* per NO2 i PM2,5 alhora)",
           "description": "",
           "keywords": "",
           "href": "/3-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-2",
@@ -471,19 +471,19 @@
         },
         {
           "id": "3-a-1",
-          "title": "Prevalença del consum actual de tabac a partir dels 15 anys d'edat (edats ajustades)",
+          "title": "Nombre de persones majors de 15 anys que fumen diàriament respecte al total de la població d’aquesta edat",
           "description": "",
           "keywords": "",
           "href": "/3-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-1",
-          "title": "Proporció de la població immunitzada amb totes les vacunes incloses en cada programa nacional",
+          "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar la salut pública i els sistemes de salut",
           "description": "",
           "keywords": "",
           "href": "/3-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-2",
@@ -511,11 +511,11 @@
         },
         {
           "id": "3-d-1",
-          "title": "Capacitat prevista en el Reglament Sanitari Internacional (RSI) i preparació per a emergències de salut",
+          "title": "Aprovació del pla metropolità d’emergència per a situacions de pandèmia",
           "description": "",
           "keywords": "",
           "href": "/3-d-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

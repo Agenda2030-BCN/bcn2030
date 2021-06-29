@@ -271,15 +271,15 @@
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "Barcelona’s maternal mortality rate per 1,000 births",
           "description": "",
           "keywords": "",
           "href": "/en/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
+          "title": "Maternal mortality rate",
           "description": "",
           "keywords": "",
           "href": "/en/3-1-2",
@@ -399,15 +399,15 @@
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "Annual number of people killed in traffic collisions",
           "description": "",
           "keywords": "",
           "href": "/en/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-6-2",
-          "title": "",
+          "title": "Annual number of people seriously injured in traffic collisions",
           "description": "",
           "keywords": "",
           "href": "/en/3-6-2",
@@ -415,27 +415,27 @@
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "Pregnancy rate in women aged between 15 and 19",
           "description": "",
           "keywords": "",
           "href": "/en/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",
+          "title": "The differential in the pregnancy rate for women aged 15 to 19 between the district with the highest rate and the district with the lowest rate",
           "description": "",
           "keywords": "",
           "href": "/en/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services",
+          "title": "Composite indicator of the percentage of the population older than 15 years old who, in spite of needing it, do not have access to the following healthcare treatments due to economic reasons: dental care, mental health care and/or medication with medical prescription",
           "description": "",
           "keywords": "",
           "href": "/en/3-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-2",
@@ -447,11 +447,11 @@
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "Annual number of deaths attributed to excessive atmospheric pollution (above the WHO threshold* for both NO2 and PM2.5)",
           "description": "",
           "keywords": "",
           "href": "/en/3-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-2",
@@ -471,19 +471,19 @@
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "title": "The number of people over the age of 15 who smoke every day compared to the total population in this age group",
           "description": "",
           "keywords": "",
           "href": "/en/3-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
+          "title": "Resources of the municipal Global Justice programme, allocated to the objective of improving public health and health systems",
           "description": "",
           "keywords": "",
           "href": "/en/3-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-b-2",
@@ -511,11 +511,11 @@
         },
         {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "title": "Approval of the Metropolitan Emergency Plan for Pandemic Situations",
           "description": "",
           "keywords": "",
           "href": "/en/3-d-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
