@@ -527,71 +527,111 @@
         
         {
           "id": "4-1-1",
-          "title": "Proporción de niños, niñas y adolescentes que, a) en los cursos segundo y tercero, b) al final de la enseñanza primaria y c) al final de la enseñanza secundaria inferior, han alcanzado al menos un nivel mínimo de competencia en i) lectura y ii) matemáticas, desglosada por sexo",
+          "title": "Tasa de consecución de las cinco pruebas de competencias básicas efectuadas en 4.º curso de la ESO",
           "description": "",
           "keywords": "",
           "href": "/es/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-1-2",
+          "title": "Tasa de graduación en la ESO desagregada por distritos; diferencia porcentual entre el distrito con la tasa más alta y el distrito con la tasa más baja",
+          "description": "",
+          "keywords": "",
+          "href": "/es/4-1-2",
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "Proporción de niños de 24 a 59 meses cuyo desarrollo es adecuado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, desglosada por sexo",
+          "title": "Tasa de escolarización al año de edad",
           "description": "",
           "keywords": "",
           "href": "/es/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
-          "title": "Tasa de participación en el aprendizaje organizado (un año antes de la edad oficial de ingreso en la enseñanza primaria), desglosada por sexo",
+          "title": "Tasa de escolarización a los dos años de edad",
           "description": "",
           "keywords": "",
           "href": "/es/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-2-3",
+          "title": "Diferencial en la tasa de escolarización a los 2 años de edad entre el distrito con la tasa más elevada y el distrito con la tasa más baja",
+          "description": "",
+          "keywords": "",
+          "href": "/es/4-2-3",
+          "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
+          "title": "Proporción de personas de entre 30 y 34 años que poseen un título de educación superior (universitario o CFGS)",
           "description": "",
           "keywords": "",
           "href": "/es/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "Proporción de jóvenes y adultos con competencias en tecnología de la información y las comunicaciones (TIC), desglosada por tipo de competencia técnica",
+          "title": "Proporción de personas de entre 20 y 24 años que poseen, como mínimo, el título de bachillerato o de CFGM",
           "description": "",
           "keywords": "",
           "href": "/es/4-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
-          "title": "Índices de paridad (entre mujeres y hombres, zonas rurales y urbanas, quintiles de riqueza superior e inferior y grupos como los discapacitados, los pueblos indígenas y los afectados por los conflictos, a medida que se disponga de datos) para todos los indicadores educativos de esta lista que puedan desglosarse",
+          "title": "Indicador de segregación escolar",
           "description": "",
           "keywords": "",
           "href": "/es/4-5-1",
           "status": "notstarted"
         },
         {
+          "id": "4-5-2",
+          "title": "Proporción de niños y niñas y adolescentes que viven en hogares con las condiciones necesarias para aprovechar el aprendizaje en formato digital y en línea",
+          "description": "",
+          "keywords": "",
+          "href": "/es/4-5-2",
+          "status": "notstarted"
+        },
+        {
           "id": "4-6-1",
-          "title": "Proporción de la población en un grupo de edad determinado que ha alcanzado al menos un nivel fijo de competencia funcional en a) alfabetización y b) nociones elementales de aritmética, desglosada por sexo",
+          "title": "Garantizar que el 100 % de la población de Barcelona sepa hablar catalán y castellano, y más del 70 %, inglés",
           "description": "",
           "keywords": "",
           "href": "/es/4-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-7-1",
-          "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación del profesorado y d) la evaluación de los estudiantes",
+          "title": "Proporción de centros educativos adheridos a la red Escuelas + Sostenibles (incluye escoles bressol, educación infantil y primaria, ESO, ciclos formativos, escuelas especiales, bachillerato y escuelas de adultos)",
           "description": "",
           "keywords": "",
           "href": "/es/4-7-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-7-2",
+          "title": "Proporción de niños y niñas que afirman conocer sus derechos, recogidos en la Convención sobre los Derechos del Niño, cuando finaliza la educación primaria (6.º curso)",
+          "description": "",
+          "keywords": "",
+          "href": "/es/4-7-2",
+          "status": "complete"
+        },
+        {
+          "id": "4-7-3",
+          "title": "Número de proyectos de educación para la justicia global que promuevan una educación crítica y el fomento de la paz, los derechos humanos, la sostenibilidad y la igualdad de género",
+          "description": "",
+          "keywords": "",
+          "href": "/es/4-7-3",
+          "status": "complete"
         },
         {
           "id": "4-a-1",
-          "title": "Proporción de escuelas que ofrecen servicios básicos, desglosada por tipo de servicio",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/es/4-a-1",
@@ -599,11 +639,11 @@
         },
         {
           "id": "4-b-1",
-          "title": "Volumen de la asistencia oficial para el desarrollo destinada a becas, desglosado por sector y tipo de estudio",
+          "title": "Recursos del Programa de educación para la justicia global de la ciudad destinados a mejorar la educación",
           "description": "",
           "keywords": "",
           "href": "/es/4-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-c-1",

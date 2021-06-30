@@ -527,71 +527,111 @@
         
         {
           "id": "4-1-1",
-          "title": "Proporció de nens, nenes i adolescents que, a) en els cursos segon i tercer, b) al final de l'ensenyament primari i c) al final de l'ensenyament secundari inferior, han aconseguit almenys un nivell mínim de competència en i) lectura i ii) matemàtiques, desglossada per sexe",
+          "title": "Taxa d’assoliment de les cinc proves de competències bàsiques efectuades a 4rt curs de d’ESO",
           "description": "",
           "keywords": "",
           "href": "/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-1-2",
+          "title": "Taxa de graduació a l’ESO desagregada per districtes, diferència en % entre el districte amb la taxa més alta i el districte amb la taxa més baixa",
+          "description": "",
+          "keywords": "",
+          "href": "/4-1-2",
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "Proporció de nens menors de 5 anys el desenvolupament dels quals és adequat quant a la salut, l'aprenentatge i el benestar psicosocial, desglossada per sexe.",
+          "title": "Taxa d’escolarització a un any d’edat",
           "description": "",
           "keywords": "",
           "href": "/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
-          "title": "Taxa de participació en l'aprenentatge organitzat (un any abans de l'edat oficial d'ingrés en l'ensenyament primari), desglossada per sexe",
+          "title": "Taxa d’escolarització a dos anys d’edat",
           "description": "",
           "keywords": "",
           "href": "/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-2-3",
+          "title": "Diferencial en la taxa d’escolarització a l’edat de 2 anys entre el districte amb la taxa més elevada i aquell amb la taxa més reduïda",
+          "description": "",
+          "keywords": "",
+          "href": "/4-2-3",
+          "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "Taxa de participació dels joves i adults en l'ensenyament i formació acadèmica i no acadèmica en els últims 12 mesos, desglossada per sexe",
+          "title": "Proporció de persones entre 30 i 34 anys que disposen d’un títol d’educació superior (universitari o CFGS)",
           "description": "",
           "keywords": "",
           "href": "/4-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-4-1",
-          "title": "Proporció de joves i adults amb competències en tecnologia de la informació i les comunicacions (TIC), desglossada per tipus de competència tècnica",
+          "title": "Aconseguir que més del 80% de les persones d’entre 20 i 24 anys hagin completat amb èxit, com a mínim, estudis de Batxillerat o de Cicle Formatiu de Grau Mig",
           "description": "",
           "keywords": "",
           "href": "/4-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-1",
-          "title": "Índexs de paritat (entre dones i homes, zones rurals i urbanes, quintils de riquesa superior i inferior i grups com els discapacitats, els pobles indígenes i els afectats pels conflictes, a mesura que es disposi de dades) per a tots els indicadors educatius d'aquesta llista que puguin desglossar-se",
+          "title": "Indicador de segregació escolar",
           "description": "",
           "keywords": "",
           "href": "/4-5-1",
           "status": "notstarted"
         },
         {
+          "id": "4-5-2",
+          "title": "Proporció d’infants i adolescents que viuen en llars amb les condicions necessàries per aprofitar l’aprenentatge en format digital i online",
+          "description": "",
+          "keywords": "",
+          "href": "/4-5-2",
+          "status": "notstarted"
+        },
+        {
           "id": "4-6-1",
-          "title": "Proporció de la població en un grup d'edat determinat que ha aconseguit almenys un nivell fix de competència funcional en a) alfabetització i b) nocions elementals d'aritmètica, desglossada per sexe",
+          "title": "Proporció de persones majors de 17 anys que consideren que saben parlar: a) Català, b) Castellà, c) Anglès",
           "description": "",
           "keywords": "",
           "href": "/4-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-7-1",
-          "title": "Grau en què i) l'educació per a la ciutadania mundial i ii) l'educació per al desenvolupament sostenible, inclosa la igualtat de gènere i els drets humans, s'incorporen en tots els nivells de a) les polítiques nacionals d'educació, b) els plans d'estudi, c) la formació del professorat i d) l'avaluació dels estudiants",
+          "title": "Proporció de centres educatius de adherits a la xarxa escoles + sostenibles (inclou escoles bressol, infantil, primària, ESO, cicles formatius, escoles especials, batxillerat i escoles d’adults)",
           "description": "",
           "keywords": "",
           "href": "/4-7-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-7-2",
+          "title": "Proporció d’infants que afirma conèixer els seus drets recollits en la Convenció dels Drets de l’Infant quan finalitza l’educació primària (6è curs)",
+          "description": "",
+          "keywords": "",
+          "href": "/4-7-2",
+          "status": "complete"
+        },
+        {
+          "id": "4-7-3",
+          "title": "Nombre de projectes d’educació per a la justícia global que promoguin una educació crítica i foment de la pau, els drets humans, la sostenibilitat i la igualtat de gènere",
+          "description": "",
+          "keywords": "",
+          "href": "/4-7-3",
+          "status": "complete"
         },
         {
           "id": "4-a-1",
-          "title": "Proporció d'escoles amb accés a a) electricitat, b) Internet amb finalitats pedagògics, c) computadores amb finalitats pedagògics, d) infraestructura i materials adaptats als estudiants amb discapacitat, e) subministrament bàsic d'aigua potable, f) instal·lacions de sanejament bàsiques separades per sexe i g) instal·lacions bàsiques per a la rentada de mans (segons les definicions dels indicadors WASH)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/4-a-1",
@@ -599,11 +639,11 @@
         },
         {
           "id": "4-b-1",
-          "title": "Volum de l'assistència oficial per al desenvolupament destinada a beques, desglossat per sector i tipus d'estudi",
+          "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar l’educació",
           "description": "",
           "keywords": "",
           "href": "/4-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-c-1",
