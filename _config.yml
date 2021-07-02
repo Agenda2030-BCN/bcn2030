@@ -202,12 +202,12 @@ breadcrumbs:
     - label: general.home
       path: /
     - label: general.goals
-      path: /goals
+      path: /
   indicator:
     - label: general.home
       path: /
     - label: general.goals
-      path: /goals
+      path: /
 
 # Specify the style of header to use.
 header:
