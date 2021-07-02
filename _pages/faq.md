@@ -5,31 +5,32 @@ permalink: /en/faq/
 layout: page
 ---
 
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+## Can I make suggestions regarding new or different data sources?
+If you have any comments regarding the data sources used or any suggestion regarding the use of new data sources, you can contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
 
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
+## What does "Indicator status" mean?
+For each indicator, its status is defined in one of the following four categories:
 
-* Reported online (black) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-* Statistics in progress (grey) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (white) – we are still looking for a suitable data source for this indicator.
+* **Reported online** (black) – The operational SDG target has been defined and the indicator is available at city level, despite the fact that the data may not be completely disaggregated or pending updating.
+* **Statistics in progress** (grey) – The operational target has been defined and the data source of the indicator identified, but the data is not yet available.
+* **Exploring data sources** (white) – Either the operational goal has not been defined, or it has been, but it has not been possible to identify an adequate data source to develop the corresponding indicator.
+* **Not applicable** – The 17 SDGs of the 2030 Agenda are deployed in 169 targets, but not all of them have a translation to the local level. In these cases the label "Not applicable" is used.
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
+In the event of adding fresh information on the Status of an indicator or on data collection, this will be highlighted in the header of the indicator page.
 
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.
+## How often will the data be updated on the web?
+It must be noted that the data sources that feed the indicators have very different origins, calendars and periodicities. The indicators are updated individually as new information becomes available.
 
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
+## What can be done to avoid the lack of data or the little disaggregation provided?
+There are indicators that are available at national, regional, provincial or metropolitan level, but not at the level of the core city.
 
-This means we need to look for new data sources, link existing ones, or model data.
+This implies continuing to work on the search or creation of new data sources to solve this problem.
 
 ## How accessible is this website?
-Our aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
+The intention is to make this website as accessible as possible to all users. Work is under way to pass the accessibility test of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
 
-## What browsers can I use to view this website?
-Our website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.
+## Which browsers can I use to visit this website?
+Any of the latest versions of commonly used browsers can be used.
 
-## Can other countries copy this website?
-Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io). Countries and localities exploring how to report their own SDGs data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+## Can other cities copy this site?
+Yes. This website has been built and hosted using 100% free software. Therefore, other cities can freely reuse their code. You can check out the highlights of the *OpenSDG* platform in the following [Guide](https://open-sdg.readthedocs.io).The [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) also offers support tools for the development and promotion of open data applications.

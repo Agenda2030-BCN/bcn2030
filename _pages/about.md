@@ -5,8 +5,12 @@ permalink: /en/about/
 layout: page
 ---
 
-This website is for disseminating SDG indicator data. We are at an Alpha stage in development, so the site is still 'work in progress'.
+This website aims to disseminate the data of the Barcelona 2030 Agenda online, so that this information reaches the interested public in the most complete, updated, standardized and reusable way possible. It is an exercise in transparency that should allow for better monitoring and evaluation of the degree of achievement of the Sustainable Development Goals in the city of Barcelona.
 
-Other countries wishing to reuse this site's underlying platform are welcome to do so for free. Our [Guidance page]({{ site.baseurl }}/guidance/) highlights key information on how to do this, linking to detailed technical instructions available in the platform's [documentation](https://open-sdg.readthedocs.io). The [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) can also provide guidance and support through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+The data and metadata of the key indicators of the SDG targets of the Barcelona 2030 Agenda are published through the OpenSDG solution. OpenSDG is an open source based platform, specifically designed to manage and publish data and statistics related to the SDGs. It is built exclusively with open source tools and libraries and can be hosted and maintained using free services.
 
-If you have any feedback on this website or SDG data then please contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. The answers to some frequently asked questions are also available in our [FAQ]({{ site.baseurl }}/faq/).
+Likewise, the data sets are disseminated in fully compatible formats for subsequent publication on the [Barcelona Open Data portal](https://opendata-ajuntament.barcelona.cat/en)
+
+You can check out the highlights of the OpenSDG platform in the following [Guide](https://open-sdg.readthedocs.io/en/latest/quick-start/). The [Center for Open Data Enterprise (CODE)](https://www.opendataenterprise.org/) also offers support tools for the development and promotion of open data applications.
+
+For any query or clarification about this website or the published data, you can contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. You can also seek the answer in the [FAQ]({{ site.baseurl }}/faq/) section.

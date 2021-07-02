@@ -4,5 +4,5 @@ permalink: /categories/
 title: Categories
 language: ca
 ---
-
-Translation needed.
+## Publicacions per categoría
+Aquest és un llistat de les publicacions, agrupades per categoría:
