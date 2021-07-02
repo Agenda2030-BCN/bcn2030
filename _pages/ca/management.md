@@ -1,7 +1,7 @@
 ---
 title: Direcció
 language: ca
-permalink: /ca/management/
+permalink: /management/
 layout: page
 ---
 
