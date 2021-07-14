@@ -1671,7 +1671,7 @@
         
         {
           "id": "14-1-1",
-          "title": "(a) Index of coastal eutrophication; and (b) plastic debris density",
+          "title": "The index for coastal eutrophication and the density of floating plastic detritus",
           "description": "",
           "keywords": "",
           "href": "/en/14-1-1",
@@ -1679,11 +1679,11 @@
         },
         {
           "id": "14-2-1",
-          "title": "Number of countries using ecosystem-based approaches to managing marine areas",
+          "title": "Water-quality indicator for Barcelona’s beaches",
           "description": "",
           "keywords": "",
           "href": "/en/14-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-3-1",
@@ -1691,7 +1691,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/14-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-4-1",
@@ -1699,11 +1699,11 @@
           "description": "",
           "keywords": "",
           "href": "/en/14-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "Foster the biodiversity of the Parc dels Esculls [Reef Park] and in other locations in Barcelona’s coastal waters",
           "description": "",
           "keywords": "",
           "href": "/en/14-5-1",
@@ -1715,7 +1715,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/14-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-7-1",
@@ -1723,7 +1723,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/14-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-a-1",
@@ -1734,12 +1734,36 @@
           "status": "notstarted"
         },
         {
+          "id": "14-a-1a",
+          "title": "Nautical Science Training and Technological Node project",
+          "description": "",
+          "keywords": "",
+          "href": "/en/14-a-1a",
+          "status": "complete"
+        },
+        {
+          "id": "14-a-1b",
+          "title": "Barcelona Sea of Science project",
+          "description": "",
+          "keywords": "",
+          "href": "/en/14-a-1b",
+          "status": "complete"
+        },
+        {
           "id": "14-b-1",
-          "title": "Degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "title": "Number of fishing boats and artisan-fishing boats (smaller boats and gear) active in Barcelona",
           "description": "",
           "keywords": "",
           "href": "/en/14-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "14-b-2",
+          "title": "Economic value of catches made by the Port of Barcelona fishing fleet",
+          "description": "",
+          "keywords": "",
+          "href": "/en/14-b-2",
+          "status": "complete"
         },
         {
           "id": "14-c-1",
@@ -1747,7 +1771,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/14-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },

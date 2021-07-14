@@ -1671,7 +1671,7 @@
         
         {
           "id": "14-1-1",
-          "title": "a) Índice de eutrofización costera; y b) densidad de detritos plásticos",
+          "title": "Índice de eutrofización costera y densidad de detritus plásticos flotantes",
           "description": "",
           "keywords": "",
           "href": "/es/14-1-1",
@@ -1679,31 +1679,31 @@
         },
         {
           "id": "14-2-1",
-          "title": "Número de países que aplican enfoques basados en los ecosistemas para gestionar las zonas marinas",
+          "title": "Indicador de la calidad del agua en las playas de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/14-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-3-1",
-          "title": "Acidez media del mar (pH) medida en un conjunto convenido de estaciones de muestreo representativas",
+          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
           "description": "",
           "keywords": "",
           "href": "/es/14-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-4-1",
-          "title": "Proporción de poblaciones de peces cuyos niveles son biológicamente sostenibles",
+          "title": "Proportion of fish stocks within biologically sustainable levels",
           "description": "",
           "keywords": "",
           "href": "/es/14-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-5-1",
-          "title": "Cobertura de las zonas protegidas en relación con las zonas marinas",
+          "title": "Índice de biodiversidad marina del litoral de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/14-5-1",
@@ -1711,19 +1711,19 @@
         },
         {
           "id": "14-6-1",
-          "title": "Grado de aplicación de instrumentos internacionales cuyo objetivo es combatir la pesca ilegal, no declarada y no reglamentada",
+          "title": "Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
           "description": "",
           "keywords": "",
           "href": "/es/14-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-7-1",
-          "title": "Proporción del PIB correspondiente a la pesca sostenible en los pequeños Estados insulares en desarrollo, en los países menos adelantados y en todos los países",
+          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
           "description": "",
           "keywords": "",
           "href": "/es/14-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-a-1",
@@ -1734,20 +1734,44 @@
           "status": "notstarted"
         },
         {
+          "id": "14-a-1a",
+          "title": "Proyecto del Nodo Formativo y Tecnológico de la Náutica",
+          "description": "",
+          "keywords": "",
+          "href": "/es/14-a-1a",
+          "status": "complete"
+        },
+        {
+          "id": "14-a-1b",
+          "title": "Projecte Barcelona Mar de Ciència",
+          "description": "",
+          "keywords": "",
+          "href": "/es/14-a-1b",
+          "status": "complete"
+        },
+        {
           "id": "14-b-1",
-          "title": "Grado de aplicación de un marco jurídico, reglamentario, normativo o institucional que reconozca y proteja los derechos de acceso para la pesca en pequeña escala",
+          "title": "Número de barcas de pesca y pesca artesanal (artes menores) activas en Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/14-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "14-b-2",
+          "title": "Valor económico de las capturas efectuadas por la flota pesquera del puerto de Barcelona",
+          "description": "",
+          "keywords": "",
+          "href": "/es/14-b-2",
+          "status": "complete"
         },
         {
           "id": "14-c-1",
-          "title": "Número de países que, mediante marcos jurídicos, normativos e institucionales, avanzan en la ratificación, la aceptación y la implementación de los instrumentos relacionados con los océanos que aplican el derecho internacional reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar para la conservación y el uso sostenible de los océanos y sus recursos",
+          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
           "description": "",
           "keywords": "",
           "href": "/es/14-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },

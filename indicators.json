@@ -1671,7 +1671,7 @@
         
         {
           "id": "14-1-1",
-          "title": "Índex d'eutrofització costanera i densitat de detritus plàstics flotants",
+          "title": "Índex d’eutrofització costanera i densitat de detritus plàstics flotants",
           "description": "",
           "keywords": "",
           "href": "/14-1-1",
@@ -1679,19 +1679,19 @@
         },
         {
           "id": "14-2-1",
-          "title": "Proporció de zones econòmiques exclusives nacionals gestionades mitjançant enfocaments basats en els ecosistemes",
+          "title": "Indicador de qualitat de l’aigua a les platges de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/14-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-3-1",
-          "title": "Acidesa mitjana de la mar (pH) mesura en un conjunt convingut d'estacions de mostreig representatives",
+          "title": "Acidez media del mar (pH) medida en un conjunto convenido de estaciones de muestreo representativas",
           "description": "",
           "keywords": "",
           "href": "/14-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-4-1",
@@ -1699,11 +1699,11 @@
           "description": "",
           "keywords": "",
           "href": "/14-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-5-1",
-          "title": "Cobertura de les zones protegides en relació amb les zones marines",
+          "title": "Índex de biodiversitat marina del litoral de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/14-5-1",
@@ -1715,7 +1715,7 @@
           "description": "",
           "keywords": "",
           "href": "/14-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-7-1",
@@ -1723,7 +1723,7 @@
           "description": "",
           "keywords": "",
           "href": "/14-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "14-a-1",
@@ -1734,12 +1734,36 @@
           "status": "notstarted"
         },
         {
+          "id": "14-a-1a",
+          "title": "Projecte Node Formatiu i Tecnològic de la Nàutica",
+          "description": "",
+          "keywords": "",
+          "href": "/14-a-1a",
+          "status": "complete"
+        },
+        {
+          "id": "14-a-1b",
+          "title": "Projecte Barcelona Mar de Ciència",
+          "description": "",
+          "keywords": "",
+          "href": "/14-a-1b",
+          "status": "complete"
+        },
+        {
           "id": "14-b-1",
-          "title": "Progressos realitzats pels països en el grau d'aplicació d'un marc jurídic, reglamentari, normatiu o institucional que reconegui i protegeixi els drets d'accés per a la pesca en petita escala",
+          "title": "Nombre de barques de pesca i pesca artesanal (arts menors) actives a Barcelona",
           "description": "",
           "keywords": "",
           "href": "/14-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "14-b-2",
+          "title": "Valor econòmic de les captures efectuades per la flota pesquera del port de Barcelona",
+          "description": "",
+          "keywords": "",
+          "href": "/14-b-2",
+          "status": "complete"
         },
         {
           "id": "14-c-1",
@@ -1747,7 +1771,7 @@
           "description": "",
           "keywords": "",
           "href": "/14-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
