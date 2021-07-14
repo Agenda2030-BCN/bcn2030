@@ -7,20 +7,36 @@
 .complete {
     background-color: #5cb85c;
     background: #5cb85c;
+    &.status-inner{
+        background-color: #5cb85c;
+        color: black;
+    }
 }
 
 .inprogress {
     background-color: #e2dc74;
     background: #e2dc74;
+    &.status-inner{
+        background-color: #e2dc74;
+        color: black;
+    }
 }
 
 .notstarted {
     background-color: #e2a574;
     background: #e2a574;
+    &.status-inner{
+        background-color: #e2a574;
+        color: black;
+    }
 }
 
 .notapplicable {
     background-color: #E27874;
     background: #E27874;
+    &.status-inner{
+        background-color: #E27874;
+        color: black;
+    }
 }
 
