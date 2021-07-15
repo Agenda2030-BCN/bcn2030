@@ -935,34 +935,50 @@
         
         {
           "id": "7-1-1",
-          "title": "Proporció de la població que té accés a l'electricitat",
+          "title": "Proporció de llars que no poden mantenir l’habitatge a una temperatura adequada",
           "description": "",
           "keywords": "",
           "href": "/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
-          "title": "Proporció de la població la font primària de la qual d'energia són els combustibles i tecnologies nets",
+          "title": "TIEPI Temps d’Interrupció equivalent a la potència instal·lada en mitjana tensió en àrees urbanes de la província de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-2-1",
-          "title": "Proporció d'energia renovable en el consum final total d'energia",
+          "title": "Proporció de l’energia elèctrica consumida a Barcelona que és d’origen renovable",
           "description": "",
           "keywords": "",
           "href": "/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "7-2-2",
+          "title": "Proporció de l’energia consumida a Barcelona que ha estat generada localment amb recursos renovables",
+          "description": "",
+          "keywords": "",
+          "href": "/7-2-2",
+          "status": "complete"
         },
         {
           "id": "7-3-1",
-          "title": "Intensitat energètica mesurada en funció de l'energia primària i el PIB",
+          "title": "Proporció d’edificis residencials de més de 40 anys que han estat rehabilitats per a la millora energètica",
           "description": "",
           "keywords": "",
           "href": "/7-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "7-3-2",
+          "title": "Proporció d’edificis municipals que són objecte de rehabilitació energètica cada any",
+          "description": "",
+          "keywords": "",
+          "href": "/7-3-2",
           "status": "notstarted"
         },
         {
@@ -972,6 +988,14 @@
           "keywords": "",
           "href": "/7-a-1",
           "status": "notstarted"
+        },
+        {
+          "id": "7-a-2",
+          "title": "Recursos del programa municipal de Justícia Global destinats a la generació i la provisió d’energia",
+          "description": "",
+          "keywords": "",
+          "href": "/7-a-2",
+          "status": "complete"
         },
         {
           "id": "7-b-1",
