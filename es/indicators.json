@@ -1359,83 +1359,155 @@
         
         {
           "id": "10-1-1",
-          "title": "Tasas de crecimiento per cápita de los gastos o ingresos de los hogares del 40% más pobre de la población y la población total",
+          "title": "Ratio 80/20: distancia relativa entre el 20% de población con más renta y el 20 % con menos renta",
           "description": "",
           "keywords": "",
           "href": "/es/10-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "10-1-2",
+          "title": "Distancia entre la media de renta de los barrios con la renta más alta y la media de los barrios con la renta más baja (barrios que sumen, aproximadamente, el 5 % de la población en ambos casos)",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-3",
+          "title": "Diferencia porcentual entre la renta anual media por persona de la ciudad de Barcelona y la de su área metropolitana",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-1-3",
+          "status": "complete"
         },
         {
           "id": "10-2-1",
-          "title": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad",
+          "title": "Tasa AROPE (proporción de población en riesgo de pobreza o exclusión social)",
           "description": "",
           "keywords": "",
           "href": "/es/10-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-2",
+          "title": "Percepción de soledad (personas que afirman no tener la posibilidad de hablar con alguien de sus problemas personales y familiares tanto como querrían)",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-3",
+          "title": "Percepción de soledad entre la población joven",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-2-3",
           "status": "notstarted"
         },
         {
           "id": "10-3-1",
-          "title": "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos",
+          "title": "Diferencial en el uso de servicios y actividades culturales, calculado en puntos porcentuales entre la media de toda la población y la media de la población de nivel socioeconómico bajo",
           "description": "",
           "keywords": "",
           "href": "/es/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "10-3-2",
+          "title": "Número de personas que son beneficiarias de programas para la autonomía personal y la vida independiente",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-3-3",
+          "title": "Número anual de denuncias por situaciones de discriminación recogidas por la Mesa de Entidades de Atención a Víctimas de Discriminación",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-3-4",
+          "title": "Proporción de jóvenes que, en los últimos doce meses, han sufrido algún tipo de discriminación por motivo de discapacidad, orientación sexual, origen o género",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-3-4",
+          "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "Proporción del PIB generada por el trabajo",
+          "title": "Gasto del Ayuntamiento en servicios sociales y promoción social, calculado a partir del funcional 23 del presupuesto municipal liquidado",
           "description": "",
           "keywords": "",
           "href": "/es/10-4-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "10-4-2",
+          "title": "Disponibilidad de una estrategia para la inclusión y la reducción de las desigualdades sociales",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-4-2",
+          "status": "complete"
         },
         {
           "id": "10-5-1",
-          "title": "Indicadores de solidez financiera",
+          "title": "(a) Indicadores de solidez financiera",
           "description": "",
           "keywords": "",
           "href": "/es/10-5-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "10-6-1",
-          "title": "Proporción de miembros y derechos de voto de los países en desarrollo en organizaciones internacionales",
+          "title": "(a) Proporción de miembros y derechos de voto de los países en desarrollo en organizaciones internacionales",
           "description": "",
           "keywords": "",
           "href": "/es/10-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "10-7-1",
-          "title": "Costo de la contratación sufragado por el empleado en proporción a los ingresos mensuales percibidos en el país de destino",
+          "title": "Diferencial entre la tasa AROPE (riesgo de pobreza y exclusión social) de la población extranjera respecto a la de la población con nacionalidad española",
           "description": "",
           "keywords": "",
           "href": "/es/10-7-1",
-          "status": "notstarted"
+          "status": "notstated"
         },
         {
           "id": "10-7-2",
-          "title": "Número de países que han aplicado políticas migratorias bien gestionadas que facilitan la migración y la movilidad ordenadas, seguras, regulares y responsables de las personas",
+          "title": "Diferencial de la población ocupada en relación con la población de 20 a 64 años entre personas de nacionalidad española y personas de nacionalidad extranjera",
           "description": "",
           "keywords": "",
           "href": "/es/10-7-2",
-          "status": "notstarted"
+          "status": "notstated"
+        },
+        {
+          "id": "10-7-3",
+          "title": "Porcentaje de personas que forman parte de la plantilla de trabajadores y trabajadoras municipales y que han nacido en el extranjero",
+          "description": "",
+          "keywords": "",
+          "href": "/es/10-7-3",
+          "status": "notstated"
         },
         {
           "id": "10-a-1",
-          "title": "Proporción de líneas arancelarias que se aplican a las importaciones de los países menos adelantados y los países en desarrollo con arancel cero",
+          "title": "(a) Proporción de líneas arancelarias que se aplican a las importaciones de los países menos adelantados y los países en desarrollo con arancel cero",
           "description": "",
           "keywords": "",
           "href": "/es/10-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "10-b-1",
-          "title": "Corrientes totales de recursos para el desarrollo, desglosadas por país receptor y país donante y por tipo de corriente (por ejemplo, asistencia oficial para el desarrollo, inversión extranjera directa y otras corrientes)",
+          "title": "Recursos del programa municipal de justicia global destinados a la promoción de la igualdad y la lucha contra el racismo y la discriminación",
           "description": "",
           "keywords": "",
           "href": "/es/10-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-c-1",
