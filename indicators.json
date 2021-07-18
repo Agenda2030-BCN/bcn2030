@@ -1239,7 +1239,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Proporció de la població rural que viu a menys de 2 km d'una carretera transitable tot l'any",
+          "title": "Grau d’assoliment dels projectes estratègics per a la transformació econòmica de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/9-1-1",
@@ -1255,23 +1255,23 @@
         },
         {
           "id": "9-2-1",
-          "title": "Valor afegit del sector manufacturo en proporció al PIB i per càpita",
+          "title": "Volum d’emissions de CO2 generades pel sector industrial",
           "description": "",
           "keywords": "",
           "href": "/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Ús del sector manufacturer en proporció a l'ocupació total",
+          "title": "Pes de la indústria en el VAB generat a l’Àrea Metropolitana de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
-          "title": "Proporció del valor afegit total del sector industrial corresponent a les petites indústries",
+          "title": "Índex de fortalesa de les PIMES de Barcelona (fet amb indicadors capaços de mesurar les dimensions de la fita)",
           "description": "",
           "keywords": "",
           "href": "/9-3-1",
@@ -1287,7 +1287,7 @@
         },
         {
           "id": "9-4-1",
-          "title": "Emissions de CO2 per unitat de valor afegit",
+          "title": "Indicadors de procés i de resultat relatius al Pla per a la transformació digital de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/9-4-1",
@@ -1295,11 +1295,11 @@
         },
         {
           "id": "9-5-1",
-          "title": "Despeses en recerca i desenvolupament en proporció al PIB",
+          "title": "Posició de Barcelona a l'Innovation Cities Index (ranking europeu)",
           "description": "",
           "keywords": "",
           "href": "/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
@@ -1319,19 +1319,35 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proporció del valor afegit per la indústria de tecnologia mitjana i alta en el valor afegit total",
+          "title": "Recursos del programa municipal de Justícia Global destinats a millorar la indústria, la innovació i/o la infraestructura",
           "description": "",
           "keywords": "",
           "href": "/9-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-b-2",
+          "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre desenvolupament d’infraestructures",
+          "description": "",
+          "keywords": "",
+          "href": "/9-b-2",
+          "status": "complete"
         },
         {
           "id": "9-c-1",
-          "title": "Proporció de la població amb cobertura de xarxa mòbil, desglossada per tecnologia",
+          "title": "Proporció de llars amb persones de 16-74 anys que disposen d’accés a Internet",
           "description": "",
           "keywords": "",
           "href": "/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-c-2",
+          "title": "Proporció de llars amb persones de 16-74 anys que disposen d’accés a Internet per cable o fibra òptica",
+          "description": "",
+          "keywords": "",
+          "href": "/9-c-2",
+          "status": "complete"
         }]
     }
   },

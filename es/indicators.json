@@ -1239,7 +1239,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Proporción de la población rural que vive a menos de 2 km de una carretera transitable todo el año",
+          "title": "Grado de consecución de los proyectos estratégicos para la transformación económica de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/9-1-1",
@@ -1255,23 +1255,23 @@
         },
         {
           "id": "9-2-1",
-          "title": "Valor añadido del sector manufacturo en proporción al PIB y per cápita",
+          "title": "Volumen de emisiones de CO2 generadas por el sector industrial",
           "description": "",
           "keywords": "",
           "href": "/es/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Empleo del sector manufacturero en proporción al empleo total",
+          "title": "Peso de la industria en el VAB generado en el área metropolitana de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
-          "title": "Proporción del valor añadido total del sector industrial correspondiente a las pequeñas industrias",
+          "title": "Índice de fortaleza de las pymes de Barcelona (realizado con indicadores capaces de medir las dimensiones del hito)",
           "description": "",
           "keywords": "",
           "href": "/es/9-3-1",
@@ -1287,7 +1287,7 @@
         },
         {
           "id": "9-4-1",
-          "title": "Emisiones de CO2 por unidad de valor añadido",
+          "title": "Indicadores de proceso y de resultado relativos al Plan para la transformación digital de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/9-4-1",
@@ -1295,11 +1295,11 @@
         },
         {
           "id": "9-5-1",
-          "title": "Gastos en investigación y desarrollo en proporción al PIB",
+          "title": "Posición de Barcelona en el Innovation Cities Index (clasificación europea)",
           "description": "",
           "keywords": "",
           "href": "/es/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
@@ -1319,19 +1319,35 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proporción del valor añadido por la industria de tecnología mediana y alta en el valor añadido total",
+          "title": "Recursos del programa de cooperación para la justicia global de la ciudad destinados a mejorar la industria, la innovación y la infraestructura",
           "description": "",
           "keywords": "",
           "href": "/es/9-b-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-b-2",
+          "title": "Personal técnico de ciudades socias implicado en programas de intercambio técnico sobre desarrollo de infraestructuras",
+          "description": "",
+          "keywords": "",
+          "href": "/es/9-b-2",
+          "status": "complete"
         },
         {
           "id": "9-c-1",
-          "title": "Proporción de la población con cobertura de red móvil, desglosada por tecnología",
+          "title": "Proporción de hogares con personas de 16-74 años que disponen de acceso a internet",
           "description": "",
           "keywords": "",
           "href": "/es/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "9-c-2",
+          "title": "Proporción de hogares con personas de 16-74 años que disponen de acceso a internet por cable o fibra óptica",
+          "description": "",
+          "keywords": "",
+          "href": "/es/9-c-2",
+          "status": "complete"
         }]
     }
   },
