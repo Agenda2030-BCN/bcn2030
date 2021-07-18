@@ -172,9 +172,6 @@ accessible_tabs: true
 accessible_charts: true
 graph_color_set: accessible
 
-disclaimer:
-  phase: BETA
-
 # Specify any custom javascript files.
 custom_js:
   - /assets/js/custom.js
