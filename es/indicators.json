@@ -1655,31 +1655,39 @@
         
         {
           "id": "12-1-1",
-          "title": "Número de países que elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
+          "title": "(a) Número de países que elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
           "description": "",
           "keywords": "",
           "href": "/es/12-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "12-2-1",
-          "title": "Huella material en términos absolutos, huella material per cápita y huella material por PIB",
+          "title": "Proporción de consumo energético de origen renovable",
           "description": "",
           "keywords": "",
           "href": "/es/12-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-2-2",
-          "title": "Consumo material interno en términos absolutos, consumo material interno per cápita y consumo material interno por PIB",
+          "title": "Proporción de residuos municipales que se valorizan",
           "description": "",
           "keywords": "",
           "href": "/es/12-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-2-3",
+          "title": "Proporción de dispositivos sanitarios en edificios municipales con mecanismos de ahorro en consumo de agua",
+          "description": "",
+          "keywords": "",
+          "href": "/es/12-2-3",
           "status": "notstarted"
         },
         {
           "id": "12-3-1",
-          "title": "a) Índice de pérdidas de alimentos y b) índice de desperdicio de alimentos",
+          "title": "Toneladas de alimentos aprovechados por el Banco de los Alimentos de Barcelona procedentes del desperdicio",
           "description": "",
           "keywords": "",
           "href": "/es/12-3-1",
@@ -1687,7 +1695,7 @@
         },
         {
           "id": "12-4-1",
-          "title": "Número de partes en los acuerdos ambientales multilaterales internacionales sobre desechos peligrosos y otros productos químicos que cumplen sus compromisos y obligaciones de transmitir información como se exige en cada uno de esos acuerdos",
+          "title": "Indicador de presencia de residuos plásticos en el medio ambiente de Barcelona (por determinar)",
           "description": "",
           "keywords": "",
           "href": "/es/12-4-1",
@@ -1695,7 +1703,7 @@
         },
         {
           "id": "12-4-2",
-          "title": "a) Desechos peligrosos generados per cápita y b) proporción de desechos peligrosos tratados, desglosados por tipo de tratamiento",
+          "title": "Indicador de la política para combatir el impacto de los plásticos y los microplásticos en el medio ambiente de Barcelona (por determinar)",
           "description": "",
           "keywords": "",
           "href": "/es/12-4-2",
@@ -1703,23 +1711,31 @@
         },
         {
           "id": "12-5-1",
-          "title": "Tasa nacional de reciclado, en toneladas de material reciclado",
+          "title": "Kilos/habitante/día de residuos sólidos urbanos recogidos",
           "description": "",
           "keywords": "",
           "href": "/es/12-5-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "12-5-2",
+          "title": "Porcentaje de residuos sólidos urbanos recogidos que acaban siendo reciclados",
+          "description": "",
+          "keywords": "",
+          "href": "/es/12-5-2",
+          "status": "complete"
         },
         {
           "id": "12-6-1",
-          "title": "Número de empresas que publican informes sobre sostenibilidad",
+          "title": "Número de organizaciones con certificados ambientales",
           "description": "",
           "keywords": "",
           "href": "/es/12-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-7-1",
-          "title": "Grado de aplicación de políticas y planes de acción sostenibles en materia de adquisiciones públicas",
+          "title": "Puntuación del Ayuntamiento de Barcelona en el Índice sintético de contratación pública sostenible elaborado por el programa Sustainable Public Procurement, de la red One Planet (construido a partir de un conjunto de indicadores de proceso y de resultado de las políticas de contratación sostenible)",
           "description": "",
           "keywords": "",
           "href": "/es/12-7-1",
@@ -1727,19 +1743,19 @@
         },
         {
           "id": "12-8-1",
-          "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación del profesorado y d) la evaluación de los estudiantes",
+          "title": "Número de organizaciones adheridas a la red Barcelona + Sostenible",
           "description": "",
           "keywords": "",
           "href": "/es/12-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-a-1",
-          "title": "Capacidad instalada de generación de energía renovable en los países en desarrollo (expresada en vatios per cápita)",
+          "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a promover modelos de consumo y de producción más sostenibles",
           "description": "",
           "keywords": "",
           "href": "/es/12-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-b-1",
@@ -1751,11 +1767,11 @@
         },
         {
           "id": "12-c-1",
-          "title": "Cantidad de subsidios a los combustibles fósiles por unidad de PIB (producción y consumo)",
+          "title": "(a) Cantidad de subsidios a los combustibles fósiles por unidad de PIB (producción y consumo)",
           "description": "",
           "keywords": "",
           "href": "/es/12-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
@@ -1767,7 +1783,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas",
+          "title": "Proporción de la población que dispone de un espacio de refugio climático a menos de 300 metros de su domicilio",
           "description": "",
           "keywords": "",
           "href": "/es/13-1-1",
@@ -1775,7 +1791,7 @@
         },
         {
           "id": "13-1-2",
-          "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030",
+          "title": "Número de distritos que disponen de un jardín de agua",
           "description": "",
           "keywords": "",
           "href": "/es/13-1-2",
@@ -1791,26 +1807,34 @@
         },
         {
           "id": "13-2-1",
-          "title": "Número de países con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes y estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales",
+          "title": "Reducción de emisiones de GEI con respecto al año 1992",
           "description": "",
           "keywords": "",
           "href": "/es/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación del profesorado y d) la evaluación de los estudiantes",
+          "title": "Existencia de una Mesa por la Emergencia Climática operativa a escala de ciudad",
           "description": "",
           "keywords": "",
           "href": "/es/13-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-2",
-          "title": "Número de países que han comunicado una mayor creación de capacidad institucional, sistémica e individual para implementar actividades de adaptación, mitigación y transferencia de tecnología, y medidas de desarrollo",
+          "title": "Número de distritos con equipamientos de educación ambiental",
           "description": "",
           "keywords": "",
           "href": "/es/13-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-3-3",
+          "title": "Porcentaje de equipamientos culturales de la ciudad (municipales y consorciados) que destinan parte de su presupuesto a la sensibilización medioambiental o a las acciones para mejorar la sostenibilidad de sus equipamientos",
+          "description": "",
+          "keywords": "",
+          "href": "/es/13-3-3",
           "status": "notstarted"
         },
         {
@@ -1823,11 +1847,11 @@
         },
         {
           "id": "13-b-1",
-          "title": "Número de países menos adelantados y pequeños Estados insulares en desarrollo con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes, estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales",
+          "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a prevenir y mitigar los efectos del cambio climático",
           "description": "",
           "keywords": "",
           "href": "/es/13-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

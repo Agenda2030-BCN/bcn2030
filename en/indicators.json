@@ -1655,31 +1655,39 @@
         
         {
           "id": "12-1-1",
-          "title": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
+          "title": "(a) Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
           "description": "",
           "keywords": "",
           "href": "/en/12-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "12-2-1",
-          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
+          "title": "Proportion of energy consumption of renewable origin",
           "description": "",
           "keywords": "",
           "href": "/en/12-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-2-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+          "title": "Proportion of municipal waste that is recovered",
           "description": "",
           "keywords": "",
           "href": "/en/12-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-2-3",
+          "title": "Proportion of sanitation operations in municipal buildings with water-saving mechanisms",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-2-3",
           "status": "notstarted"
         },
         {
           "id": "12-3-1",
-          "title": "(a) Food loss index and (b) food waste index",
+          "title": "Tonnes of food used by the Barcelona food bank that come from food wastage",
           "description": "",
           "keywords": "",
           "href": "/en/12-3-1",
@@ -1687,7 +1695,7 @@
         },
         {
           "id": "12-4-1",
-          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
+          "title": "Indicator for the presence of plastic waste in Barcelona’s environment (to be determined)",
           "description": "",
           "keywords": "",
           "href": "/en/12-4-1",
@@ -1695,7 +1703,7 @@
         },
         {
           "id": "12-4-2",
-          "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment",
+          "title": "Indicator for the policy to combat the impact of plastic and microplastics on Barcelona’s environment (to be determined)",
           "description": "",
           "keywords": "",
           "href": "/en/12-4-2",
@@ -1703,23 +1711,31 @@
         },
         {
           "id": "12-5-1",
-          "title": "National recycling rate, tons of material recycled",
+          "title": "Kg/inhabitant/day of solid urban waste collected",
           "description": "",
           "keywords": "",
           "href": "/en/12-5-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "12-5-2",
+          "title": "Percentage of collected solid urban waste that is then recycled",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-5-2",
+          "status": "complete"
         },
         {
           "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
+          "title": "Number of organisations with environmental certificates",
           "description": "",
           "keywords": "",
           "href": "/en/12-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-7-1",
-          "title": "Degree of sustainable public procurement policies and action plan implementation",
+          "title": "Barcelona City Council’s score on the composite index for sustainable public procurement produced by the One Planet Network Sustainable Public Procurement Programme (created from a series of indicators for the process and results of public procurement policies)",
           "description": "",
           "keywords": "",
           "href": "/en/12-7-1",
@@ -1727,19 +1743,19 @@
         },
         {
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Number of organisations that have joined the More Sustainable Barcelona network",
           "description": "",
           "keywords": "",
           "href": "/en/12-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-a-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "Resources from the municipal Global Justice programme allocated to the promotion of more sustainable consumption and production models",
           "description": "",
           "keywords": "",
           "href": "/en/12-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-b-1",
@@ -1751,11 +1767,11 @@
         },
         {
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
+          "title": "(a) Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
           "description": "",
           "keywords": "",
           "href": "/en/12-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
@@ -1767,7 +1783,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Proportion of the population that have a climate refuge less than 300 m from their home",
           "description": "",
           "keywords": "",
           "href": "/en/13-1-1",
@@ -1775,7 +1791,7 @@
         },
         {
           "id": "13-1-2",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Number of districts that have a water garden",
           "description": "",
           "keywords": "",
           "href": "/en/13-1-2",
@@ -1791,26 +1807,34 @@
         },
         {
           "id": "13-2-1",
-          "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
+          "title": "Reduction in GHG emissions compared to 1992",
           "description": "",
           "keywords": "",
           "href": "/en/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "The existence of an operational Climate Emergency Committee at a city level",
           "description": "",
           "keywords": "",
           "href": "/en/13-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-2",
-          "title": "Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions",
+          "title": "Number of districts with environmental education facilities",
           "description": "",
           "keywords": "",
           "href": "/en/13-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-3-3",
+          "title": "Percentage of the city’s cultural facilities (municipal and associated) that allocate part of their budget to raising awareness about the environment or on actions to improve the sustainability of their facilities",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-3-3",
           "status": "notstarted"
         },
         {
@@ -1823,11 +1847,11 @@
         },
         {
           "id": "13-b-1",
-          "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
+          "title": "Resources of the municipal Global Justice programme, allocated to the prevention and mitigation of the effects of climate change",
           "description": "",
           "keywords": "",
           "href": "/en/13-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

@@ -1655,31 +1655,39 @@
         
         {
           "id": "12-1-1",
-          "title": "Nombre de països que inclouen com a prioritat o fita en les polítiques nacionals plans d'acció nacionals sobre el consum i la producció sostenibles",
+          "title": "(a) Nombre de països que inclouen com a prioritat o fita en les polítiques nacionals plans d’acció nacionals sobre el consum i la producció sostenibles",
           "description": "",
           "keywords": "",
           "href": "/12-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "12-2-1",
-          "title": "Empremta material en termes absoluts, empremta material per càpita i empremta material per PIB",
+          "title": "Proporció de consum energètic d’origen renovable",
           "description": "",
           "keywords": "",
           "href": "/12-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-2-2",
-          "title": "Consum material intern en termes absoluts, consum material intern per càpita i consum material intern per PIB",
+          "title": "Proporció de residus municipals que són valoritzats",
           "description": "",
           "keywords": "",
           "href": "/12-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-2-3",
+          "title": "Proporció de dispositius sanitaris en edificis municipals amb mecanismes d’estalvi en consum d’aigua",
+          "description": "",
+          "keywords": "",
+          "href": "/12-2-3",
           "status": "notstarted"
         },
         {
           "id": "12-3-1",
-          "title": "Índex mundial de pèrdues d'aliments",
+          "title": "Tones d’aliments aprofitats pel Banc dels Aliments de Barcelona procedents del malbaratament",
           "description": "",
           "keywords": "",
           "href": "/12-3-1",
@@ -1687,7 +1695,7 @@
         },
         {
           "id": "12-4-1",
-          "title": "Nombre de parts en els acords ambientals multilaterals internacionals sobre deixalles perilloses i altres productes químics que compleixen els seus compromisos i obligacions de transmetre informació com s'exigeix en cadascun d'aquests acords",
+          "title": "Indicador de presència de residus plàstics al medi ambient de Barcelona (per determinar)",
           "description": "",
           "keywords": "",
           "href": "/12-4-1",
@@ -1695,7 +1703,7 @@
         },
         {
           "id": "12-4-2",
-          "title": "Deixalles perilloses generades per càpita i proporció de deixalles perilloses tractades, desglossats per tipus de tractament",
+          "title": "Indicador de la política per combatre l’impacte dels plàstics i els microplàstics en el medi ambient de Barcelona (per determinar)",
           "description": "",
           "keywords": "",
           "href": "/12-4-2",
@@ -1703,23 +1711,31 @@
         },
         {
           "id": "12-5-1",
-          "title": "Taxa nacional de reciclatge, en tones de material reciclat",
+          "title": "Kg/hab./dia de residus sòlids urbans recollits",
           "description": "",
           "keywords": "",
           "href": "/12-5-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "12-5-2",
+          "title": "Percentatge de residus sòlids urbans recollits que acaben sent reciclats",
+          "description": "",
+          "keywords": "",
+          "href": "/12-5-2",
+          "status": "complete"
         },
         {
           "id": "12-6-1",
-          "title": "Nombre d'empreses que publiquen informes sobre sostenibilitat",
+          "title": "Nombre d’organitzacions amb certificats ambientals",
           "description": "",
           "keywords": "",
           "href": "/12-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-7-1",
-          "title": "Nombre de països que apliquen polítiques i plans d'acció sostenibles en matèria d'adquisicions públiques",
+          "title": "Puntuació de l’Ajuntament de Barcelona en l’Índex sintètic de contractació pública sostenible elaborat pel One Planet Network Sustainable Public Procurement Programme (construït a partir d’un conjunt d’indicadors de procés i de resultat de les polítiques de contractació sostenible)",
           "description": "",
           "keywords": "",
           "href": "/12-7-1",
@@ -1727,19 +1743,19 @@
         },
         {
           "id": "12-8-1",
-          "title": "Grau en què i) l'educació per a la ciutadania mundial i ii) l'educació per al desenvolupament sostenible (inclosa l'educació sobre el canvi climàtic) s'incorporen en a) les polítiques nacionals d'educació, b) els plans d'estudi, c) la formació del professorat i d) l'avaluació dels estudiants",
+          "title": "Nombre d’organitzacions adherides a la xarxa Barcelona +Sostenible",
           "description": "",
           "keywords": "",
           "href": "/12-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-a-1",
-          "title": "Quantitat de suport en matèria de recerca i desenvolupament prestat als països en desenvolupament per al consum i la producció sostenibles i les tecnologies ecològicament racionals",
+          "title": "Recursos del programa municipal de Justícia Global destinats a la promoció de models de consum i de producció més sostenibles",
           "description": "",
           "keywords": "",
           "href": "/12-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-b-1",
@@ -1751,11 +1767,11 @@
         },
         {
           "id": "12-c-1",
-          "title": "Quantia dels subsidis als combustibles fòssils per unitat de PIB (producció i consum) i en proporció al total de les despeses nacionals en combustibles fòssils",
+          "title": "(a) Quantia dels subsidis als combustibles fòssils per unitat de PIB (producció i consum) i en proporció al total de les despeses nacionals en combustibles fòssils",
           "description": "",
           "keywords": "",
           "href": "/12-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
@@ -1767,7 +1783,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones",
+          "title": "Aconseguir que el 100% de la població tingui a menys de 300 metres de casa un espai de refugi climàtic i que hi hagi un jardí d’aigua per districte",
           "description": "",
           "keywords": "",
           "href": "/13-1-1",
@@ -1775,7 +1791,7 @@
         },
         {
           "id": "13-1-2",
-          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
+          "title": "Nombre de districtes que disposen d’un jardí d’aigua",
           "description": "",
           "keywords": "",
           "href": "/13-1-2",
@@ -1791,26 +1807,34 @@
         },
         {
           "id": "13-2-1",
-          "title": "Nombre de països que han comunicat l'establiment o la posada en marxa d'una política, estratègia o pla integrat que augmenti la seva capacitat per a adaptar-se als efectes adversos del canvi climàtic i que promouen la resiliència al clima i un desenvolupament amb baixes emissions de gasos d'efecte d'hivernacle sense comprometre per això la producció d'aliments (per exemple, un pla nacional d'adaptació, una contribució determinada a nivell nacional, una comunicació nacional o un informe biennal d'actualització)",
+          "title": "Reducció d’emissions de GEH respecte a l’any 1992",
           "description": "",
           "keywords": "",
           "href": "/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Nombre de països que han incorporat la mitigació del canvi climàtic, l'adaptació a ell, la reducció dels seus efectes i l'alerta primerenca en els plans d'estudis de l'ensenyament primari, secundària i terciària",
+          "title": "Existència d’una Taula per l’emergència climàtica operativa a nivell de ciutat",
           "description": "",
           "keywords": "",
           "href": "/13-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-2",
-          "title": "Nombre de països que han comunicat una major creació de capacitat institucional, sistèmica i individual per a implementar activitats d'adaptació, mitigació i transferència de tecnologia, i mesures de desenvolupament",
+          "title": "Nombre de districtes amb equipaments d’educació ambiental",
           "description": "",
           "keywords": "",
           "href": "/13-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-3-3",
+          "title": "Percentatge d’equipaments culturals de la ciutat (municipals i consorciats) que destinen part del seu pressupost a la sensibilització mediambiental o a les accions per millorar la sostenibilitat dels seus equipaments",
+          "description": "",
+          "keywords": "",
+          "href": "/13-3-3",
           "status": "notstarted"
         },
         {
@@ -1823,11 +1847,11 @@
         },
         {
           "id": "13-b-1",
-          "title": "Nombre de països menys avançats i petits Estats insulars en desenvolupament que reben suport especialitzat, i quantitat de suport, en particular financer, tecnològic i de creació de capacitat, per als mecanismes de desenvolupament de la capacitat de planificació i gestió eficaces en relació amb el canvi climàtic, inclosos els centrats en les dones, els joves i les comunitats locals i marginades",
+          "title": "Recursos del programa municipal de Justícia Global destinats a la prevenció i mitigació dels efectes del canvi climàtic",
           "description": "",
           "keywords": "",
           "href": "/13-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
