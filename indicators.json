@@ -1527,23 +1527,63 @@
         
         {
           "id": "11-1-1",
-          "title": "Proporció de la població urbana que viu en barris marginals, assentaments informals o habitatges inadequats",
+          "title": "Proporció de famílies que destinen més del 40% dels seus recursos a les despeses d’habitatge",
           "description": "",
           "keywords": "",
           "href": "/11-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "11-1-2",
+          "title": "Proporció d’habitatges de lloguer protegit respecte al total del parc d’habitatges principals",
+          "description": "",
+          "keywords": "",
+          "href": "/11-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-3",
+          "title": "Nombre anual de desnonaments efectuats a Barcelona",
+          "description": "",
+          "keywords": "",
+          "href": "/11-1-3",
+          "status": "complete"
         },
         {
           "id": "11-2-1",
-          "title": "Proporció de la població que té fàcil accés al transport públic, desglossada per sexe, edat i persones amb discapacitat",
+          "title": "Ecomobilitat (proporció d’etapes de desplaçaments fetes en modes de transport públic i/o no motoritzat)",
           "description": "",
           "keywords": "",
           "href": "/11-2-1",
           "status": "notstarted"
         },
         {
+          "id": "11-2-2",
+          "title": "Valoració de la gestió dels diversos mitjans de transport públic per part de les persones que en són usuàries: Metro, tramvia, bus i bicing",
+          "description": "",
+          "keywords": "",
+          "href": "/11-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-3",
+          "title": "Grau d’electrificació de la flota d’autobusos",
+          "description": "",
+          "keywords": "",
+          "href": "/11-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-4",
+          "title": "Desplaçaments/any en el servei porta a porta per a persones amb discapacitat",
+          "description": "",
+          "keywords": "",
+          "href": "/11-2-4",
+          "status": "complete"
+        },
+        {
           "id": "11-3-1",
-          "title": "Relació entre la taxa de consum de terres i la taxa de creixement de la població",
+          "title": "Km d’eixos verds en la trama urbana de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/11-3-1",
@@ -1551,23 +1591,31 @@
         },
         {
           "id": "11-3-2",
-          "title": "Proporció de ciutats que compten amb una estructura de participació directa de la societat civil en la planificació i la gestió urbanes i funcionen amb regularitat i democràticament",
+          "title": "Nombre d’escoles beneficiades amb actuacions urbanístiques per generar entorns escolars protegits",
           "description": "",
           "keywords": "",
           "href": "/11-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-4-1",
-          "title": "Total de despeses (públiques i privades) per càpita destinades a la preservació, protecció i conservació de tot el patrimoni cultural i natural, desglossat per tipus de patrimoni (cultural, natural, mixt i reconegut pel Centre del Patrimoni Mundial), nivell de govern (nacional, regional i local o municipal), tipus de despeses (despeses de funcionament o inversions) i tipus de finançament privat (donacions en espècie, finançament procedent del sector privat sense fins de lucre i patrocini)",
+          "title": "Nombre de persones/total visitants que han accedit als museus i centres d’exposicions públics amb entrada reduïda o de manera gratuïta",
           "description": "",
           "keywords": "",
           "href": "/11-4-1",
           "status": "notstarted"
         },
         {
+          "id": "11-4-2",
+          "title": "Nombre de registres digitalitzats (increment anual) / Nombre de peces dels fons accessibles en línia",
+          "description": "",
+          "keywords": "",
+          "href": "/11-4-2",
+          "status": "notstarted"
+        },
+        {
           "id": "11-5-1",
-          "title": "Nombre de persones mortes, desaparegudes i afectades directament atribuït a desastres per cada 100.000 persones",
+          "title": "Quantificació de danys humans causats per episodis climàtics severs",
           "description": "",
           "keywords": "",
           "href": "/11-5-1",
@@ -1575,19 +1623,27 @@
         },
         {
           "id": "11-5-2",
-          "title": "Pèrdues econòmiques directes en relació amb el PIB mundial, danys en la infraestructura essencial i nombre d'interrupcions dels serveis bàsics atribuïts a desastres",
+          "title": "Quantificació de danys materials causats per episodis climàtics severs",
           "description": "",
           "keywords": "",
           "href": "/11-5-2",
           "status": "notstarted"
         },
         {
+          "id": "11-5-3",
+          "title": "Inversió en mesures de prevenció i protecció enfront els episodis climàtics severs",
+          "description": "",
+          "keywords": "",
+          "href": "/11-5-3",
+          "status": "notstarted"
+        },
+        {
           "id": "11-6-1",
-          "title": "Proporció de deixalles sòlides urbanes recollides periòdicament i amb una descàrrega final adequada respecte del total de deixalles sòlides urbanes generades, desglossada per ciutat",
+          "title": "Concentració mitjana en μg/m3 de NO2, PM10 i PM2,5",
           "description": "",
           "keywords": "",
           "href": "/11-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-6-2",
@@ -1599,31 +1655,39 @@
         },
         {
           "id": "11-7-1",
-          "title": "Proporció mitjana de la superfície edificada de les ciutats que es dedica a espais oberts per a ús públic de tots, desglossada per sexe, edat i persones amb discapacitat",
+          "title": "Superfície d’àrea verda urbana no forestal",
           "description": "",
           "keywords": "",
           "href": "/11-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-2",
-          "title": "Proporció de persones que han estat víctimes d'assetjament físic o sexual en els últims 12 mesos, desglossada per sexe, edat, grau de discapacitat i lloc del fet",
+          "title": "Índex de qualitat de l’espai públic (indicador sintètic que recull nombrosos indicadors socials, de convivència i de serveis i elements urbans)",
           "description": "",
           "keywords": "",
           "href": "/11-7-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-7-3",
+          "title": "Valor índex d’acompliment de les 10 fites del Pla del joc a l’espai públic 2019-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/11-7-3",
           "status": "notstarted"
         },
         {
           "id": "11-a-1",
-          "title": "Proporció de la població resident en ciutats que apliquen plans de desenvolupament urbà i regional que tenen en compte les previsions demogràfiques i les necessitats de recursos, desglossada per grandària de ciutat",
+          "title": "Estat de la tramitació del nou Pla Director Urbanístic Metropolità",
           "description": "",
           "keywords": "",
           "href": "/11-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-b-1",
-          "title": "Nombre de països que adopten i apliquen estratègies nacionals de reducció del risc de desastres d'acord amb el Marc de Sendái per a la Reducció del Risc de Desastres 2015‐2030",
+          "title": "Grau de desenvolupament del model de resiliència urbana de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/11-b-1",
@@ -1639,11 +1703,19 @@
         },
         {
           "id": "11-c-1",
-          "title": "Proporció del suport financer als països menys avançats que s'assigna a la construcció i el recondicionament amb materials locals d'edificis sostenibles, resilients i eficients en l'ús de recursos",
+          "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar l’urbanisme i l’habitatge",
           "description": "",
           "keywords": "",
           "href": "/11-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "11-c-2",
+          "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre urbanisme i habitatge",
+          "description": "",
+          "keywords": "",
+          "href": "/11-c-2",
+          "status": "complete"
         }]
     }
   },

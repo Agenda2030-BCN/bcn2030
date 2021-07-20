@@ -1527,23 +1527,63 @@
         
         {
           "id": "11-1-1",
-          "title": "Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas",
+          "title": "Proporción de familias que destinan más del 40% de sus recursos a los gastos de vivienda",
           "description": "",
           "keywords": "",
           "href": "/es/11-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "11-1-2",
+          "title": "Proporción de viviendas de alquiler protegido con respecto al total del parque de viviendas principales",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-3",
+          "title": "Número anual de desahucios efectuados en Barcelona",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-1-3",
+          "status": "complete"
         },
         {
           "id": "11-2-1",
-          "title": "Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad",
+          "title": "Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)",
           "description": "",
           "keywords": "",
           "href": "/es/11-2-1",
           "status": "notstarted"
         },
         {
+          "id": "11-2-2",
+          "title": "Valoración de la gestión de los diversos medios de transporte público por parte de las personas usuarias: metro, tranvía, bus y Bicing",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-3",
+          "title": "Grado de electrificación de la flota de autobuses",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-4",
+          "title": "Desplazamientos/año en el servicio puerta a puerta para personas con discapacidad",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-2-4",
+          "status": "complete"
+        },
+        {
           "id": "11-3-1",
-          "title": "Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población",
+          "title": "Kilómetros de ejes verdes en la trama urbana de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/11-3-1",
@@ -1551,23 +1591,31 @@
         },
         {
           "id": "11-3-2",
-          "title": "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas y funcionan con regularidad y democráticamente",
+          "title": "Número de escuelas beneficiadas por actuaciones urbanísticas para generar entornos escolares protegidos",
           "description": "",
           "keywords": "",
           "href": "/es/11-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-4-1",
-          "title": "Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural y natural, desglosado por fuente de financiación (pública y privada), tipo de patrimonio (cultural y natural) y nivel de gobierno (nacional, regional y local/municipal)",
+          "title": "Número de personas/total de visitantes que han accedido a museos y centros de exposiciones públicos con entrada reducida o de forma gratuita",
           "description": "",
           "keywords": "",
           "href": "/es/11-4-1",
           "status": "notstarted"
         },
         {
+          "id": "11-4-2",
+          "title": "Número de registros digitalizados (incremento anual) / Número de piezas de los fondos accesibles en línea",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-4-2",
+          "status": "notstarted"
+        },
+        {
           "id": "11-5-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas",
+          "title": "Cuantificación de daños humanos causados por episodios climáticos graves",
           "description": "",
           "keywords": "",
           "href": "/es/11-5-1",
@@ -1575,19 +1623,27 @@
         },
         {
           "id": "11-5-2",
-          "title": "Pérdidas económicas directas en relación con el PIB mundial, daños en la infraestructura esencial y número de interrupciones de los servicios básicos atribuidos a desastres",
+          "title": "Cuantificación de daños materiales causados por episodios climáticos graves",
           "description": "",
           "keywords": "",
           "href": "/es/11-5-2",
           "status": "notstarted"
         },
         {
+          "id": "11-5-3",
+          "title": "Inversión en medidas de prevención y protección frente a episodios climáticos graves",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-5-3",
+          "status": "notstarted"
+        },
+        {
           "id": "11-6-1",
-          "title": "Proporción de residuos sólidos municipales recogidos y administrados en instalaciones controladas con respecto al total de residuos municipales generados, desglosada por ciudad",
+          "title": "Concentración media en μg/m3 de NO2, PM10 y PM2,5",
           "description": "",
           "keywords": "",
           "href": "/es/11-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-6-2",
@@ -1599,31 +1655,39 @@
         },
         {
           "id": "11-7-1",
-          "title": "Proporción media de la superficie edificada de las ciudades que se dedica a espacios abiertos para uso público de todos, desglosada por sexo, edad y personas con discapacidad",
+          "title": "Superficie de área verde urbana no forestal",
           "description": "",
           "keywords": "",
           "href": "/es/11-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-2",
-          "title": "Proporción de personas que han sido víctimas de acoso físico o sexual en los últimos 12 meses, desglosada por sexo, edad, grado de discapacidad y lugar del hecho",
+          "title": "Índice de calidad del espacio público (indicador sintético que recoge numerosos indicadores sociales, de convivencia y de servicios y elementos urbanos)",
           "description": "",
           "keywords": "",
           "href": "/es/11-7-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-7-3",
+          "title": "Valor del índice de cumplimiento de los diez hitos del Plan del juego en el espacio público 2019-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-7-3",
           "status": "notstarted"
         },
         {
           "id": "11-a-1",
-          "title": "Número de países que cuentan con políticas urbanas nacionales o planes de desarrollo regionales que a) responden a la dinámica de la población, b) garantizan un desarrollo territorial equilibrado y c) aumentan el margen fiscal local",
+          "title": "Estado de la tramitación del nuevo plan director urbanístico metropolitano",
           "description": "",
           "keywords": "",
           "href": "/es/11-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-b-1",
-          "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030",
+          "title": "Grado de desarrollo del modelo de resiliencia urbana de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/11-b-1",
@@ -1639,11 +1703,19 @@
         },
         {
           "id": "11-c-1",
-          "title": "Proporción del apoyo financiero a los países menos adelantados que se asigna a la construcción y el reacondicionamiento con materiales locales de edificios sostenibles, resilientes y eficientes en el uso de recursos",
+          "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a mejorar el urbanismo y la vivienda",
           "description": "",
           "keywords": "",
           "href": "/es/11-c-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "11-c-2",
+          "title": "Personal técnico de ciudades socias implicado en programas de intercambio técnico sobre urbanismo y vivienda",
+          "description": "",
+          "keywords": "",
+          "href": "/es/11-c-2",
+          "status": "complete"
         }]
     }
   },
