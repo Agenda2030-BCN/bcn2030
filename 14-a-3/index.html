@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ca" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://agenda2030-bcn.github.io/bcn2030-data/en',
+  remoteDataBaseUrl: 'https://agenda2030-bcn.github.io/bcn2030-data/ca',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'ca',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indicator 14.a.1.b -
+        Indicador 14.a.3 -
         
-        Barcelona Sea of Science project - Indicators For The Sustainable Development Goals
+        Projecte Barcelona Mar de Ciència - Indicadors per als Objectius de Desenvolupament Sostenible
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210720194339">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210720195642">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -149,19 +149,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-ca layout-indicator">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contrast per defecte","disable_high_contrast":"Desactivar alt contrast","disclaimer":"Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href=\"mailto:%email_address\">comentaris</a>.","enable_high_contrast":"Habilitar alt contrast","high_contrast":"Alt contrast","skip_link":"Saltar al contingut principal","tag_line":"17 Objectius per a transformar el nostre món","toggle_menu":"Menú d'alternança. Feu clic per ampliar o reduir el menú.","toggle_search":"Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contingut principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">BETA</strong>
     
-    This is a development website. We welcome your <a href="mailto:comissionat2030@bcn.cat">feedback</a>.
+    Aquest és un lloc web en desenvolupament. Agraïm els vostres <a href="mailto:comissionat2030@bcn.cat">comentaris</a>.
   </div>
 </div>
 
@@ -171,8 +171,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/en/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/" id="home">
+    <img src="/assets/img/SDG_logo.png" alt="Objetius de Desenvolupament Sostenible - 17 Objectius per a transformar el nostre món" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -180,15 +180,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/14-a-1-b/">
-              Català
+            <a href="/es/14-a-3/">
+              Español
             </a>
           </li><li>
-            <a href="/es/14-a-1-b/">
-              Español
+            <a href="/en/14-a-3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -199,10 +199,10 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/en/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/search">
+    <label class="sr-only" for="indicator_search">Cerca</label>
+    <input type="text" name="q" id="indicator_search" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -218,15 +218,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/14-a-1-b/">
-              Català
+            <a href="/es/14-a-3/">
+              Español
             </a>
           </li><li>
-            <a href="/es/14-a-1-b/">
-              Español
+            <a href="/en/14-a-3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -241,19 +241,19 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menú d'alternança. Feu clic per ampliar o reduir el menú."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/en/">Goals</a>
+    <a href="/">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/en/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/en/about">About</a>
+    <a href="/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/en/faq">FAQ</a>
+    <a href="/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/en/management">Management</a>
+    <a href="/management">Direcció</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -265,15 +265,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Català</span>
+      <span class="language-abbreviation">ca</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/14-a-1-b/">
-              Català
+            <a href="/es/14-a-3/">
+              Español
             </a>
           </li><li>
-            <a href="/es/14-a-1-b/">
-              Español
+            <a href="/en/14-a-3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -286,29 +286,29 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Barra de cerca. Feu clic per ampliar o reduir la barra de cerca."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Cerca</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/en/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/search">
+    <label class="sr-only" for="indicator_search-mobile">Cerca</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Cerca" /><!--
+    --><button aria-label="Cerca" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/en/">Goals</a>
+    <a href="/">Objectius</a>
 </li><li class="nav-link ">
-    <a href="/en/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Resum dels indicadors</a>
 </li><li class="nav-link ">
-    <a href="/en/about">About</a>
+    <a href="/about">Sobre</a>
 </li><li class="nav-link ">
-    <a href="/en/faq">FAQ</a>
+    <a href="/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/en/management">Management</a>
+    <a href="/management">Direcció</a>
 </li>
 </ul>
 
@@ -331,7 +331,7 @@ var translations = {
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Mostra subcategories: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="bar">
@@ -339,10 +339,10 @@ var translations = {
       </div>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Subcategoríes - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select">Seleccionar-ho tot</button>
+            <button data-type="clear">Netegeu-ho tot</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -353,10 +353,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Disponible quan es selecciona «<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>»
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          No hi ha opcions disponibles a causa dels filtres anteriors
         </div>
       <% }%>
 
@@ -366,9 +366,9 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Unit of Measurement</h4>
+    <h4>Unitat de mesura</h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only">Unitat de mesura</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -379,9 +379,9 @@ var translations = {
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4>Series</h4>
+    <h4>Sèrie</h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only">Sèrie</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -390,19 +390,19 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"Fita 2030","announce_data_added":"Gràfic i taula actualitzats per incloure les dades.","announce_data_not_available":"El gràfic i la taula no mostren dades.","announce_data_removed":"Gràfic i taula actualitzats per excloure les dades.","chart":"Gràfic","chart_annotation":"Anotació en el gràfic","clear_all":"Netegeu-ho tot","clear_selections":"Elimineu seleccions","data_keyboard_navigation":"Premeu Intro per navegar pels punts de dades amb les tecles de fletxa esquerra i dreta.","data_not_available":"Aquesta informació no està disponible. Trieu dades alternatives a mostrar.","data_tabular_alternative":"Per l'alternativa de dades tabulars, vegeu la pestanya Taula.","dataset_size_warning":"Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.","download_chart":"Descarregar CSV del gràfic","download_chart_image":"Descarregar imatge del gràfic","download_chart_image_title":"Descarregar gràfic com imatge","download_csv":"Descarregar CSV","download_csv_title":"Descarregar com CSV","download_geojson":"Descarregar GeoJSON","download_geojson_title":"Descarregar com a GeoJSON","download_headline":"Descarregar CSV global","download_headline_title":"Descarregar dades globals com CSV","download_source":"Descarregar CSV font","download_source_sdmx":"Descarregar SDMX font","download_source_sdmx_title":"Descarregar les dades font com SDMX","download_source_title":"Descarregar les dades font com CSV","download_table":"Descarregueu la taula CSV","edit":"Editar","edit_configuration":"Editar la configuració","edit_data":"Editar dades","edit_metadata":"Editar metadades","footnote":"Nota","geographical_area":"Àrea geogràfica","global_metadata":"Metadades globals","global_metadata_blurb":"Aquesta taula proporciona informació sobre les metadades dels indicadors ODS tal com els defineix la Comissió d'Estadística de la ONU. La <a href=\"https://unstats.un.org/sdgs/metadata/\">Divisió d'Estadística de les Nacions Unides proporciona</a> les metadades globals completes.","legend_help":"Feu clic a la llegenda per a eliminar línies individuals del gràfic.","loading":"Carregant","loading_map":"Carregant mapa","map":"Mapa","map_search":"Cercar","map_search_hide":"Ocultar cerca","map_search_show":"Mostrar cerca","map_year_slider":"Control lliscant de l'any","national_metadata":"Metadades nacionals","national_metadata_blurb":"Aquesta taula proporciona metadades de l'indicador real disponible a partir de les estadístiques de %country_name més properes al corresponent indicador global SDG. Recordeu que fins i tot quan l'indicador global d'ODS estigui totalment disponible a partir de les estadístiques de %country_adjective, s'ha de consultar aquesta taula per obtenir informació sobre la metodologia nacional i una altra informació de metadades específics de %country_adjective.","next":"Següent indicador","no_data_hint":"No hi ha opcions disponibles a causa dels filtres anteriors","plot_legend_description":"Llegenda del gràfic: llista de línies incloses en el gràfic","previous":"Indicador anterior","select_all":"Seleccionar-ho tot","series":"Sèrie","series_help":"Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.","source":"Font","sources":"Fonts","status":"Estat de l'indicador","sub_categories":"Subcategoríes","sub_categories_show":"Mostra subcategories:","table":"Taula","table_column_sort":"Feu clic per a ordenar per aquesta columna","tags":"Etiquetes","unit":"Unitat","unit_of_measurement":"Unitat de mesura","units_type":"Tipus d'unitats","variable_hint":"Disponible quan es selecciona «%field»","view_indicator_list":"Veure la llista d'indicadors d'aquest objectiu"};</script>
 
-<script>translations['data'] = {"AOWDC":"Aggregate of: water_local development_cross-cutting sustainability","Air_Pollutants":"Air Pollutants","Basic_Skill":"Basic Skill","Confidence_Interval_95%":"Confidence Interval 95%","Embarcacions Auxiliars":"Embarcacions Auxiliars","Embarcacions d'Arrossegament":"Embarcacions d'Arrossegament","Embarcacions d'Arts menors":"Embarcacions d'Arts menors","Embarcacions d'Encerclament":"Embarcacions d'Encerclament","Entity":"Entity","Geographical_Area":"Geographical Area","Group_Age":"Group Age","Month":"Month","Percentage":"Percentage","Social emergencies":"Social emergencies","Total Number":"Total Number","Type":"Type","Type_Cultural_Service":"Type Cultural Service","Type_Housing":"Type Housing","Type_Public_Transport":"Type Public Transport","Type_assistance":"Type Assistance","Type_of_boat":"Type of boat","Value":"Value","Year":"Year","total":"Total"};</script>
+<script>translations['data'] = {"1000 tn CO2":"1000 tones de CO2","AOWDC":"Agregat de: aigua_desenvolupament local_sostenibilitat transversal","Air_Pollutants":"Contaminants de l'aire","Barcelona Metropolitan Area":"Àrea Metropolitana Barcelona","Barcelona(0-15 population)":"Barcelona(població 0-15 anys)","Basic_Skill":"Habilitats bàsiques","Catalan":"Català","Central position":"Posició central","Commerce":"Comerç","Commerce_Consumption_Tourism":"Comerç_Consum_Turisme","Confidence_Interval_95%":"Interval de confiança 95%","Cultural activity":"Activitat cultural","Cumulated GDP Growth":"Creixement acumulat del PIB","Differential higuest lowest rate":"Diferencial de la taxa més baixa","District":"Districte","Domestic":"Domèstic","Embarcacions Auxiliars":"Embarcacions Auxiliars","Embarcacions d'Arrossegament":"Embarcacions d'Arrossegament","Embarcacions d'Arts menors":"Embarcacions d'Arts menors","Embarcacions d'Encerclament":"Embarcacions d'Encerclament","Energy":"Energia","English":"Anglès","Entity":"Entitat","Entrepreneurial Activity Rate":"Taxa d'activitat empresarial","European Union":"Unió Europea","Euros per night":"Euros per nit","Euros per total stay":"Euros per estada total","Female":"Dona","Gender":"Gènere","Geographical_Area":"Àrea Geogràfica","Group_Age":"Edat del grup","High position":"Posició alta","Homeless":"Sense habitatge","Housing":"Habitatge","Inadequate housing":"Habitatge inadequat","Index":"Índex","Index (0-3)":"Índex (0-3)","Industrial":"Industrial","Kg per 1.000 euros of GVA":"Kg per 1.000 euros de VAB","Kg/inhabitant/day":"Kg/habitant/dia","Language":"Idioma","Low position":"Posició baixa","Male":"Home","Mathematics":"Matemàtiques","Mean":"Mitjana","Men":"Homes","Million euros":"Milions d'euros","Mobility and air quality":"Mobilitat i qualitat de l'aire","Month":"Mes","Others":"Altres","Over 64 years":"Més de 64 anys","Percentage":"Percentatge","Percentage annual variation":"Variació percentual anual","Popular festival":"Festival popular","Port and Airport":"Port i Aeroport","Public library":"Biblioteca pública","Rate per 1.000":"Taxa per 1.000","Rate per 100.000":"Taxa per 100.000","Rate per mil":"Taxa per mil","Rating 0-10":"Puntuació 0-10","Ratio 80/20":"Ràtio 80/20","Roofless":"Sense sostre","Science and Technology":"Ciència i Tecnologia","Social emergencies":"Emergències socials","Spain":"Espanya","Spanish":"Castellà","Tonnes":"Tonelades","Total Emissions":"Emissions totals","Total Number":"Número Total","Total Number in Thousands":"Número total en milers","Total Number per 100.000 inhabitants":"Número total per 100.000 habitants","Transport":"Transport","Type":"Tipus","Type_Cultural_Service":"Tipus de servei cultural","Type_Housing":"Tipus Habitatge","Type_Public_Transport":"Tipus de transport públic","Type_assistance":"Tipus atenció","Type_of_boat":"Tipus d'embarcació","Unsafe housing":"Habitatge insegur","Urban green spaces":"Espais verds urbans","Urgent social situations":"Urgències socials","Value":"Valor","Waste":"Residus","Waste Treatment":"Tractament de residus","Women":"Dones","Year":"Any","total":"Total","x1000 Mt of CO2":"x1000 Mt de CO2"};</script>
 
 
 <div class="container">
   
 <ol class="breadcrumb">
   
-  <li><a href="/en/">Home</a></li>
-  <li><a href="/en/">Goals</a></li>
+  <li><a href="/">Inici</a></li>
+  <li><a href="/">Objectius</a></li>
   
-  <li><a href="/en/14" title="Conserve and sustainably use the oceans, seas and marine resources for sustainable development">Goal 14</a></li>
+  <li><a href="/14" title="Conservar i utilitzar de forma sostenible els oceans, els mars i els recursos marins per al desenvolupament sostenible">Objectiu 14</a></li>
   
 </ol>
 
@@ -411,15 +411,15 @@ var translations = {
     
 <div class="previous-next-links row">
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/en/14-a-1-a" aria-labelledby="previous-link">
+        <a class="btn btn-primary" href="/14-a-2" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous indicator</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Indicador anterior</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/en/14-b-1" aria-labelledby="next-link">
+        <a class="btn btn-primary" href="/14-b-1" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next indicator</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Següent indicador</span>
         </a>
     </div>
 </div>
@@ -432,8 +432,8 @@ var translations = {
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/en/14" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" id="goal-14" class="goal-icon-image goal-icon-image-"/>
+        <a href="/14" title="Veure la llista d'indicadors d'aquest objectiu">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ca/14.png" alt="Vida Submarina - Objectiu 14" id="goal-14" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -441,9 +441,9 @@ var translations = {
         <div>
           <h1>
             
-            Indicator 14.a.1.b
+            Indicador 14.a.3
             
-            <span class="lead-copy">Barcelona Sea of Science project</span>
+            <span class="lead-copy">Projecte Barcelona Mar de Ciència</span>
           </h1>
         </div>
       </div>
@@ -464,10 +464,10 @@ var translations = {
 
 <div class="row"
   id="indicatorData"
-  data-indicatorid='indicator_14-a-1-b'
-  data-id="14-a-1-b"
-  data-country="Barcelona City"
-  data-charttitle="Barcelona Sea of Science project"
+  data-indicatorid='indicator_14-a-3'
+  data-id="14-a-3"
+  data-country="Ciutat de Barcelona"
+  data-charttitle="Projecte Barcelona Mar de Ciència"
   data-charttitles="null"
   data-measurementunit=""
   data-showdata="true"
@@ -489,8 +489,8 @@ var translations = {
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4>Sub-categories</h4>
-    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+    <h4>Subcategoríes</h4>
+    <p>Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.</p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
@@ -506,13 +506,13 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://agenda2030-bcn.github.io/bcn2030-data/en/headline/14-a-1-b.csv" class="btn btn-primary btn-download" download="indicator_14-a-1-b.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/headline/14-a-3.csv" class="btn btn-primary btn-download" download="indicator_14-a-3.csv" tabindex="0" role="button">Descarregar CSV global</a>
 
-    <a href="https://agenda2030-bcn.github.io/bcn2030-data/en/data/14-a-1-b.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_14-a-1-b.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://agenda2030-bcn.github.io/bcn2030-data/ca/data/14-a-3.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_14-a-3.csv' tabindex='0' role='button'>Descarregar CSV font</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Barcelona Sea of Science project</caption>
+      <caption>Projecte Barcelona Mar de Ciència</caption>
       <thead>
         
       </thead>
@@ -524,13 +524,13 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Source: Barcelona City Council</p>
+    <p>Font: Ajuntament de Barcelona</p>
     
     
-    <p>Geographical Area: Barcelona City</p>
+    <p>Àrea geogràfica: Ciutat de Barcelona</p>
     
     
-    <p>Unit of Measurement: </p>
+    <p>Unitat de mesura: </p>
     
     
   </div>
@@ -545,7 +545,7 @@ var translations = {
   <div class="async-loaded spacer medium" style="display:none;">
 
     <div style="display: none;">
-  <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  <span id="table-alternative">Per l'alternativa de dades tabulars, vegeu la pestanya Taula.</span>
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   <li role="presentation" class="nav-item active">
@@ -553,14 +553,14 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative">Chart</a>
+ aria-describedby="table-alternative">Gràfic</a>
   </li>
   <li role="presentation" class="nav-item">
     <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
->Table</a>
+>Taula</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -568,8 +568,8 @@ data-event-label="Change to Table tab"
     
 
     <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
-      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+      <i class="fa fa-bolt"><span class="sr-only">Avís:</span></i>
+      Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.
     </div>
 
     
@@ -577,7 +577,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Barcelona Sea of Science project</h4>
+          <h4 id="chart-heading" class="chart-title">Projecte Barcelona Mar de Ciència</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -813,13 +813,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>Barcelona City Council</dd>
+        <dt>Font:</dt>
+        <dd>Ajuntament de Barcelona</dd>
         
 
         
-        <dt>Geographical Area:</dt>
-        <dd>Barcelona City</dd>
+        <dt>Àrea geogràfica:</dt>
+        <dd>Ciutat de Barcelona</dd>
         
 
         
@@ -833,8 +833,8 @@ opensdg.chartConfigAlter(function(config, info) {
         </div>
       </figure>
       <div id="chartSelectionDownload" class="clearfix">
-        <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-          Download Chart Image
+        <button id="btnSave" title="Descarregar gràfic com imatge" class='btn btn-primary btn-download'>
+          Descarregar imatge del gràfic
         </button>
       </div>
     </div>
@@ -844,7 +844,7 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
   <div role="tabpanel" class="tab-pane" id="tableview">
     <div style="display: none;">
-      <span id="column-sort-info">Click to sort by this column</span>
+      <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
     </div>
     <div id="selectionsTable"></div>
 
@@ -855,13 +855,13 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
-        <dd>Barcelona City Council</dd>
+        <dt>Font:</dt>
+        <dd>Ajuntament de Barcelona</dd>
         
 
         
-        <dt>Geographical Area:</dt>
-        <dd>Barcelona City</dd>
+        <dt>Àrea geogràfica:</dt>
+        <dd>Ciutat de Barcelona</dd>
         
 
         
@@ -899,7 +899,7 @@ opensdg.chartConfigAlter(function(config, info) {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to custom-translations.local-metadata tab"
->Local metadata</a>
+>Metadades locals</a>
   </li>
 
   
@@ -915,7 +915,7 @@ data-event-label="Change to custom-translations.local-metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
->Global Metadata</a>
+>Metadades globals</a>
   </li>
 
   
@@ -931,13 +931,13 @@ data-event-label="Change to indicator.global_metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
->Sources</a>
+>Fonts</a>
   </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Editar</a>
   </li>
   
 </ul>
@@ -955,7 +955,7 @@ data-event-label="Change to indicator.sources tab"
     
     <div role="tabpanel" class="tab-pane active" id="national">
       <article>
-        <p>This table provides metadata for the actual indicator available from Barcelona statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Barcelona statistics, this table should be consulted for information on local methodology and other Barcelona-specific metadata information.</p>
+        <p>Aquesta taula proporciona metadades per a l’indicador real disponible a les estadístiques de Barcelona més proper a el corresponent indicador global dels ODS. Recordeu que fins i tot quan l’indicador global dels ODS estigui totalment disponible a les estadístiques de Barcelona, aquesta taula s’ha de consultar per obtenir informació sobre la metodologia local i altres metadades específics de Barcelona.</p>
 
         <table class="table">
   
@@ -975,10 +975,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Indicator available </th>
+        <th scope="row">Indicador disponible </th>
         <td>
           
-            <p>Barcelona Sea of Science project</p>
+            <p>Projecte Barcelona Mar de Ciència</p>
 
           
         </td>
@@ -992,7 +992,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Barcelona Target </th>
         <td>
           
-            <p>By 2030, consolidate a marine-sciences training, research and development hub</p>
+            <p>Per al 2030 consolidar un pol de formació, recerca i desenvolupament a l’entorn de les ciències del mar</p>
 
           
         </td>
@@ -1006,7 +1006,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Target line (2030) </th>
         <td>
           
-            <p>Develop and culminate the Nautical Training and Technological Node project</p>
+            <p>Desenvolupar i culminar el projecte Barcelona Mar de Ciència</p>
 
           
         </td>
@@ -1017,10 +1017,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Cobertura geogràfica </th>
         <td>
           
-            <p>Barcelona City</p>
+            <p>Ciutat de Barcelona</p>
 
           
         </td>
@@ -1031,7 +1031,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Unit of measurement </th>
+        <th scope="row">Unitat de mesura </th>
         <td>
           
             
@@ -1045,7 +1045,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Data last updated </th>
+        <th scope="row">Dades actualitzades per última vegada </th>
         <td>
           
             
@@ -1068,7 +1068,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metadata last updated </th>
+        <th scope="row">Metadades actualitzades per última vegada </th>
         <td>
           
             
@@ -1077,8 +1077,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/18283909c6620637db2c0a4ccfbccb27bd6cd92e" target="_blank">
-                2021-07-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/3e170fedde2e4219a5de2d7f50b3631941798bbf" target="_blank">
+                2021-07-20: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1099,7 +1099,7 @@ data-event-label="Change to indicator.sources tab"
         <td>
           
             
-              Non statistical
+              No estadístic
             
           
         </td>
@@ -1203,7 +1203,7 @@ data-event-label="Change to indicator.sources tab"
     
     <div role="tabpanel" class="tab-pane " id="global">
       <article>
-        <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+        <p>Aquesta taula proporciona informació sobre les metadades dels indicadors ODS tal com els defineix la Comissió d’Estadística de la ONU. La <a href="https://unstats.un.org/sdgs/metadata/">Divisió d’Estadística de les Nacions Unides proporciona</a> les metadades globals completes.</p>
 
         <table class="table">
   
@@ -1214,10 +1214,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Indicator name </th>
+        <th scope="row">Nom de l'indicador </th>
         <td>
           
-            <p>Barcelona Sea of Science project</p>
+            <p>Projecte Barcelona Mar de Ciència</p>
 
           
         </td>
@@ -1228,10 +1228,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Indicator number </th>
+        <th scope="row">Número de l'indicador </th>
         <td>
           
-            <p>14.a.1.b</p>
+            <p>14.a.3</p>
 
           
         </td>
@@ -1242,10 +1242,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Target name </th>
+        <th scope="row">Nom de Fita </th>
         <td>
           
-            <p>Increase scientific knowledge, develop the capacity for research and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission’s criteria and directives for the transfer of marine technology, with the aim of improving the health of the oceans and reinforcing the contribution of marine biodiversity to the development of developing countries, in particular small, insular developing states and less advanced countries</p>
+            <p>Augmentar els coneixements científics, desenvolupar la capacitat de recerca i transferir la tecnologia marina, tenint en compte els criteris i directrius per a la transferència de tecnologia marina de la Comissió Oceanogràfica Intergovernamental, a fi de millorar la salut dels oceans i potenciar la contribució de la biodiversitat marina al desenvolupament dels països en desenvolupament, en particular els petits Estats insulars en desenvolupament i els països menys avançats</p>
 
           
         </td>
@@ -1256,7 +1256,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Target number </th>
+        <th scope="row">Número fita </th>
         <td>
           
             <p>14.a</p>
@@ -1270,7 +1270,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Global indicator description </th>
+        <th scope="row">Descripció de l'indicador global </th>
         <td>
           
             
@@ -1284,7 +1284,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">UN designated tier </th>
+        <th scope="row">Nivell designat per l'ONU </th>
         <td>
           
             <p>1</p>
@@ -1298,7 +1298,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">UN custodian agency </th>
+        <th scope="row">Agència de custòdia de l'ONU </th>
         <td>
           
             <p>World Bank (WB)</p>
@@ -1312,7 +1312,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Link to UN metadata </th>
+        <th scope="row">Enllaç a les metadades de l'ONU </th>
         <td>
           
             
@@ -1322,7 +1322,7 @@ data-event-label="Change to indicator.sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-14-0a-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 894kB) <span class="visuallyhidden">opens in a new window</span>
+                Metadades dels Objectius de Desenvolupament Sostenible de les Nacions Unides (pdf 894kB) <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1493,10 +1493,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Organisation </th>
+        <th scope="row">Organització </th>
         <td>
           
-            <p>Barcelona City Council</p>
+            <p>Ajuntament de Barcelona</p>
 
           
         </td>
@@ -1507,21 +1507,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
+        <th scope="row">Periodicitat </th>
         <td>
           
             
@@ -1535,7 +1521,21 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Link to data source </th>
+        <th scope="row">Les dades disponibles més antigues </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Enllaç a la font de dades </th>
         <td>
           
             
@@ -1558,7 +1558,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Release date </th>
+        <th scope="row">Data de llançament </th>
         <td>
           
             <p>1619481600000</p>
@@ -1572,7 +1572,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Next release </th>
+        <th scope="row">Següent llançament </th>
         <td>
           
             <p>1651017600000</p>
@@ -1586,7 +1586,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Statistical classification </th>
+        <th scope="row">Classificació estadística </th>
         <td>
           
             
@@ -1600,7 +1600,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Contact details </th>
+        <th scope="row">Detalls de contacte </th>
         <td>
           
             <p>comissionat2030@bcn.cat</p>
@@ -1614,10 +1614,10 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Other information </th>
+        <th scope="row">Altra informació </th>
         <td>
           
-            <p>Barcelona City Council</p>
+            
 
           
         </td>
@@ -1706,11 +1706,11 @@ data-event-label="Change to indicator.sources tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/data/indicator_14-a-1-b.csv">Edit Data</a>
+  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/data/indicator_14-a-3.csv">Editar dades</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/14-a-1-b.md">Edit Metadata</a>
+  <a class="btn btn-primary" href="http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/14-a-3.md">Editar metadades</a>
   
 
   
@@ -1732,11 +1732,11 @@ data-event-label="Change to indicator.sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Desenvolupat amb Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contact us</a>
+                  <a href="mailto:comissionat2030@bcn.cat" target="_blank">Contacte</a>
                 
                 </li>
               <li>
@@ -1750,7 +1750,7 @@ data-event-label="Change to indicator.sources tab"
                 
                 </li>
               <li>
-                <a href="/en/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Galetes</a>
                 
                 </li>
               
@@ -1782,17 +1782,17 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210720194339'></script>
+<script src='/assets/js/sdg.js?v=20210720195642'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210720194339"></script><script>
+    <script src="/assets/js/custom.js?v=20210720195642"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
