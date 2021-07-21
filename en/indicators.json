@@ -2155,7 +2155,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/15-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-a-2",
@@ -2163,7 +2163,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/15-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-b-1",
@@ -2399,11 +2399,11 @@
         },
         {
           "id": "17-2-1",
-          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
+          "title": "Resources of the municipal Global Justice programme, allocated to the prevention of violence and the promotion of peace",
           "description": "",
           "keywords": "",
           "href": "/en/17-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1",
@@ -2423,11 +2423,11 @@
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "(a) Debt service as a proportion of exports of goods and services",
           "description": "",
           "keywords": "",
           "href": "/en/17-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-5-1",
@@ -2463,55 +2463,55 @@
         },
         {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "(a) Proportion of individuals using the Internet",
           "description": "",
           "keywords": "",
           "href": "/en/17-8-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "title": "Resources from the municipal Global Justice programme allocated to the institutional training of local authorities and civil society for the implementation of the SDGs",
           "description": "",
           "keywords": "",
           "href": "/en/17-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-10-1",
-          "title": "Worldwide weighted tariff-average",
+          "title": "(a) Worldwide weighted tariff-average",
           "description": "",
           "keywords": "",
           "href": "/en/17-10-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
+          "title": "(a) Developing countries and least developed countries’ share of global exports",
           "description": "",
           "keywords": "",
           "href": "/en/17-11-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-12-1",
-          "title": "Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
+          "title": "(a) Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
           "description": "",
           "keywords": "",
           "href": "/en/17-12-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
+          "title": "(a) Macroeconomic Dashboard",
           "description": "",
           "keywords": "",
           "href": "/en/17-13-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "Number of reports concerning the impact of government measures on the 2030 Agenda",
           "description": "",
           "keywords": "",
           "href": "/en/17-14-1",
@@ -2519,23 +2519,39 @@
         },
         {
           "id": "17-15-1",
-          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
+          "title": "(a) Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
           "description": "",
           "keywords": "",
           "href": "/en/17-15-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-16-1",
-          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
+          "title": "Number of international actions with official participation at a political level",
           "description": "",
           "keywords": "",
           "href": "/en/17-16-1",
           "status": "notstarted"
         },
         {
+          "id": "17-16-2",
+          "title": "Number of networks and other cooperation initiatives (decentralised or multi-level) the City Council participates in",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-16-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-16-3",
+          "title": "Number of technical-exchange actions facilitated at an international level",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-16-3",
+          "status": "notstarted"
+        },
+        {
           "id": "17-17-1",
-          "title": "Amount in United States dollars committed to public-private partnerships for infrastructure",
+          "title": "Financial endowment to the public-private fund for the promotion of the 2030 Agenda in Barcelona",
           "description": "",
           "keywords": "",
           "href": "/en/17-17-1",
@@ -2567,7 +2583,7 @@
         },
         {
           "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
+          "title": "Proportion of sectors, districts, autonomous bodies and municipal companies that include the 2030 Agenda’s perspective and indicators in their annual management reports",
           "description": "",
           "keywords": "",
           "href": "/en/17-19-1",
@@ -2575,7 +2591,7 @@
         },
         {
           "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "Number of annual 2030 Agenda monitoring and evaluation reports drafted and published from 2020 onwards",
           "description": "",
           "keywords": "",
           "href": "/en/17-19-2",

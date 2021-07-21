@@ -2155,7 +2155,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/15-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-a-2",
@@ -2163,7 +2163,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/15-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-b-1",
@@ -2399,11 +2399,11 @@
         },
         {
           "id": "17-2-1",
-          "title": "Asistencia oficial para el desarrollo neta, total y para los países menos adelantados en proporción al ingreso nacional bruto (INB) de los donantes del Comité de Asistencia para el Desarrollo de la Organización de Cooperación y Desarrollo Económicos (OCDE)",
+          "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a prevenir la violencia y promover la paz",
           "description": "",
           "keywords": "",
           "href": "/es/17-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1",
@@ -2423,11 +2423,11 @@
         },
         {
           "id": "17-4-1",
-          "title": "Servicio de la deuda en proporción a las exportaciones de bienes y servicios",
+          "title": "(a) Servicio de la deuda en proporción a las exportaciones de bienes y servicios",
           "description": "",
           "keywords": "",
           "href": "/es/17-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-5-1",
@@ -2463,55 +2463,55 @@
         },
         {
           "id": "17-8-1",
-          "title": "Proporción de personas que utilizan Internet",
+          "title": "(a) Proporción de personas que utilizan Internet",
           "description": "",
           "keywords": "",
           "href": "/es/17-8-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-9-1",
-          "title": "Valor en dólares de la asistencia financiera y técnica (incluso mediante la cooperación Norte-Sur, Sur‐Sur y triangular) prometida a los países en desarrollo",
+          "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a la formación y capacitación institucional de las autoridades locales y la sociedad civil para la implantación de los ODS",
           "description": "",
           "keywords": "",
           "href": "/es/17-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-10-1",
-          "title": "Promedio arancelario mundial ponderado",
+          "title": "(a) Promedio arancelario mundial ponderado",
           "description": "",
           "keywords": "",
           "href": "/es/17-10-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-11-1",
-          "title": "Participación de los países en desarrollo y los países menos adelantados en las exportaciones mundiales",
+          "title": "(a) Participación de los países en desarrollo y los países menos adelantados en las exportaciones mundiales",
           "description": "",
           "keywords": "",
           "href": "/es/17-11-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-12-1",
-          "title": "Promedio ponderado de los aranceles que enfrentan los países en desarrollo, los países menos adelantados y los pequeños Estados insulares en desarrolloPromedio de los aranceles que enfrentan los países en desarrollo, los países menos adelantados y los pequeños Estados insulares en desarrollo",
+          "title": "(a) Promedio ponderado de los aranceles que enfrentan los países en desarrollo, los países menos adelantados y los pequeños Estados insulares en desarrolloPromedio de los aranceles que enfrentan los países en desarrollo, los países menos adelantados y los pequeños Estados insulares en desarrollo",
           "description": "",
           "keywords": "",
           "href": "/es/17-12-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-13-1",
-          "title": "Tablero macroeconómico",
+          "title": "(a) Tablero macroeconómico",
           "description": "",
           "keywords": "",
           "href": "/es/17-13-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-14-1",
-          "title": "Número de países que cuentan con mecanismos para mejorar la coherencia de las políticas de desarrollo sostenible",
+          "title": "Número de informes de impacto en la Agenda 2030 con respecto al número total de medidas de gobierno",
           "description": "",
           "keywords": "",
           "href": "/es/17-14-1",
@@ -2519,23 +2519,39 @@
         },
         {
           "id": "17-15-1",
-          "title": "Grado de utilización de los marcos de resultados y las herramientas de planificación de los propios países por los proveedores de cooperación para el desarrollo",
+          "title": "(a) Grado de utilización de los marcos de resultados y las herramientas de planificación de los propios países por los proveedores de cooperación para el desarrollo",
           "description": "",
           "keywords": "",
           "href": "/es/17-15-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "17-16-1",
-          "title": "Número de países que informan de sus progresos en los marcos de múltiples interesados para el seguimiento de la eficacia de las actividades de desarrollo que apoyan el logro de los Objetivos de Desarrollo Sostenible",
+          "title": "Número de acciones internacionales con participación institucional de nivel político",
           "description": "",
           "keywords": "",
           "href": "/es/17-16-1",
           "status": "notstarted"
         },
         {
+          "id": "17-16-2",
+          "title": "Número de redes y otras iniciativas de cooperación (descentralizada o multinivel) en las que se participa",
+          "description": "",
+          "keywords": "",
+          "href": "/es/17-16-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-16-3",
+          "title": "Número de acciones de intercambio técnico facilitadas a escala internacional",
+          "description": "",
+          "keywords": "",
+          "href": "/es/17-16-3",
+          "status": "notstarted"
+        },
+        {
           "id": "17-17-1",
-          "title": "Suma en dólares de los Estados Unidos prometida a las alianzas público-privadas centradas en la infraestructura",
+          "title": "Número de acciones de intercambio técnico facilitadas a escala internacional",
           "description": "",
           "keywords": "",
           "href": "/es/17-17-1",
@@ -2567,7 +2583,7 @@
         },
         {
           "id": "17-19-1",
-          "title": "Valor en dólares de todos los recursos proporcionados para fortalecer la capacidad estadística de los países en desarrollo",
+          "title": "Proporción de sectores, distritos, entes autónomos y empresas municipales que incorporan la perspectiva y los indicadores de la Agenda 2030 en sus memorias anuales de gestión",
           "description": "",
           "keywords": "",
           "href": "/es/17-19-1",
@@ -2575,7 +2591,7 @@
         },
         {
           "id": "17-19-2",
-          "title": "Proporción de países que a) han realizado al menos un censo de población y vivienda en los últimos diez años; y b) han registrado el 100% de los nacimientos y el 80% de las defunciones",
+          "title": "Número de informes anuales de seguimiento y evaluación de la Agenda 2030 en Barcelona elaborados y hechos públicos a partir del 2020",
           "description": "",
           "keywords": "",
           "href": "/es/17-19-2",
