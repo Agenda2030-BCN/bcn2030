@@ -2047,11 +2047,11 @@
         
         {
           "id": "15-1-1",
-          "title": "Superfície forestal en proporció a la superfície total",
+          "title": "Nombre de nodes de biodiversitat i reserves de natura creades a partir de l’any 2015",
           "description": "",
           "keywords": "",
           "href": "/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
@@ -2063,27 +2063,27 @@
         },
         {
           "id": "15-2-1",
-          "title": "Avanços cap a la gestió forestal sostenible",
+          "title": "Superfície arbrada total del terme municipal, sumant verd urbà i verd forestal",
           "description": "",
           "keywords": "",
           "href": "/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
-          "title": "Proporció de terres degradades en comparació amb la superfície total",
+          "title": "Superfície forestal cremada al conjunt dels cinc municipis de la comarca del Barcelonès (Badalona, Barcelona, L’Hospitalet de Llobregat, Sant Adrià de Besòs i Santa Coloma de Gramenet)",
           "description": "",
           "keywords": "",
           "href": "/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-1",
-          "title": "Llocs importants per a la biodiversitat de les muntanyes inclosos en zones protegides",
+          "title": "Pla especial de protecció del medi natural i del paisatge del Parc Natural de la Serra de Collserola (PEPNAT)",
           "description": "",
           "keywords": "",
           "href": "/15-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-2",
@@ -2095,26 +2095,42 @@
         },
         {
           "id": "15-5-1",
-          "title": "Índex de la Llista Vermella",
+          "title": "Índex de biodiversitat de les aus autòctones",
           "description": "",
           "keywords": "",
           "href": "/15-5-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-5-2",
+          "title": "Percentatge de projectes o accions del Zoo de Barcelona per a la recerca i la conservació dedicats a espècies de fauna autòctones (incloent projectes mixtos)",
+          "description": "",
+          "keywords": "",
+          "href": "/15-5-2",
+          "status": "complete"
         },
         {
           "id": "15-6-1",
-          "title": "Nombre de països que han adoptat marcs legislatius, administratius i normatius per a assegurar una distribució justa i equitativa dels beneficis",
+          "title": "(a) Nombre de països que han adoptat marcs legislatius, administratius i normatius per a assegurar una distribució justa i equitativa dels beneficis",
           "description": "",
           "keywords": "",
           "href": "/15-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "15-7-1",
-          "title": "Proporció d'espècimens de flora i fauna silvestre comercialitzats procedents de la caça furtiva o el tràfic il·lícit",
+          "title": "Indicador de la lluita contra el tràfic d’espècies d’animals i plantes protegides (pendent de determinar)",
           "description": "",
           "keywords": "",
           "href": "/15-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-7-2",
+          "title": "Indicador de la lluita contra la proliferació d’espècies d’animals i plantes invasores (pendent de determinar)",
+          "description": "",
+          "keywords": "",
+          "href": "/15-7-2",
           "status": "notstarted"
         },
         {
@@ -2127,7 +2143,7 @@
         },
         {
           "id": "15-9-1",
-          "title": "Avanços en l'assoliment de les metes nacionals establertes de conformitat amb la segona Meta de Aichi per a la Diversitat Biològica del Pla Estratègic per a la Diversitat Biològica 2011‐2020",
+          "title": "Proporció d’estratègies i plans referits al desenvolupament econòmic i urbanístic de Barcelona que incorporen adequadament la visió i els objectius de l’ODS 15",
           "description": "",
           "keywords": "",
           "href": "/15-9-1",
@@ -2135,10 +2151,18 @@
         },
         {
           "id": "15-a-1",
-          "title": "Assistència oficial per al desenvolupament i despesa pública destinats a la conservació i l'ús sostenible de la biodiversitat i els ecosistemes",
+          "title": "Indicadors d’acompliment de les diverses fases de transformació cap al nou model de zoo",
           "description": "",
           "keywords": "",
           "href": "/15-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-a-2",
+          "title": "Grau de desenvolupament del projecte Institut de Recerca de la Biodiversitat",
+          "description": "",
+          "keywords": "",
+          "href": "/15-a-2",
           "status": "notstarted"
         },
         {
@@ -2151,11 +2175,11 @@
         },
         {
           "id": "15-c-1",
-          "title": "Proporció d'espècimens de flora i fauna silvestre comercialitzats procedents de la caça furtiva o el tràfic il·lícit",
+          "title": "(a) Proporció d’espècimens de flora i fauna silvestre comercialitzats procedents de la caça furtiva o el tràfic il·lícit",
           "description": "",
           "keywords": "",
           "href": "/15-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },

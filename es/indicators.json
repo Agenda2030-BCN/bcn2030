@@ -2047,11 +2047,11 @@
         
         {
           "id": "15-1-1",
-          "title": "Superficie forestal en proporción a la superficie total",
+          "title": "Número de nodos de biodiversidad y reservas de naturaleza creados a partir del año 2015",
           "description": "",
           "keywords": "",
           "href": "/es/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
@@ -2063,27 +2063,27 @@
         },
         {
           "id": "15-2-1",
-          "title": "Avances hacia la gestión forestal sostenible",
+          "title": "Superficie arborizada total del término municipal, sumando verde urbano y verde forestal",
           "description": "",
           "keywords": "",
           "href": "/es/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
-          "title": "Proporción de tierras degradadas en comparación con la superficie total",
+          "title": "Superficie forestal quemada en el conjunto de los cinco municipios de la comarca del Barcelonès (Badalona, Barcelona, L’Hospitalet de Llobregat, Sant Adrià de Besòs y Santa Coloma de Gramenet)",
           "description": "",
           "keywords": "",
           "href": "/es/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-1",
-          "title": "Lugares importantes para la biodiversidad de las montañas incluidos en zonas protegidas",
+          "title": "Plan especial de protección del medio natural y del paisaje del Parque Natural de la Sierra de Collserola (PEPNAT)",
           "description": "",
           "keywords": "",
           "href": "/es/15-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-2",
@@ -2095,26 +2095,42 @@
         },
         {
           "id": "15-5-1",
-          "title": "Índice de la Lista Roja",
+          "title": "Índice de biodiversidad de las aves autóctonas",
           "description": "",
           "keywords": "",
           "href": "/es/15-5-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-5-2",
+          "title": "Porcentaje de proyectos o acciones del Zoo de Barcelona para la investigación y la conservación dedicados a especies de fauna autóctona (incluyendo proyectos mixtos)",
+          "description": "",
+          "keywords": "",
+          "href": "/es/15-5-2",
+          "status": "complete"
         },
         {
           "id": "15-6-1",
-          "title": "Número de países que han adoptado marcos legislativos, administrativos y normativos para asegurar una distribución justa y equitativa de los beneficios",
+          "title": "(a) Número de países que han adoptado marcos legislativos, administrativos y normativos para asegurar una distribución justa y equitativa de los beneficios",
           "description": "",
           "keywords": "",
           "href": "/es/15-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "15-7-1",
-          "title": "Proporción de especímenes de flora y fauna silvestre comercializados procedentes de la caza furtiva o el tráfico ilícito",
+          "title": "Indicador de la lucha contra el tráfico de especies protegidas de animales y plantas (pendiente de determinar)",
           "description": "",
           "keywords": "",
           "href": "/es/15-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-7-2",
+          "title": "Indicador de la lucha contra la proliferación de especies invasoras de animales y plantas (pendiente de determinar)",
+          "description": "",
+          "keywords": "",
+          "href": "/es/15-7-2",
           "status": "notstarted"
         },
         {
@@ -2127,7 +2143,7 @@
         },
         {
           "id": "15-9-1",
-          "title": "a) Número de países que han establecido metas nacionales de conformidad con la segunda Meta de Aichi del Plan Estratégico para la Diversidad Biológica 2011-2020 o metas similares en sus estrategias y planes de acción nacionales en materia de diversidad biológica y han informado de sus progresos en el logro de estas metas; y b) integración de la biodiversidad en los sistemas nacionales de contabilidad y presentación de informes, definidos como implementación del Sistema de Contabilidad Ambiental y Económica",
+          "title": "Proporción de estrategias y planes relativos al desarrollo económico y urbanístico de Barcelona que incorporan adecuadamente la visión y los objetivos del ODS 15",
           "description": "",
           "keywords": "",
           "href": "/es/15-9-1",
@@ -2135,10 +2151,18 @@
         },
         {
           "id": "15-a-1",
-          "title": "a) Asistencia oficial para el desarrollo destinada concretamente a la conservación y el uso sostenible de la biodiversidad y b) ingresos generados y financiación movilizada mediante instrumentos económicos pertinentes para la biodiversidad",
+          "title": "Indicadores de cumplimiento de las diversas fases de transformación hacia el nuevo modelo de zoo",
           "description": "",
           "keywords": "",
           "href": "/es/15-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-a-2",
+          "title": "Grado de desarrollo del proyecto del instituto de investigación de la biodiversidad",
+          "description": "",
+          "keywords": "",
+          "href": "/es/15-a-2",
           "status": "notstarted"
         },
         {
@@ -2151,11 +2175,11 @@
         },
         {
           "id": "15-c-1",
-          "title": "Proporción de especímenes de flora y fauna silvestre comercializados procedentes de la caza furtiva o el tráfico ilícito",
+          "title": "(a) Proporción de especímenes de flora y fauna silvestre comercializados procedentes de la caza furtiva o el tráfico ilícito",
           "description": "",
           "keywords": "",
           "href": "/es/15-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },

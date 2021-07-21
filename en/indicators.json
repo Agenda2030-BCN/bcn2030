@@ -2047,11 +2047,11 @@
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "Number of biodiversity nodes and nature reserves created since 2015",
           "description": "",
           "keywords": "",
           "href": "/en/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
@@ -2063,27 +2063,27 @@
         },
         {
           "id": "15-2-1",
-          "title": "Progress towards sustainable forest management",
+          "title": "Total tree-covered surface area in the municipality, adding together urban and woodland green areas",
           "description": "",
           "keywords": "",
           "href": "/en/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
-          "title": "Proportion of land that is degraded over total land area",
+          "title": "The woodland surface area burnt in the five municipalities making up the Barcelonès region (Badalona, Barcelona, L’Hospitalet de Llobregat, Sant Adrià de Besòs and Santa Coloma de Gramenet)",
           "description": "",
           "keywords": "",
           "href": "/en/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "Special Protection Plan for the natural environment and landscape of the Serra de Collserola Natural Park (PEPNAT)",
           "description": "",
           "keywords": "",
           "href": "/en/15-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-2",
@@ -2095,26 +2095,42 @@
         },
         {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "Biodiversity index for native birds",
           "description": "",
           "keywords": "",
           "href": "/en/15-5-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-5-2",
+          "title": "Percentage of Barcelona Zoo’s research and conservation projects or actions dedicated to native species of fauna (including mixed projects)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-5-2",
+          "status": "complete"
         },
         {
           "id": "15-6-1",
-          "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
+          "title": "(a) Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
           "description": "",
           "keywords": "",
           "href": "/en/15-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Indicator of the fight against the trafficking of protected plant and animal species (to be determined)",
           "description": "",
           "keywords": "",
           "href": "/en/15-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-7-2",
+          "title": "Indicator of the fight against the proliferation of invasive plant and animal species (to be determined)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-7-2",
           "status": "notstarted"
         },
         {
@@ -2127,7 +2143,7 @@
         },
         {
           "id": "15-9-1",
-          "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress reported towards these targets; and (b) integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting",
+          "title": "The proportion of strategies and plans regarding the economic and urban-planning development of Barcelona, which adequately include the vision and goals of SDG 15",
           "description": "",
           "keywords": "",
           "href": "/en/15-9-1",
@@ -2135,10 +2151,18 @@
         },
         {
           "id": "15-a-1",
-          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
+          "title": "Achievement indicators for the various transformation phases leading to the new model for Barcelona Zoo",
           "description": "",
           "keywords": "",
           "href": "/en/15-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-a-2",
+          "title": "Degree of development of the Biodiversity Research Institute project",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-a-2",
           "status": "notstarted"
         },
         {
@@ -2151,11 +2175,11 @@
         },
         {
           "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "(a) Proportion of traded wildlife that was poached or illicitly trafficked",
           "description": "",
           "keywords": "",
           "href": "/en/15-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
