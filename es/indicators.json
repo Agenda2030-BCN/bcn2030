@@ -839,51 +839,51 @@
         
         {
           "id": "6-1-1",
-          "title": "Proporción de la población que utiliza servicios de suministro de agua potable gestionados sin riesgos",
+          "title": "Índice de esfuerzo en el pago de la factura del agua",
           "description": "",
           "keywords": "",
           "href": "/es/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Proporción de la población que utiliza: a) servicios de saneamiento gestionados sin riesgos y b) instalaciones para el lavado de manos con agua y jabón",
+          "title": "Número de asentamientos irregulares en Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Proporción de los flujos de aguas residuales domésticas e industriales tratados de manera adecuada",
+          "title": "Superficie operativa de sistemas urbanos de drenaje sostenible",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "Proporción de masas de agua de buena calidad",
+          "title": "Agua de red consumida por los servicios municipales (en m3)",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-1",
-          "title": "Cambio en el uso eficiente de los recursos hídricos con el paso del tiempo",
+          "title": "Consumo doméstico de agua medido en litros por habitante y día",
           "description": "",
           "keywords": "",
           "href": "/es/6-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-2",
-          "title": "Nivel de estrés hídrico: extracción de agua dulce en proporción a los recursos de agua dulce disponibles",
+          "title": "Consumo urbano de agua medido en litros por habitante y día",
           "description": "",
           "keywords": "",
           "href": "/es/6-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-1",
@@ -911,15 +911,23 @@
         },
         {
           "id": "6-a-1",
-          "title": "Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno",
+          "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a mejorar la provisión de agua y de saneamiento",
           "description": "",
           "keywords": "",
           "href": "/es/6-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-a-2",
+          "title": "Personal técnico de ciudades socias implicado en programas de intercambio técnico sobre gestión del ciclo",
+          "description": "",
+          "keywords": "",
+          "href": "/es/6-a-2",
+          "status": "complete"
         },
         {
           "id": "6-b-1",
-          "title": "Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión del agua y el saneamiento",
+          "title": "Pendiente de definir",
           "description": "",
           "keywords": "",
           "href": "/es/6-b-1",

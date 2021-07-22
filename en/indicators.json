@@ -839,51 +839,51 @@
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "Index of the economic effort needed to pay the water bill",
           "description": "",
           "keywords": "",
           "href": "/en/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+          "title": "Number of illegal settlements in Barcelona",
           "description": "",
           "keywords": "",
           "href": "/en/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of domestic and industrial wastewater flows safely treated",
+          "title": "Increase the operational surface area of sustainable urban drainage systems",
           "description": "",
           "keywords": "",
           "href": "/en/6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "Network water consumed by municipal services (in m3)",
           "description": "",
           "keywords": "",
           "href": "/en/6-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "Domestic water consumption measured in litres per inhabitant per day",
           "description": "",
           "keywords": "",
           "href": "/en/6-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "Urban water consumption measured in litres per inhabitant per day",
           "description": "",
           "keywords": "",
           "href": "/en/6-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-1",
@@ -911,15 +911,23 @@
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "Urban water consumption measured in litres per inhabitant per day",
           "description": "",
           "keywords": "",
           "href": "/en/6-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-a-2",
+          "title": "Specialist personnel in member cities involved in specialist exchange programmes concerning water-cycle management",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-a-2",
+          "status": "complete"
         },
         {
           "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+          "title": "Pending definition",
           "description": "",
           "keywords": "",
           "href": "/en/6-b-1",

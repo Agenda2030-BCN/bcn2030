@@ -839,51 +839,51 @@
         
         {
           "id": "6-1-1",
-          "title": "Proporció de la població que utilitza serveis de subministrament d'aigua potable gestionats sense riscos",
+          "title": "Índex d’esforç en el pagament de a factura de l’aigua",
           "description": "",
           "keywords": "",
           "href": "/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Proporció de la població que utilitza: a) serveis de sanejament gestionats sense riscos i b) instal·lacions per a la rentada de mans amb aigua i sabó",
+          "title": "Nombre d’assentaments irregulars a Barcelona",
           "description": "",
           "keywords": "",
           "href": "/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Proporció d'aigües residuals tractades de manera adequada",
+          "title": "Superfície operativa de sistemes urbans de drenatge sostenible",
           "description": "",
           "keywords": "",
           "href": "/6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "Proporció de masses d'aigua de bona qualitat",
+          "title": "Aigua de xarxa consumida pels serveis municipals (en m3)",
           "description": "",
           "keywords": "",
           "href": "/6-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-1",
-          "title": "Canvi en l'ús eficient dels recursos hídrics amb el pas del temps",
+          "title": "Consum domèstic d’aigua mesurat en litres per habitant i dia",
           "description": "",
           "keywords": "",
           "href": "/6-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-4-2",
-          "title": "Nivell d'estrès hídric: extracció d'aigua dolça en proporció als recursos d'aigua dolça disponibles",
+          "title": "Consum urbà d’aigua mesurat en litres per habitant i dia",
           "description": "",
           "keywords": "",
           "href": "/6-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-5-1",
@@ -911,15 +911,23 @@
         },
         {
           "id": "6-a-1",
-          "title": "Volum de l'assistència oficial per al desenvolupament destinada a l'aigua i el sanejament que forma part d'un pla de despeses coordinades pel govern",
+          "title": "Recursos del programa municipal de Justícia Global destinats a la millora de la provisió d’aigua i de sanejament",
           "description": "",
           "keywords": "",
           "href": "/6-a-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-a-2",
+          "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre gestió del cicle de l‘aigua",
+          "description": "",
+          "keywords": "",
+          "href": "/6-a-2",
+          "status": "complete"
         },
         {
           "id": "6-b-1",
-          "title": "Proporció de dependències administratives locals que han establert polítiques i procediments operacionals per a la participació de les comunitats locals en la gestió de l'aigua i el sanejament",
+          "title": "Pendent de definir",
           "description": "",
           "keywords": "",
           "href": "/6-b-1",
