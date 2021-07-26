@@ -11,9 +11,9 @@ Si teniu qualsevol comentari en relació a les fonts de dades utilitzades o algu
 ## Què vol dir "Estat dels indicadors"?
 Per a cada indicador es defineix el seu estat en una de les quatre categories següents:
 
-* **Informat en línia** (negre) – La fita ODS operativa ha estat definida i el corresponent indicador o indicadors estan disponibles a escala local, tot i que les dades puguin no estar completament desagregades o pendents d'actualitzar.
-* **Estadístiques en desenvolupament** (gris) – S'ha definit la fita operativa i s'ha identificat la font de dades de l’indicador, però encara no es disposa de les dades.
-* **Explorant fonts de dades** (blanc) – O bé no s'ha definit la fita operativa, o sí que s'ha definit, però no s'ha pogut identificar una font de dades per elaborar el corresponent indicador.
+* **Informat en línia** – La fita ODS operativa ha estat definida i el corresponent indicador o indicadors estan disponibles a escala local, tot i que les dades puguin no estar completament desagregades o pendents d'actualitzar.
+* **Estadístiques en desenvolupament** – S'ha definit la fita operativa i s'ha identificat la font de dades de l’indicador, però encara no es disposa de les dades.
+* **Explorant fonts de dades** – O bé no s'ha definit la fita operativa, o sí que s'ha definit, però no s'ha pogut identificar una font de dades per elaborar el corresponent indicador.
 * **No aplicable** – Els 17 ODS de l'Agenda 2030 es despleguen en 169 metes, però no totes elles tenen una translació a l'àmbit local. En aquests casos s'utilitza l'etiqueta "No aplicable".
 
 La publicació de nova informació sobre l'estat d'un indicador s’anunciarà a la capçalera de la corresponent pàgina.
