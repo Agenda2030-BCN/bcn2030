@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210726171553">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210726171621">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -328,9 +328,9 @@ var translations = {
 <p>Per a cada indicador es defineix el seu estat en una de les quatre categories següents:</p>
 
 <ul>
-  <li><strong>Informat en línia</strong> (negre) – La fita ODS operativa ha estat definida i el corresponent indicador o indicadors estan disponibles a escala local, tot i que les dades puguin no estar completament desagregades o pendents d’actualitzar.</li>
-  <li><strong>Estadístiques en desenvolupament</strong> (gris) – S’ha definit la fita operativa i s’ha identificat la font de dades de l’indicador, però encara no es disposa de les dades.</li>
-  <li><strong>Explorant fonts de dades</strong> (blanc) – O bé no s’ha definit la fita operativa, o sí que s’ha definit, però no s’ha pogut identificar una font de dades per elaborar el corresponent indicador.</li>
+  <li><strong>Informat en línia</strong> – La fita ODS operativa ha estat definida i el corresponent indicador o indicadors estan disponibles a escala local, tot i que les dades puguin no estar completament desagregades o pendents d’actualitzar.</li>
+  <li><strong>Estadístiques en desenvolupament</strong> – S’ha definit la fita operativa i s’ha identificat la font de dades de l’indicador, però encara no es disposa de les dades.</li>
+  <li><strong>Explorant fonts de dades</strong> – O bé no s’ha definit la fita operativa, o sí que s’ha definit, però no s’ha pogut identificar una font de dades per elaborar el corresponent indicador.</li>
   <li><strong>No aplicable</strong> – Els 17 ODS de l’Agenda 2030 es despleguen en 169 metes, però no totes elles tenen una translació a l’àmbit local. En aquests casos s’utilitza l’etiqueta “No aplicable”.</li>
 </ul>
 
@@ -419,12 +419,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210726171553'></script>
+<script src='/assets/js/sdg.js?v=20210726171621'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210726171553"></script><script>
+    <script src="/assets/js/custom.js?v=20210726171621"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
