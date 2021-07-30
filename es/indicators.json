@@ -471,7 +471,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "Número de personas mayores de 15 años que fuman diariamente con respecto al total de la población de esta edad",
+          "title": "Porcentaje de personas mayores de 15 años que fuman diariamente con respecto al total de la población de esta edad",
           "description": "",
           "keywords": "",
           "href": "/es/3-a-1",
@@ -827,7 +827,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/5-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },

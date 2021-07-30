@@ -471,7 +471,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "The number of people over the age of 15 who smoke every day compared to the total population in this age group",
+          "title": "Percentage of people over the age of 15 who smoke every day compared to the total population in this age group",
           "description": "",
           "keywords": "",
           "href": "/en/3-a-1",
@@ -827,7 +827,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/5-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },

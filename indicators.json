@@ -471,7 +471,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "Nombre de persones majors de 15 anys que fumen diàriament respecte al total de la població d’aquesta edat",
+          "title": "Percentatge de persones majors de 15 anys que fumen diàriament respecte al total de la població d’aquesta edat",
           "description": "",
           "keywords": "",
           "href": "/3-a-1",
@@ -827,7 +827,7 @@
           "description": "",
           "keywords": "",
           "href": "/5-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },

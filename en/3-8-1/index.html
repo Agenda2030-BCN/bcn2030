@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210730012544">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210730184421">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -471,7 +471,7 @@ var translations = {
   data-charttitles="null"
   data-measurementunit="Percentage"
   data-showdata="true"
-  data-graphtype="binary"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="[{&quot;field&quot;:&quot;Gender&quot;,&quot;value&quot;:&quot;Men&quot;},{&quot;field&quot;:&quot;Gender&quot;,&quot;value&quot;:&quot;Women&quot;}]"
@@ -586,6 +586,28 @@ data-event-label="Change to Table tab"
     aria-describedby="table-alternative chart-annotations"
     tabindex="0"
  ></canvas>
+
+<script>
+// Add a chart alteration to support the chart_graph_limits metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.graphLimits && info.graphLimits.length > 0) {
+    var overrides = {
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: info.graphLimits.minimum,
+              max: info.graphLimits.maximum,
+            }
+          }]
+        }
+      }
+    }
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
 
 <span style="display: none;" id="chart-annotations" role="status"></span>
 <script>
@@ -744,73 +766,33 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-
-opensdg.convertBinaryValue = function(value) {
-  if (typeof value === 'string') {
-    value = parseInt(value, 10);
-  }
-  if (value === 1) {
-    return 'Yes';
-  }
-  else if (value === -1) {
-    return 'No';
-  }
-  return '';
-}
-
-opensdg.chartConfigAlter(function(config) {
-  var overrides = {
-    // Force the "bar" type instead of the "binary" type which Chart.js
-    // does not recognize.
-    type: 'bar',
-    // Assign some callbacks to convert 1/-1 to Yes/No.
-    options: {
-      tooltips: {
-        callbacks: {
-          label: function(tooltipItem, data) {
-            var label = data.datasets[tooltipItem.datasetIndex].label || '';
-            label += ': ' + opensdg.convertBinaryValue(tooltipItem.yLabel);
-            return label;
-          }
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
+    var overrides = {
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
         }
-      },
-      scales: {
-        yAxes: [{
-          ticks: {
-            // Set the min/max to -1/1 so that the bars will start from the
-            // middle and either go up (for 1) or down (for -1).
-            min: -1,
-            max: 1,
-            callback: opensdg.convertBinaryValue,
-          },
-        }]
-      },
-    }
-  }
-
-  // Add these overrides onto the normal config.
-  $.extend(true, config, overrides);
-});
-
-opensdg.tableConfigAlter(function(config, info) {
-  var targetColumns = [];
-  for (var i = 1; i < info.table.headings.length; i++) {
-    targetColumns.push(i);
-  }
-  var overrides = {
-    columnDefs: [
-      {
-        targets: targetColumns,
-        createdCell: function(td, cellData, rowData, row, col) {
-          $(td).text(opensdg.convertBinaryValue(cellData));
-        },
       }
-    ]
-  };
-
-  $.extend(true, config, overrides);
+    };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
+    // Add these overrides onto the normal config, and return it.
+    $.extend(true, config, overrides);
+  }
 });
-
 </script>
 
           </div>
@@ -1097,8 +1079,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/35daed7a4907143a7612acdcffeedba5eb623875" target="_blank">
-                2021-07-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/d709029732365592e047ffcda7304c9bed792612" target="_blank">
+                2021-07-30: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1809,12 +1791,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20210730012544'></script>
+<script src='/assets/js/sdg.js?v=20210730184421'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210730012544"></script><script>
+    <script src="/assets/js/custom.js?v=20210730184421"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
