@@ -30,14 +30,6 @@
           "status": "complete"
         },
         {
-          "id": "1-2-2",
-          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
-          "description": "",
-          "keywords": "",
-          "href": "/es/1-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "1-3-1",
           "title": "Situar, en 2021, el grado de cobertura del IMV, según la necesidad objetiva, por encima del 95 %",
           "description": "",
@@ -1204,38 +1196,6 @@
           "keywords": "",
           "href": "/es/8-9-4",
           "status": "complete"
-        },
-        {
-          "id": "8-10-1",
-          "title": "a) Número de sucursales de bancos comerciales por cada 100.000 adultos y b) número de cajeros automáticos por cada 100.000 adultos",
-          "description": "",
-          "keywords": "",
-          "href": "/es/8-10-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "8-10-2",
-          "title": "Proporción de adultos (a partir de 15 años de edad) que tienen una cuenta en un banco u otra institución financiera o un proveedor de servicios de dinero móvil",
-          "description": "",
-          "keywords": "",
-          "href": "/es/8-10-2",
-          "status": "notapplicable"
-        },
-        {
-          "id": "8-a-1",
-          "title": "Compromisos y desembolsos en relación con la iniciativa Ayuda para el Comercio",
-          "description": "",
-          "keywords": "",
-          "href": "/es/8-a-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Existencia de una estrategia nacional organizada y en marcha para el empleo de los jóvenes, como estrategia independiente o como parte de una estrategia nacional de empleo",
-          "description": "",
-          "keywords": "",
-          "href": "/es/8-b-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -1462,22 +1422,6 @@
           "status": "complete"
         },
         {
-          "id": "10-5-1",
-          "title": "(a) Indicadores de solidez financiera",
-          "description": "",
-          "keywords": "",
-          "href": "/es/10-5-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "10-6-1",
-          "title": "(a) Proporción de miembros y derechos de voto de los países en desarrollo en organizaciones internacionales",
-          "description": "",
-          "keywords": "",
-          "href": "/es/10-6-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "10-7-1",
           "title": "Diferencial entre la tasa AROPE (riesgo de pobreza y exclusión social) de la población extranjera respecto a la de la población con nacionalidad española",
           "description": "",
@@ -1500,14 +1444,6 @@
           "keywords": "",
           "href": "/es/10-7-3",
           "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "(a) Proporción de líneas arancelarias que se aplican a las importaciones de los países menos adelantados y los países en desarrollo con arancel cero",
-          "description": "",
-          "keywords": "",
-          "href": "/es/10-a-1",
-          "status": "notapplicable"
         },
         {
           "id": "10-b-1",
@@ -1734,14 +1670,6 @@
       "indicators": [
         
         {
-          "id": "12-1-1",
-          "title": "(a) Número de países que elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
-          "description": "",
-          "keywords": "",
-          "href": "/es/12-1-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "12-2-1",
           "title": "Proporción de consumo energético de origen renovable",
           "description": "",
@@ -1844,14 +1772,6 @@
           "keywords": "",
           "href": "/es/12-b-1",
           "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "(a) Cantidad de subsidios a los combustibles fósiles por unidad de PIB (producción y consumo)",
-          "description": "",
-          "keywords": "",
-          "href": "/es/12-c-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -1958,44 +1878,12 @@
           "status": "complete"
         },
         {
-          "id": "14-3-1",
-          "title": "Acidez media del mar (pH) medida en un conjunto convenido de estaciones de muestreo representativas",
-          "description": "",
-          "keywords": "",
-          "href": "/es/14-3-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "14-4-1",
-          "title": "Proporción de poblaciones de peces cuyos niveles son biológicamente sostenibles",
-          "description": "",
-          "keywords": "",
-          "href": "/es/14-4-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "14-5-1",
           "title": "Índice de biodiversidad marina del litoral de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/14-5-1",
           "status": "notstarted"
-        },
-        {
-          "id": "14-6-1",
-          "title": "Grado de aplicación de instrumentos internacionales cuyo objetivo es combatir la pesca ilegal, no declarada y no reglamentada",
-          "description": "",
-          "keywords": "",
-          "href": "/es/14-6-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "14-7-1",
-          "title": "Proporción del PIB correspondiente a la pesca sostenible en los pequeños Estados insulares en desarrollo, en los países menos adelantados y en todos los países",
-          "description": "",
-          "keywords": "",
-          "href": "/es/14-7-1",
-          "status": "notapplicable"
         },
         {
           "id": "14-a-1",
@@ -2036,14 +1924,6 @@
           "keywords": "",
           "href": "/es/14-b-2",
           "status": "complete"
-        },
-        {
-          "id": "14-c-1",
-          "title": "Número de países que, mediante marcos jurídicos, normativos e institucionales, avanzan en la ratificación, la aceptación y la implementación de los instrumentos relacionados con los océanos que aplican el derecho internacional reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar para la conservación y el uso sostenible de los océanos y sus recursos",
-          "description": "",
-          "keywords": "",
-          "href": "/es/14-c-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -2118,14 +1998,6 @@
           "status": "complete"
         },
         {
-          "id": "15-6-1",
-          "title": "(a) Número de países que han adoptado marcos legislativos, administrativos y normativos para asegurar una distribución justa y equitativa de los beneficios",
-          "description": "",
-          "keywords": "",
-          "href": "/es/15-6-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "15-7-1",
           "title": "Indicador de la lucha contra el tráfico de especies protegidas de animales y plantas (pendiente de determinar)",
           "description": "",
@@ -2180,14 +2052,6 @@
           "keywords": "",
           "href": "/es/15-b-1",
           "status": "notstarted"
-        },
-        {
-          "id": "15-c-1",
-          "title": "(a) Proporción de especímenes de flora y fauna silvestre comercializados procedentes de la caza furtiva o el tráfico ilícito",
-          "description": "",
-          "keywords": "",
-          "href": "/es/15-c-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -2374,14 +2238,6 @@
           "status": "complete"
         },
         {
-          "id": "16-8-1",
-          "title": "(a) Proporción de miembros y derecho de voto de los países en desarrollo en organizaciones internacionales",
-          "description": "",
-          "keywords": "",
-          "href": "/es/16-8-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "16-9-1",
           "title": "Proporción de niños menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil, desglosada por edad",
           "description": "",
@@ -2470,14 +2326,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-4-1",
-          "title": "(a) Servicio de la deuda en proporción a las exportaciones de bienes y servicios",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-4-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "17-5-1",
           "title": "Número de países que adoptan y aplican sistemas de promoción de las inversiones en favor de los países en desarrollo, entre ellos los países menos adelantados",
           "description": "",
@@ -2510,14 +2358,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-8-1",
-          "title": "(a) Proporción de personas que utilizan Internet",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-8-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "17-9-1",
           "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a la formación y capacitación institucional de las autoridades locales y la sociedad civil para la implantación de los ODS",
           "description": "",
@@ -2526,52 +2366,12 @@
           "status": "complete"
         },
         {
-          "id": "17-10-1",
-          "title": "(a) Promedio arancelario mundial ponderado",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-10-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "17-11-1",
-          "title": "(a) Participación de los países en desarrollo y los países menos adelantados en las exportaciones mundiales",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-11-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "17-12-1",
-          "title": "(a) Promedio ponderado de los aranceles que enfrentan los países en desarrollo, los países menos adelantados y los pequeños Estados insulares en desarrolloPromedio de los aranceles que enfrentan los países en desarrollo, los países menos adelantados y los pequeños Estados insulares en desarrollo",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-12-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "17-13-1",
-          "title": "(a) Tablero macroeconómico",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-13-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "17-14-1",
           "title": "Número de informes de impacto en la Agenda 2030 con respecto al número total de medidas de gobierno",
           "description": "",
           "keywords": "",
           "href": "/es/17-14-1",
           "status": "notstarted"
-        },
-        {
-          "id": "17-15-1",
-          "title": "(a) Grado de utilización de los marcos de resultados y las herramientas de planificación de los propios países por los proveedores de cooperación para el desarrollo",
-          "description": "",
-          "keywords": "",
-          "href": "/es/17-15-1",
-          "status": "notapplicable"
         },
         {
           "id": "17-16-1",

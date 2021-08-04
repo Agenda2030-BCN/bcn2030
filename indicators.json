@@ -30,14 +30,6 @@
           "status": "complete"
         },
         {
-          "id": "1-2-2",
-          "title": "Proporció d'homes, dones i nens de totes les edats que viuen en la pobresa, en totes les seves dimensions, conformement a les definicions nacionals",
-          "description": "",
-          "keywords": "",
-          "href": "/1-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "1-3-1",
           "title": "Situar l’any 2021 el grau de cobertura de l’IMV segons necessitat objectiva per sobre del 95%",
           "description": "",
@@ -1204,38 +1196,6 @@
           "keywords": "",
           "href": "/8-9-4",
           "status": "complete"
-        },
-        {
-          "id": "8-10-1",
-          "title": "a) Nombre de sucursals de bancs comercials per cada 100.000 adults i b) nombre de caixers automàtics per cada 100.000 adults",
-          "description": "",
-          "keywords": "",
-          "href": "/8-10-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "8-10-2",
-          "title": "Proporció d'adults (a partir de 15 anys d'edat) que tenen un compte en un banc o una altra institució financera o un proveïdor de serveis de diners mòbils",
-          "description": "",
-          "keywords": "",
-          "href": "/8-10-2",
-          "status": "notapplicable"
-        },
-        {
-          "id": "8-a-1",
-          "title": "Compromisos i desemborsaments en relació amb la iniciativa Ajuda per al Comerç",
-          "description": "",
-          "keywords": "",
-          "href": "/8-a-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Existència d'una estratègia nacional organitzada i en marxa per a l'ús dels joves, com a estratègia independent o com a part d'una estratègia nacional d'ocupació",
-          "description": "",
-          "keywords": "",
-          "href": "/8-b-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -1462,22 +1422,6 @@
           "status": "complete"
         },
         {
-          "id": "10-5-1",
-          "title": "(a) Indicadors de solidesa financera",
-          "description": "",
-          "keywords": "",
-          "href": "/10-5-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "10-6-1",
-          "title": "(a) Proporció de membres i drets de vot dels països en desenvolupament en organitzacions internacionals",
-          "description": "",
-          "keywords": "",
-          "href": "/10-6-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "10-7-1",
           "title": "Diferencial entre la taxa AROPE (risc de pobresa i exclusió social) de la població estrangera respecte a la de la població amb nacionalitat espanyola",
           "description": "",
@@ -1500,14 +1444,6 @@
           "keywords": "",
           "href": "/10-7-3",
           "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "(a) Proporció de línies aranzelàries que s’apliquen a les importacions dels països menys avançats i els països en desenvolupament amb aranzel zero",
-          "description": "",
-          "keywords": "",
-          "href": "/10-a-1",
-          "status": "notapplicable"
         },
         {
           "id": "10-b-1",
@@ -1734,14 +1670,6 @@
       "indicators": [
         
         {
-          "id": "12-1-1",
-          "title": "(a) Nombre de països que inclouen com a prioritat o fita en les polítiques nacionals plans d’acció nacionals sobre el consum i la producció sostenibles",
-          "description": "",
-          "keywords": "",
-          "href": "/12-1-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "12-2-1",
           "title": "Proporció de consum energètic d’origen renovable",
           "description": "",
@@ -1844,14 +1772,6 @@
           "keywords": "",
           "href": "/12-b-1",
           "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "(a) Quantia dels subsidis als combustibles fòssils per unitat de PIB (producció i consum) i en proporció al total de les despeses nacionals en combustibles fòssils",
-          "description": "",
-          "keywords": "",
-          "href": "/12-c-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -1958,44 +1878,12 @@
           "status": "complete"
         },
         {
-          "id": "14-3-1",
-          "title": "Acidesa mitjana de la mar (pH) mesura en un conjunt convingut d'estacions de mostreig representatives",
-          "description": "",
-          "keywords": "",
-          "href": "/14-3-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "14-4-1",
-          "title": "Proporció de poblacions de peixos els nivells dels quals són biològicament sostenibles",
-          "description": "",
-          "keywords": "",
-          "href": "/14-4-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "14-5-1",
           "title": "Índex de biodiversitat marina del litoral de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/14-5-1",
           "status": "notstarted"
-        },
-        {
-          "id": "14-6-1",
-          "title": "Progressos realitzats pels països en el grau d'aplicació dels instruments internacionals l'objectiu dels quals és combatre la pesca il·legal, no declarada i no reglamentada",
-          "description": "",
-          "keywords": "",
-          "href": "/14-6-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "14-7-1",
-          "title": "Proporció del PIB corresponent a la pesca sostenible en els petits Estats insulars en desenvolupament, als països menys avançats i en tots els països",
-          "description": "",
-          "keywords": "",
-          "href": "/14-7-1",
-          "status": "notapplicable"
         },
         {
           "id": "14-a-1",
@@ -2036,14 +1924,6 @@
           "keywords": "",
           "href": "/14-b-2",
           "status": "complete"
-        },
-        {
-          "id": "14-c-1",
-          "title": "Nombre de països que, mitjançant marcs jurídicos, normatius i institucionals, avancen en la ratificació, l'acceptació i la implementació dels instruments relacionats amb els oceans que apliquen el dret internacional reflectit en la Convenció de les Nacions Unides sobre el Dret de la Mar per a la conservació i l'ús sostenible dels oceans i els seus recursos",
-          "description": "",
-          "keywords": "",
-          "href": "/14-c-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -2118,14 +1998,6 @@
           "status": "complete"
         },
         {
-          "id": "15-6-1",
-          "title": "(a) Nombre de països que han adoptat marcs legislatius, administratius i normatius per a assegurar una distribució justa i equitativa dels beneficis",
-          "description": "",
-          "keywords": "",
-          "href": "/15-6-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "15-7-1",
           "title": "Indicador de la lluita contra el tràfic d’espècies d’animals i plantes protegides (pendent de determinar)",
           "description": "",
@@ -2180,14 +2052,6 @@
           "keywords": "",
           "href": "/15-b-1",
           "status": "notstarted"
-        },
-        {
-          "id": "15-c-1",
-          "title": "(a) Proporció d’espècimens de flora i fauna silvestre comercialitzats procedents de la caça furtiva o el tràfic il·lícit",
-          "description": "",
-          "keywords": "",
-          "href": "/15-c-1",
-          "status": "notapplicable"
         }]
     }
   },
@@ -2374,14 +2238,6 @@
           "status": "complete"
         },
         {
-          "id": "16-8-1",
-          "title": "(a) Proporció de membres i dret de vot dels països en desenvolupament en organitzacions internacionals",
-          "description": "",
-          "keywords": "",
-          "href": "/16-8-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "16-9-1",
           "title": "Proporció de nens menors de 5 anys el naixement dels quals s'ha registrat davant una autoritat civil, desglossada per edat",
           "description": "",
@@ -2470,14 +2326,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-4-1",
-          "title": "(a) Servei del deute en proporció a les exportacions de béns i serveis",
-          "description": "",
-          "keywords": "",
-          "href": "/17-4-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "17-5-1",
           "title": "Nombre de països que adopten i apliquen sistemes de promoció de les inversions en favor dels països menys avançats",
           "description": "",
@@ -2510,14 +2358,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-8-1",
-          "title": "(a) Proporció de persones que utilitzen Internet",
-          "description": "",
-          "keywords": "",
-          "href": "/17-8-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "17-9-1",
           "title": "Recursos del programa municipal de Justícia Global destinats a la formació i capacitació institucional d’autoritats Locals i de societat civil per la implantació dels ODS",
           "description": "",
@@ -2526,52 +2366,12 @@
           "status": "complete"
         },
         {
-          "id": "17-10-1",
-          "title": "(a) Mitjana aranzelària mundial ponderada",
-          "description": "",
-          "keywords": "",
-          "href": "/17-10-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "17-11-1",
-          "title": "(a) Participació dels països en desenvolupament i els països menys avançats en les exportacions mundials",
-          "description": "",
-          "keywords": "",
-          "href": "/17-11-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "17-12-1",
-          "title": "(a) Mitjana dels aranzels que enfronten els països en desenvolupament, els països menys avançats i els petits Estats insulars en desenvolupament",
-          "description": "",
-          "keywords": "",
-          "href": "/17-12-1",
-          "status": "notapplicable"
-        },
-        {
-          "id": "17-13-1",
-          "title": "(a) Tauler macroeconòmic",
-          "description": "",
-          "keywords": "",
-          "href": "/17-13-1",
-          "status": "notapplicable"
-        },
-        {
           "id": "17-14-1",
           "title": "Nombre d’informes d’impacte en l’Agenda 2030 respecte al nombre total de Mesures de Govern",
           "description": "",
           "keywords": "",
           "href": "/17-14-1",
           "status": "notstarted"
-        },
-        {
-          "id": "17-15-1",
-          "title": "(a) Grau d’utilització dels marcs de resultats i les eines de planificació dels propis països pels proveïdors de cooperació per al desenvolupament",
-          "description": "",
-          "keywords": "",
-          "href": "/17-15-1",
-          "status": "notapplicable"
         },
         {
           "id": "17-16-1",
