@@ -1835,7 +1835,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/15-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1915,7 +1915,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/16-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-4-2",
@@ -1923,7 +1923,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/16-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-5-1",
@@ -2059,7 +2059,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/17-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-1-2",
@@ -2067,7 +2067,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/17-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-2-1",
@@ -2083,7 +2083,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/17-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-2",
@@ -2091,7 +2091,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/17-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-5-1",
@@ -2099,7 +2099,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/17-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-6-1",
@@ -2123,7 +2123,15 @@
           "description": "",
           "keywords": "",
           "href": "/es/17-7-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "17-8-1",
+          "title": "Proporción de personas que utilizan Internet",
+          "description": "",
+          "keywords": "",
+          "href": "/es/17-8-1",
+          "status": "complete"
         },
         {
           "id": "17-9-1",
