@@ -218,6 +218,8 @@ graph_color_set: accessible
 accessible_tabs: true
 accessible_charts: true
 series_toggle: true
+
+decimal_separator: ','
 # Date format
 date_formats:
   - type: standard
@@ -225,4 +227,7 @@ date_formats:
     format: '%B %d, %Y'
   - type: standard
     language: es
+    format: '%d de %B de %Y'
+  - type: standard
+    language: ca
     format: '%d de %B de %Y'
