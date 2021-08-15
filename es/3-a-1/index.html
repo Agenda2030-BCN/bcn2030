@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210815011912">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210815175503">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -469,7 +469,7 @@ var translations = {
   data-country="Ciudad de Barcelona"
   data-charttitle="Porcentaje de personas mayores de 15 años que fuman diariamente con respecto al total de la población de esta edad"
   data-charttitles="null"
-  data-measurementunit="Tanto por 1.000"
+  data-measurementunit="Porcentaje"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -558,7 +558,7 @@ var translations = {
     <p>Área geográfica: Ciudad de Barcelona</p>
     
     
-    <p>Unidad de medida: Tanto por 1.000</p>
+    <p>Unidad de medida: Porcentaje</p>
     
     
   </div>
@@ -852,7 +852,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unidad de medida:</dt>
-        <dd>Tanto por 1.000</dd>
+        <dd>Porcentaje</dd>
         
 
         
@@ -897,7 +897,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unidad de medida:</dt>
-        <dd>Tanto por 1.000</dd>
+        <dd>Porcentaje</dd>
         
 
         
@@ -1068,7 +1068,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Unidad de medida </th>
         <td>
           
-            <p>Tanto por 1.000</p>
+            <p>Porcentaje</p>
 
           
         </td>
@@ -1115,8 +1115,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/6e014274f43d7be1331a335a408725a5363ac06e" target="_blank">
-                2021-07-30: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/bb5262ba560d6278badba527a70e8d7f3d0d3df6" target="_blank">
+                2021-08-15: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1546,7 +1546,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Periodicidad </th>
         <td>
           
-            <p>Datos disponibles cada año</p>
+            <p>Datos disponibles cada 5 años</p>
 
           
         </td>
@@ -1827,12 +1827,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20210815011912'></script>
+<script src='/assets/js/sdg.js?v=20210815175503'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210815011912"></script><script>
+    <script src="/assets/js/custom.js?v=20210815175503"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

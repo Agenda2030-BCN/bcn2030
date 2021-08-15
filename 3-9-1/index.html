@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20210815011912">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20210815175503">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -469,7 +469,7 @@ var translations = {
   data-country="Ciutat de Barcelona"
   data-charttitle="Nombre de morts atribuïbles anualment a l’excés de contaminació atmosfèrica (superació del llindar OMS* per NO2 i PM2,5 alhora) "
   data-charttitles="null"
-  data-measurementunit="Percentatge"
+  data-measurementunit="Nombre Total"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -530,7 +530,7 @@ var translations = {
     <p>Àrea geogràfica: Ciutat de Barcelona</p>
     
     
-    <p>Unitat de mesura: Percentatge</p>
+    <p>Unitat de mesura: Nombre Total</p>
     
     
   </div>
@@ -816,7 +816,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unitat de mesura:</dt>
-        <dd>Percentatge</dd>
+        <dd>Nombre Total</dd>
         
 
         
@@ -861,7 +861,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unitat de mesura:</dt>
-        <dd>Percentatge</dd>
+        <dd>Nombre Total</dd>
         
 
         
@@ -990,7 +990,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Barcelona Target </th>
         <td>
           
-            <p>Per al 2030 reduir a la meitat el nombre de persones que no accedeixen a atenció o tractaments sanitaris per motius econòmics</p>
+            <p>Per al 2030 reduir dràsticament les morts causades per l’excés de contaminació</p>
 
           
         </td>
@@ -1032,7 +1032,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Unitat de mesura </th>
         <td>
           
-            <p>Percentatge</p>
+            <p>Nombre Total</p>
 
           
         </td>
@@ -1079,8 +1079,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/dbaec541ef1f41415ebce9be3cc2dca34ba5cc6f" target="_blank">
-                2021-07-30: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/bb5262ba560d6278badba527a70e8d7f3d0d3df6" target="_blank">
+                2021-08-15: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1544,6 +1544,10 @@ data-event-label="Change to indicator.sources tab"
             
 
             
+              <a href="https://www.aspb.cat/noticies/qualitat-aire-2019/" target="_blank">
+                Agència de Salut Pública de Barcelona   <span class="visuallyhidden">S'obre en una nova finestra</span>
+              </a>
+            
 
           
         </td>
@@ -1787,12 +1791,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20210815011912'></script>
+<script src='/assets/js/sdg.js?v=20210815175503'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20210815011912"></script><script>
+    <script src="/assets/js/custom.js?v=20210815175503"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

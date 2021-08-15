@@ -31,7 +31,7 @@
         },
         {
           "id": "1-3-1",
-          "title": "Situar l’any 2021 el grau de cobertura de l’IMV segons necessitat objectiva per sobre del 95%",
+          "title": "Percentatge de persones que, complint els requisits objectius per rebre l’Ingrés Mínim Vital, el reben efectivament",
           "description": "",
           "keywords": "",
           "href": "/1-3-1",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-5-1",
-          "title": "Situar el nombre de persones que necessiten ser ateses anualment per urgència o emergència social per sota de les 10.000",
+          "title": "Nombre de persones ateses pel Centre d’Urgències i Emergències Socials (CUESB)",
           "description": "",
           "keywords": "",
           "href": "/1-5-1",
@@ -495,7 +495,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Situar l’Índex d’Igualtat de Gènere per sobre dels 85 punts",
+          "title": "Indicador d’Igualtat de Gènere (Gender Index Equality) 0-100",
           "description": "",
           "keywords": "",
           "href": "/5-1-1",
@@ -1575,7 +1575,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Aconseguir que el 100% de la població tingui a menys de 300 metres de casa un espai de refugi climàtic i que hi hagi un jardí d’aigua per districte",
+          "title": "Proporció de la població que disposa d’un espai de refugi climàtic a menys de 300 m del seu domicili",
           "description": "",
           "keywords": "",
           "href": "/13-1-1",
