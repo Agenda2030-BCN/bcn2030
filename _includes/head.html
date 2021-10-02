@@ -18,7 +18,9 @@
 
         {% include title-tag.html %}
 
-        <meta name="description" content="">
+        {% assign description_meta = page.t.custom-translations.descriptionmeta %}
+
+        <meta name="description" content="{{ description_meta }}">
         <meta property="og:description" content="">
         {% if site.environment == 'staging' or include.noindex %}
         <meta name="robots" content="noindex, nofollow">
@@ -78,6 +80,12 @@
         {%- endif -%}
         <!-- ShareThis END -->
 
+        <!-- BCN Analythics -->
+        <script type='text/javascript' charset='utf-8' src='https://www.barcelona.cat/assets/core/javascripts/core.js'></script>
+        <script type='text/javascript'>
+          bcn.statistics({
+          keys: ['UA-171770207-39'] });
+        </script>
     </head>
 <body class="language-{{ page.language }} layout-{{ page.layout }}">
 <!-- <div class="container"> -->
