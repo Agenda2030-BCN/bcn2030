@@ -14,9 +14,9 @@ remote_data_prefix: "https://sdgdata.barcelona.cat/bcn2030-data/"
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 # URL for the "Edit Data" button on indicators.
-data_edit_url: http://prose.io/#open-sdg/bcn2030-data/edit/develop/data/indicator_[id].csv
+data_edit_url: http://prose.io/#Agenda2030-BCN/bcn2030-data/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#open-sdg/bcn2030-data/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#Agenda2030-BCN/bcn2030-data/edit/develop/meta/[id].md
 #
 # The list of languages that are translated. The first one is the default.
 languages:
