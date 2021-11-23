@@ -47,7 +47,7 @@
         },
         {
           "id": "1-5-1",
-          "title": "Nombre de persones ateses pel Centre d’Urgències i Emergències Socials (CUESB)",
+          "title": "Nombre d'unitats d'atenció realitzades pel Centre d’Urgències i Emergències Socials (CUESB) i nombre de persones ateses en emergència social",
           "description": "",
           "keywords": "",
           "href": "/1-5-1",
@@ -187,7 +187,7 @@
           "description": "",
           "keywords": "",
           "href": "/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
