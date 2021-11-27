@@ -1575,11 +1575,19 @@
         },
         {
           "id": "13-1-2",
-          "title": "Nombre de districtes que disposen d’un jardí d’aigua",
+          "title": "Superfície de làmines d’aigua de les fonts ornamentals",
           "description": "",
           "keywords": "",
           "href": "/13-1-2",
-          "status": "inprogress"
+          "status": "complete"
+        },
+        {
+          "id": "13-1-3",
+          "title": "Nombre de fonts multifunció a les escoles, patis oberts",
+          "description": "",
+          "keywords": "",
+          "href": "/13-1-3",
+          "status": "complete"
         },
         {
           "id": "13-2-1",
