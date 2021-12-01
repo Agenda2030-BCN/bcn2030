@@ -702,6 +702,62 @@
           "status": "complete"
         },
         {
+          "id": "6-3-3",
+          "title": "Use of regenerated water in the Marina neighbourhood (in m3)",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-4",
+          "title": "Use of grey water",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-5",
+          "title": "Use of rainwater on roofs",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-6",
+          "title": "Sewer network rehabilitation",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-6",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-7",
+          "title": "Ratio of sewer rehabilitation",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-7",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-8",
+          "title": "Average age of the sewer network",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-8",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-9",
+          "title": "Estimated volume of filtered water underground",
+          "description": "",
+          "keywords": "",
+          "href": "/6-3-9",
+          "status": "complete"
+        },
+        {
           "id": "6-4-1",
           "title": "Consum domèstic d’aigua mesurat en litres per habitant i dia",
           "description": "",
@@ -718,20 +774,28 @@
           "status": "complete"
         },
         {
+          "id": "6-4-3",
+          "title": "Economic losses due to groundwater pollution",
+          "description": "",
+          "keywords": "",
+          "href": "/6-4-3",
+          "status": "complete"
+        },
+        {
           "id": "6-5-1",
-          "title": "Grau d'implementació de la gestió integrada dels recursos hídrics (0‐100)",
+          "title": "Participation as partners in research projects devoted to the integrated management of water resources",
           "description": "",
           "keywords": "",
           "href": "/6-5-1",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "6-5-2",
-          "title": "Proporció de la superfície de conques transfrontereres subjectes a arranjaments operacionals per a la cooperació en matèria d'aigües",
+          "title": "Support and collaboration in research projects devoted to the integrated management of water resources",
           "description": "",
           "keywords": "",
           "href": "/6-5-2",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "6-6-1",
@@ -740,6 +804,38 @@
           "keywords": "",
           "href": "/6-6-1",
           "status": "inprogress"
+        },
+        {
+          "id": "6-6-2",
+          "title": "Forecast of percentage of non-compliance time of the microbiological quality of the water on the beaches of Barcelona during the bathing season",
+          "description": "",
+          "keywords": "",
+          "href": "/6-6-2",
+          "status": "complete"
+        },
+        {
+          "id": "6-6-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/6-6-3",
+          "status": "complete"
+        },
+        {
+          "id": "6-6-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/6-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-6-5",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/6-6-5",
+          "status": "complete"
         },
         {
           "id": "6-a-1",
