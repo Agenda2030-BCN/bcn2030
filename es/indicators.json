@@ -703,7 +703,7 @@
         },
         {
           "id": "6-3-3",
-          "title": "Use of regenerated water in the Marina neighbourhood (in m3)",
+          "title": "Uso de agua regenerada en el barrio de la Marina",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-3",
@@ -711,23 +711,23 @@
         },
         {
           "id": "6-3-4",
-          "title": "Use of grey water",
+          "title": "Uso de aguas grises",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-5",
-          "title": "Use of rainwater on roofs",
+          "title": "Uso de aguas pluviales en cubiertas",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-5",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-6",
-          "title": "Sewer network rehabilitation",
+          "title": "Rehabilitación de la red de alcantarillado",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-6",
@@ -735,7 +735,7 @@
         },
         {
           "id": "6-3-7",
-          "title": "Ratio of sewer rehabilitation",
+          "title": "Tasa de rehabilitación del alcantarillado",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-7",
@@ -743,7 +743,7 @@
         },
         {
           "id": "6-3-8",
-          "title": "Average age of the sewer network",
+          "title": "Edad media de la red de alcantarillado",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-8",
@@ -751,7 +751,7 @@
         },
         {
           "id": "6-3-9",
-          "title": "Estimated volume of filtered water underground",
+          "title": "Volumen estimado de agua filtrada en el subsuelo, masas de agua subterráneas",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-9",
@@ -775,7 +775,7 @@
         },
         {
           "id": "6-4-3",
-          "title": "Economic losses due to groundwater pollution",
+          "title": "Pérdidas económicas por efecto de la contaminación en las masas de agua subterráneas",
           "description": "",
           "keywords": "",
           "href": "/es/6-4-3",
@@ -783,7 +783,7 @@
         },
         {
           "id": "6-5-1",
-          "title": "Participation as partners in research projects devoted to the integrated management of water resources",
+          "title": "Participación como socios en proyectos de investigación que trabajan en la gestión integrada de los recursos hídricos",
           "description": "",
           "keywords": "",
           "href": "/es/6-5-1",
@@ -791,7 +791,7 @@
         },
         {
           "id": "6-5-2",
-          "title": "Support and collaboration in research projects devoted to the integrated management of water resources",
+          "title": "Apoyo y colaboración en proyectos de investigación que trabajan en la gestión integrada de los recursos hídrics",
           "description": "",
           "keywords": "",
           "href": "/es/6-5-2",
@@ -807,34 +807,10 @@
         },
         {
           "id": "6-6-2",
-          "title": "Forecast of percentage of non-compliance time of the microbiological quality of the water on the beaches of Barcelona during the bathing season",
+          "title": "Previsión de porcentaje de tiempo de incumplimiento de la calidad microbiológica del agua de las playas de Barcelona durante la temporada de baño",
           "description": "",
           "keywords": "",
           "href": "/es/6-6-2",
-          "status": "complete"
-        },
-        {
-          "id": "6-6-3",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/es/6-6-3",
-          "status": "complete"
-        },
-        {
-          "id": "6-6-4",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/es/6-6-4",
-          "status": "complete"
-        },
-        {
-          "id": "6-6-5",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/es/6-6-5",
           "status": "complete"
         },
         {

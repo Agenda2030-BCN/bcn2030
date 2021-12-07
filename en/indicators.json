@@ -715,7 +715,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/6-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-5",
@@ -723,7 +723,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/6-3-5",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-6",
@@ -811,30 +811,6 @@
           "description": "",
           "keywords": "",
           "href": "/en/6-6-2",
-          "status": "complete"
-        },
-        {
-          "id": "6-6-3",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/en/6-6-3",
-          "status": "complete"
-        },
-        {
-          "id": "6-6-4",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/en/6-6-4",
-          "status": "complete"
-        },
-        {
-          "id": "6-6-5",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/en/6-6-5",
           "status": "complete"
         },
         {
