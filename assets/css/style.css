@@ -3356,3 +3356,6 @@ body.contrast-high .cookie-notice .cn-body .cm-btn {
     background: #eeeeee; }
   body.contrast-high .cookie-notice .cn-body .cm-btn.cn-decline {
     background: #eeeeee; }
+
+.disclaimer-alert {
+  display: none; }
