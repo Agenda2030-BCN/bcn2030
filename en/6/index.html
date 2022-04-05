@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220405015823">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220405174857">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -177,18 +177,35 @@ var translations = {
     <img src="/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-high contrast-type-single">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
         <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
+    <ul class="dropdown-menu"><li class="language-option-ca">
             <a href="/6/">
               Català
             </a>
-          </li><li>
+          </li><li class="language-option-es">
             <a href="/es/6/">
               Español
             </a>
@@ -201,7 +218,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/en/search">
+  <form action="/en/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -222,11 +239,11 @@ var translations = {
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
+    <ul class="dropdown-menu"><li class="language-option-ca">
             <a href="/6/">
               Català
             </a>
-          </li><li>
+          </li><li class="language-option-es">
             <a href="/es/6/">
               Español
             </a>
@@ -236,7 +253,23 @@ var translations = {
 
 
 
-        </li></ul>
+        </li>
+
+    <li class="nav-link contrast contrast-high contrast-type-single">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
       </div>
     </div>
 
@@ -269,11 +302,11 @@ var translations = {
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
+    <ul class="dropdown-menu"><li class="language-option-ca">
             <a href="/6/">
               Català
             </a>
-          </li><li>
+          </li><li class="language-option-es">
             <a href="/es/6/">
               Español
             </a>
@@ -284,6 +317,24 @@ var translations = {
 
 
 </li>
+
+
+
+    <li class="nav-link contrast contrast-high contrast-type-single">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -292,7 +343,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/en/search">
+  <form action="/en/search/">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -312,6 +363,7 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/en/management">Management</a>
 </li>
+
 </ul>
 
     </div>
@@ -412,6 +464,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
       </div>
@@ -447,6 +503,10 @@ var translations = {
 </span>
 
             
+
+
+
+
 
           </div>
         
@@ -484,6 +544,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -506,6 +570,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -527,10 +595,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -555,6 +622,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -576,10 +647,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -603,10 +673,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -630,10 +699,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -657,10 +725,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -684,10 +751,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -726,6 +792,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -748,6 +818,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -769,10 +843,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -810,10 +883,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -837,10 +909,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -879,6 +950,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -900,10 +975,9 @@ var translations = {
 </span>
 
             
-    <span class="sr-only">Tags</span>
-    <span class="tags">
-    
-    </span>
+
+
+
 
 
           </div>
@@ -942,6 +1016,10 @@ var translations = {
 
             
 
+
+
+
+
           </div>
         
 
@@ -963,6 +1041,10 @@ var translations = {
 </span>
 
             
+
+
+
+
 
           </div>
         
@@ -999,6 +1081,10 @@ var translations = {
 </span>
 
             
+
+
+
+
 
           </div>
         
@@ -1043,13 +1129,7 @@ var translations = {
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
@@ -1062,18 +1142,25 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+
+
+
+
+
+
+
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220405015823'></script>
+<script src='/assets/js/sdg.js?v=20220405174857'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220405015823"></script><script>
+    <script src="/assets/js/custom.js?v=20220405174857"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1106,13 +1193,17 @@ $(function() {
               chartTitle: domData.charttitle,
               chartTitles: domData.charttitles,
               measurementUnit: domData.measurementunit,
+              xAxisLabel: domData.xaxislabel,
               showData: domData.showdata,
               graphType: domData.graphtype,
               startValues: domData.startvalues,
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),
@@ -1139,8 +1230,6 @@ $(function() {
 
 });
 </script>
-
-
 
 
 </body>
