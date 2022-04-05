@@ -27,7 +27,7 @@ languages:
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.3.1
+remote_theme: open-sdg/open-sdg@1.7.0
 
 # Replace this title as needed.
 title: general.site_title
@@ -231,3 +231,11 @@ date_formats:
   - type: standard
     language: ca
     format: '%d de %B de %Y'
+
+cookie_consent_form:
+  enabled: false
+
+hide_single_unit: true
+hide_single_series: true
+
+contrast_type: single

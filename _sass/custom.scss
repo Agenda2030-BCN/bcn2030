@@ -5,29 +5,29 @@
 }
 
 .complete {
-    background-color: #5cb85c;
-    background: #5cb85c;
+    background-color: #5cb85c !important;
+    background: #5cb85c !important;
     color: black !important;
     border: none !important;
 }
 
 .inprogress {
-    background-color: #e2dc74;
-    background: #e2dc74;
+    background-color: #e2dc74 !important;
+    background: #e2dc74 !important;
     color: black !important;
    border: none !important;
 }
 
 .notstarted {
-    background-color: #e2a574;
-    background: #e2a574;
+    background-color: #e2a574 !important;
+    background: #e2a574 !important;
     color: black !important;
     border: none !important;
 }
 
 .notapplicable {
-    background-color: #E27874;
-    background: #E27874;
+    background-color: #E27874 !important;
+    background: #E27874 !important;
     color: black !important;
     border: none !important;
 }
@@ -35,4 +35,72 @@
 .status-inner{
     background-color: transparent !important;
     color: black !important;
+}
+
+//COOKIES
+
+.cookie-settings {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.klaro {
+    .cookie-notice {
+        .cn-body {
+            .cm-link {
+                color: $link-color;
+                text-decoration: underline;
+            }
+            strong {
+                text-transform: lowercase;
+            }
+            .cn-changes {
+                text-decoration: none !important;
+                font-weight: bold;
+            }
+            .cm-btn {
+                border: none;
+                background: $button-color;
+                color: $button-foregroundColor;
+                box-shadow: 0 2px 0 $button-color-dropShadow;
+                border-radius: 0;
+                &.cm-btn-success {
+                    background: $button-color;
+                }
+                &.cn-decline {
+                    background: $color-warning;
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}
+
+body.contrast-high {
+    .cookie-notice {
+        .cn-body {
+            p span {
+                color: $color-dark-highContrast;
+            }
+            .cm-link {
+                color: $color-dark-highContrast;
+            }
+            strong {
+                text-transform: lowercase;
+            }
+            .cn-changes {
+                text-decoration: none !important;
+                font-weight: bold;
+            }
+            .cm-btn {
+                background: $button-color-highContrast;
+                color: $button-foregroundColor-highContrast;
+                &.cm-btn-success {
+                    background: $button-color-highContrast;
+                }
+                &.cn-decline {
+                    background: $button-color-highContrast;
+                }
+            }
+        }
+    }
 }
