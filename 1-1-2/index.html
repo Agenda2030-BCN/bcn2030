@@ -139,7 +139,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220424165709">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220424171905">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -700,6 +700,30 @@ data-event-label="high"
       data-toggle="tab"
       role="tab"
       
+        id="tab-tableview"
+        href="#tableview"
+        aria-controls="tableview"
+        data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+      
+    >Taula</a>
+  </li>
+  
+  <li role="presentation"
+    class="
+      nav-item
+      
+      
+      
+    ">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      role="tab"
+      
         id="tab-chartview"
         href="#chartview"
         aria-controls="chartview"
@@ -725,16 +749,22 @@ data-event-label="Change to Chart tab"
       data-toggle="tab"
       role="tab"
       
-        id="tab-tableview"
-        href="#tableview"
-        aria-controls="tableview"
-        data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
-
+    ></a>
+  </li>
+  
+  <li role="presentation"
+    class="
+      nav-item
       
-    >Taula</a>
+      
+      
+    ">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      role="tab"
+      
+    ></a>
   </li>
   
 </ul>
@@ -742,7 +772,69 @@ data-event-label="Change to Table tab"
     <div class="tab-content data-view">
   
     
-      <div role="tabpanel" class="tab-pane active" id="chartview">
+      <div role="tabpanel" class="tab-pane active" id="tableview">
+        <div style="display: none;">
+          <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
+        </div>
+        <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Font:</dt>
+        <dd>Ajuntament de Barcelona</dd>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>Ciutat de Barcelona</dd>
+        
+
+        
+        <dt>Unitat de mesura:</dt>
+        <dd>Nombre total</dd>
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          data-for-series=null
+          data-for-unit=null
+        >My field label:</dt>
+        <dd
+          data-for-series=null
+          data-for-unit=null
+        >My field content</dd>
+        
+        <dt
+          data-for-series=null
+          data-for-unit=null
+        >My other field label:</dt>
+        <dd
+          data-for-series=null
+          data-for-unit=null
+        >My other field content</dd>
+        
+        
+    <dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+      </div>
+    
+  
+    
+      <div role="tabpanel" class="tab-pane " id="chartview">
         
 
     <div id="dataset-size-warning" style="display:none" role="alert">
@@ -1025,6 +1117,26 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        
+        <dt
+          data-for-series=null
+          data-for-unit=null
+        >My field label:</dt>
+        <dd
+          data-for-series=null
+          data-for-unit=null
+        >My field content</dd>
+        
+        <dt
+          data-for-series=null
+          data-for-unit=null
+        >My other field label:</dt>
+        <dd
+          data-for-series=null
+          data-for-unit=null
+        >My other field content</dd>
+        
+        
     <dl>
 </div>
 
@@ -1043,45 +1155,7 @@ opensdg.chartConfigAlter(function(config, info) {
     
   
     
-      <div role="tabpanel" class="tab-pane " id="tableview">
-        <div style="display: none;">
-          <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
-        </div>
-        <div id="selectionsTable"></div>
-<dl id="tableTargetLines" class="clearfix"></dl>
-
-
-
-
-<div id="selectionTableFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-        <dt>Font:</dt>
-        <dd>Ajuntament de Barcelona</dd>
-        
-
-        
-        <dt>Àrea geogràfica:</dt>
-        <dd>Ciutat de Barcelona</dd>
-        
-
-        
-        <dt>Unitat de mesura:</dt>
-        <dd>Nombre total</dd>
-        
-
-        
-
-        
-
-        
-    <dl>
-</div>
-
-<div id="tableSelectionDownload" class="clearfix"></div>
-
-      </div>
+  
     
   
 </div>
@@ -1290,8 +1364,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/1aa1a9f506ca65e9bfd5c398f60211a83b66bc7c" target="_blank">
-                2021-11-29: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/2c73c30d9604be794a706710f29d512ed7c7ac22" target="_blank">
+                2022-04-24: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -2003,12 +2077,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20220424165709'></script>
+<script src='/assets/js/sdg.js?v=20220424171905'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220424165709"></script><script>
+    <script src="/assets/js/custom.js?v=20220424171905"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
