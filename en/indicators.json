@@ -1639,11 +1639,11 @@
         
         {
           "id": "13-1-1",
-          "title": "Proportion of the population that have a climate refuge less than 300 m from their home",
+          "title": "Proportion of the population that have a climate refuge less than 10 minuts walk from their home",
           "description": "",
           "keywords": "",
           "href": "/en/13-1-1",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
