@@ -415,7 +415,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "Aconseguir que més del 80% de les persones d’entre 20 i 24 anys hagin completat amb èxit, com a mínim, estudis de Batxillerat o de Cicle Formatiu de Grau Mig",
+          "title": "Proporció de persones entre 20 i 24 anys que disposen, com a mínim, del títol de Batxillerat o de CFGM",
           "description": "",
           "keywords": "",
           "href": "/4-4-1",
@@ -1727,11 +1727,11 @@
         
         {
           "id": "14-1-1",
-          "title": "Índex d’eutrofització costanera i densitat de detritus plàstics flotants",
+          "title": "Volum de residus sòlids procedents del sistema unitari de clavegueram que s'evita que arribin al mar en temps de pluja (mesurat en m3 de residus/dies de pluja significativa per any)",
           "description": "",
           "keywords": "",
           "href": "/14-1-1",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "14-2-1",
