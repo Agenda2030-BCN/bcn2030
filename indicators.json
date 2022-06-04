@@ -46,6 +46,14 @@
           "status": "complete"
         },
         {
+          "id": "1-4-2",
+          "title": "Patir endarreriments en el pagament de factures o rebuts de serveis (llum, aigua, gas, etc.) en els últims 12 mesos",
+          "description": "",
+          "keywords": "",
+          "href": "/1-4-2",
+          "status": "complete"
+        },
+        {
           "id": "1-5-1",
           "title": "Nombre d'unitats d'atenció realitzades pel Centre d’Urgències i Emergències Socials (CUESB) i nombre de persones ateses en emergència social",
           "description": "",
@@ -1751,11 +1759,11 @@
         },
         {
           "id": "14-5-1",
-          "title": "Índex de biodiversitat marina del litoral de Barcelona",
+          "title": "Nombre d'espècies marines identificades a la costa de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/14-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-a-1",

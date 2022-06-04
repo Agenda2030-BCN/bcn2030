@@ -46,6 +46,14 @@
           "status": "complete"
         },
         {
+          "id": "1-4-2",
+          "title": "Se han producido retrasos en el pago de las facturas de la electricidad, agua, gas, etc. en los últimos 12 meses",
+          "description": "",
+          "keywords": "",
+          "href": "/es/1-4-2",
+          "status": "complete"
+        },
+        {
           "id": "1-5-1",
           "title": "Número de unidades de atención realizadas por el Centro de Urgencias y Emergencias Sociales (CUESB) y número de personas atendidas en emergencia social",
           "description": "",
@@ -1751,11 +1759,11 @@
         },
         {
           "id": "14-5-1",
-          "title": "Índice de biodiversidad marina del litoral de Barcelona",
+          "title": "Número de especies marinas identificadas en la costa de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/14-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-a-1",

@@ -46,6 +46,14 @@
           "status": "complete"
         },
         {
+          "id": "1-4-2",
+          "title": "Delayed payment of water, electricity, gas bills, etc., in the last 12 months",
+          "description": "",
+          "keywords": "",
+          "href": "/en/1-4-2",
+          "status": "complete"
+        },
+        {
           "id": "1-5-1",
           "title": "Number of care units provided by the Center for Emergencies and Social Emergencies (CUESB) and number of people cared for in a social emergency",
           "description": "",
@@ -1751,11 +1759,11 @@
         },
         {
           "id": "14-5-1",
-          "title": "Foster the biodiversity of the Parc dels Esculls [Reef Park] and in other locations in Barcelona’s coastal waters",
+          "title": "Number of marine species identified on the coast of Barcelona",
           "description": "",
           "keywords": "",
           "href": "/en/14-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-a-1",
