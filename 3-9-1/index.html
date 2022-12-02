@@ -139,7 +139,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20221201021912">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20221202015501">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -547,17 +547,17 @@ data-event-label="high"
   data-measurementunit="Nombre Total"
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="[{&quot;field&quot;:&quot;Interval de confiança 95%&quot;,&quot;value&quot;:&quot;Posició central&quot;},{&quot;field&quot;:&quot;Interval de confiança 95%&quot;,&quot;value&quot;:&quot;Posició alta&quot;},{&quot;field&quot;:&quot;Interval de confiança 95%&quot;,&quot;value&quot;:&quot;Posició baixa&quot;}]"
+  data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="[{&quot;value&quot;:300}]"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Any&quot;},{&quot;name&quot;:&quot;Confidence_Interval_95%&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Posició central&quot;,&quot;Posició alta&quot;,&quot;Posició baixa&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Interval de confiança 95%&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Nombre Total&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Any&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Nombre Total&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -594,8 +594,52 @@ data-event-label="high"
       <caption>Nombre de morts atribuïbles anualment a l’excés de contaminació atmosfèrica (superació del llindar OMS* per NO2 i PM2,5 alhora) </caption>
       <thead>
         
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">Units</th>
+        
+        
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2018-2019</td>
+          
+          
+          
+          <td>1900</td>
+          
+          
+          
+          <td class="table-value">Nombre Total</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019-2020</td>
+          
+          
+          
+          <td>1200</td>
+          
+          
+          
+          <td class="table-value">Nombre Total</td>
+          
+          
+        </tr>
         
       </tbody>
     </table>
@@ -907,32 +951,39 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
+// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.stackedDisaggregation) {
     var overrides = {
-      options: {
-        scales: {
-          xAxes: [{ stacked: true }],
-          yAxes: [{ stacked: true }],
-        }
-      }
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
     };
-    // If we have stackedDisaggregation, we need to group datasets into stacks.
-    config.data.datasets.forEach(function(dataset) {
-      var disaggregation = $.extend({}, dataset.disaggregation);
-      // We're going to "stringify" each combination of disaggregations in order
-      // to place them in their own "stacks". To place "stacked" disaggregations
-      // into the same stack, we set them as "samestack" before stringifying.
-      // Note that the string "samestack" is completely arbitrary.
-      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
-        disaggregation[info.stackedDisaggregation] = 'samestack';
-      }
-      // Use the disaggregation as a unique id for each stack.
-      dataset.stack = JSON.stringify(disaggregation);
-    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
-  }
 });
 </script>
 
@@ -1203,8 +1254,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/df8aed1d5433cebc6434733e80a66d015db9b32e" target="_blank">
-                2021-06-29: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/f9eef4f1c1654c31fb82aa0e6d9066b5a69c3add" target="_blank">
+                2022-12-01: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1230,8 +1281,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/da4e1a94c6dfa4fbd68d3e172400608fbfe280e9" target="_blank">
-                2022-05-19: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/902d0bcf79c8b38e55066f091fb8e0f7ca6b19d6" target="_blank">
+                2022-12-01: see changes on GitHub <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1945,12 +1996,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20221201021912'></script>
+<script src='/assets/js/sdg.js?v=20221202015501'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20221201021912"></script><script>
+    <script src="/assets/js/custom.js?v=20221202015501"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
