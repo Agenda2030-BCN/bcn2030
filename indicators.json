@@ -103,11 +103,11 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volum de producció per unitat de treball desglossat per grandària i tipus d'explotació (agropecuària/ramadera/forestal)",
+          "title": "Nombre d'horts urbans",
           "description": "",
           "keywords": "",
           "href": "/2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-4-1",
@@ -2039,7 +2039,7 @@
         },
         {
           "id": "16-5-1",
-          "title": "Percepció ciutadana sobre l’ús dels diners públics per part de l’Ajuntament (balanç de respostes positives i negatives)",
+          "title": "Percepció ciutadana sobre l’ús dels diners públics per part de l’Ajuntament (respostes amb valoració positiva; responen bé o molt bé)",
           "description": "",
           "keywords": "",
           "href": "/16-5-1",
@@ -2071,7 +2071,7 @@
         },
         {
           "id": "16-6-2",
-          "title": "Percentatge de tràmits finalistes completament digitalitzats (amb descàrrega de document immediata)",
+          "title": "Nombre de tràmits finalistes completament digitalitzats (amb descàrrega de document immediata)",
           "description": "",
           "keywords": "",
           "href": "/16-6-2",
