@@ -695,7 +695,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "Superficie operativa de sistemas urbanos de drenaje sostenible",
+          "title": "Tasa de rehabilitación del alcantarillado",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-1",
@@ -742,27 +742,11 @@
           "status": "complete"
         },
         {
-          "id": "6-3-7",
-          "title": "Tasa de rehabilitación del alcantarillado",
-          "description": "",
-          "keywords": "",
-          "href": "/es/6-3-7",
-          "status": "complete"
-        },
-        {
           "id": "6-3-8",
           "title": "Edad media de la red de alcantarillado",
           "description": "",
           "keywords": "",
           "href": "/es/6-3-8",
-          "status": "complete"
-        },
-        {
-          "id": "6-3-9",
-          "title": "Volumen estimado de agua filtrada en el subsuelo, masas de agua subterráneas",
-          "description": "",
-          "keywords": "",
-          "href": "/es/6-3-9",
           "status": "complete"
         },
         {

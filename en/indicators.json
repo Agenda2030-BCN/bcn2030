@@ -695,7 +695,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "Increase the operational surface area of sustainable urban drainage systems",
+          "title": "Ratio of sewer rehabilitation",
           "description": "",
           "keywords": "",
           "href": "/en/6-3-1",
@@ -703,7 +703,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "Network water consumed by municipal services (in m3)",
+          "title": "Estimated volume of filtered water underground",
           "description": "",
           "keywords": "",
           "href": "/en/6-3-2",
@@ -742,27 +742,11 @@
           "status": "complete"
         },
         {
-          "id": "6-3-7",
-          "title": "Ratio of sewer rehabilitation",
-          "description": "",
-          "keywords": "",
-          "href": "/en/6-3-7",
-          "status": "complete"
-        },
-        {
           "id": "6-3-8",
           "title": "Average age of the sewer network",
           "description": "",
           "keywords": "",
           "href": "/en/6-3-8",
-          "status": "complete"
-        },
-        {
-          "id": "6-3-9",
-          "title": "Estimated volume of filtered water underground",
-          "description": "",
-          "keywords": "",
-          "href": "/en/6-3-9",
           "status": "complete"
         },
         {
