@@ -711,7 +711,7 @@
         },
         {
           "id": "6-3-3",
-          "title": "Ús d’aigua regenerada al barri de la Marina",
+          "title": "Average age of the sewer network",
           "description": "",
           "keywords": "",
           "href": "/6-3-3",
@@ -739,14 +739,6 @@
           "description": "",
           "keywords": "",
           "href": "/6-3-6",
-          "status": "complete"
-        },
-        {
-          "id": "6-3-8",
-          "title": "Edat mitjana de la xarxa de clavegueram",
-          "description": "",
-          "keywords": "",
-          "href": "/6-3-8",
           "status": "complete"
         },
         {
@@ -779,6 +771,14 @@
           "description": "",
           "keywords": "",
           "href": "/6-4-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-4-5",
+          "title": "Ús d’aigua regenerada al barri de la Marina",
+          "description": "",
+          "keywords": "",
+          "href": "/6-4-5",
           "status": "complete"
         },
         {

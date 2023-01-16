@@ -711,7 +711,7 @@
         },
         {
           "id": "6-3-3",
-          "title": "Use of regenerated water in the Marina neighbourhood (in m3)",
+          "title": "Average age of the sewer network",
           "description": "",
           "keywords": "",
           "href": "/en/6-3-3",
@@ -739,14 +739,6 @@
           "description": "",
           "keywords": "",
           "href": "/en/6-3-6",
-          "status": "complete"
-        },
-        {
-          "id": "6-3-8",
-          "title": "Average age of the sewer network",
-          "description": "",
-          "keywords": "",
-          "href": "/en/6-3-8",
           "status": "complete"
         },
         {
@@ -779,6 +771,14 @@
           "description": "",
           "keywords": "",
           "href": "/en/6-4-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-4-5",
+          "title": "Use of regenerated water in the Marina neighbourhood (in m3)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-4-5",
           "status": "complete"
         },
         {
