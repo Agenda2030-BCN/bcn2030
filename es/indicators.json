@@ -1070,14 +1070,6 @@
           "status": "complete"
         },
         {
-          "id": "8-9-1",
-          "title": "Proporción de establecimientos y servicios turísticos con el distintivo “Barcelona turismo seguro”",
-          "description": "",
-          "keywords": "",
-          "href": "/es/8-9-1",
-          "status": "notstarted"
-        },
-        {
           "id": "8-9-2",
           "title": "Número de establecimientos y servicios turísticos con el distintivo “Compromiso Biosphere”",
           "description": "",
@@ -2155,7 +2147,7 @@
           "description": "",
           "keywords": "",
           "href": "/es/16-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },

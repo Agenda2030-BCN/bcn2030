@@ -1070,14 +1070,6 @@
           "status": "complete"
         },
         {
-          "id": "8-9-1",
-          "title": "The proportion of tourism establishments and services with the Barcelona Safe Tourism label",
-          "description": "",
-          "keywords": "",
-          "href": "/en/8-9-1",
-          "status": "notstarted"
-        },
-        {
           "id": "8-9-2",
           "title": "Number of tourism establishments and services with the Barcelona Commitment label",
           "description": "",
@@ -2155,7 +2147,7 @@
           "description": "",
           "keywords": "",
           "href": "/en/16-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
