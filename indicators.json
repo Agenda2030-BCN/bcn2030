@@ -1766,14 +1766,6 @@
           "status": "complete"
         },
         {
-          "id": "14-a-1",
-          "title": "Proporció del pressupost total de recerca assignada a la recerca en el camp de la tecnologia marina",
-          "description": "",
-          "keywords": "",
-          "href": "/14-a-1",
-          "status": "notstarted"
-        },
-        {
           "id": "14-a-2",
           "title": "Projecte Node Formatiu i Tecnològic de la Nàutica",
           "description": "",
@@ -2214,14 +2206,6 @@
           "status": "complete"
         },
         {
-          "id": "17-6-2",
-          "title": "Nombre d'abonats a Internet de banda ampla fixa per cada 100 habitants, desglossat per velocitat",
-          "description": "",
-          "keywords": "",
-          "href": "/17-6-2",
-          "status": "notstarted"
-        },
-        {
           "id": "17-7-1",
           "title": "Total dels fons aprovats per als països en desenvolupament a fi de promoure el desenvolupament, la transferència i la difusió de tecnologies ecològicament racionals",
           "description": "",
@@ -2291,7 +2275,7 @@
           "description": "",
           "keywords": "",
           "href": "/17-18-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-18-2",
@@ -2299,7 +2283,7 @@
           "description": "",
           "keywords": "",
           "href": "/17-18-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-18-3",
@@ -2307,7 +2291,7 @@
           "description": "",
           "keywords": "",
           "href": "/17-18-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-19-1",
