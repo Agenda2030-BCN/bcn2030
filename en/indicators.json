@@ -822,6 +822,22 @@
           "status": "complete"
         },
         {
+          "id": "6-6-4",
+          "title": "Annual volume of groundwater extracted for municipal use (m3)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-6-5",
+          "title": "Percentage of analytics with values> 2000µS / cm of conductivity",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-6-5",
+          "status": "complete"
+        },
+        {
           "id": "6-a-1",
           "title": "Resources of the municipal Global Justice programme, allocated improving water supplies and sanitation",
           "description": "",

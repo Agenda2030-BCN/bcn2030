@@ -822,6 +822,22 @@
           "status": "complete"
         },
         {
+          "id": "6-6-4",
+          "title": "Volumen anual extraído de las aguas subterráneas por el uso municipal (m3)",
+          "description": "",
+          "keywords": "",
+          "href": "/es/6-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-6-5",
+          "title": "Porcentaje de analíticas con valores> 2000μS / cm de conductividad",
+          "description": "",
+          "keywords": "",
+          "href": "/es/6-6-5",
+          "status": "complete"
+        },
+        {
           "id": "6-a-1",
           "title": "Recursos del Programa de cooperación para la justicia global de la ciudad destinados a mejorar la provisión de agua y de saneamiento",
           "description": "",

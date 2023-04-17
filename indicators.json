@@ -822,6 +822,22 @@
           "status": "complete"
         },
         {
+          "id": "6-6-4",
+          "title": "Volum anual extret de les aigües subterrànies per l’ús municipal (m3)",
+          "description": "",
+          "keywords": "",
+          "href": "/6-6-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-6-5",
+          "title": "Percentatge d'analítiques amb valors >2000µS/cm de conductivitat",
+          "description": "",
+          "keywords": "",
+          "href": "/6-6-5",
+          "status": "complete"
+        },
+        {
           "id": "6-a-1",
           "title": "Recursos del programa municipal de Justícia Global destinats a la millora de la provisió d’aigua i de sanejament",
           "description": "",
