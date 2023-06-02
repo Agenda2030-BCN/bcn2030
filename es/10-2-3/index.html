@@ -139,7 +139,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20230601022614">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20230602020244">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -532,6 +532,15 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p><strong>Nota</strong></p>
+
+<p>Porcentaje de jóvenes de 15 a 34 años que declaran sentirse solos a menudo o muy a menudo</p>
+
+  </div>
+</div>
+
 
   
 
@@ -550,14 +559,14 @@ data-event-label="high"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Sexo&quot;,&quot;value&quot;:&quot;Hombres&quot;},{&quot;field&quot;:&quot;Sexo&quot;,&quot;value&quot;:&quot;Mujeres&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Porcentaje&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Gender&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Hombres&quot;,&quot;Mujeres&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sexo&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Porcentaje&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -1238,8 +1247,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/4e8d2717490a672a7d04f7efa339a76095511221" target="_blank">
-                2021-11-23: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/0ad78bf38888c7ed60b25688ef47edbfee6e98f6" target="_blank">
+                2023-06-01: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1265,8 +1274,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/7eb14862ba993b9394aa8a0f922995e8c68030d5" target="_blank">
-                2021-11-23: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/42f5cdc6f6976abd9a80b31b68c493be7bec221b" target="_blank">
+                2023-06-01: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1978,12 +1987,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20230601022614'></script>
+<script src='/assets/js/sdg.js?v=20230602020244'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20230601022614"></script><script>
+    <script src="/assets/js/custom.js?v=20230602020244"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
