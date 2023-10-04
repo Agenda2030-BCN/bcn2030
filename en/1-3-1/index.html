@@ -139,7 +139,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231004013215">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231004101444">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -550,14 +550,14 @@ data-event-label="high"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Geographical Area&quot;,&quot;value&quot;:&quot;Barcelona&quot;},{&quot;field&quot;:&quot;Geographical Area&quot;,&quot;value&quot;:&quot;Barcelona Metropolitan Area&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Geographical_Area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Barcelona&quot;,&quot;Barcelona Metropolitan Area&quot;]},&quot;title&quot;:&quot;Geographical Area&quot;},{&quot;name&quot;:&quot;Threshold&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;40%&quot;,&quot;60%&quot;]},&quot;title&quot;:&quot;Threshold&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Percentage&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Geographical_Area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Barcelona&quot;,&quot;Barcelona Metropolitan Area&quot;]},&quot;title&quot;:&quot;Geographical Area&quot;},{&quot;name&quot;:&quot;Poverty_Threshold&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;40% median&quot;,&quot;60% median&quot;]},&quot;title&quot;:&quot;Poverty_Threshold&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Percentage&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -1210,8 +1210,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/2b45b7f0342343b3915194b010278addd59085df" target="_blank">
-                2023-10-03: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/fc17623229beddeceb02924a980270ce06fddc70" target="_blank">
+                2023-10-04: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1237,8 +1237,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/20e3ba4f10004cbe4b2ff02d32f8193be83acaf7" target="_blank">
-                2023-10-03: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/Agenda2030-BCN/bcn2030-data/commit/22403a358a8df314291b07a04297d294248f654e" target="_blank">
+                2023-10-04: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1950,12 +1950,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20231004013215'></script>
+<script src='/assets/js/sdg.js?v=20231004101444'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231004013215"></script><script>
+    <script src="/assets/js/custom.js?v=20231004101444"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
