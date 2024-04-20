@@ -20,16 +20,11 @@
     {% assign goal_indicators = page.indicators | where: 'goal_number', page.goal.number | group_by: 'target_number' %}
     {% for group in goal_indicators %}
       {% assign target = group.name | sdg_lookup %}
-      {% assign target_id = group.name %}
-      {% assign target_id_dashes = target_id | replace: ".", "-" %}
-      {% assign target_title_key = target_id | append: '-title' %}
-      {% assign target_title_key_dashes = target_id_dashes | append: '-title' %}
-      {% assign target_title = page.t.global_targets.[target_title_key_dashes] | default: page.t.global_targets.[target_title_key] %}
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
           <span class="target-number"><span class="sr-only">{{ page.t.general.target }}</span> {{ target.number }}</span>
         </h3>
-        <span class="target-name"> {{ target_title }}</span>
+        <span class="target-name">{{ target.name }}</span>
         {% for indicator in group.items %}
 
           {% assign tag_classes = "" | split: "," %}
@@ -45,10 +40,14 @@
             <h4>
               <span class="indicator-number"><span class="sr-only">{{ page.t.general.indicator }}</span> {{ indicator.number }}</span>
             </h4>
+            {% if indicator.placeholder and indicator.placeholder != '' %}
+            <span class="indicator-name">{{ indicator.placeholder }}</span>
+            {% else %}
             <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator.name }}</a></span>
             <span class="sr-only">{{ page.t.indicator.status }}</span>
             {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
             {% include components/indicator/tags.html tags=indicator.tags %}
+            {% endif %}
           </div>
         {% endfor %}
       </div>
