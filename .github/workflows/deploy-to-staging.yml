@@ -6,8 +6,9 @@ on:
       - develop
   schedule:
     - cron: '10 0 * * *'
-  repository_dispatch:
-    types: rebuild-staging
+ # repository_dispatch:
+ #   types: rebuild-staging
+  workflow_dispatch:
 
 jobs:
   build:
