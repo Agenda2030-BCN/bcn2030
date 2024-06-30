@@ -15,7 +15,7 @@
         },
         {
           "id": "1-1-2",
-          "title": "Número de personas residentes en Barcelona sin hogar",
+          "title": "Número de personas sin hogar en Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/1-1-2",
@@ -422,12 +422,20 @@
           "status": "complete"
         },
         {
+          "id": "4-4-2",
+          "title": "Abandono prematuro de los estudios",
+          "description": "",
+          "keywords": "",
+          "href": "/es/4-4-2",
+          "status": "complete"
+        },
+        {
           "id": "4-5-1",
-          "title": "Indicador de segregación escolar",
+          "title": "Nivel de segregación escolar en función de la distribución de alumnos extranjeros y alumnos con Necesidades Educativas Especiales",
           "description": "",
           "keywords": "",
           "href": "/es/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-2",
@@ -471,11 +479,11 @@
         },
         {
           "id": "4-a-1",
-          "title": "Proporción de escuelas que ofrecen servicios básicos, desglosada por tipo de servicio",
+          "title": "Niños y niñas atendidos en los Centros de desarrollo infantil y atención precoz (CDIAP) de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/es/4-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-b-1",

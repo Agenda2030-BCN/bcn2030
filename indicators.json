@@ -15,7 +15,7 @@
         },
         {
           "id": "1-1-2",
-          "title": "Nombre de persones residents a Barcelona sense llar",
+          "title": "Nombre de persones sense llar a Barcelona",
           "description": "",
           "keywords": "",
           "href": "/1-1-2",
@@ -422,12 +422,20 @@
           "status": "complete"
         },
         {
+          "id": "4-4-2",
+          "title": "Abandonament prematur dels estudis",
+          "description": "",
+          "keywords": "",
+          "href": "/4-4-2",
+          "status": "complete"
+        },
+        {
           "id": "4-5-1",
-          "title": "Indicador de segregació escolar",
+          "title": "Nivell de segregació escolar en funció de la distribució d'alumnes estrangers i alumnes amb Necessitats Educatives Especials",
           "description": "",
           "keywords": "",
           "href": "/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-2",
@@ -471,11 +479,11 @@
         },
         {
           "id": "4-a-1",
-          "title": "Proporció d'escoles amb accés a a) electricitat, b) Internet amb finalitats pedagògics, c) computadores amb finalitats pedagògics, d) infraestructura i materials adaptats als estudiants amb discapacitat, e) subministrament bàsic d'aigua potable, f) instal·lacions de sanejament bàsiques separades per sexe i g) instal·lacions bàsiques per a la rentada de mans (segons les definicions dels indicadors WASH)",
+          "title": "Infants atesos als Centres de desenvolupament infantil i atenció precoç (CDIAP) de Barcelona",
           "description": "",
           "keywords": "",
           "href": "/4-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-b-1",

@@ -422,12 +422,20 @@
           "status": "complete"
         },
         {
+          "id": "4-4-2",
+          "title": "Early leavers from education and training",
+          "description": "",
+          "keywords": "",
+          "href": "/en/4-4-2",
+          "status": "complete"
+        },
+        {
           "id": "4-5-1",
-          "title": "Educational segregation indicator",
+          "title": "School segregation level based on the distribution of foreign students and students with Special Educational Needs",
           "description": "",
           "keywords": "",
           "href": "/en/4-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-5-2",
@@ -471,11 +479,11 @@
         },
         {
           "id": "4-a-1",
-          "title": "Proportion of schools offering basic services, by type of service",
+          "title": "Children attended at the Children’s development and early-attention centres (CDIAP) in Barcelona",
           "description": "",
           "keywords": "",
           "href": "/en/4-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-b-1",
