@@ -10,7 +10,7 @@
           "title": "Percentatge de persones sense llar ateses (accedeixen a un recurs residencial públic, temporal o amb recolzament sostingut)",
           "description": "",
           "keywords": "",
-          "href": "/1-1-1",
+          "href": "/1-1-1/",
           "status": "complete"
         },
         {
@@ -18,7 +18,7 @@
           "title": "Nombre de persones sense llar a Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/1-1-2",
+          "href": "/1-1-2/",
           "status": "complete"
         },
         {
@@ -26,7 +26,7 @@
           "title": "Taxa de privació material i social severa",
           "description": "",
           "keywords": "",
-          "href": "/1-2-1",
+          "href": "/1-2-1/",
           "status": "complete"
         },
         {
@@ -34,7 +34,7 @@
           "title": "Població en risc de pobresa després de transferències socials",
           "description": "",
           "keywords": "",
-          "href": "/1-3-1",
+          "href": "/1-3-1/",
           "status": "complete"
         },
         {
@@ -42,7 +42,7 @@
           "title": "Mitjana anual de dies d’espera entre la data de visita al Centre de Serveis Socials i la data en què va ser programada la visita",
           "description": "",
           "keywords": "",
-          "href": "/1-4-1",
+          "href": "/1-4-1/",
           "status": "complete"
         },
         {
@@ -50,7 +50,7 @@
           "title": "Patir endarreriments en el pagament de factures o rebuts de serveis (llum, aigua, gas, etc.) en els últims 12 mesos",
           "description": "",
           "keywords": "",
-          "href": "/1-4-2",
+          "href": "/1-4-2/",
           "status": "complete"
         },
         {
@@ -58,7 +58,7 @@
           "title": "Nombre d'unitats d'atenció realitzades pel Centre d’Urgències i Emergències Socials (CUESB) i nombre de persones ateses en emergència social",
           "description": "",
           "keywords": "",
-          "href": "/1-5-1",
+          "href": "/1-5-1/",
           "status": "complete"
         },
         {
@@ -66,7 +66,7 @@
           "title": "El nombre de xarxes comunitàries de suport a les persones en situació de vulnerabilitat",
           "description": "",
           "keywords": "",
-          "href": "/1-5-2",
+          "href": "/1-5-2/",
           "status": "inprogress"
         },
         {
@@ -74,7 +74,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de la reducció de la pobresa",
           "description": "",
           "keywords": "",
-          "href": "/1-a-1",
+          "href": "/1-a-1/",
           "status": "complete"
         }]
     }
@@ -90,7 +90,7 @@
           "title": "Taxa de prevalença de la privació alimentària (Població que no es pot permetre un àpat de proteïna animal cada 2 dies, o el valor nutricional equivalent en proteïna vegetal)",
           "description": "",
           "keywords": "",
-          "href": "/2-1-1",
+          "href": "/2-1-1/",
           "status": "complete"
         },
         {
@@ -98,7 +98,7 @@
           "title": "Taxa de prevalença de l’obesitat",
           "description": "",
           "keywords": "",
-          "href": "/2-2-1",
+          "href": "/2-2-1/",
           "status": "complete"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Nombre d'horts urbans",
           "description": "",
           "keywords": "",
-          "href": "/2-3-1",
+          "href": "/2-3-1/",
           "status": "complete"
         },
         {
@@ -114,7 +114,7 @@
           "title": "Proporció de parades dels mercats municipals amb qualificació de “paradistes verds”",
           "description": "",
           "keywords": "",
-          "href": "/2-4-1",
+          "href": "/2-4-1/",
           "status": "complete"
         },
         {
@@ -122,7 +122,7 @@
           "title": "Superfície en producció ecològica sobre el total de superfície agrícola útil (SAU)",
           "description": "",
           "keywords": "",
-          "href": "/2-4-2",
+          "href": "/2-4-2/",
           "status": "complete"
         },
         {
@@ -130,7 +130,7 @@
           "title": "Volum anual de producte de proximitat comercialitzat al Mercat Central de Fruites i Hortalisses de Mercabarna",
           "description": "",
           "keywords": "",
-          "href": "/2-4-3",
+          "href": "/2-4-3/",
           "status": "complete"
         },
         {
@@ -138,7 +138,7 @@
           "title": "Consum de carn en la població adulta (Kg/any)",
           "description": "",
           "keywords": "",
-          "href": "/2-4-4",
+          "href": "/2-4-4/",
           "status": "complete"
         },
         {
@@ -146,7 +146,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar l’alimentació i la producció agropecuària",
           "description": "",
           "keywords": "",
-          "href": "/2-a-1",
+          "href": "/2-a-1/",
           "status": "complete"
         }]
     }
@@ -162,7 +162,7 @@
           "title": "Taxa mortalitat materna Barcelona per 1.000 naixements",
           "description": "",
           "keywords": "",
-          "href": "/3-1-1",
+          "href": "/3-1-1/",
           "status": "complete"
         },
         {
@@ -170,7 +170,7 @@
           "title": "Taxa de morbiditat materna",
           "description": "",
           "keywords": "",
-          "href": "/3-1-2",
+          "href": "/3-1-2/",
           "status": "notstarted"
         },
         {
@@ -178,7 +178,7 @@
           "title": "Taxa de mortalitat prematura en infants menors de 5 anys",
           "description": "",
           "keywords": "",
-          "href": "/3-2-1",
+          "href": "/3-2-1/",
           "status": "complete"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Taxa de mortalitat neonatal (infants menors de 28 dies), per cada 1.000 infants nascuts vius",
           "description": "",
           "keywords": "",
-          "href": "/3-2-2",
+          "href": "/3-2-2/",
           "status": "complete"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Incidència acumulada per Covid19 (per 100.000 habitants)",
           "description": "",
           "keywords": "",
-          "href": "/3-3-1",
+          "href": "/3-3-1/",
           "status": "complete"
         },
         {
@@ -202,7 +202,7 @@
           "title": "Taxa d’incidència de HIV (per 100.000 habitants)",
           "description": "",
           "keywords": "",
-          "href": "/3-3-2",
+          "href": "/3-3-2/",
           "status": "complete"
         },
         {
@@ -210,7 +210,7 @@
           "title": "Taxa d’incidència de tuberculosi (per 100.000 habitants)",
           "description": "",
           "keywords": "",
-          "href": "/3-3-3",
+          "href": "/3-3-3/",
           "status": "complete"
         },
         {
@@ -218,7 +218,7 @@
           "title": "Taxa d’incidència de gonocòccia (per 100.000 habitants)",
           "description": "",
           "keywords": "",
-          "href": "/3-3-4",
+          "href": "/3-3-4/",
           "status": "complete"
         },
         {
@@ -226,7 +226,7 @@
           "title": "Taxa de mortalitat prematura",
           "description": "",
           "keywords": "",
-          "href": "/3-4-1",
+          "href": "/3-4-1/",
           "status": "complete"
         },
         {
@@ -234,7 +234,7 @@
           "title": "Prevalença de mala salut mental o risc de patiment psicològic (per sobre de tres punts al General Health Questionnaire, GHQ-12)",
           "description": "",
           "keywords": "",
-          "href": "/3-4-2",
+          "href": "/3-4-2/",
           "status": "complete"
         },
         {
@@ -242,7 +242,7 @@
           "title": "Percentatge de pràctica esportiva en la població adulta",
           "description": "",
           "keywords": "",
-          "href": "/3-4-3",
+          "href": "/3-4-3/",
           "status": "complete"
         },
         {
@@ -250,7 +250,7 @@
           "title": "Prevalença del consum de risc d’alcohol entre les persones adultes",
           "description": "",
           "keywords": "",
-          "href": "/3-5-1",
+          "href": "/3-5-1/",
           "status": "complete"
         },
         {
@@ -258,7 +258,7 @@
           "title": "Prevalença del consum de risc de cànnabis entre les persones adultes",
           "description": "",
           "keywords": "",
-          "href": "/3-5-2",
+          "href": "/3-5-2/",
           "status": "complete"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Prevalença del consum de risc d’alcohol en les persones entre 15 i 24 anys",
           "description": "",
           "keywords": "",
-          "href": "/3-5-3",
+          "href": "/3-5-3/",
           "status": "complete"
         },
         {
@@ -274,7 +274,7 @@
           "title": "Prevalença del consum de risc de cànnabis la població adolescent",
           "description": "",
           "keywords": "",
-          "href": "/3-5-4",
+          "href": "/3-5-4/",
           "status": "complete"
         },
         {
@@ -282,7 +282,7 @@
           "title": "Nombre anual de persones mortes per col·lisió de trànsit",
           "description": "",
           "keywords": "",
-          "href": "/3-6-1",
+          "href": "/3-6-1/",
           "status": "complete"
         },
         {
@@ -290,7 +290,7 @@
           "title": "Nombre anual de persones ferides greument per col·lisió de trànsit",
           "description": "",
           "keywords": "",
-          "href": "/3-6-2",
+          "href": "/3-6-2/",
           "status": "complete"
         },
         {
@@ -298,7 +298,7 @@
           "title": "Taxa d’embarassos de dones de 15 a 19 anys",
           "description": "",
           "keywords": "",
-          "href": "/3-7-1",
+          "href": "/3-7-1/",
           "status": "complete"
         },
         {
@@ -306,7 +306,7 @@
           "title": "Diferencial en la taxa d’embarassos de dones de 15 a 19 anys entre el districte amb la taxa més elevada i aquell amb la taxa més reduïda",
           "description": "",
           "keywords": "",
-          "href": "/3-7-2",
+          "href": "/3-7-2/",
           "status": "complete"
         },
         {
@@ -314,7 +314,7 @@
           "title": "Indicador sintètic del percentatge de població major de 15 anys que, tot i necessitar-ho, no ha accedit als següents tractaments sanitaris per motius econòmics: atenció dental, salut mental i/o medicació amb prescripció mèdica",
           "description": "",
           "keywords": "",
-          "href": "/3-8-1",
+          "href": "/3-8-1/",
           "status": "complete"
         },
         {
@@ -322,7 +322,7 @@
           "title": "Nombre de morts atribuïbles anualment a l’excés de contaminació atmosfèrica (superació del llindar OMS* per NO2 i PM2,5 alhora)",
           "description": "",
           "keywords": "",
-          "href": "/3-9-1",
+          "href": "/3-9-1/",
           "status": "complete"
         },
         {
@@ -330,7 +330,7 @@
           "title": "Percentatge de persones majors de 15 anys que fumen diàriament respecte al total de la població d’aquesta edat",
           "description": "",
           "keywords": "",
-          "href": "/3-a-1",
+          "href": "/3-a-1/",
           "status": "complete"
         },
         {
@@ -338,7 +338,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar la salut pública i els sistemes de salut",
           "description": "",
           "keywords": "",
-          "href": "/3-b-1",
+          "href": "/3-b-1/",
           "status": "complete"
         },
         {
@@ -346,7 +346,7 @@
           "title": "Densitat i distribució del personal sanitari",
           "description": "",
           "keywords": "",
-          "href": "/3-c-1",
+          "href": "/3-c-1/",
           "status": "complete"
         },
         {
@@ -354,7 +354,7 @@
           "title": "Aprovació del pla metropolità d’emergència per a situacions de pandèmia",
           "description": "",
           "keywords": "",
-          "href": "/3-d-1",
+          "href": "/3-d-1/",
           "status": "complete"
         }]
     }
@@ -370,7 +370,7 @@
           "title": "Taxa d’assoliment de les cinc proves de competències bàsiques efectuades a 4rt curs de d’ESO",
           "description": "",
           "keywords": "",
-          "href": "/4-1-1",
+          "href": "/4-1-1/",
           "status": "complete"
         },
         {
@@ -378,7 +378,7 @@
           "title": "Taxa de graduació a l’ESO desagregada per districtes, diferència en % entre el districte amb la taxa més alta i el districte amb la taxa més baixa",
           "description": "",
           "keywords": "",
-          "href": "/4-1-2",
+          "href": "/4-1-2/",
           "status": "complete"
         },
         {
@@ -386,7 +386,7 @@
           "title": "Taxa d’escolarització a un any d’edat",
           "description": "",
           "keywords": "",
-          "href": "/4-2-1",
+          "href": "/4-2-1/",
           "status": "complete"
         },
         {
@@ -394,7 +394,7 @@
           "title": "Taxa d’escolarització a dos anys d’edat",
           "description": "",
           "keywords": "",
-          "href": "/4-2-2",
+          "href": "/4-2-2/",
           "status": "complete"
         },
         {
@@ -402,7 +402,7 @@
           "title": "Diferencial en la taxa d’escolarització a l’edat de 2 anys entre el districte amb la taxa més elevada i aquell amb la taxa més reduïda",
           "description": "",
           "keywords": "",
-          "href": "/4-2-3",
+          "href": "/4-2-3/",
           "status": "complete"
         },
         {
@@ -410,7 +410,7 @@
           "title": "Proporció de persones entre 30 i 34 anys que disposen d’un títol d’educació superior (universitari o CFGS)",
           "description": "",
           "keywords": "",
-          "href": "/4-3-1",
+          "href": "/4-3-1/",
           "status": "complete"
         },
         {
@@ -418,7 +418,7 @@
           "title": "Proporció de persones entre 20 i 24 anys que disposen, com a mínim, del títol de Batxillerat o de CFGM",
           "description": "",
           "keywords": "",
-          "href": "/4-4-1",
+          "href": "/4-4-1/",
           "status": "complete"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Abandonament prematur dels estudis",
           "description": "",
           "keywords": "",
-          "href": "/4-4-2",
+          "href": "/4-4-2/",
           "status": "complete"
         },
         {
@@ -434,7 +434,7 @@
           "title": "Nivell de segregació escolar en funció de la distribució d'alumnes estrangers i alumnes amb Necessitats Educatives Especials",
           "description": "",
           "keywords": "",
-          "href": "/4-5-1",
+          "href": "/4-5-1/",
           "status": "complete"
         },
         {
@@ -442,7 +442,7 @@
           "title": "Proporció d’infants i adolescents que viuen en llars amb les condicions necessàries per aprofitar l’aprenentatge en format digital i online",
           "description": "",
           "keywords": "",
-          "href": "/4-5-2",
+          "href": "/4-5-2/",
           "status": "inprogress"
         },
         {
@@ -450,7 +450,7 @@
           "title": "Proporció de persones majors de 17 anys que consideren que saben parlar: a) Català, b) Castellà, c) Anglès",
           "description": "",
           "keywords": "",
-          "href": "/4-6-1",
+          "href": "/4-6-1/",
           "status": "complete"
         },
         {
@@ -458,7 +458,7 @@
           "title": "Proporció de centres educatius de adherits a la xarxa escoles + sostenibles (inclou escoles bressol, infantil, primària, ESO, cicles formatius, escoles especials, batxillerat i escoles d’adults)",
           "description": "",
           "keywords": "",
-          "href": "/4-7-1",
+          "href": "/4-7-1/",
           "status": "complete"
         },
         {
@@ -466,7 +466,7 @@
           "title": "Proporció d’infants que afirma conèixer els seus drets recollits en la Convenció dels Drets de l’Infant quan finalitza l’educació primària (6è curs)",
           "description": "",
           "keywords": "",
-          "href": "/4-7-2",
+          "href": "/4-7-2/",
           "status": "complete"
         },
         {
@@ -474,7 +474,7 @@
           "title": "Nombre de projectes d’educació per a la justícia global que promoguin una educació crítica i foment de la pau, els drets humans, la sostenibilitat i la igualtat de gènere",
           "description": "",
           "keywords": "",
-          "href": "/4-7-3",
+          "href": "/4-7-3/",
           "status": "complete"
         },
         {
@@ -482,7 +482,7 @@
           "title": "Infants atesos als Centres de desenvolupament infantil i atenció precoç (CDIAP) de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/4-a-1",
+          "href": "/4-a-1/",
           "status": "complete"
         },
         {
@@ -490,7 +490,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar l’educació",
           "description": "",
           "keywords": "",
-          "href": "/4-b-1",
+          "href": "/4-b-1/",
           "status": "complete"
         }]
     }
@@ -506,7 +506,7 @@
           "title": "Indicador d’Igualtat de Gènere (Gender Index Equality) 0-100",
           "description": "",
           "keywords": "",
-          "href": "/5-1-1",
+          "href": "/5-1-1/",
           "status": "notstarted"
         },
         {
@@ -514,7 +514,7 @@
           "title": "Percentatge de dones majors de 16 anys que han patit una situació de violència masclista (excloent comentaris, gestos sexuals i exhibicionisme) durant el darrer any",
           "description": "",
           "keywords": "",
-          "href": "/5-2-1",
+          "href": "/5-2-1/",
           "status": "complete"
         },
         {
@@ -522,7 +522,7 @@
           "title": "Nombre de dones assassinades, víctimes de violència masclista",
           "description": "",
           "keywords": "",
-          "href": "/5-2-2",
+          "href": "/5-2-2/",
           "status": "complete"
         },
         {
@@ -530,7 +530,7 @@
           "title": "Unitats familiars ateses per la Unitat municipal contra el Tràfic d’Éssers Humans (UTEH), víctimes d’explotació sexual o de tràfic d’éssers humans amb fins d’explotació sexual",
           "description": "",
           "keywords": "",
-          "href": "/5-3-1",
+          "href": "/5-3-1/",
           "status": "complete"
         },
         {
@@ -538,7 +538,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la lluita contra la violència masclista en països receptors d’AOD",
           "description": "",
           "keywords": "",
-          "href": "/5-3-2",
+          "href": "/5-3-2/",
           "status": "complete"
         },
         {
@@ -546,7 +546,7 @@
           "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre lluita contra la violència",
           "description": "",
           "keywords": "",
-          "href": "/5-3-3",
+          "href": "/5-3-3/",
           "status": "complete"
         },
         {
@@ -554,7 +554,7 @@
           "title": "Percentatge de persones que s’ocupen d’una persona amb dependència sense cap suport",
           "description": "",
           "keywords": "",
-          "href": "/5-4-1",
+          "href": "/5-4-1/",
           "status": "complete"
         },
         {
@@ -562,7 +562,7 @@
           "title": "Bretxa de gènere en els treballs de cura",
           "description": "",
           "keywords": "",
-          "href": "/5-4-2",
+          "href": "/5-4-2/",
           "status": "notstarted"
         },
         {
@@ -570,7 +570,7 @@
           "title": "Bretxa de gènere en les feines de la llar",
           "description": "",
           "keywords": "",
-          "href": "/5-4-3",
+          "href": "/5-4-3/",
           "status": "complete"
         },
         {
@@ -578,7 +578,7 @@
           "title": "Cobertura de les prestacions per dependència",
           "description": "",
           "keywords": "",
-          "href": "/5-4-4",
+          "href": "/5-4-4/",
           "status": "notstarted"
         },
         {
@@ -586,7 +586,7 @@
           "title": "Nombre d’empreses i entitats que formen part de la xarxa NUST (Nous Usos Socials del Temps)",
           "description": "",
           "keywords": "",
-          "href": "/5-4-5",
+          "href": "/5-4-5/",
           "status": "complete"
         },
         {
@@ -594,7 +594,7 @@
           "title": "Proporció de dones en el Consell Plenari de l’Ajuntament de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/5-5-1",
+          "href": "/5-5-1/",
           "status": "complete"
         },
         {
@@ -602,7 +602,7 @@
           "title": "Proporció de dones en els càrrecs de govern i les gerències de l’Ajuntament de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/5-5-2",
+          "href": "/5-5-2/",
           "status": "complete"
         },
         {
@@ -610,7 +610,7 @@
           "title": "Proporció d’equipaments culturals públics (municipals i consorciats) dirigits per dones",
           "description": "",
           "keywords": "",
-          "href": "/5-5-3",
+          "href": "/5-5-3/",
           "status": "complete"
         },
         {
@@ -618,7 +618,7 @@
           "title": "Proporció de dones en llocs de decisió a les empreses",
           "description": "",
           "keywords": "",
-          "href": "/5-5-4",
+          "href": "/5-5-4/",
           "status": "complete"
         },
         {
@@ -626,7 +626,7 @@
           "title": "Proporció de dones d'entre 15 i 49 anys que prenen les seves pròpies decisions informades sobre les relacions sexuals, l'ús d'anticonceptius i l'atenció de la salut reproductiva",
           "description": "",
           "keywords": "",
-          "href": "/5-6-1",
+          "href": "/5-6-1/",
           "status": "complete"
         },
         {
@@ -634,7 +634,7 @@
           "title": "Nombre de països amb lleis i reglaments que garanteixen als homes i les dones a partir dels 15 anys d'edat un accés ple i igualitari als serveis de salut sexual i reproductiva i a la informació i educació sobre aquest tema",
           "description": "",
           "keywords": "",
-          "href": "/5-6-2",
+          "href": "/5-6-2/",
           "status": "complete"
         },
         {
@@ -642,7 +642,7 @@
           "title": "a) Proporció del total de la població agrícola amb drets de propietat o drets segurs sobre terres agrícoles, desglossada per sexe; i b) proporció de dones entre els propietaris o els titulars de drets sobre terres agrícoles, desglossada per tipus de tinença",
           "description": "",
           "keywords": "",
-          "href": "/5-a-1",
+          "href": "/5-a-1/",
           "status": "complete"
         },
         {
@@ -650,7 +650,7 @@
           "title": "Proporció de països l'ordenament jurídic dels quals (inclòs el dret consuetudinari) garanteix la igualtat de drets de la dona a la propietat o el control de les terres",
           "description": "",
           "keywords": "",
-          "href": "/5-a-2",
+          "href": "/5-a-2/",
           "status": "complete"
         },
         {
@@ -658,7 +658,7 @@
           "title": "Índex d’empoderament digital de les dones (índex multi-dimensional que englobarà l’accés a dispositius, la connexió, el coneixement, el tipus d’eines utilitzades, la finalitat de l’ús... p. ex. % de persones usuàries del Decidim que són dones)",
           "description": "",
           "keywords": "",
-          "href": "/5-b-1",
+          "href": "/5-b-1/",
           "status": "notstarted"
         },
         {
@@ -666,7 +666,7 @@
           "title": "Grau d’implementació dels successius plans per la justícia de gènere",
           "description": "",
           "keywords": "",
-          "href": "/5-c-1",
+          "href": "/5-c-1/",
           "status": "complete"
         }]
     }
@@ -682,7 +682,7 @@
           "title": "Índex d’esforç en el pagament de a factura de l’aigua",
           "description": "",
           "keywords": "",
-          "href": "/6-1-1",
+          "href": "/6-1-1/",
           "status": "complete"
         },
         {
@@ -690,7 +690,7 @@
           "title": "Nombre de dies en cada escenari de situació de sequera hidrològica",
           "description": "",
           "keywords": "",
-          "href": "/6-1-2",
+          "href": "/6-1-2/",
           "status": "complete"
         },
         {
@@ -698,7 +698,7 @@
           "title": "Nombre d’assentaments irregulars a Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/6-2-1",
+          "href": "/6-2-1/",
           "status": "complete"
         },
         {
@@ -706,7 +706,7 @@
           "title": "Taxa de rehabilitació del clavegueram",
           "description": "",
           "keywords": "",
-          "href": "/6-3-1",
+          "href": "/6-3-1/",
           "status": "complete"
         },
         {
@@ -714,7 +714,7 @@
           "title": "Volum estimat d’aigua filtrada al subsòl, masses d’aigua subterrànies",
           "description": "",
           "keywords": "",
-          "href": "/6-3-2",
+          "href": "/6-3-2/",
           "status": "complete"
         },
         {
@@ -722,7 +722,7 @@
           "title": "Edat mitjana de la xarxa de clavegueram",
           "description": "",
           "keywords": "",
-          "href": "/6-3-3",
+          "href": "/6-3-3/",
           "status": "complete"
         },
         {
@@ -730,7 +730,7 @@
           "title": "Pèrdues econòmiques per efecte de la contaminació a les masses d’aigua subterrànies",
           "description": "",
           "keywords": "",
-          "href": "/6-3-4",
+          "href": "/6-3-4/",
           "status": "complete"
         },
         {
@@ -738,7 +738,7 @@
           "title": "Rehabilitació de la xarxa de clavegueram",
           "description": "",
           "keywords": "",
-          "href": "/6-3-6",
+          "href": "/6-3-6/",
           "status": "complete"
         },
         {
@@ -746,7 +746,7 @@
           "title": "Consum domèstic d’aigua mesurat en litres per habitant i dia",
           "description": "",
           "keywords": "",
-          "href": "/6-4-1",
+          "href": "/6-4-1/",
           "status": "complete"
         },
         {
@@ -754,7 +754,7 @@
           "title": "Consum urbà d’aigua mesurat en litres per habitant i dia",
           "description": "",
           "keywords": "",
-          "href": "/6-4-2",
+          "href": "/6-4-2/",
           "status": "complete"
         },
         {
@@ -762,7 +762,7 @@
           "title": "Ús d’aigües grises",
           "description": "",
           "keywords": "",
-          "href": "/6-4-3",
+          "href": "/6-4-3/",
           "status": "complete"
         },
         {
@@ -770,7 +770,7 @@
           "title": "Ús d’aigües pluvials en cobertes",
           "description": "",
           "keywords": "",
-          "href": "/6-4-4",
+          "href": "/6-4-4/",
           "status": "complete"
         },
         {
@@ -778,7 +778,7 @@
           "title": "Ús d’aigua regenerada al barri de la Marina",
           "description": "",
           "keywords": "",
-          "href": "/6-4-5",
+          "href": "/6-4-5/",
           "status": "complete"
         },
         {
@@ -786,7 +786,7 @@
           "title": "Participació com a socis en projectes de recerca que treballen en la gestió integrada dels recursos hídrics",
           "description": "",
           "keywords": "",
-          "href": "/6-5-1",
+          "href": "/6-5-1/",
           "status": "complete"
         },
         {
@@ -794,7 +794,7 @@
           "title": "Suport i col•laboració en projectes de recerca que treballen en la gestió integrada dels recursos hídrics",
           "description": "",
           "keywords": "",
-          "href": "/6-5-2",
+          "href": "/6-5-2/",
           "status": "complete"
         },
         {
@@ -802,7 +802,7 @@
           "title": "Superfície operativa de sistemes urbans de drenatge sostenible",
           "description": "",
           "keywords": "",
-          "href": "/6-5-3",
+          "href": "/6-5-3/",
           "status": "complete"
         },
         {
@@ -810,7 +810,7 @@
           "title": "Aigua de xarxa consumida pels serveis municipals (en m3)",
           "description": "",
           "keywords": "",
-          "href": "/6-5-4",
+          "href": "/6-5-4/",
           "status": "complete"
         },
         {
@@ -818,7 +818,7 @@
           "title": "Canvi en l'extensió dels ecosistemes relacionats amb l'aigua amb el pas del temps",
           "description": "",
           "keywords": "",
-          "href": "/6-6-1",
+          "href": "/6-6-1/",
           "status": "inprogress"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Previsió del percentatge de temps d’incompliment de la qualitat microbiològica de l’aigua de les platges de Barcelona durant la temporada de bany",
           "description": "",
           "keywords": "",
-          "href": "/6-6-2",
+          "href": "/6-6-2/",
           "status": "complete"
         },
         {
@@ -834,7 +834,7 @@
           "title": "Volum anual extret de les aigües subterrànies per l’ús municipal (m3)",
           "description": "",
           "keywords": "",
-          "href": "/6-6-4",
+          "href": "/6-6-4/",
           "status": "complete"
         },
         {
@@ -842,7 +842,7 @@
           "title": "Percentatge d'analítiques amb valors >2000µS/cm de conductivitat",
           "description": "",
           "keywords": "",
-          "href": "/6-6-5",
+          "href": "/6-6-5/",
           "status": "complete"
         },
         {
@@ -850,7 +850,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la millora de la provisió d’aigua i de sanejament",
           "description": "",
           "keywords": "",
-          "href": "/6-a-1",
+          "href": "/6-a-1/",
           "status": "complete"
         },
         {
@@ -858,7 +858,7 @@
           "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre gestió del cicle de l‘aigua",
           "description": "",
           "keywords": "",
-          "href": "/6-a-2",
+          "href": "/6-a-2/",
           "status": "complete"
         },
         {
@@ -866,7 +866,7 @@
           "title": "Pendent de definir",
           "description": "",
           "keywords": "",
-          "href": "/6-b-1",
+          "href": "/6-b-1/",
           "status": "notstarted"
         }]
     }
@@ -882,7 +882,7 @@
           "title": "Proporció de persones en llars que no poden mantenir l’habitatge a una temperatura adequada",
           "description": "",
           "keywords": "",
-          "href": "/7-1-1",
+          "href": "/7-1-1/",
           "status": "complete"
         },
         {
@@ -890,7 +890,7 @@
           "title": "TIEPI Temps d’Interrupció equivalent a la potència instal·lada en mitjana tensió en àrees urbanes de la província de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/7-1-2",
+          "href": "/7-1-2/",
           "status": "complete"
         },
         {
@@ -898,7 +898,7 @@
           "title": "Proporció de l’energia elèctrica consumida a Barcelona que és d’origen renovable",
           "description": "",
           "keywords": "",
-          "href": "/7-2-1",
+          "href": "/7-2-1/",
           "status": "complete"
         },
         {
@@ -906,7 +906,7 @@
           "title": "Proporció de l’energia consumida a Barcelona que ha estat generada localment amb recursos renovables",
           "description": "",
           "keywords": "",
-          "href": "/7-2-2",
+          "href": "/7-2-2/",
           "status": "complete"
         },
         {
@@ -914,7 +914,7 @@
           "title": "Nombre d’edificis amb qualificació energètica A i B",
           "description": "",
           "keywords": "",
-          "href": "/7-3-1",
+          "href": "/7-3-1/",
           "status": "complete"
         },
         {
@@ -922,7 +922,7 @@
           "title": "Proporció d’edificis municipals que són objecte de rehabilitació energètica cada any",
           "description": "",
           "keywords": "",
-          "href": "/7-3-2",
+          "href": "/7-3-2/",
           "status": "notstarted"
         },
         {
@@ -930,7 +930,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la generació i la provisió d’energia",
           "description": "",
           "keywords": "",
-          "href": "/7-a-2",
+          "href": "/7-a-2/",
           "status": "complete"
         },
         {
@@ -938,7 +938,7 @@
           "title": "Inversions en eficiència energètica en proporció al PIB i a la quantia de la inversió estrangera directa en transferències financeres destinades a infraestructura i tecnologia per a serveis de desenvolupament sostenible",
           "description": "",
           "keywords": "",
-          "href": "/7-b-1",
+          "href": "/7-b-1/",
           "status": "complete"
         }]
     }
@@ -954,7 +954,7 @@
           "title": "Taxa de creixement del PIB real per càpita",
           "description": "",
           "keywords": "",
-          "href": "/8-1-1",
+          "href": "/8-1-1/",
           "status": "complete"
         },
         {
@@ -962,7 +962,7 @@
           "title": "Percentatge de despesa municipal en els sectors de l’economia verda i circular sobre el total del pressupost liquidat",
           "description": "",
           "keywords": "",
-          "href": "/8-1-2",
+          "href": "/8-1-2/",
           "status": "complete"
         },
         {
@@ -970,7 +970,7 @@
           "title": "Valor índex del creixement del PIB per persona ocupada",
           "description": "",
           "keywords": "",
-          "href": "/8-2-1",
+          "href": "/8-2-1/",
           "status": "complete"
         },
         {
@@ -978,7 +978,7 @@
           "title": "Índex de diversificació dels sectors productius",
           "description": "",
           "keywords": "",
-          "href": "/8-2-2",
+          "href": "/8-2-2/",
           "status": "complete"
         },
         {
@@ -986,7 +986,7 @@
           "title": "Taxa d’activitat emprenedora sobre població 18-64 anys",
           "description": "",
           "keywords": "",
-          "href": "/8-3-1",
+          "href": "/8-3-1/",
           "status": "complete"
         },
         {
@@ -994,7 +994,7 @@
           "title": "PIB de l’economia social sobre PIB total",
           "description": "",
           "keywords": "",
-          "href": "/8-4-1",
+          "href": "/8-4-1/",
           "status": "notstarted"
         },
         {
@@ -1002,7 +1002,7 @@
           "title": "Emissions de Gasos d’Efecte Hivernacle generades pel sector comercial",
           "description": "",
           "keywords": "",
-          "href": "/8-4-2",
+          "href": "/8-4-2/",
           "status": "complete"
         },
         {
@@ -1010,7 +1010,7 @@
           "title": "Kg de residus industrials generats per 1.000 € de VAB a la indústria",
           "description": "",
           "keywords": "",
-          "href": "/8-4-3",
+          "href": "/8-4-3/",
           "status": "complete"
         },
         {
@@ -1018,7 +1018,7 @@
           "title": "Nombre de persones en situació d’atur",
           "description": "",
           "keywords": "",
-          "href": "/8-5-1",
+          "href": "/8-5-1/",
           "status": "complete"
         },
         {
@@ -1026,7 +1026,7 @@
           "title": "Proporció de treballadors/es amb risc de pobresa",
           "description": "",
           "keywords": "",
-          "href": "/8-5-2",
+          "href": "/8-5-2/",
           "status": "complete"
         },
         {
@@ -1034,7 +1034,7 @@
           "title": "Bretxa salarial de gènere",
           "description": "",
           "keywords": "",
-          "href": "/8-5-3",
+          "href": "/8-5-3/",
           "status": "complete"
         },
         {
@@ -1042,7 +1042,7 @@
           "title": "Nombre anual de persones contractades a través de la Xarxa Barcelona per la Inclusió Laboral de les persones amb discapacitat (XIB)",
           "description": "",
           "keywords": "",
-          "href": "/8-5-4",
+          "href": "/8-5-4/",
           "status": "complete"
         },
         {
@@ -1050,7 +1050,7 @@
           "title": "Diferencial entre la taxa d’atur juvenil i la taxa d’atur mitjana",
           "description": "",
           "keywords": "",
-          "href": "/8-6-1",
+          "href": "/8-6-1/",
           "status": "complete"
         },
         {
@@ -1058,7 +1058,7 @@
           "title": "Taxa de joves que es troben sense ocupació ni estudiant ni rebent formació",
           "description": "",
           "keywords": "",
-          "href": "/8-6-2",
+          "href": "/8-6-2/",
           "status": "complete"
         },
         {
@@ -1066,7 +1066,7 @@
           "title": "Proporció i nombre de nens d'entre 5 i 17 anys que fan treball infantil, desglossats per sexe i edat",
           "description": "",
           "keywords": "",
-          "href": "/8-7-1",
+          "href": "/8-7-1/",
           "status": "complete"
         },
         {
@@ -1074,7 +1074,7 @@
           "title": "Nombre de lesions greus o mortals al treball per 100.000 habitants",
           "description": "",
           "keywords": "",
-          "href": "/8-8-1",
+          "href": "/8-8-1/",
           "status": "complete"
         },
         {
@@ -1082,7 +1082,7 @@
           "title": "Nombre de malalties associades al treball assalariat per 100.000 habitants",
           "description": "",
           "keywords": "",
-          "href": "/8-8-2",
+          "href": "/8-8-2/",
           "status": "complete"
         },
         {
@@ -1090,7 +1090,7 @@
           "title": "Proporció de treballadors/es amb contracte temporal respecte del total",
           "description": "",
           "keywords": "",
-          "href": "/8-8-3",
+          "href": "/8-8-3/",
           "status": "complete"
         },
         {
@@ -1098,7 +1098,7 @@
           "title": "Bretxa de gènere en la proporció de treballadors/es amb contracte temporal respecte del total",
           "description": "",
           "keywords": "",
-          "href": "/8-8-4",
+          "href": "/8-8-4/",
           "status": "complete"
         },
         {
@@ -1106,7 +1106,7 @@
           "title": "Nombre d’establiments i serveis turístics amb distintiu Compromís Biosphere",
           "description": "",
           "keywords": "",
-          "href": "/8-9-2",
+          "href": "/8-9-2/",
           "status": "complete"
         },
         {
@@ -1114,7 +1114,7 @@
           "title": "Despesa mitjana per turista i dia, en l’allotjament (nit) i en el total de l’estada",
           "description": "",
           "keywords": "",
-          "href": "/8-9-3",
+          "href": "/8-9-3/",
           "status": "complete"
         },
         {
@@ -1122,7 +1122,7 @@
           "title": "Nombre de places d’allotjament turístic respecte a la població resident",
           "description": "",
           "keywords": "",
-          "href": "/8-9-4",
+          "href": "/8-9-4/",
           "status": "complete"
         }]
     }
@@ -1138,7 +1138,7 @@
           "title": "Grau d’assoliment dels projectes estratègics per a la transformació econòmica de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/9-1-1",
+          "href": "/9-1-1/",
           "status": "notstarted"
         },
         {
@@ -1146,7 +1146,7 @@
           "title": "Volum d’emissions de CO2 generades pel sector industrial",
           "description": "",
           "keywords": "",
-          "href": "/9-2-1",
+          "href": "/9-2-1/",
           "status": "complete"
         },
         {
@@ -1154,7 +1154,7 @@
           "title": "Pes de la indústria en el VAB generat a l’Àrea Metropolitana de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/9-2-2",
+          "href": "/9-2-2/",
           "status": "complete"
         },
         {
@@ -1162,7 +1162,7 @@
           "title": "Índex de fortalesa de les PIMES de Barcelona (fet amb indicadors capaços de mesurar les dimensions de la fita)",
           "description": "",
           "keywords": "",
-          "href": "/9-3-1",
+          "href": "/9-3-1/",
           "status": "inprogress"
         },
         {
@@ -1170,7 +1170,7 @@
           "title": "Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit",
           "description": "",
           "keywords": "",
-          "href": "/9-3-2",
+          "href": "/9-3-2/",
           "status": "inprogress"
         },
         {
@@ -1178,7 +1178,7 @@
           "title": "Indicadors de procés i de resultat relatius al Pla per a la transformació digital de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/9-4-1",
+          "href": "/9-4-1/",
           "status": "notstarted"
         },
         {
@@ -1186,7 +1186,7 @@
           "title": "Posició de Barcelona a l'Innovation Cities Index (ranking europeu)",
           "description": "",
           "keywords": "",
-          "href": "/9-5-1",
+          "href": "/9-5-1/",
           "status": "complete"
         },
         {
@@ -1194,7 +1194,7 @@
           "title": "Posicionament de Barcelona en producció científica (rànquing europeu i mundial)",
           "description": "",
           "keywords": "",
-          "href": "/9-5-2",
+          "href": "/9-5-2/",
           "status": "complete"
         },
         {
@@ -1202,7 +1202,7 @@
           "title": "Intensitat de la innovació, mesurada a partir del nombre total de patents per milió d’habitants",
           "description": "",
           "keywords": "",
-          "href": "/9-5-3",
+          "href": "/9-5-3/",
           "status": "complete"
         },
         {
@@ -1210,7 +1210,7 @@
           "title": "Total de suport internacional oficial (assistència oficial per al desenvolupament més altres corrents oficials de recursos) destinat a la infraestructura",
           "description": "",
           "keywords": "",
-          "href": "/9-a-1",
+          "href": "/9-a-1/",
           "status": "complete"
         },
         {
@@ -1218,7 +1218,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a millorar la indústria, la innovació i/o la infraestructura",
           "description": "",
           "keywords": "",
-          "href": "/9-b-1",
+          "href": "/9-b-1/",
           "status": "complete"
         },
         {
@@ -1226,7 +1226,7 @@
           "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre desenvolupament d’infraestructures",
           "description": "",
           "keywords": "",
-          "href": "/9-b-2",
+          "href": "/9-b-2/",
           "status": "complete"
         },
         {
@@ -1234,7 +1234,7 @@
           "title": "Proporció de persones majors de 18 anys que disposen d’accés a Internet a casa",
           "description": "",
           "keywords": "",
-          "href": "/9-c-1",
+          "href": "/9-c-1/",
           "status": "complete"
         },
         {
@@ -1242,7 +1242,7 @@
           "title": "Proporció de persones majors de 18 anys que disposen d’ordinador (portàtil o de sobretaula) a casa",
           "description": "",
           "keywords": "",
-          "href": "/9-c-2",
+          "href": "/9-c-2/",
           "status": "complete"
         }]
     }
@@ -1258,7 +1258,7 @@
           "title": "Ratio 80/20: distància relativa entre el 20% de població amb més renda i el 20% amb menys renda",
           "description": "",
           "keywords": "",
-          "href": "/10-1-1",
+          "href": "/10-1-1/",
           "status": "complete"
         },
         {
@@ -1266,7 +1266,7 @@
           "title": "Distància entre la mitjana de la renda dels barris amb la renda més alta i la mitjana dels barris amb la renda més baixa (barris que sumin, aproximadament, el 5% de la població en ambdós casos)",
           "description": "",
           "keywords": "",
-          "href": "/10-1-2",
+          "href": "/10-1-2/",
           "status": "complete"
         },
         {
@@ -1274,7 +1274,7 @@
           "title": "Diferència percentual entre la renda anual mitjana per persona de la ciutat de Barcelona i la de l’AMB",
           "description": "",
           "keywords": "",
-          "href": "/10-1-3",
+          "href": "/10-1-3/",
           "status": "complete"
         },
         {
@@ -1282,7 +1282,7 @@
           "title": "Taxa AROPE (proporció de població en risc de pobresa i/o exclusió)",
           "description": "",
           "keywords": "",
-          "href": "/10-2-1",
+          "href": "/10-2-1/",
           "status": "complete"
         },
         {
@@ -1290,7 +1290,7 @@
           "title": "Percepció de soledat",
           "description": "",
           "keywords": "",
-          "href": "/10-2-2",
+          "href": "/10-2-2/",
           "status": "complete"
         },
         {
@@ -1298,7 +1298,7 @@
           "title": "Percepció de soledat en la població jove",
           "description": "",
           "keywords": "",
-          "href": "/10-2-3",
+          "href": "/10-2-3/",
           "status": "complete"
         },
         {
@@ -1306,7 +1306,7 @@
           "title": "Diferencial en l’ús de serveis i activitats culturals, calculat en punts percentuals entre la mitjana de tota la població i la mitjana de la població de nivell socioeconòmic baix",
           "description": "",
           "keywords": "",
-          "href": "/10-3-1",
+          "href": "/10-3-1/",
           "status": "complete"
         },
         {
@@ -1314,7 +1314,7 @@
           "title": "Nombre de persones que gaudeixen de programes per a l’autonomia personal i la vida independent",
           "description": "",
           "keywords": "",
-          "href": "/10-3-2",
+          "href": "/10-3-2/",
           "status": "complete"
         },
         {
@@ -1322,7 +1322,7 @@
           "title": "Nombre anual de denúncies per situacions de discriminació recollides per la Taula d’Entitats d’Atenció a Víctimes de Discriminació",
           "description": "",
           "keywords": "",
-          "href": "/10-3-3",
+          "href": "/10-3-3/",
           "status": "complete"
         },
         {
@@ -1330,7 +1330,7 @@
           "title": "Proporció de joves que en els últims 12 mesos han patit algun tipus de discriminació per causa de discapacitat, orientació sexual, origen o gènere",
           "description": "",
           "keywords": "",
-          "href": "/10-3-4",
+          "href": "/10-3-4/",
           "status": "complete"
         },
         {
@@ -1338,7 +1338,7 @@
           "title": "Despesa de l’Ajuntament en serveis socials i promoció social, calculada a partir del funcional 23 del pressupost municipal liquidat",
           "description": "",
           "keywords": "",
-          "href": "/10-4-1",
+          "href": "/10-4-1/",
           "status": "complete"
         },
         {
@@ -1346,7 +1346,7 @@
           "title": "Disponibilitat d’una estratègia per a la inclusió i la reducció de les desigualtats socials",
           "description": "",
           "keywords": "",
-          "href": "/10-4-2",
+          "href": "/10-4-2/",
           "status": "complete"
         },
         {
@@ -1354,7 +1354,7 @@
           "title": "Diferencial entre la taxa AROPE (risc de pobresa i exclusió social) de la població estrangera respecte a la de la població amb nacionalitat espanyola",
           "description": "",
           "keywords": "",
-          "href": "/10-7-1",
+          "href": "/10-7-1/",
           "status": "complete"
         },
         {
@@ -1362,7 +1362,7 @@
           "title": "Diferencial de la població ocupada en relació a la població de 20 a 64 anys entre persones amb nacionalitat espanyola i persones amb nacionalitat estrangera",
           "description": "",
           "keywords": "",
-          "href": "/10-7-2",
+          "href": "/10-7-2/",
           "status": "complete"
         },
         {
@@ -1370,7 +1370,7 @@
           "title": "Percentatge de persones que formen part de la plantilla de treballadors i treballadores municipals que són nascudes a l’estranger",
           "description": "",
           "keywords": "",
-          "href": "/10-7-3",
+          "href": "/10-7-3/",
           "status": "complete"
         },
         {
@@ -1378,7 +1378,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la promoció de la igualtat i la lluita contra el racisme i la discriminació",
           "description": "",
           "keywords": "",
-          "href": "/10-b-1",
+          "href": "/10-b-1/",
           "status": "complete"
         }]
     }
@@ -1394,7 +1394,7 @@
           "title": "Proporció de persones que viuen en llars que destinen més del 40% dels seus recursos a les despeses d’habitatge",
           "description": "",
           "keywords": "",
-          "href": "/11-1-1",
+          "href": "/11-1-1/",
           "status": "complete"
         },
         {
@@ -1402,7 +1402,7 @@
           "title": "Proporció d’habitatges de lloguer protegit respecte al total del parc d’habitatges principals",
           "description": "",
           "keywords": "",
-          "href": "/11-1-2",
+          "href": "/11-1-2/",
           "status": "complete"
         },
         {
@@ -1410,7 +1410,7 @@
           "title": "Nombre anual de desnonaments efectuats a Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/11-1-3",
+          "href": "/11-1-3/",
           "status": "complete"
         },
         {
@@ -1418,7 +1418,7 @@
           "title": "Ecomobilitat (proporció d’etapes de desplaçaments fetes en modes de transport públic i/o no motoritzat)",
           "description": "",
           "keywords": "",
-          "href": "/11-2-1",
+          "href": "/11-2-1/",
           "status": "complete"
         },
         {
@@ -1426,7 +1426,7 @@
           "title": "Valoració de la gestió dels diversos mitjans de transport públic per part de les persones que en són usuàries: Metro, tramvia, bus i bicing",
           "description": "",
           "keywords": "",
-          "href": "/11-2-2",
+          "href": "/11-2-2/",
           "status": "complete"
         },
         {
@@ -1434,7 +1434,7 @@
           "title": "Grau d’electrificació de la flota d’autobusos",
           "description": "",
           "keywords": "",
-          "href": "/11-2-3",
+          "href": "/11-2-3/",
           "status": "complete"
         },
         {
@@ -1442,7 +1442,7 @@
           "title": "Desplaçaments/any en el servei porta a porta per a persones amb discapacitat",
           "description": "",
           "keywords": "",
-          "href": "/11-2-4",
+          "href": "/11-2-4/",
           "status": "complete"
         },
         {
@@ -1450,7 +1450,7 @@
           "title": "Mitjà de transport utilitzat amb més freqüència per anar a les activitats principals",
           "description": "",
           "keywords": "",
-          "href": "/11-2-5",
+          "href": "/11-2-5/",
           "status": "complete"
         },
         {
@@ -1458,7 +1458,7 @@
           "title": "Km d’eixos verds en la trama urbana de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/11-3-1",
+          "href": "/11-3-1/",
           "status": "complete"
         },
         {
@@ -1466,7 +1466,7 @@
           "title": "Nombre d’escoles beneficiades amb actuacions urbanístiques per generar entorns escolars protegits",
           "description": "",
           "keywords": "",
-          "href": "/11-3-2",
+          "href": "/11-3-2/",
           "status": "complete"
         },
         {
@@ -1474,7 +1474,7 @@
           "title": "Nombre de persones/total visitants que han accedit als museus i centres d’exposicions públics amb entrada reduïda o de manera gratuïta",
           "description": "",
           "keywords": "",
-          "href": "/11-4-1",
+          "href": "/11-4-1/",
           "status": "complete"
         },
         {
@@ -1482,7 +1482,7 @@
           "title": "Nombre de registres digitalitzats (increment anual) / Nombre de peces dels fons accessibles en línia",
           "description": "",
           "keywords": "",
-          "href": "/11-4-2",
+          "href": "/11-4-2/",
           "status": "complete"
         },
         {
@@ -1490,7 +1490,7 @@
           "title": "Quantificació de danys materials causats per desastres relacionats amb l'aigua",
           "description": "",
           "keywords": "",
-          "href": "/11-5-1",
+          "href": "/11-5-1/",
           "status": "complete"
         },
         {
@@ -1498,7 +1498,7 @@
           "title": "Quantificació de danys materials causats per episodis climàtics severs",
           "description": "",
           "keywords": "",
-          "href": "/11-5-2",
+          "href": "/11-5-2/",
           "status": "notstarted"
         },
         {
@@ -1506,7 +1506,7 @@
           "title": "Inversió en mesures de prevenció i protecció enfront els episodis climàtics severs",
           "description": "",
           "keywords": "",
-          "href": "/11-5-3",
+          "href": "/11-5-3/",
           "status": "notstarted"
         },
         {
@@ -1514,7 +1514,7 @@
           "title": "Concentració mitjana en μg/m3 de NO2, PM10 i PM2,5",
           "description": "",
           "keywords": "",
-          "href": "/11-6-1",
+          "href": "/11-6-1/",
           "status": "complete"
         },
         {
@@ -1522,7 +1522,7 @@
           "title": "Superfície d’àrea verda urbana no forestal",
           "description": "",
           "keywords": "",
-          "href": "/11-7-1",
+          "href": "/11-7-1/",
           "status": "complete"
         },
         {
@@ -1530,7 +1530,7 @@
           "title": "Valoració mitjana del servei de neteja dels carrers",
           "description": "",
           "keywords": "",
-          "href": "/11-7-2",
+          "href": "/11-7-2/",
           "status": "complete"
         },
         {
@@ -1538,7 +1538,7 @@
           "title": "Valor índex d’acompliment de les 10 fites del Pla del joc a l’espai públic 2019-2030",
           "description": "",
           "keywords": "",
-          "href": "/11-7-3",
+          "href": "/11-7-3/",
           "status": "inprogress"
         },
         {
@@ -1546,7 +1546,7 @@
           "title": "Estat de la tramitació del nou Pla Director Urbanístic Metropolità",
           "description": "",
           "keywords": "",
-          "href": "/11-a-1",
+          "href": "/11-a-1/",
           "status": "complete"
         },
         {
@@ -1554,7 +1554,7 @@
           "title": "Grau de desenvolupament del model de resiliència urbana de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/11-b-1",
+          "href": "/11-b-1/",
           "status": "notstarted"
         },
         {
@@ -1562,7 +1562,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a l’objectiu de millorar l’urbanisme i l’habitatge",
           "description": "",
           "keywords": "",
-          "href": "/11-c-1",
+          "href": "/11-c-1/",
           "status": "complete"
         },
         {
@@ -1570,7 +1570,7 @@
           "title": "Personal tècnic de ciutats sòcies implicat en programes d’intercanvi tècnic sobre urbanisme i habitatge",
           "description": "",
           "keywords": "",
-          "href": "/11-c-2",
+          "href": "/11-c-2/",
           "status": "complete"
         }]
     }
@@ -1586,7 +1586,7 @@
           "title": "Proporció de consum energètic d’origen renovable",
           "description": "",
           "keywords": "",
-          "href": "/12-2-1",
+          "href": "/12-2-1/",
           "status": "complete"
         },
         {
@@ -1594,7 +1594,7 @@
           "title": "Proporció de residus municipals que són valoritzats",
           "description": "",
           "keywords": "",
-          "href": "/12-2-2",
+          "href": "/12-2-2/",
           "status": "complete"
         },
         {
@@ -1602,7 +1602,7 @@
           "title": "Proporció de dispositius sanitaris en edificis municipals amb mecanismes d’estalvi en consum d’aigua",
           "description": "",
           "keywords": "",
-          "href": "/12-2-3",
+          "href": "/12-2-3/",
           "status": "notstarted"
         },
         {
@@ -1610,7 +1610,7 @@
           "title": "Tones d’aliments aprofitats pel Banc dels Aliments de Barcelona procedents del malbaratament",
           "description": "",
           "keywords": "",
-          "href": "/12-3-1",
+          "href": "/12-3-1/",
           "status": "complete"
         },
         {
@@ -1618,7 +1618,7 @@
           "title": "Tones d’aliments malbaratats a Mercabarna",
           "description": "",
           "keywords": "",
-          "href": "/12-3-2",
+          "href": "/12-3-2/",
           "status": "complete"
         },
         {
@@ -1626,7 +1626,7 @@
           "title": "Indicador de presència de residus plàstics al medi ambient de Barcelona (per determinar)",
           "description": "",
           "keywords": "",
-          "href": "/12-4-1",
+          "href": "/12-4-1/",
           "status": "notstarted"
         },
         {
@@ -1634,7 +1634,7 @@
           "title": "Indicador de la política per combatre l’impacte dels plàstics i els microplàstics en el medi ambient de Barcelona (per determinar)",
           "description": "",
           "keywords": "",
-          "href": "/12-4-2",
+          "href": "/12-4-2/",
           "status": "notstarted"
         },
         {
@@ -1642,7 +1642,7 @@
           "title": "Kg/hab./dia de residus sòlids urbans recollits",
           "description": "",
           "keywords": "",
-          "href": "/12-5-1",
+          "href": "/12-5-1/",
           "status": "complete"
         },
         {
@@ -1650,7 +1650,7 @@
           "title": "Percentatge de residus sòlids urbans recollits que acaben sent reciclats",
           "description": "",
           "keywords": "",
-          "href": "/12-5-2",
+          "href": "/12-5-2/",
           "status": "complete"
         },
         {
@@ -1658,7 +1658,7 @@
           "title": "Nombre d’organitzacions amb certificats ambientals",
           "description": "",
           "keywords": "",
-          "href": "/12-6-1",
+          "href": "/12-6-1/",
           "status": "complete"
         },
         {
@@ -1666,7 +1666,7 @@
           "title": "Puntuació de l’Ajuntament de Barcelona en l’Índex sintètic de contractació pública sostenible elaborat pel One Planet Network Sustainable Public Procurement Programme (construït a partir d’un conjunt d’indicadors de procés i de resultat de les polítiques de contractació sostenible)",
           "description": "",
           "keywords": "",
-          "href": "/12-7-1",
+          "href": "/12-7-1/",
           "status": "complete"
         },
         {
@@ -1674,7 +1674,7 @@
           "title": "Nombre d’organitzacions adherides a la xarxa Barcelona +Sostenible",
           "description": "",
           "keywords": "",
-          "href": "/12-8-1",
+          "href": "/12-8-1/",
           "status": "complete"
         },
         {
@@ -1682,7 +1682,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la promoció de models de consum i de producció més sostenibles",
           "description": "",
           "keywords": "",
-          "href": "/12-a-1",
+          "href": "/12-a-1/",
           "status": "complete"
         },
         {
@@ -1690,7 +1690,7 @@
           "title": "Nombre d'estratègies o polítiques de turisme sostenible i de plans d'acció aplicats que inclouen instruments de seguiment i avaluació convinguts",
           "description": "",
           "keywords": "",
-          "href": "/12-b-1",
+          "href": "/12-b-1/",
           "status": "complete"
         }]
     }
@@ -1706,7 +1706,7 @@
           "title": "Proporció de la població que disposa d’un espai de refugi climàtic a menys de 10 minuts a peu del seu domicili",
           "description": "",
           "keywords": "",
-          "href": "/13-1-1",
+          "href": "/13-1-1/",
           "status": "complete"
         },
         {
@@ -1714,7 +1714,7 @@
           "title": "Superfície de làmines d’aigua de les fonts ornamentals",
           "description": "",
           "keywords": "",
-          "href": "/13-1-2",
+          "href": "/13-1-2/",
           "status": "complete"
         },
         {
@@ -1722,7 +1722,7 @@
           "title": "Nombre de fonts multifunció a les escoles, patis oberts",
           "description": "",
           "keywords": "",
-          "href": "/13-1-3",
+          "href": "/13-1-3/",
           "status": "complete"
         },
         {
@@ -1730,7 +1730,7 @@
           "title": "Reducció d’emissions de GEH respecte a l’any 1992",
           "description": "",
           "keywords": "",
-          "href": "/13-2-1",
+          "href": "/13-2-1/",
           "status": "complete"
         },
         {
@@ -1738,7 +1738,7 @@
           "title": "Existència d’una Taula per l’emergència climàtica operativa a nivell de ciutat",
           "description": "",
           "keywords": "",
-          "href": "/13-3-1",
+          "href": "/13-3-1/",
           "status": "complete"
         },
         {
@@ -1746,7 +1746,7 @@
           "title": "Nombre de districtes amb equipaments d’educació ambiental",
           "description": "",
           "keywords": "",
-          "href": "/13-3-2",
+          "href": "/13-3-2/",
           "status": "complete"
         },
         {
@@ -1754,7 +1754,7 @@
           "title": "Percentatge d’equipaments culturals de la ciutat (municipals i consorciats) que destinen part del seu pressupost a la sensibilització mediambiental o a les accions per millorar la sostenibilitat dels seus equipaments",
           "description": "",
           "keywords": "",
-          "href": "/13-3-3",
+          "href": "/13-3-3/",
           "status": "inprogress"
         },
         {
@@ -1762,7 +1762,7 @@
           "title": "Suma anual, en dòlars dels Estats Units, mobilitzada entre 2020 i 2025 com a part del compromís d'arribar a 100.000 milions de dòlars",
           "description": "",
           "keywords": "",
-          "href": "/13-a-1",
+          "href": "/13-a-1/",
           "status": "complete"
         },
         {
@@ -1770,7 +1770,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la prevenció i mitigació dels efectes del canvi climàtic",
           "description": "",
           "keywords": "",
-          "href": "/13-b-1",
+          "href": "/13-b-1/",
           "status": "complete"
         }]
     }
@@ -1786,7 +1786,7 @@
           "title": "Volum de residus sòlids procedents del sistema unitari de clavegueram que s'evita que arribin al mar en temps de pluja (mesurat en m3 de residus/dies de pluja significativa per any)",
           "description": "",
           "keywords": "",
-          "href": "/14-1-1",
+          "href": "/14-1-1/",
           "status": "complete"
         },
         {
@@ -1794,7 +1794,7 @@
           "title": "Percentatge de dies de sobreeiximent (Descàrregues del Sistema Unitari – DSU*) en temps de pluja a les platges de Barcelona en relació amb els dies de pluja significativa (> = 1mm)",
           "description": "",
           "keywords": "",
-          "href": "/14-1-2",
+          "href": "/14-1-2/",
           "status": "complete"
         },
         {
@@ -1802,7 +1802,7 @@
           "title": "Indicador de qualitat de l’aigua a les platges de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/14-2-1",
+          "href": "/14-2-1/",
           "status": "complete"
         },
         {
@@ -1810,7 +1810,7 @@
           "title": "Nombre d'espècies marines identificades a la costa de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/14-5-1",
+          "href": "/14-5-1/",
           "status": "complete"
         },
         {
@@ -1818,7 +1818,7 @@
           "title": "Projecte Node Formatiu i Tecnològic de la Nàutica",
           "description": "",
           "keywords": "",
-          "href": "/14-a-2",
+          "href": "/14-a-2/",
           "status": "complete"
         },
         {
@@ -1826,7 +1826,7 @@
           "title": "Projecte Barcelona Mar de Ciència",
           "description": "",
           "keywords": "",
-          "href": "/14-a-3",
+          "href": "/14-a-3/",
           "status": "complete"
         },
         {
@@ -1834,7 +1834,7 @@
           "title": "Nombre de barques de pesca i pesca artesanal (arts menors) actives a Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/14-b-1",
+          "href": "/14-b-1/",
           "status": "complete"
         },
         {
@@ -1842,7 +1842,7 @@
           "title": "Valor econòmic de les captures efectuades per la flota pesquera del port de Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/14-b-2",
+          "href": "/14-b-2/",
           "status": "complete"
         }]
     }
@@ -1858,7 +1858,7 @@
           "title": "Nombre de nodes de biodiversitat i reserves de natura creades a partir de l’any 2015",
           "description": "",
           "keywords": "",
-          "href": "/15-1-1",
+          "href": "/15-1-1/",
           "status": "complete"
         },
         {
@@ -1866,7 +1866,7 @@
           "title": "Proporció de llocs importants per a la biodiversitat terrestre i de l'aigua dolça inclosos en zones protegides, desglossada per tipus d'ecosistema",
           "description": "",
           "keywords": "",
-          "href": "/15-1-2",
+          "href": "/15-1-2/",
           "status": "notstarted"
         },
         {
@@ -1874,7 +1874,7 @@
           "title": "Superfície arbrada total del terme municipal, sumant verd urbà i verd forestal",
           "description": "",
           "keywords": "",
-          "href": "/15-2-1",
+          "href": "/15-2-1/",
           "status": "complete"
         },
         {
@@ -1882,7 +1882,7 @@
           "title": "Superfície forestal mitjana cremada en els darrers 3 anys al conjunt dels cinc municipis de la comarca del Barcelonès (Badalona, Barcelona, L’Hospitalet de Llobregat, Sant Adrià de Besòs i Santa Coloma de Gramenet)",
           "description": "",
           "keywords": "",
-          "href": "/15-3-1",
+          "href": "/15-3-1/",
           "status": "complete"
         },
         {
@@ -1890,7 +1890,7 @@
           "title": "Pla especial de protecció del medi natural i del paisatge del Parc Natural de la Serra de Collserola (PEPNAT)",
           "description": "",
           "keywords": "",
-          "href": "/15-4-1",
+          "href": "/15-4-1/",
           "status": "complete"
         },
         {
@@ -1898,7 +1898,7 @@
           "title": "Índex de cobertura verda de les muntanyes",
           "description": "",
           "keywords": "",
-          "href": "/15-4-2",
+          "href": "/15-4-2/",
           "status": "notstarted"
         },
         {
@@ -1906,7 +1906,7 @@
           "title": "Índex de biodiversitat de les aus autòctones",
           "description": "",
           "keywords": "",
-          "href": "/15-5-1",
+          "href": "/15-5-1/",
           "status": "complete"
         },
         {
@@ -1914,7 +1914,7 @@
           "title": "Percentatge de projectes o accions del Zoo de Barcelona per a la recerca i la conservació dedicats a espècies de fauna autòctones (incloent projectes mixtos)",
           "description": "",
           "keywords": "",
-          "href": "/15-5-2",
+          "href": "/15-5-2/",
           "status": "complete"
         },
         {
@@ -1922,7 +1922,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la prevenció de la biodiversitat del planeta",
           "description": "",
           "keywords": "",
-          "href": "/15-5-3",
+          "href": "/15-5-3/",
           "status": "complete"
         },
         {
@@ -1930,7 +1930,7 @@
           "title": "Indicador de la lluita contra el tràfic d’espècies d’animals i plantes protegides (pendent de determinar)",
           "description": "",
           "keywords": "",
-          "href": "/15-7-1",
+          "href": "/15-7-1/",
           "status": "notstarted"
         },
         {
@@ -1938,7 +1938,7 @@
           "title": "Indicador de la lluita contra la proliferació d’espècies d’animals i plantes invasores (pendent de determinar)",
           "description": "",
           "keywords": "",
-          "href": "/15-7-2",
+          "href": "/15-7-2/",
           "status": "notstarted"
         },
         {
@@ -1946,7 +1946,7 @@
           "title": "Proporció de països que han aprovat la legislació nacional pertinent i han destinat recursos suficients per a la prevenció o el control de les espècies exòtiques invasores",
           "description": "",
           "keywords": "",
-          "href": "/15-8-1",
+          "href": "/15-8-1/",
           "status": "complete"
         },
         {
@@ -1954,7 +1954,7 @@
           "title": "Proporció d’estratègies i plans referits al desenvolupament econòmic i urbanístic de Barcelona que incorporen adequadament la visió i els objectius de l’ODS 15",
           "description": "",
           "keywords": "",
-          "href": "/15-9-1",
+          "href": "/15-9-1/",
           "status": "inprogress"
         },
         {
@@ -1962,7 +1962,7 @@
           "title": "Indicadors d’acompliment de les diverses fases de transformació cap al nou model de zoo",
           "description": "",
           "keywords": "",
-          "href": "/15-a-1",
+          "href": "/15-a-1/",
           "status": "complete"
         },
         {
@@ -1970,7 +1970,7 @@
           "title": "Grau de desenvolupament del projecte Institut de Recerca de la Biodiversitat",
           "description": "",
           "keywords": "",
-          "href": "/15-a-2",
+          "href": "/15-a-2/",
           "status": "complete"
         },
         {
@@ -1978,7 +1978,7 @@
           "title": "Assistència oficial per al desenvolupament i despesa pública destinats a la conservació i l'ús sostenible de la biodiversitat i els ecosistemes",
           "description": "",
           "keywords": "",
-          "href": "/15-b-1",
+          "href": "/15-b-1/",
           "status": "complete"
         }]
     }
@@ -1994,7 +1994,7 @@
           "title": "Nombre de morts violentes (assassinats i homicidis) coneguts pels cossos policials",
           "description": "",
           "keywords": "",
-          "href": "/16-1-1",
+          "href": "/16-1-1/",
           "status": "complete"
         },
         {
@@ -2002,7 +2002,7 @@
           "title": "Nombre de fets delictius coneguts pels cossos policials",
           "description": "",
           "keywords": "",
-          "href": "/16-1-2",
+          "href": "/16-1-2/",
           "status": "complete"
         },
         {
@@ -2010,7 +2010,7 @@
           "title": "Proporció de persones que han patit un conflicte de convivència el darrer any",
           "description": "",
           "keywords": "",
-          "href": "/16-1-3",
+          "href": "/16-1-3/",
           "status": "complete"
         },
         {
@@ -2018,7 +2018,7 @@
           "title": "Percepció de la seguretat al barri i la ciutat",
           "description": "",
           "keywords": "",
-          "href": "/16-1-4",
+          "href": "/16-1-4/",
           "status": "complete"
         },
         {
@@ -2026,7 +2026,7 @@
           "title": "Infants i adolescents (0 a 17 anys) víctimes de diferents formes de violència en l’àmbit familiar, segons denúncia",
           "description": "",
           "keywords": "",
-          "href": "/16-2-1",
+          "href": "/16-2-1/",
           "status": "complete"
         },
         {
@@ -2034,7 +2034,7 @@
           "title": "Nombre de delictes contra els drets i els deures familiars coneguts pels cossos policials",
           "description": "",
           "keywords": "",
-          "href": "/16-2-2",
+          "href": "/16-2-2/",
           "status": "complete"
         },
         {
@@ -2042,7 +2042,7 @@
           "title": "Proporció d’infants que es senten segurs al seu barri",
           "description": "",
           "keywords": "",
-          "href": "/16-2-3",
+          "href": "/16-2-3/",
           "status": "complete"
         },
         {
@@ -2050,7 +2050,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la protecció i la promoció dels drets",
           "description": "",
           "keywords": "",
-          "href": "/16-3-1",
+          "href": "/16-3-1/",
           "status": "complete"
         },
         {
@@ -2058,7 +2058,7 @@
           "title": "Valor total dels corrents financers il·lícits entrants i sortints (en dòlars corrents dels Estats Units)",
           "description": "",
           "keywords": "",
-          "href": "/16-4-1",
+          "href": "/16-4-1/",
           "status": "complete"
         },
         {
@@ -2066,7 +2066,7 @@
           "title": "Proporció d'armes confiscades, trobades o lliurades l'origen o el context de les quals il·lícits han estat determinats o establerts per una autoritat competent, de conformitat amb els instruments internacionals",
           "description": "",
           "keywords": "",
-          "href": "/16-4-2",
+          "href": "/16-4-2/",
           "status": "complete"
         },
         {
@@ -2074,7 +2074,7 @@
           "title": "Percepció ciutadana sobre l’ús dels diners públics per part de l’Ajuntament (respostes amb valoració positiva; responen bé o molt bé)",
           "description": "",
           "keywords": "",
-          "href": "/16-5-1",
+          "href": "/16-5-1/",
           "status": "complete"
         },
         {
@@ -2082,7 +2082,7 @@
           "title": "Nivell de confiança generat per l’Ajuntament de Barcelona (proporció de persones a qui l’Ajuntament els inspira molta o força confiança)",
           "description": "",
           "keywords": "",
-          "href": "/16-5-2",
+          "href": "/16-5-2/",
           "status": "complete"
         },
         {
@@ -2090,7 +2090,7 @@
           "title": "Entrades de comunicacions a la bústia ètica de l’Ajuntament",
           "description": "",
           "keywords": "",
-          "href": "/16-5-3",
+          "href": "/16-5-3/",
           "status": "complete"
         },
         {
@@ -2098,7 +2098,7 @@
           "title": "Valoració general de la gestió de la ciutat",
           "description": "",
           "keywords": "",
-          "href": "/16-6-1",
+          "href": "/16-6-1/",
           "status": "complete"
         },
         {
@@ -2106,7 +2106,7 @@
           "title": "Nombre de tràmits finalistes completament digitalitzats (amb descàrrega de document immediata)",
           "description": "",
           "keywords": "",
-          "href": "/16-6-2",
+          "href": "/16-6-2/",
           "status": "complete"
         },
         {
@@ -2114,7 +2114,7 @@
           "title": "Temps de pagament a proveïdors (mitjana anual, en dies, a comptar des de l’entrada de la factura)",
           "description": "",
           "keywords": "",
-          "href": "/16-6-3",
+          "href": "/16-6-3/",
           "status": "complete"
         },
         {
@@ -2122,7 +2122,7 @@
           "title": "Nombre de processos participatius celebrats",
           "description": "",
           "keywords": "",
-          "href": "/16-7-1",
+          "href": "/16-7-1/",
           "status": "complete"
         },
         {
@@ -2130,7 +2130,7 @@
           "title": "Nombre d’iniciatives ciutadanes presentades amb èxit",
           "description": "",
           "keywords": "",
-          "href": "/16-7-2",
+          "href": "/16-7-2/",
           "status": "complete"
         },
         {
@@ -2138,7 +2138,7 @@
           "title": "Nombre de consultes ciutadanes celebrades",
           "description": "",
           "keywords": "",
-          "href": "/16-7-3",
+          "href": "/16-7-3/",
           "status": "complete"
         },
         {
@@ -2146,7 +2146,7 @@
           "title": "Proporció de persones que participen en associacions o entitats del seu barri",
           "description": "",
           "keywords": "",
-          "href": "/16-7-4",
+          "href": "/16-7-4/",
           "status": "complete"
         },
         {
@@ -2154,7 +2154,7 @@
           "title": "Participació a les eleccions municipals",
           "description": "",
           "keywords": "",
-          "href": "/16-7-5",
+          "href": "/16-7-5/",
           "status": "complete"
         },
         {
@@ -2162,7 +2162,7 @@
           "title": "Resultat de l’avaluació anual sobre transparència institucional elaborada per l’equip Infoparticipa de la UAB",
           "description": "",
           "keywords": "",
-          "href": "/16-10-1",
+          "href": "/16-10-1/",
           "status": "complete"
         },
         {
@@ -2170,7 +2170,7 @@
           "title": "Proporció de peticions de dret d’accés a la informació pública resoltes pel Departament de Transparència i Bones Pràctiques que acaben sent impugnades davant la Comissió de Garantia del Dret d’Accés a la Informació Pública",
           "description": "",
           "keywords": "",
-          "href": "/16-10-2",
+          "href": "/16-10-2/",
           "status": "complete"
         },
         {
@@ -2178,7 +2178,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la prevenció de la violència i la promoció de la pau",
           "description": "",
           "keywords": "",
-          "href": "/16-a-1",
+          "href": "/16-a-1/",
           "status": "complete"
         },
         {
@@ -2186,7 +2186,7 @@
           "title": "Proporció de la població que declara haver-se sentit personalment discriminada o assetjada en els últims 12 mesos per motius de discriminació prohibits pel dret internacional dels drets humans",
           "description": "",
           "keywords": "",
-          "href": "/16-b-1",
+          "href": "/16-b-1/",
           "status": "complete"
         }]
     }
@@ -2202,7 +2202,7 @@
           "title": "Total d'ingressos del govern en proporció al PIB, desglossat per font.",
           "description": "",
           "keywords": "",
-          "href": "/17-1-1",
+          "href": "/17-1-1/",
           "status": "complete"
         },
         {
@@ -2210,7 +2210,7 @@
           "title": "Proporció del pressupost nacional finançat per impostos interns",
           "description": "",
           "keywords": "",
-          "href": "/17-1-2",
+          "href": "/17-1-2/",
           "status": "complete"
         },
         {
@@ -2218,7 +2218,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la prevenció de la violència i la promoció de la pau",
           "description": "",
           "keywords": "",
-          "href": "/17-2-1",
+          "href": "/17-2-1/",
           "status": "complete"
         },
         {
@@ -2226,7 +2226,7 @@
           "title": "Inversió estrangera directa, assistència oficial per al desenvolupament i cooperació Sud-Sud en proporció al pressupost nacional total",
           "description": "",
           "keywords": "",
-          "href": "/17-3-1",
+          "href": "/17-3-1/",
           "status": "complete"
         },
         {
@@ -2234,7 +2234,7 @@
           "title": "Volum de remeses (en dòlars dels Estats Units) en proporció al PIB total",
           "description": "",
           "keywords": "",
-          "href": "/17-3-2",
+          "href": "/17-3-2/",
           "status": "complete"
         },
         {
@@ -2242,7 +2242,7 @@
           "title": "Nombre de països que adopten i apliquen sistemes de promoció de les inversions en favor dels països menys avançats",
           "description": "",
           "keywords": "",
-          "href": "/17-5-1",
+          "href": "/17-5-1/",
           "status": "complete"
         },
         {
@@ -2250,7 +2250,7 @@
           "title": "Nombre d'acords i programes de cooperació en matèria de ciència o tecnologia subscrits pels països, desglossat per tipus de cooperació",
           "description": "",
           "keywords": "",
-          "href": "/17-6-1",
+          "href": "/17-6-1/",
           "status": "complete"
         },
         {
@@ -2258,7 +2258,7 @@
           "title": "Total dels fons aprovats per als països en desenvolupament a fi de promoure el desenvolupament, la transferència i la difusió de tecnologies ecològicament racionals",
           "description": "",
           "keywords": "",
-          "href": "/17-7-1",
+          "href": "/17-7-1/",
           "status": "complete"
         },
         {
@@ -2266,7 +2266,7 @@
           "title": "Proporció de persones que utilitzen Internet",
           "description": "",
           "keywords": "",
-          "href": "/17-8-1",
+          "href": "/17-8-1/",
           "status": "complete"
         },
         {
@@ -2274,7 +2274,7 @@
           "title": "Recursos del programa municipal de Justícia Global destinats a la formació i capacitació institucional d’autoritats Locals i de societat civil per la implantació dels ODS",
           "description": "",
           "keywords": "",
-          "href": "/17-9-1",
+          "href": "/17-9-1/",
           "status": "complete"
         },
         {
@@ -2282,7 +2282,7 @@
           "title": "Nombre d’informes d’impacte en l’Agenda 2030 respecte al nombre total de Mesures de Govern",
           "description": "",
           "keywords": "",
-          "href": "/17-14-1",
+          "href": "/17-14-1/",
           "status": "complete"
         },
         {
@@ -2290,7 +2290,7 @@
           "title": "Nombre d’accions internacionals amb participació institucional de nivell polític",
           "description": "",
           "keywords": "",
-          "href": "/17-16-1",
+          "href": "/17-16-1/",
           "status": "complete"
         },
         {
@@ -2298,7 +2298,7 @@
           "title": "Nombre de xarxes i altres iniciatives de cooperació (descentralitzada o multinivell) en què es participa",
           "description": "",
           "keywords": "",
-          "href": "/17-16-2",
+          "href": "/17-16-2/",
           "status": "complete"
         },
         {
@@ -2306,7 +2306,7 @@
           "title": "Nombre d’accions d’intercanvi tècnic a nivell internacional facilitades",
           "description": "",
           "keywords": "",
-          "href": "/17-16-3",
+          "href": "/17-16-3/",
           "status": "complete"
         },
         {
@@ -2314,7 +2314,7 @@
           "title": "Dotació econòmica del fons públic-privat per a l’impuls de l’Agenda 2030 Barcelona",
           "description": "",
           "keywords": "",
-          "href": "/17-17-1",
+          "href": "/17-17-1/",
           "status": "complete"
         },
         {
@@ -2322,7 +2322,7 @@
           "title": "Proporció d'indicadors de desenvolupament sostenible produïts a nivell nacional, amb ple desglossament quan sigui pertinent per a la meta, de conformitat amb els Principis Fonamentals de les Estadístiques Oficials",
           "description": "",
           "keywords": "",
-          "href": "/17-18-1",
+          "href": "/17-18-1/",
           "status": "complete"
         },
         {
@@ -2330,7 +2330,7 @@
           "title": "Nombre de països la legislació nacional dels quals sobre estadístiques compleix els Principis Fonamentals de les Estadístiques Oficials",
           "description": "",
           "keywords": "",
-          "href": "/17-18-2",
+          "href": "/17-18-2/",
           "status": "complete"
         },
         {
@@ -2338,7 +2338,7 @@
           "title": "Nombre de països que compten amb un pla estadístic nacional plenament finançat i en procés d'aplicació, desglossat per font de finançament",
           "description": "",
           "keywords": "",
-          "href": "/17-18-3",
+          "href": "/17-18-3/",
           "status": "complete"
         },
         {
@@ -2346,7 +2346,7 @@
           "title": "Proporció de sectors, districtes, ens autònoms i empreses municipals que incorporen la perspectiva i els indicadors de l’Agenda 2030 en les seves memòries anuals de gestió",
           "description": "",
           "keywords": "",
-          "href": "/17-19-1",
+          "href": "/17-19-1/",
           "status": "inprogress"
         },
         {
@@ -2354,7 +2354,7 @@
           "title": "Nombre d’informes anuals de seguiment i avaluació de l’Agenda 2030 a Barcelona elaborats i fets públics a partir de 2020",
           "description": "",
           "keywords": "",
-          "href": "/17-19-2",
+          "href": "/17-19-2/",
           "status": "complete"
         }]
     }
