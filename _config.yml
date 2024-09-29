@@ -135,6 +135,14 @@ metadata_tabs:
   - scope: sources
     title: indicator.sources
     description: ''
+  - scope: related_indicators
+    title: custom-translations.related-indicators
+    description: custom-translations.related-indicators-description
+    placeholder: custom-translations.related-indicators-placeholder
+  - scope: publications
+    title: custom-translations.publications
+    description: custom-translations.related-publications-description
+    placeholder: custom-translations.related-publications-placeholder
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
 goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
