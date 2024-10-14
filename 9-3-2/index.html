@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 9.3.2 -
         
-        Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit - Indicadors per als Objectius de Desenvolupament Sostenible
+        Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball) - Indicadors per als Objectius de Desenvolupament Sostenible
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241014112337">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241014120437">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -436,7 +436,7 @@ data-event-label="high"
                         
                         Indicador 9.3.2
                         
-                        <span class="lead-copy">Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit</span>
+                        <span class="lead-copy">Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball)</span>
                     </h1>
                 </div>
             </div>
@@ -463,31 +463,385 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_9-3-2'
   data-id="9-3-2"
-  data-country="Barcelona"
-  data-charttitle="Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit"
+  data-country="Ciutat de Barcelona"
+  data-charttitle="Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball)"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Índex (0-100 punts)"
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="false"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
-  data-graphtargetlines="null"
+  data-graphtargetlines="[{&quot;value&quot;:100.0}]"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Any&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Any&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Index (0-100)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-unit-status"></span>
+  <span role="status" class="visually-hidden" id="indicator-data-series-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Subcategoríes</h4>
+    <p>Trieu categories de les llistes desplegables a continuació per veure diferents desglossaments de les dades. Alguns no estaran disponibles fins que es triï un nivell superior.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a role="button" href="https://sdgdata.barcelona.cat/bcn2030-data/ca/headline/9-3-2.csv" class="btn btn-primary btn-download" download="indicator_9-3-2.csv" tabindex="0" role="button">Descarregar CSV global</a>
+    
+    <a role="button" href="https://sdgdata.barcelona.cat/bcn2030-data/ca/data/9-3-2.csv" class="btn btn-primary btn-download" download='indicator_9-3-2.csv' tabindex='0' role='button'>Descarregar CSV font</a>
+
+    <p class="no-js-disaggregation-hint">Baixeu CSV font per a les desagregacions</p>
+
+    
+    <h3>Dades de titular</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball)</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">Units</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>86.7</td>
+          
+          
+          
+          <td class="table-value">Index (0-100)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>90.3</td>
+          
+          
+          
+          <td class="table-value">Index (0-100)</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td>86.6</td>
+          
+          
+          
+          <td class="table-value">Index (0-100)</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+    
+  </div>
+
+  
+  <div id="datatableFooter">
+    
+    <p>Font: Cambra de Comerç de Barcelona </p>
+    
+    
+    <p>Àrea geogràfica: Ciutat de Barcelona</p>
+    
+    
+    <p>Unitat de mesura: Índex (0-100 punts)</p>
+    
+    
+  </div>
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">Per l'alternativa de dades tabulars, vegeu la pestanya Taula.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Gràfic</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Taula</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Avís:</span></i>
+      Hi ha massa conjunts de dades a mostrar en el gràfic. No es mostrarà tot fins que elimineu algunes seleccions.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball)
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Font:</dt>
+        <dd>Cambra de Comerç de Barcelona </dd>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>Ciutat de Barcelona</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unitat de mesura:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Dades actualitzades per última vegada:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Descarregar gràfic com imatge"
+          aria-label="Descarregar gràfic com imatge"
+          class='btn btn-primary btn-download'>
+          Descarregar imatge del gràfic
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Feu clic per a ordenar per aquesta columna</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Font:</dt>
+        <dd>Cambra de Comerç de Barcelona </dd>
+        
+
+        
+        <dt>Àrea geogràfica:</dt>
+        <dd>Ciutat de Barcelona</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unitat de mesura:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Nota:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Dades actualitzades per última vegada:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -640,19 +994,12 @@ data-event-label="Change to custom-translations.publications tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Indicador disponible </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder">No disponible per a aquest indicador</span></p>
+            <p>Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball)</p>
 
           
         </td>
@@ -662,20 +1009,13 @@ data-event-label="Change to custom-translations.publications tab"
   
       
       
-      
-        
-          
-          
-          
-          
-        
       
       
       <tr>
         <th scope="row">Barcelona Target </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder">No disponible per a aquest indicador</span></p>
+            <p>Pel 2030, unes PIMES més robustes, digitals, exportadores, diversificades, sostenibles i generadores de llocs de treball</p>
 
           
         </td>
@@ -685,20 +1025,13 @@ data-event-label="Change to custom-translations.publications tab"
   
       
       
-      
-        
-          
-          
-          
-          
-        
       
       
       <tr>
         <th scope="row">Target line (2030) </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder">No disponible per a aquest indicador</span></p>
+            <p>Arribar als 100 punts en l’índex de solidesa financera de les PIMES de Barcelona</p>
 
           
         </td>
@@ -708,20 +1041,13 @@ data-event-label="Change to custom-translations.publications tab"
   
       
       
-      
-        
-          
-          
-          
-          
-        
       
       
       <tr>
         <th scope="row">Cobertura geogràfica </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder">No disponible per a aquest indicador</span></p>
+            <p>Ciutat de Barcelona</p>
 
           
         </td>
@@ -732,19 +1058,12 @@ data-event-label="Change to custom-translations.publications tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Unitat de mesura </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder">No disponible per a aquest indicador</span></p>
+            <p>Índex (0-100 punts)</p>
 
           
         </td>
@@ -973,7 +1292,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Nom de l'indicador </th>
         <td>
           
-            <p>Proporció de les petites indústries que han obtingut un préstec o una línia de crèdit</p>
+            <p>Índex (0-100 punts) de solidesa financera de les PIMES de Barcelona (elaborat a partir de la rendibilitat financera, el nivell de capitalització i la competitivitat aparent del treball)</p>
 
           
         </td>
@@ -1005,7 +1324,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Nom de Fita </th>
         <td>
           
-            <p>Augmentar l’accés de les petites indústries i altres empreses, en particular en els països en desenvolupament, als serveis financers, incloent els crèdits assequibles, i la integració en les cadenes de valor i els mercats.</p>
+            <p>Augmentar l’accés de les petites indústries i altres empreses, en particular en els països en desenvolupament, als serveis financers, incloent els crèdits assequibles, i la integració en les    cadenes de valor i els mercats</p>
 
           
         </td>
@@ -1060,7 +1379,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Nivell designat per l'ONU </th>
         <td>
           
-            <p>2</p>
+            <p>1</p>
 
           
         </td>
@@ -1076,7 +1395,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Agència de custòdia de l'ONU </th>
         <td>
           
-            <p>UNIDO,World Bank</p>
+            <p>World Bank (WB)</p>
 
           
         </td>
@@ -1097,8 +1416,8 @@ data-event-label="Change to custom-translations.publications tab"
             
             
             
-              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 663kB) <span class="visuallyhidden">S'obre en una nova finestra</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-03-01.pdf" target="_blank">
+                Metadades dels Objectius de Desenvolupament Sostenible de les Nacions Unides (pdf 894kB) <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
 
@@ -1226,6 +1545,295 @@ data-event-label="Change to custom-translations.publications tab"
 
 
 
+
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+        <h4 class="sr-only">Font 1</h4>
+      
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organització </th>
+        <td>
+          
+            <p>Cambra de Comerç de Barcelona</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicitat </th>
+        <td>
+          
+            <p>Dades disponibles cada 2 anys</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Les dades disponibles més antigues </th>
+        <td>
+          
+            <p>2017</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Enllaç a la font de dades </th>
+        <td>
+          
+            
+            
+            
+            
+            
+              <span class="empty-metadata-placeholder">No disponible per a aquesta font</span>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data de llançament </th>
+        <td>
+          
+            27 de Apr de 2021
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Següent llançament </th>
+        <td>
+          
+            <p>2022-04-27</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Classificació estadística </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder">No disponible per a aquesta font</span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Detalls de contacte </th>
+        <td>
+          
+            <p>comissionat2030@bcn.cat</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Altra informació </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder">No disponible per a aquesta font</span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
 
 
             </article>
@@ -1355,6 +1963,8 @@ data-event-label="Change to custom-translations.publications tab"
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.2.2/dist/chartjs-plugin-annotation.min.js" integrity="sha256-XuHhf6q+GD7fscc96mTm/228GXf1Nn9wOYOE0EgeFzY=" crossorigin="anonymous"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -1372,12 +1982,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20241014112337'></script>
+<script src='/assets/js/sdg.js?v=20241014120437'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241014112337"></script><script>
+    <script src="/assets/js/custom.js?v=20241014120437"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
