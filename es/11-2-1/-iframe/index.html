@@ -121,7 +121,7 @@ var translations = {
         
         Indicador 11.2.1 -
         
-        Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado) - Indicadores para los Objetivos de Desarrollo Sostenible
+        Reparto modal total (proporción del número de etapas en cada modo de transporte respecto al total de etapas diarias) - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241015064301">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241015093147">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -280,7 +280,7 @@ layout-indicator-iframe
                         
                         Indicador 11.2.1
                         
-                        <span class="lead-copy">Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)</span>
+                        <span class="lead-copy">Reparto modal total (proporción del número de etapas en cada modo de transporte respecto al total de etapas diarias)</span>
                     </h1>
                 </div>
             </div>
@@ -300,7 +300,9 @@ layout-indicator-iframe
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p><strong>*El valor de la meta para el año 2030</strong> está pendiente de determinar. Provisionalmente, se indica una meta para el año 2024 de resultados de la aprobación inicial del Plan de movilidad urbana 2024</p>
+    <p><strong>Nota</strong></p>
+
+<p>Datos revisados ​​en fecha 15/10/2024.</p>
 
   </div>
 </div>
@@ -315,7 +317,7 @@ layout-indicator-iframe
   data-indicatorid='indicator_11-2-1'
   data-id="11-2-1"
   data-country="Ciudad de Barcelona"
-  data-charttitle="Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)"
+  data-charttitle="Reparto modal total (proporción del número de etapas en cada modo de transporte respecto al total de etapas diarias)"
   data-charttitles="null"
   data-measurementunit="Porcentaje"
   data-xaxislabel=""
@@ -328,10 +330,10 @@ layout-indicator-iframe
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
-  data-graphtargetlines="[{&quot;value&quot;:81.52}]"
+  data-graphtargetlines="[{&quot;value&quot;:81.5}]"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Porcentaje&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Mean_of_transportation&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Walking&quot;,&quot;Private motor vehicles&quot;,&quot;Bicycles and scooters&quot;,&quot;Public transport&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Mean_of_transportation&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Porcentaje&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -366,115 +368,15 @@ layout-indicator-iframe
   <div id="datatables">
 
     
-    <a role="button" href="https://sdgdata.barcelona.cat/bcn2030-data/es/headline/11-2-1.csv" class="btn btn-primary btn-download" download="indicator_11-2-1.csv" tabindex="0" role="button">Descargar los datos de los titulares (.csv)</a>
-    
     <a role="button" href="https://sdgdata.barcelona.cat/bcn2030-data/es/data/11-2-1.csv" class="btn btn-primary btn-download" download='indicator_11-2-1.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
 
     
-    <h3>Datos principales</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Value</th>
-        
-        
-        
-        <th scope="col" class="table-value">Units</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td>73.9</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td>73.93</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td>74.43</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td>74.9</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>No hay datos principales disponibles</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    <p>Fuente: Ayuntamiento de Barcelona</p>
-    
-    
-    <p>Área geográfica: Ciudad de Barcelona</p>
-    
-    
-    <p>Unidad de medida: Porcentaje</p>
-    
-    
-  </div>
   
 
 </div>
@@ -558,7 +460,7 @@ data-event-label="Change to Table tab"
       <figure role="group">
         <div id="chart-canvas">
           <h4 id="chart-heading" class="chart-title">
-            Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)
+            Reparto modal total (proporción del número de etapas en cada modo de transporte respecto al total de etapas diarias)
           </h4>
           <div id="chart" class="plot-container">
             <canvas
@@ -862,7 +764,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Indicador disponible </th>
         <td>
           
-            <p>Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)</p>
+            <p>Reparto modal total (proporción del número de etapas en cada modo de transporte respecto al total de etapas diarias)</p>
 
           
         </td>
@@ -1155,7 +1057,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Nombre del indicador </th>
         <td>
           
-            <p>Ecomovilidad (proporción de etapas de desplazamiento realizadas en medios de transporte público o no motorizado)</p>
+            <p>Reparto modal total (proporción del número de etapas en cada modo de transporte respecto al total de etapas diarias)</p>
 
           
         </td>
@@ -1516,8 +1418,8 @@ data-event-label="Change to custom-translations.publications tab"
             
             
             
-              <a href="https://www.barcelona.cat/barcelonasostenible/sites/default/files/Indicadors/Indicadors2018/2018_informe_indicadors_sostenibilitat-bcn_0.pdf" target="_blank">
-                Informe anual de los Indicadores de Sostenibilidad de Barcelona <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              <a href="'https://dades.ajuntament.barcelona.cat/dades-basiques-de-mobilitat/'" target="_blank">
+                Datos básicos de movilidad <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -1771,12 +1673,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20241015064301'></script>
+<script src='/assets/js/sdg.js?v=20241015093147'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241015064301"></script><script>
+    <script src="/assets/js/custom.js?v=20241015093147"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
