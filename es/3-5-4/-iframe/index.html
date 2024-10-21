@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241021152910">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241021162144">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -295,6 +295,32 @@ layout-indicator-iframe
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+        <div class="progress-status">
+        
+            <div class="progress-status-label">
+                Siguen los desafíos
+            </div>
+        
+        
+            <div class="progress-status-image">
+                <img src="/assets/img/progress/challenges-remain.png" alt="Siguen los desafíos" />
+            </div>
+        
+        </div>
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -1670,13 +1696,49 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="related_indicators">
             <article>
-                
+                <p>Aquí se muestran otros indicadores vinculados al actual para un análisis más completo.</p>
 
                 
+
+
+
+
+
+
     
-    <div class="empty-metadata-placeholder"><p>No hay otros indicadores relacionados con este.</p>
-</div>
+    <h2 class="related-indicator-goal" id="related-goal-3">Objetivo 3: Salud y Bienestar</h2>
+    <ul aria-labelledby="related-goal-3">
     
+        <li>
+            <div class="row">
+                <div class="col col-auto">3.5.1:</div>
+                <div class="col"><a href="/es/3-5-1/">Prevalencia del consumo de riesgo de alcohol entre las personas adultas</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">3.5.2:</div>
+                <div class="col"><a href="/es/3-5-2/">Prevalencia del consumo de riesgo de cannabis entre las personas adultas</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">3.5.3:</div>
+                <div class="col"><a href="/es/3-5-3/">Prevalencia del consumo de riesgo de alcohol en personas de entre 15 y 24 años</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">3.a.1:</div>
+                <div class="col"><a href="/es/3-a-1/">Porcentaje de personas mayores de 15 años que fuman diariamente con respecto al total de la población de esta edad</a></div>
+            </div>
+        </li>
+    
+    </ul>
+
 
 
             </article>
@@ -1692,13 +1754,22 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="publications">
             <article>
-                
+                <p>Aquí se muestran documentos y artículos relacionados que respaldan el indicador seleccionado.</p>
 
                 
-    
-    <div class="empty-metadata-placeholder"><p>No hay publicaciones disponibles para este indicador.</p>
+<div class="row">
+
+    <article class="publication">
+        
+        <h2 class="publication-title">
+            <a href="https://www.aspb.cat/arees/promocio-viure-amb-salut/prevencio-de-les-addicions/">Prevenció de les addiccions</a>
+        </h2>
+        
+        
+        
+    </article>
+
 </div>
-    
 
 
             </article>
@@ -1741,12 +1812,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20241021152910'></script>
+<script src='/assets/js/sdg.js?v=20241021162144'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241021152910"></script><script>
+    <script src="/assets/js/custom.js?v=20241021162144"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
