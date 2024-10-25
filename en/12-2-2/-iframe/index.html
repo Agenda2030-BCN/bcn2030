@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241025112728">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241025120058">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -295,6 +295,32 @@ layout-indicator-iframe
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+        <div class="progress-status">
+        
+            <div class="progress-status-label">
+                Challenges remain
+            </div>
+        
+        
+            <div class="progress-status-image">
+                <img src="/assets/img/progress/challenges-remain.png" alt="Challenges remain" />
+            </div>
+        
+        </div>
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -1014,7 +1040,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Metadata last updated </th>
         <td>
           
-            May 16, 2022
+            Oct 25, 2024
           
         </td>
         </tr>
@@ -1699,13 +1725,35 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="related_indicators">
             <article>
-                
+                <p>Here, other indicators linked to the current one are displayed for a more comprehensive analysis</p>
 
                 
+
+
+
+
+
+
     
-    <div class="empty-metadata-placeholder"><p>There are no other indicators related to this one</p>
-</div>
+    <h2 class="related-indicator-goal" id="related-goal-12">Goal 12: Responsible consumption and production</h2>
+    <ul aria-labelledby="related-goal-12">
     
+        <li>
+            <div class="row">
+                <div class="col col-auto">12.5.1:</div>
+                <div class="col"><a href="/en/12-5-1/">Kg/inhabitant/day of solid urban waste collected</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">12.5.2:</div>
+                <div class="col"><a href="/en/12-5-2/">Percentage of collected solid urban waste that is then recycled</a></div>
+            </div>
+        </li>
+    
+    </ul>
+
 
 
             </article>
@@ -1770,12 +1818,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20241025112728'></script>
+<script src='/assets/js/sdg.js?v=20241025120058'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241025112728"></script><script>
+    <script src="/assets/js/custom.js?v=20241025120058"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
