@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241025015619">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241025101935">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -295,6 +295,32 @@ layout-indicator-iframe
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+        <div class="progress-status">
+        
+            <div class="progress-status-label">
+                Desafíos pendientes
+            </div>
+        
+        
+            <div class="progress-status-image">
+                <img src="/assets/img/progress/challenges-remain.png" alt="Siguen los desafíos" />
+            </div>
+        
+        </div>
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -950,7 +976,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Metadatos actualizados por última vez </th>
         <td>
           
-            01 de Jun de 2023
+            25 de Oct de 2024
           
         </td>
         </tr>
@@ -1635,13 +1661,35 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="related_indicators">
             <article>
-                
+                <p>Aquí se muestran otros indicadores vinculados al actual para un análisis más completo.</p>
 
                 
+
+
+
+
+
+
     
-    <div class="empty-metadata-placeholder"><p>No hay otros indicadores relacionados con este.</p>
-</div>
+    <h2 class="related-indicator-goal" id="related-goal-10">Objetivo 10: Reducción de las Desigualdades</h2>
+    <ul aria-labelledby="related-goal-10">
     
+        <li>
+            <div class="row">
+                <div class="col col-auto">10.1.1:</div>
+                <div class="col"><a href="/es/10-1-1/">Ratio 80/20: distancia relativa entre el 20% de población con más renta y el 20% con menos renta</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">10.1.3:</div>
+                <div class="col"><a href="/es/10-1-3/">Diferencia porcentual entre la renta anual media por persona de la ciudad de Barcelona y la de su área metropolitana</a></div>
+            </div>
+        </li>
+    
+    </ul>
+
 
 
             </article>
@@ -1657,13 +1705,22 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="publications">
             <article>
-                
+                <p>Aquí se muestran documentos y artículos relacionados que respaldan el indicador seleccionado.</p>
 
                 
-    
-    <div class="empty-metadata-placeholder"><p>No hay publicaciones disponibles para este indicador.</p>
+<div class="row">
+
+    <article class="publication">
+        
+        <h2 class="publication-title">
+            <a href="https://ajuntament.barcelona.cat/premsa/wp-content/uploads/2024/05/LA-RENDA-DE-LES-LLARS_2021.pdf">La renda de les llars a Barcelona 2021</a>
+        </h2>
+        
+        
+        
+    </article>
+
 </div>
-    
 
 
             </article>
@@ -1706,12 +1763,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20241025015619'></script>
+<script src='/assets/js/sdg.js?v=20241025101935'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241025015619"></script><script>
+    <script src="/assets/js/custom.js?v=20241025101935"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
