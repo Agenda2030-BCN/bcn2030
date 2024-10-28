@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241028020012">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241028101741">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -295,6 +295,32 @@ layout-indicator-iframe
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+        <div class="progress-status">
+        
+            <div class="progress-status-label">
+                Reptes pendents
+            </div>
+        
+        
+            <div class="progress-status-image">
+                <img src="/assets/img/progress/challenges-remain.png" alt="Queden els reptes" />
+            </div>
+        
+        </div>
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -1030,7 +1056,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Metadades actualitzades per última vegada </th>
         <td>
           
-            16 de maig de 2022
+            28 de Oct de 2024
           
         </td>
         </tr>
@@ -1529,7 +1555,7 @@ data-event-label="Change to custom-translations.publications tab"
             
             
             
-              <a href="https://mossos.gencat.cat/ca/els_mossos_desquadra/indicadors_i_qualitat/dades_obertes/cataleg_dades_obertes/dades-delinqueencials" target="_blank">
+              <a href="https://mossos.gencat.cat/ca/els_mossos_desquadra/indicadors_i_qualitat/estadistica/index.html" target="_blank">
                 Departament d’Interior de la Generalitat <span class="visuallyhidden">S'obre en una nova finestra</span>
               </a>
             
@@ -1690,13 +1716,42 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="related_indicators">
             <article>
-                
+                <p>Aquí es mostren altres indicadors vinculats al actual per a un anàlisi més complet.</p>
 
                 
+
+
+
+
+
+
     
-    <div class="empty-metadata-placeholder"><p>No hi ha altres indicadors relacionats amb aquest.</p>
-</div>
+    <h2 class="related-indicator-goal" id="related-goal-16">Objectiu 16: Pau, Justícia i Institucions sòlides</h2>
+    <ul aria-labelledby="related-goal-16">
     
+        <li>
+            <div class="row">
+                <div class="col col-auto">16.1.2:</div>
+                <div class="col"><a href="/16-1-2/">Nombre de fets delictius coneguts pels cossos policials</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">16.1.3:</div>
+                <div class="col"><a href="/16-1-3/">Proporció de persones que han patit un conflicte de convivència el darrer any</a></div>
+            </div>
+        </li>
+    
+        <li>
+            <div class="row">
+                <div class="col col-auto">16.1.4:</div>
+                <div class="col"><a href="/16-1-4/">Percepció de la seguretat al barri i la ciutat</a></div>
+            </div>
+        </li>
+    
+    </ul>
+
 
 
             </article>
@@ -1712,13 +1767,22 @@ data-event-label="Change to custom-translations.publications tab"
         
         <div role="tabpanel" class="tab-pane " id="publications">
             <article>
-                
+                <p>Aquí es mostren documents i articles relacionats que donen suport a l’indicador seleccionat.</p>
 
                 
-    
-    <div class="empty-metadata-placeholder"><p>No hi ha publicacions disponibles per a aquest indicador.</p>
+<div class="row">
+
+    <article class="publication">
+        
+        <h2 class="publication-title">
+            <a href="https://mossos.gencat.cat/ca/els_mossos_desquadra/indicadors_i_qualitat/dades_obertes/">Dades obertes. Mossos d'Esquadra</a>
+        </h2>
+        
+        
+        
+    </article>
+
 </div>
-    
 
 
             </article>
@@ -1761,12 +1825,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Cerca';</script>
 
-<script src='/assets/js/sdg.js?v=20241028020012'></script>
+<script src='/assets/js/sdg.js?v=20241028101741'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241028020012"></script><script>
+    <script src="/assets/js/custom.js?v=20241028101741"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
