@@ -147,7 +147,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20241212020515">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20241213020654">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -508,14 +508,14 @@ data-event-label="high"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Área Geográfica&quot;,&quot;value&quot;:&quot;Barcelona&quot;},{&quot;field&quot;:&quot;Área Geográfica&quot;,&quot;value&quot;:&quot;Área Metropolitana Barcelona&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="[{&quot;value&quot;:0.5}]"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Porcentaje&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Geographical_Area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Barcelona&quot;,&quot;Área Metropolitana Barcelona&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Área Geográfica&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Porcentaje&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Valor&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -550,163 +550,15 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a role="button" href="https://sdgdata.barcelona.cat/bcn2030-data/es/headline/2-1-1.csv" class="btn btn-primary btn-download" download="indicator_2-1-1.csv" tabindex="0" role="button">Descargar los datos de los titulares (.csv)</a>
-    
     <a role="button" href="https://sdgdata.barcelona.cat/bcn2030-data/es/data/2-1-1.csv" class="btn btn-primary btn-download" download='indicator_2-1-1.csv' tabindex='0' role='button'>Descargar datos de origen (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Descargar los datos de origen para los desgloses (.csv)</p>
 
     
-    <h3>Datos principales</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Tasa de prevalencia de la privación alimentaria (población que no puede permitirse una comida de proteína animal cada dos días, o el valor nutricional equivalente en proteína vegetal)</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Value</th>
-        
-        
-        
-        <th scope="col" class="table-value">Units</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2016-2017</td>
-          
-          
-          
-          <td>2.0</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017-2018</td>
-          
-          
-          
-          <td>2.0</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018-2019</td>
-          
-          
-          
-          <td>2.8</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019-2020</td>
-          
-          
-          
-          <td>4.4</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020-2021</td>
-          
-          
-          
-          <td>4.8</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021-2022</td>
-          
-          
-          
-          <td>5.5</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2022-2023</td>
-          
-          
-          
-          <td>6.2</td>
-          
-          
-          
-          <td class="table-value">Porcentaje</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>No hay datos principales disponibles</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    <p>Fuente: Instituto de Estudios Regionales y Metropolitanos de Barcelona</p>
-    
-    
-    <p>Área geográfica: Ciudad de Barcelona y Área Metropolitana de Barcelona</p>
-    
-    
-    <p>Unidad de medida: Porcentaje</p>
-    
-    
-  </div>
   
 
 </div>
@@ -1178,7 +1030,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Datos actualizados por última vez </th>
         <td>
           
-            23 de Sep de 2024
+            12 de Dec de 2024
           
         </td>
         </tr>
@@ -1193,7 +1045,7 @@ data-event-label="Change to custom-translations.publications tab"
         <th scope="row">Metadatos actualizados por última vez </th>
         <td>
           
-            22 de Oct de 2024
+            12 de Dec de 2024
           
         </td>
         </tr>
@@ -1876,7 +1728,7 @@ data-event-label="Change to custom-translations.publications tab"
         <li>
             <div class="row">
                 <div class="col col-auto">1.4.2:</div>
-                <div class="col"><a href="/es/1-4-2/">Se han producido retrasos en el pago de las facturas de la electricidad, agua, gas, etc. en los últimos 12 meses </a></div>
+                <div class="col"><a href="/es/1-4-2/">Población en hogares con retrasos en el pago de las facturas de la electricidad, agua, gas, etc. en los últimos 12 meses </a></div>
             </div>
         </li>
     
@@ -2056,12 +1908,12 @@ data-event-label="Change to custom-translations.publications tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20241212020515'></script>
+<script src='/assets/js/sdg.js?v=20241213020654'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20241212020515"></script><script>
+    <script src="/assets/js/custom.js?v=20241213020654"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
